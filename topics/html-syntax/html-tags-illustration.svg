@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="html-tags-illustration.svg"
+   inkscape:version="1.1-dev (1:0.92.0+devel+202005110039+9ce7266)"
+   inkscape:export-ydpi="149.95978"
+   inkscape:export-xdpi="149.95978"
+   inkscape:export-filename="/home/kylecoberly/projects/sika/curriculum/topics/html-syntax/anatomy-of-a-tag-double.png"
+   id="svg6"
+   version="1.1"
+   viewBox="0 0 174.30591 44.709755"
+   height="44.709755mm"
+   width="174.30591mm">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="-60.810161"
+     inkscape:cx="284.43092"
+     inkscape:zoom="0.98994949"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       originy="-127.43813"
+       originx="-6.84107"
+       id="grid101"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <g
+     transform="translate(-6.8410702,-127.43813)"
+     sodipodi:insensitive="true"
+     style="display:inline"
+     inkscape:label="Background"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <rect
+       y="0.43414983"
+       x="0.92888558"
+       height="291.5679"
+       width="209.38446"
+       id="rect209"
+       style="fill:#ffffff;stroke-width:0.821109" />
+  </g>
+  <g
+     transform="translate(-6.8410702,-127.43813)"
+     style="display:inline"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <text
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       id="text10"
+       y="133.57623"
+       x="12.824086"
+       style="font-style:normal;font-weight:normal;font-size:7.37128px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.184282"
+       xml:space="preserve"><tspan
+         y="133.57623"
+         x="12.824086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.37128px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.184282"
+         id="tspan8"
+         sodipodi:role="line" /><tspan
+         id="tspan14"
+         y="142.79033"
+         x="12.824086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.37128px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.184282"
+         sodipodi:role="line" /><tspan
+         id="tspan12"
+         y="152.00444"
+         x="12.824086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.37128px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.184282"
+         sodipodi:role="line">&lt;img src=&quot;image.jpg&quot; alt=&quot;An image&quot; /&gt;</tspan></text>
+    <text
+       inkscape:export-ydpi="2807.77"
+       inkscape:export-xdpi="2807.77"
+       id="text18"
+       y="47.494804"
+       x="11.197635"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.173637"
+       xml:space="preserve"><tspan
+         y="47.494804"
+         x="11.197635"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0066ff;stroke-width:0.173637"
+         id="tspan16"
+         sodipodi:role="line">Tag Name</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.37129px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.184282"
+       x="22.925264"
+       y="67.267448"
+       id="text10-5"><tspan
+         sodipodi:role="line"
+         id="tspan8-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.37129px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.184282"
+         x="22.925264"
+         y="67.267448">&lt;p class=&quot;message&quot;&gt;Hello world!&lt;/p&gt;</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.37129px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.184282"
+         x="22.925264"
+         y="76.48156"
+         id="tspan14-7" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.37129px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.184282"
+         x="22.925264"
+         y="85.695671"
+         id="tspan12-7" /></text>
+    <text
+       id="text18-6-3"
+       y="84.983971"
+       x="38.51022"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#4400aa;fill-opacity:1;stroke:none;stroke-width:0.173637"
+       xml:space="preserve"><tspan
+         y="84.983971"
+         x="38.51022"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4400aa;stroke-width:0.173637"
+         id="tspan16-7-6"
+         sodipodi:role="line">Opening Tag</tspan></text>
+    <text
+       inkscape:export-ydpi="2807.77"
+       inkscape:export-xdpi="2807.77"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#4400aa;fill-opacity:1;stroke:none;stroke-width:0.173637"
+       x="149.62512"
+       y="84.795586"
+       id="text18-6-3-5"><tspan
+         sodipodi:role="line"
+         id="tspan16-7-6-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4400aa;stroke-width:0.173637"
+         x="149.62512"
+         y="84.795586">Closing Tag</tspan></text>
+    <text
+       id="text18-6-39"
+       y="47.463673"
+       x="53.442818"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.173637"
+       xml:space="preserve"><tspan
+         y="47.463673"
+         x="53.442818"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff2a2a;stroke-width:0.173637"
+         id="tspan16-7-4"
+         sodipodi:role="line">Attribute</tspan></text>
+    <rect
+       y="54.937698"
+       x="37.041668"
+       height="0.62480026"
+       width="66.145828"
+       id="rect103"
+       style="fill:#ff2a2a;stroke-width:0.13706" />
+    <rect
+       style="fill:#4400aa;stroke-width:0.154123"
+       id="rect103-2"
+       width="83.639923"
+       height="0.62480032"
+       x="23.812502"
+       y="74.516861" />
+    <rect
+       y="74.883949"
+       x="161.1976"
+       height="0.62480032"
+       width="17.532433"
+       id="rect103-2-3"
+       style="fill:#4400aa;stroke-width:0.0705638" />
+    <rect
+       style="fill:#0066ff;stroke-width:0.0334761"
+       id="rect103-9"
+       width="3.9459252"
+       height="0.62480032"
+       x="27.58803"
+       y="54.812328" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.173637"
+       x="86.162712"
+       y="132.94688"
+       id="text18-6-39-0"><tspan
+         sodipodi:role="line"
+         id="tspan16-7-4-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff2a2a;stroke-width:0.173637"
+         x="86.162712"
+         y="132.94688">Attributes</tspan></text>
+    <rect
+       style="fill:#ff2a2a;stroke-width:0.192298"
+       id="rect103-8"
+       width="130.20523"
+       height="0.62480032"
+       x="36.149895"
+       y="139.76363" />
+    <text
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.173637"
+       x="6.8614182"
+       y="132.5014"
+       id="text18-5"><tspan
+         sodipodi:role="line"
+         id="tspan16-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0066ff;stroke-width:0.173637"
+         x="6.8614182"
+         y="132.5014">Tag Name</tspan></text>
+    <rect
+       y="139.81892"
+       x="17.486713"
+       height="0.62480032"
+       width="12.816632"
+       id="rect103-9-9"
+       style="fill:#0066ff;stroke-width:0.0603319" />
+    <text
+       inkscape:export-ydpi="150"
+       inkscape:export-xdpi="150"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#4400aa;fill-opacity:1;stroke:none;stroke-width:0.173637"
+       x="62.427822"
+       y="170.70317"
+       id="text18-6-3-6"><tspan
+         sodipodi:role="line"
+         id="tspan16-7-6-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.94547px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4400aa;stroke-width:0.173637"
+         x="62.427822"
+         y="170.70317">Self-Closing Tag</tspan></text>
+    <rect
+       inkscape:export-ydpi="2807.77"
+       inkscape:export-xdpi="2807.77"
+       y="159.70688"
+       x="14.073326"
+       height="0.62480032"
+       width="168.12924"
+       id="rect103-2-8"
+       style="fill:#4400aa;stroke-width:0.218515" />
+  </g>
+</svg>
