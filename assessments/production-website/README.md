@@ -1,7 +1,5 @@
 # Production Website
 
-Build a website that has:
-
 ## Features
 
 ### Multiple pages
