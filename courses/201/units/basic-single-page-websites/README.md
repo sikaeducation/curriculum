@@ -45,35 +45,47 @@
 * Character encoding
 * File server
 * Cloud
+* Network
+* IP Address
+* Local computer
+* ISP
+* World-wide web
+* Browser
+* HTTP
+* CSS
+* JavaScript
+* Directive
+* Typeface
+* Font
 
 ## Sequence
 
-* internet-intro
-* web-intro
-* html-intro
-* html-syntax
-* local-file-servers
-* urls-1
-* dev-tools-1
-* html-div-and-span
-* html-headings
-* html-semantics
-* design-content-inventories
-* design-layout-1
-* css-syntax-1
-* css-selectors-1
-* css-units
-* html-structure-semantics
-* css-layout-1
-* css-box-model
-* html-text-semantics
-* design-typography
-* css-typography
-* css-web-fonts
-* design-colors
-* css-colors
-* html-images
-* design-shadows-and-borders
-* css-shadows-and-borders
-* html-links
-* deployment-cli-1
+* [/] - internet-intro
+* [/] - web-intro
+* [x] - html-intro
+* [x] - html-syntax
+* [ ] - local-file-servers
+* [ ] - urls-1
+* [ ] - dev-tools-1
+* [ ] - html-div-and-span
+* [ ] - html-headings
+* [/] - html-semantics
+* [ ] - design-content-inventories
+* [/] - design-layout-1
+* [/] - css-syntax-1
+* [/] - css-selectors-1
+* [/] - css-units
+* [ ] - html-structure-semantics
+* [/] - css-layout-1
+* [/] - css-box-model
+* [ ] - html-text-semantics
+* [/] - design-typography
+* [/] - css-typography
+* [/] - css-web-fonts
+* [/] - design-colors
+* [/] - css-colors
+* [ ] - html-images
+* [ ] - design-shadows-and-borders
+* [ ] - css-shadows-and-borders
+* [ ] - html-links
+* [/] - deployment-cli-1
