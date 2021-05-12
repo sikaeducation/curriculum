@@ -2,16 +2,24 @@
 
 The worldwide web
 
-## Major Assessment
+## Project
 
 [[Production Website]]
 
 ## Standards
 
 * Build websites using HTML and CSS
+  * Given a wireframe and content, implement it
+  * HTML and CSS quiz
 * Add interactivity to websites using JavaScript
+  * Given a website, add some given DOM manipulation
+  * JS & DOM quiz
 * Integrate APIs into websites using JavaScript
+  * Given a website, integrate the API
+  * API quiz
 * Deploy and publish websites
+  * Given a website, publish it with README, CI/CD
+  * Deployment quiz
 
 ## Sequence
 

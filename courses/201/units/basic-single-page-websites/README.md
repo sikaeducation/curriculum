@@ -89,12 +89,22 @@
 
 * Explain how the internet works
 * Explain how the web works
+* Diagram an HTML request
 * Select the correct semantic tag
 * Markup the content
 * Create page layouts
 * Explain the box model
 * Build simple color pallettes
 * Critique web designs
+
+## Video Lessons
+
+* Explain how the internet and web work
+* Walking through the website development process
+* Building a color pallette
+* Fixing HTML validation errors
+* Implementing a layout
+* Selecting type
 
 ## Sequence
 
