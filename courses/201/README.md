@@ -33,15 +33,27 @@ The worldwide web
 * deployment-static
 * ci-github-actions
 * website-workflow-1
+* html-validation
 
 ### Multipage Basic Site
 
 design-information-architecture-1
-css-layout-2
-css-layout-3
+css-grid
+css-flex
+css-positioning
 css-selectors-2
 http-1
 scss-1
+rwd
+dev-tools-rwd
+* html-comments
+* css-comments
+* css-resets
+* css-selectors-2- Descendant, adjacent, attribute
+* css-selectors-3- Pseudo
+* css-media-queries
+* html-tables
+* responsive-images
 
 ### Interactive Site
 
@@ -77,26 +89,19 @@ deployment-cli-2
 
 Where to put these?
 
-* RWD
-* css-resets
-* css-selectors-2- Descendant, adjacent, attribute
-* css-selectors-3- Pseudo
-* css-media-queries
 * css-variables
 * css-imports
 * query-strings
 * code-comments
-* html-comments
-* css-comments
-* css-positioning
 * networking-1
-* css-images
 * agile-process
 * web-performance
-* browser-dev-tools-1
 * eslint
-* html-validation
 * api-error-handling
+* design-iconography
+* image-manipulation
+* html-sectioning-roots
+* Reading man pages
 
 ## Simple Website Ideas
 

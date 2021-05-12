@@ -57,6 +57,44 @@
 * Directive
 * Typeface
 * Font
+* File server
+  * Local file server
+* Port
+* HTTP/S
+* TLD
+* Scheme
+* Subdomain
+* Domain
+* Query string
+* Path
+* Protocol
+* URL
+* Registrar
+* Key/Value pair
+* Structured content / Unstructured content
+* Inline / Block content
+* Heading
+* Header
+* Head
+* Anchor
+* Element Inspector
+* Network Inspector
+* Fragment
+* Ordered/Unordered List
+* Figure
+* Fallback
+* Comma-separated
+
+## Lesson Objectives
+
+* Explain how the internet works
+* Explain how the web works
+* Select the correct semantic tag
+* Markup the content
+* Create page layouts
+* Explain the box model
+* Build simple color pallettes
+* Critique web designs
 
 ## Sequence
 
@@ -64,28 +102,30 @@
 * [/] - web-intro
 * [x] - html-intro
 * [x] - html-syntax
-* [ ] - local-file-servers
-* [ ] - urls-1
-* [ ] - dev-tools-1
-* [ ] - html-div-and-span
-* [ ] - html-headings
+* [/] - urls-1
+* [/] - local-file-servers
+* [/] - html-div-and-span
+* [/] - dev-tools-1
+* [/] - html-headings-and-paragraphs
 * [/] - html-semantics
-* [ ] - design-content-inventories
+* [/] - html-text-semantics
+* [/] - html-links
+* [/] - html-lists
+* [/] - html-images
+* [/] - html-structure-semantics
+* [/] - design-content-inventories
 * [/] - design-layout-1
 * [/] - css-syntax-1
 * [/] - css-selectors-1
 * [/] - css-units
-* [ ] - html-structure-semantics
 * [/] - css-layout-1
 * [/] - css-box-model
-* [ ] - html-text-semantics
+* [/] - dev-tools-2
 * [/] - design-typography
 * [/] - css-typography
 * [/] - css-web-fonts
 * [/] - design-colors
 * [/] - css-colors
-* [ ] - html-images
-* [ ] - design-shadows-and-borders
-* [ ] - css-shadows-and-borders
-* [ ] - html-links
+* [/] - design-shadows-and-borders
+* [/] - css-shadows-and-borders
 * [/] - deployment-cli-1
