@@ -4,7 +4,7 @@ In common language, we use the terms "internet" and "web" interchangeably, but t
 
 ## Web Technologies
 
-### URLs
+### Domains
 
 Look at these IP address:
 
@@ -22,7 +22,7 @@ Could you remember them? Maybe you'll recognize them better by their nicknames:
 104.244.42.129 => twitter.com
 ```
 
-A URL is an easier-to-remember shortcut to a IP address. When you use a URL to look up a network, your computer looks up the matching IP address for that URL.
+A domain is an easier-to-remember shortcut to a IP address. When you use a domain to look up a network, your computer looks up the matching IP address for that domain.
 
 ### Browsers
 

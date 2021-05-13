@@ -25,7 +25,7 @@ Your IP address comes from your internet service provider ("ISP"). Whenever you 
 ## Watch Out!
 
 * Your computer has an IP address on your network, and your network has an IP address on the internet. The two address are not related.
-* Your computer can send a message to a network on the internet, but you can't send it to a specific computer on that network. It's that network's job to figure out which computers on the network should handle any request.
+* Your computer can send a message to a network on the internet, but you can't send it to a specific computer on that network. It's that network's job to figure out which of its computers should handle a particular request.
 
 ## History
 
