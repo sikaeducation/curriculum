@@ -2,8 +2,9 @@
 
 Given:
 
+* An [existing brand](./brands.md)
 * A wireframe
-* An existing brand
+  * Either [Connect.ly](./connect.ly) or [Servis](./servis/README.md)
 * Text and media content
 
 Create a website that meets the following criteria:
