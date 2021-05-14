@@ -75,3 +75,7 @@ Social media: "Follow us:"
 * Facebook: https://facebook.com/fake
 * Instagram: https://instagram.com/fake
 * LinkedIn: https://linkedin.com/in/fake
+
+## Attribution
+
+Pictures courtesy of [Generated Photos](https://generated.photos/)

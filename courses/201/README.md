@@ -12,10 +12,8 @@ The worldwide web
   * [[Implement Wireframe]]
   * HTML and CSS quiz
 * Add interactivity to websites using JavaScript
-  * Given a website, add some given DOM manipulation
-    * Advanced Mad Libs - Remove things on lost focus
-    * Make a media player - Jukebox?
-    * Add a list of blog posts to a page
+  * [[Album Previewer]]
+  * Mad Libs
   * JS & DOM quiz
 * Integrate APIs into websites using JavaScript
   * Given a website, integrate the API
