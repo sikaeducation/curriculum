@@ -7,25 +7,12 @@
 ## Guiding questions:
 
 * What are at least 3 ways to make an element appear more important?
-* What are the advantages and disadvantages of different color models in CSS?
 * What function do shadows serve in a design?
-* What do you need to do to make an image accessible?
-* What are the following units relative to?
-  * %
-  * em
-  * rem
-  * vh
-  * vw
-* Why can't you set the `width` of a `<span>`?
 * Describe the characteristics of these categories of type:
   * Serif
   * Sans-Serif
   * Display
   * Monospace
-* Describe the syntax, contraints, and purpose of these types of selectors in HTML and CSS:
-  * tag
-  * class
-  * id
 
 ## Vocabulary
 

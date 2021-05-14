@@ -9,16 +9,26 @@ The worldwide web
 ## Standards
 
 * Build websites using HTML and CSS
-  * Given a wireframe and content, implement it
+  * [[Implement Wireframe]]
   * HTML and CSS quiz
 * Add interactivity to websites using JavaScript
   * Given a website, add some given DOM manipulation
+    * Advanced Mad Libs - Remove things on lost focus
+    * Make a media player - Jukebox?
+    * Add a list of blog posts to a page
   * JS & DOM quiz
 * Integrate APIs into websites using JavaScript
   * Given a website, integrate the API
+    * Pokedex
+    * Star Wars video library
+    * Weather widget
   * API quiz
 * Deploy and publish websites
   * Given a website, publish it with README, CI/CD
+    * Firebase
+    * Zeit Now
+    * Netlify
+    * Digital Ocean
   * Deployment quiz
 
 ## Sequence
