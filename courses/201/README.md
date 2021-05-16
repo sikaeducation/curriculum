@@ -39,27 +39,9 @@ The worldwide web
 
 ### Production-ready Basic Site
 
-* design-accessibility-1
-* 404-pages
-* favicons
-* google-analytics-1
-* markdown-1
-* readmes
-* git-tagging-1
-* deployment-static
-* ci-github-actions
-* website-workflow-1
-* html-validation
-
-### Multipage Basic Site
-
-design-information-architecture-1
-css-grid
-css-flex
 css-positioning
-css-selectors-2
-http-1
-scss-1
+css-flex
+css-grid
 rwd
 dev-tools-rwd
 * html-comments
@@ -68,17 +50,17 @@ dev-tools-rwd
 * css-selectors-2- Descendant, adjacent, attribute
 * css-selectors-3- Pseudo
 * css-media-queries
-* html-tables
-* responsive-images
 
 ### Interactive Site
 
+* code-comments
+* eslint
 dom-1
 html-forms
 http-query-selectors
 dom-2
-scss-2
 js-forms-1
+* query-strings
 
 ### Static API Integration
 
@@ -99,25 +81,12 @@ js-promises-2
 js-promises-3
 js-reduce-1
 js-data-transformation
-deployment-cli-2
+* api-error-handling
 
 ---
 
 Where to put these?
 
-* css-variables
-* css-imports
-* query-strings
-* code-comments
-* networking-1
-* agile-process
-* web-performance
-* eslint
-* api-error-handling
-* design-iconography
-* image-manipulation
-* html-sectioning-roots
-* Reading man pages
 
 ## Simple Website Ideas
 

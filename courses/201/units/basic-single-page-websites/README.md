@@ -67,4 +67,5 @@
 * [/] - css-colors
 * [/] - design-shadows-and-borders
 * [/] - css-shadows-and-borders
+* [/] - html-validation
 * [/] - deployment-cli-1

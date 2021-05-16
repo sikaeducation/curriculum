@@ -53,4 +53,4 @@
 * Figure
 * Fallback
 * Comma-separated
-
+* Static positioning
