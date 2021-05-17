@@ -1,6 +1,6 @@
 # URLs 1
 
-You've likely use URLs daily, but do you know what the different parts of the URL mean?
+You likely use URLs daily, but do you know what the different parts of the URL mean?
 
 URL stands for "Uniform Resource Locator." This means that it's a standardized way to locate resources on the internet- no two HTML pages, images, stylesheets, etc. need to have the same address. URLs are licensed from companies called registrars.
 
