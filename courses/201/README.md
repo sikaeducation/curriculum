@@ -10,24 +10,20 @@ The worldwide web
 
 * Build websites using HTML and CSS
   * [[Implement Wireframe]]
-  * HTML and CSS quiz
+    * Connect.ly
+    * Servis
+  * [[HTML and CSS Quiz]]
 * Add interactivity to websites using JavaScript
   * [[Album Previewer]]
   * Mad Libs
   * JS & DOM quiz
 * Integrate APIs into websites using JavaScript
-  * Given a website, integrate the API
-    * Pokedex
-    * Star Wars video library
-    * Weather widget
-  * API quiz
+    * [[Pokedex]]
+    * [[Star Wars video library]]
+  * [[API Integration Quiz]]
 * Deploy and publish websites
-  * Given a website, publish it with README, CI/CD
-    * Firebase
-    * Zeit Now
-    * Netlify
-    * Digital Ocean
-  * Deployment quiz
+  * [[Deploy Static Websites]]
+  * [[Deploy Static Websites Quiz]]
 
 ## Sequence
 
