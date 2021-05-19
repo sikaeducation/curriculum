@@ -15,8 +15,8 @@ The worldwide web
   * [[HTML and CSS Quiz]]
 * Add interactivity to websites using JavaScript
   * [[Album Previewer]]
-  * Mad Libs
-  * JS & DOM quiz
+  * [[JS Quiz]]
+  * [[DOM Quiz]]
 * Integrate APIs into websites using JavaScript
     * [[Pokedex]]
     * [[Star Wars video library]]
@@ -32,20 +32,6 @@ The worldwide web
 (Needs a diagram of where everything fits)
 
 [[basic-single-page-websites]]
-
-### Production-ready Basic Site
-
-css-positioning
-css-flex
-css-grid
-rwd
-dev-tools-rwd
-* html-comments
-* css-comments
-* css-resets
-* css-selectors-2- Descendant, adjacent, attribute
-* css-selectors-3- Pseudo
-* css-media-queries
 
 ### Interactive Site
 

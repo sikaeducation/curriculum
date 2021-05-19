@@ -69,3 +69,14 @@
 * [/] - css-shadows-and-borders
 * [/] - html-validation
 * [/] - deployment-cli-1
+* [x] - Book site
+* [/] - css-positioning
+* [/] - css-flex
+* [/] - css-grid
+rwd
+dev-tools-rwd
+* [/] - comments
+* css-resets
+* css-selectors-2- Descendant, adjacent, attribute
+* css-selectors-3- Pseudo
+* css-media-queries
