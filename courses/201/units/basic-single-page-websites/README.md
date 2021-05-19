@@ -73,10 +73,8 @@
 * [/] - css-positioning
 * [/] - css-flex
 * [/] - css-grid
-rwd
-dev-tools-rwd
 * [/] - comments
 * [/] - css-resets
-* css-selectors-2- Descendant, adjacent, attribute
-* css-selectors-3- Pseudo
-* css-media-queries
+* [/] - css-selectors-2
+* [/] - css-selectors-3
+* [/] - css-media-queries
