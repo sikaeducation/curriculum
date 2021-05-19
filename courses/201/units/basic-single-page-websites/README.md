@@ -76,7 +76,7 @@
 rwd
 dev-tools-rwd
 * [/] - comments
-* css-resets
+* [/] - css-resets
 * css-selectors-2- Descendant, adjacent, attribute
 * css-selectors-3- Pseudo
 * css-media-queries

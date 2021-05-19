@@ -80,6 +80,7 @@ You can remember this by thinking of a clock- the first value is "top", and it m
 * The box model is only applied to elements with a *block* display mode. Inline elements do not use the box model, so none of the box model properties have any effect. If you would like to give an inline element (like a link) box model properties like padding, you can use the display mode `inline-block`.
 * Values for padding and margin can have 1 value (applies to all 4 dimensions), 2 values (first is top/bottom, second is left/right), or 4 values (top/right/bottom/left). They cannot have 3 values, and you can't only put 2 values for top and right.
 * You can override part of a composite property by giving a more specific property a different value.
+* By default, setting the `width` and `height` of a block element is independent of any padding or border. This is almost never what you want. You can override this with `box-sizing: border-box;` to make `width` and `height` include the padding and border.
 
 ## History
 
