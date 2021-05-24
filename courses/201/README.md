@@ -31,39 +31,10 @@ The worldwide web
 
 (Needs a diagram of where everything fits)
 
-[[basic-single-page-websites]]
+* [[basic-single-page-websites]]
+* [[add-interactivity]]
+* [[api-integration]]
 
-### Interactive Site
-
-* code-comments
-* eslint
-dom-1
-html-forms
-http-query-selectors
-dom-2
-js-forms-1
-* query-strings
-
-### Static API Integration
-
-http-2
-js-fetch-1
-json
-js-promises-1
-js-map-1
-js-filter-and-find-1
-js-forms-2
-
-### Dynamic API Integration
-
-js-local-storage
-js-fetch-2
-js-fetch-3
-js-promises-2
-js-promises-3
-js-reduce-1
-js-data-transformation
-* api-error-handling
 
 ---
 

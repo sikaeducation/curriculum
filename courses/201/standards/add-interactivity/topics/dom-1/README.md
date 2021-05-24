@@ -39,8 +39,6 @@ Your browser will create this DOM tree:
 
 The browser has a variety of JavaScript methods for reading, writing, and otherwise interacting with this tree.
 
-## QuerySelector
-
 ## Watch Out
 
 * Once your browser ingests HTML and builds out the DOM, it is no longer HTML. When you look at HTML in the element inspector, that's actually your browser recreating the HTML based on the current state of the DOM.
