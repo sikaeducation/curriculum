@@ -56,6 +56,73 @@ const miles = {
 }
 ```
 
+## Nested Objects
+
+Objects can also have objects as values:
+
+```js
+const musician = {
+  id: 1,
+  name: "Mike Stern",
+  guitar: {
+    brand: "Fender",
+    model: "Telecaster",
+    finish: "Natural"
+    play: songTitle => {
+      console.log(`I'm playing ${songTitle}!`)
+    }
+  },
+}
+```
+
+To get the model of Mike Stern's guitar, you would access `musician.guitar.model`. When working with nested objects, it's easiest to think left-to-right. `musician` is the entire object:
+
+```js
+{
+  id: 1,
+  name: "Mike Stern",
+  guitar: {
+    brand: "Fender",
+    model: "Telecaster",
+    finish: "Natural",
+    play: songTitle => {
+      console.log(`I'm playing ${songTitle}!`)
+    }
+  },
+}
+```
+
+`musician.guitar` is the musician's guitar:
+
+```js
+{
+  brand: "Fender",
+  model: "Telecaster",
+  finish: "Natural",
+  play: songTitle => {
+    console.log(`I'm playing ${songTitle}!`)
+  }
+}
+```
+
+`musician.guitar.model` is the musician's guitar's finish:
+
+```js
+"Telecaster"
+```
+
+When you get a value out of an object or nested object, you do any operation you could normally do on that data type. For example, you can capitalize any string by using `.toUpperCase()`, so this is allowed:
+
+```js
+musician.guitar.model.toUpperCase()
+```
+
+If the value is a function, you can call it and pass in arguments, just like you would with any other function:
+
+```js
+musician.guitar.play("Chromazone") // prints "I'm playing Chromazone!"
+```
+
 ## Terminology
 
 * Object: A collection of keys and values
