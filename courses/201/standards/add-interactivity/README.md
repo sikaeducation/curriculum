@@ -6,16 +6,16 @@
 * [/] - dom-query-selectors
 * [/] - dom-create-append-elements
 * [/] - dom-manipulation
-* [ ] - eslint
-* [ ] - code-comments
-* [ ] - js-objects
-* [ ] - js-arrays
+* [/] - linting
+* [/] - eslint
+* [/] - js-objects
+* [/] - js-arrays
+* [/] - js-foreach
 * [ ] - js-objects-arrays
-* [ ] - js-map
-* [ ] - dom-events
+* [/] - dom-events
 * [ ] - data-structures-intro
 * [/] - data-structures-trees
-* [ ] - html-buttons
+* [/] - html-buttons
 * [/] - dom-classlist
 * [ ] - html-forms
 * [ ] - html-form-inputs
@@ -23,9 +23,9 @@
 * [ ] - design-forms
 * [ ] - form-validation
 * [ ] - css-forms
-* [ ] - query-strings
-* [ ] - js-find-filter
-* [ ] - js-map
+* [/] - query-strings
+* [/] - js-find-filter
+* [/] - js-map
 
 ## Where to put these:
 

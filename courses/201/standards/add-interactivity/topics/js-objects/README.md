@@ -1,0 +1,71 @@
+# JS: Objects
+
+Let's we wanted to represent a person's attributes in code. How would we do it?
+
+```
+const firstName = "Miles"
+const lastName = "Davis"
+const age = 100
+```
+
+This works pretty well, until we have more than one person.
+
+```
+const firstName1 = "Miles"
+const lastName1 = "Davis"
+const age1 = 100
+
+const firstName2 = "John"
+const lastName2 = "Coltrane"
+const age2 = 95
+```
+
+This is starting to get awkward. Even worse, how would I write code that gets John Coltrane's age? How can I keep all these related variables together?
+
+## Objects
+
+In JavaScript, an object is a collection of keys and values:
+
+```js
+const miles = {
+  firstName: "Miles",
+  lastName: "Davis",
+  age: 100,
+}
+const john = {
+  firstName: "John",
+  lastName: "Coltrane",
+  age: 95,
+}
+```
+
+(image pointing to keys and values)
+
+Objects generally group together related values. Keys are always strings and values can be any valid JavaScript expression, including strings, numbers, booleans, and even functions, arrays, and other objects:
+
+```js
+const miles = {
+  firstName: "Miles",
+  lastName: "Davis",
+  age: 100,
+  isAlive: false,
+  play: () => {
+    console.log("Doot doot")
+  },
+  saxophonists: ["John Coltrane", "Cannonball Adderly", "Wayne Shorter"],
+}
+```
+
+## Terminology
+
+* Object: A collection of keys and values
+* Property: A key/value pair where the value is anything other than a function
+* Method: A key/value pair where the value is a function
+* Dot notation: Accessing properties and methods with `.`: `miles.age`
+* Bracket notation: Accessing properties and methods with `[]`: `miles["age"]`
+
+## Watch Out!
+
+* The only reason to use bracket notation is if you need to look up a property or method with a variable or expression. Otherwise, use dot notation.
+* The word "object" is used very differently in most other programming languages. JavaScript objects are more similar to dictionaries in Python, hashes in Ruby, and associative arrays in PHP than they are to objects in those languages.
+* Objects are the most powerful data type in JavaScript. Arrays, functions, DOM Nodes, DOM Node Lists, and events are actually different kinds of objects. We're not going to go any deeper on this yet, but this knowledge may help explain why the data type of many things in JavaScript is reported as "object" and why different kinds of objects have many similar behaviors.
