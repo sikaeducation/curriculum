@@ -48,3 +48,5 @@ The `response.ok` property checks the status code of the response, and returns `
 ## Watch Out!
 
 * `.ok` is only available on the initial response object. Once the body has been parsed (for example, with `.json()`), it is no longer available.
+* All of this code works the same way with `async`/`await`
+* If the response from the server isn't valid JSON, running `response.json()` will throw an error and it will hit the catch block anyway. This is not a reliable way to catch server errors though, as many servers will return valid JSON explaining the error.
