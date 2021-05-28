@@ -10,8 +10,7 @@
 * [/] - js-then-catch
 * [/] - js-async-await
 * [/] - js-promises
-* [ ] - programming-async
-* [ ] - data-transformations
+* [/] - programming-async
 * [/] - js-promise-all
-* [ ] - js-local-storage
-* [ ] - api-error-handling
+* [/] - js-local-storage
+* [/] - api-error-handling
