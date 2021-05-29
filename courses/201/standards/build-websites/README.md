@@ -78,3 +78,29 @@
 * [/] - css-selectors-2
 * [/] - css-selectors-3
 * [/] - css-media-queries
+
+---
+
+## Other exercises
+
+Use the negative brightness button (f1) to reduce your screen light to 0
+
+You should not be able to see
+
+Now open atom (without looking!), write a function that takes one argument (an array) and returns the sum of each item in the array
+
+Run it in Node (also without looking)
+
+Check your results. Did it work? Try again!
+
+---
+
+Recreate a static version of the homepage of https://www.npmjs.com/ using only html and css. Don't worry about the images at first. Don't view the source code of the original site!! If you need help resisting the temptation, take a screenshot of the site to use as a reference. See how far you can get in the allotted time.
+
+---
+
+Using just css and html, recreate the footer from ridetransfort.com
+
+---
+
+CSS Diner: https://flukeout.github.io/

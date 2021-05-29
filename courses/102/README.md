@@ -8,3 +8,11 @@ This is intended to provide students with the technical skills necessary to be p
 * Implement version control on a file system using git
 * Explain the flow of execution in programs
 * Analyze problems using a methodology
+
+## Typing Exercises
+
+http://phildo.itch.io/monologue
+http://play.typeracer.com/
+rogue
+http://vim-adventures.com/
+https://typing.io/

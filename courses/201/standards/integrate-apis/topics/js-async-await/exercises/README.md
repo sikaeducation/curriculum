@@ -50,3 +50,7 @@ fetch(someUrl)
     console.error(error.message)
   })
 ```
+
+---
+
+[[async-await-refactoring]]
