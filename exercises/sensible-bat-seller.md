@@ -3,7 +3,7 @@
 | Name | Notes |
 | --- | --- |
 | [JS OOP Partial](#js-oop-partial) | Class is scaffolded out already |
-| [JS OOP Full](#js-oop-partial) | Builds the class also, also requires sorting logic |
+| [JS OOP Full](#js-oop-full) | Builds the class also, also requires sorting logic |
 
 ## Challenges
 
