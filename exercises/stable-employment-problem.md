@@ -2,7 +2,7 @@
 
 | Name | Notes |
 | --- | --- |
-| Standard | Missing solution |
+| [Standard](#standard) | Missing solution |
 
 ## Challenges
 

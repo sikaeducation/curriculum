@@ -1,13 +1,13 @@
 # Programming Exercises
 
-| Name | Description | Difficulty | Duration | Tags |
-| --- | --- | --- | --- | --- | --- |
-| [[Stable Employment Problem]] | Search through two arrays of objects for matches based on priority | Intermediate | 30-45 minutes | arrays, multidimensional, collections, matching, priority |
+| Name | Description | Tags |
+| --- | --- | --- |
+| [[Stable Employment Problem]] | Search through two arrays of objects for matches based on priority | arrays, multidimensional, collections, matching, priority |
+| [[Sensible Bat Seller]] | Determine which items to sell based on maximizing margin | classes, oop, sorting, priority, collections, accumulators |
 
 ### Collections
 
 * [Store Inventory Manager](#store-inventory-manager)
-* [Price Lookup Greedy Seller](#price-lookup-greedy-seller)
 * [Wheel of Fortune](#wheel-of-fortune)
 * [Nested Arrays to Nested Objects](#nested-arrays-to-nested-objects)
 * [Frequency Count](#frequency-count)
