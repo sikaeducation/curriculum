@@ -2,8 +2,8 @@
 
 | Name | Description | Tags |
 | --- | --- | --- |
-| [[Stable Employment Problem]] | Search through two arrays of objects for matches based on priority | arrays, multidimensional, collections, matching, priority |
-| [[Sensible Bat Seller]] | Determine which items to sell based on maximizing margin | classes, oop, sorting, priority, collections, accumulators |
+| [Stable Employment Problem](stable-employment-problem.md) | Search through two arrays of objects for matches based on priority | arrays, multidimensional, collections, matching, priority |
+| [Sensible Bat Seller](sensible-bat-seller.md) | Determine which items to sell based on maximizing margin | classes, oop, sorting, priority, collections, accumulators |
 
 ### Collections
 
