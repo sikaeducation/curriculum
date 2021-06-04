@@ -11,6 +11,38 @@ The goal of this course is to prepare someone for work as a backend or full-stac
 * Develop APIs using unfamiliar technologies
 * Build automated tests for APIs
 
+#### Topics
+
+* [ ] - apis-intro
+* [ ] - node-intro
+* [ ] - express-intro
+* [ ] - express-middleware
+* [ ] - express-request-response
+* [ ] - http-cors
+* [ ] - express-debugging
+* [ ] - express-errors
+* [ ] - express-router
+* [ ] - databases-intro
+* [ ] - knex-intro
+* [ ] - knex-migrations
+* [ ] - data-modeling-intro
+* [ ] - knex-relations
+* [ ] - erd-intro
+* [ ] - data-modeling-1-many-relations
+* [ ] - orm-intro
+* [ ] - objection-intro
+* [ ] - objection-modeling-simple
+* [ ] - objection-modeling-1-many
+* [ ] - data-modeling-many-many-relations
+* [ ] - sql-intro
+* [ ] - sql-select
+* [ ] - sql-where
+* [ ] - sql-inner-joins
+* [ ] - sql-left-joins
+* [ ] - cloud-deployment-intro
+* [ ] - cloud-deployment-heroku
+* [ ] - cloud-deployment-databases
+
 ## Activities
 
 ### The Bomb and the General

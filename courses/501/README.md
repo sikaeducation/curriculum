@@ -8,6 +8,26 @@ The goal of this course is to prepare someone for a technical job search. It cov
 * Solve technical interviewing challenges
 * Answer non-technical interviewing questions
 
+#### Topics
+
+* [ ] - job-application-intro
+* [ ] - job-application-strategy
+* [ ] - resumes-intro
+* [ ] - resume-critique
+* [ ] - resume-formats
+* [ ] - resume-strategy
+* [ ] - cover-letter-intro
+* [ ] - cover-letter-strategy
+* [ ] - portfolio-development
+* [ ] - interview-screeners-intro
+* [ ] - interview-screeners-non-technical
+* [ ] - interview-screeners-technical
+* [ ] - interview-trivia
+* [ ] - interview-whiteboarding
+* [ ] - interview-take-home-challenges
+* [ ] - interview-negotiation
+* [ ] - jobs-onboarding
+
 ---
 
 Suck Less at Networking might be good here too:
