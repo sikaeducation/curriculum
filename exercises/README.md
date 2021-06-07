@@ -4,6 +4,8 @@
 | --- | --- | --- |
 | [Stable Employment Problem](stable-employment-problem.md) | Search through two arrays of objects for matches based on priority | arrays, multidimensional, collections, matching, priority |
 | [Sensible Bat Seller](sensible-bat-seller.md) | Determine which items to sell based on maximizing margin | classes, oop, sorting, priority, collections, accumulators, reduce |
+| [Remove Duplicate Characters](remove-duplicate-characters.md) | Remove repeated characters in strings | string manipulation, regex, javascript, functions, flags |
+| [Reverse a String](reverse-a-string.md) | Reverse a string | string manipulation, iteration, interviewing, multiple strategies |
 
 ### Collections
 
@@ -99,15 +101,10 @@
 * [Unique Character Checker](#unique-character-checker)
 * [Vowel Checker](#vowel-checker)
 * [Parens Checker](#parens-checker)
-* [Reverse a String Pure](#reverse-a-string-pure)
-* [Reverse a String In Place](#reverse-a-string-in-place)
-* [Enumerate String Reversal Strategies](#enumerate-string-reversal-strategies)
 * [Strip Whitespace](#strip-whitespace)
 * [Double Consonants](#double-consonants)
 * [Identify Vowels](#identify-vowels)
 * [Count Vowels](#count-vowels)
-* [Remove Duplicate Characters](#remove-duplicate-characters)
-* [Remove Duplicate Characters Case Insensitive](#remove-duplicate-characters-case-insensitive)
 * [Palindrome Checker](#palindrome-checker)
 
 ### Arrays
