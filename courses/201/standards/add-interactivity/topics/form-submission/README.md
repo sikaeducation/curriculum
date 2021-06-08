@@ -74,4 +74,4 @@ You can use this data to create DOM elements, send HTTP requests, and much more.
 
 When the form is submitted, your browser makes the type of HTTP request indicated by `method` (although it can only be GET or POST) and the `action` indicates where the HTTP request will be sent to.
 
-While there are still uses for this style of form, it's fallen out of favor lately. Submitting the form is effectively a page navigation, meaning the response from the server needs to tell the browser where to go and an entire page load is required. For the more modern asynchronous experience, we need to prevent this behavior, which is why the first part of a form submission handler is usually `event.preventDefault()`.
+While there are still uses for this style of form, it's fallen out of favor. Submitting the form is effectively a page navigation, meaning the response from the server needs to tell the browser where to go and an entire page load is required. For the more modern asynchronous experience, we need to prevent this behavior, which is why the first part of a form submission handler is usually `event.preventDefault()`.

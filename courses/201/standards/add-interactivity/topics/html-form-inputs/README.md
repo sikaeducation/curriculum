@@ -27,6 +27,8 @@ Will generate this data:
 }
 ```
 
+For inputs, you can prepopulate the value to either give a default value or represent an existing value that you're prompting the user to update. Otherwise, you can leave it blank and it will be filled with whatever the user enters.
+
 ## Labels
 
 All inputs in a form should be described with `<label>`s, for both accessibility and general user experience.

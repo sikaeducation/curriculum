@@ -30,4 +30,4 @@ These are the properties you want to override to make butons look consistent acr
 
 ## Watch Out!
 
-* Semantics still matter with buttons. Many elements can look button-like (such as checkboxes), but a `<button>` is specifically for commands.
+* Semantics still matter with buttons. Many elements can look button-like (such as checkboxes and navigation links), but a `<button>` is specifically for commands.

@@ -1,5 +1,33 @@
-## DOM 1: Exercises
+# DOM 1: Exercises
+
+## Questions
+
+* Describe how HTML becomes the DOM
+* After HTML has become the DOM, what happens to the HTML?
 
 ## Activities
 
-Go to one of your favorite websites. Open up the console and –using only JavaScript– manipulate DOM.
+Given this HTML:
+
+```html
+```
+
+Draw the DOM tree.
+
+---
+
+Given this HTML:
+
+```html
+```
+
+Draw the DOM tree.
+
+---
+
+Given this HTML:
+
+```html
+```
+
+Draw the DOM tree.
