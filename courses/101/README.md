@@ -6,6 +6,11 @@ This is a one-day workshop where attendees (typically with limited technical bac
 
 ## Topics
 
+* [ ] - madlibs-overview
 * [ ] - Basic HTML
 * [ ] - Basic CSS
 * [ ] - Basic JS
+
+---
+
+Environment setup. Github code?
