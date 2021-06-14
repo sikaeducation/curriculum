@@ -8,8 +8,9 @@ There are a few different color formats, and you need to be conversant with all 
 
 All of these are the same color:
 
-```css
-```
+![3 boxes with different color models that are the same color](screenshots/same-color.png)
+
+[Edit](https://replit.com/@KyleCoberly/example-same-color#index.css)
 
 ## What's Going On
 

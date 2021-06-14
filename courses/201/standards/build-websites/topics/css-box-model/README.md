@@ -8,8 +8,6 @@ The box model is another core idea in CSS, and is key to mastering layout.
 
 The box model is what keeps this background color from spilling out:
 
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@amasad/PitifulLastingWhoopingcrane?lite=true"></iframe>
-
 ```css
 ```
 
