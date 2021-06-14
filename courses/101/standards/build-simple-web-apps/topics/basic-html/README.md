@@ -53,6 +53,7 @@ Makes it difficult to tell that neither the `<p>` tag or the `<div>` tag were cl
 * `<output>Some inline content</output>`
 * `<input />`
 * `<button>Button Text</button>`
+* `<label>Label Text</label>`
 
 ## HTML IDs
 
@@ -65,6 +66,15 @@ To access the contents of specific tags with JavaScript, you'll want to add IDs 
 <input id="word-3-input" />
 <button>Button Text</button>
 ```
+
+## Labeled Inputs
+
+```html
+<label for="some-id">Some Label</label>
+<input id="some-id" />
+```
+
+It's important to connect labels with inputs for usability.
 
 ## Watch Out!
 

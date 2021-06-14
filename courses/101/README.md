@@ -6,10 +6,10 @@ This is a one-day workshop where attendees (typically with limited technical bac
 
 ## Topics
 
-* [ ] - madlibs-overview
-* [ ] - Basic HTML
-* [ ] - Basic CSS
-* [ ] - Basic JS
+* [x] - madlibs-overview
+* [x] - basic-html
+* [x] - basic-css
+* [x] - basic-js
 
 ---
 
