@@ -10,7 +10,7 @@ All of these are the same color:
 
 ![3 boxes with different color models that are the same color](screenshots/same-color.png)
 
-[Edit](https://replit.com/@KyleCoberly/example-same-color#index.css)
+[Edit](https://codesandbox.io/s/ecstatic-sun-qdulk?file=/index.css)
 
 ## What's Going On
 
