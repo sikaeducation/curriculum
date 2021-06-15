@@ -4,8 +4,8 @@ HTML is where the content of websites goes.
 
 ## Anatomy of a tag
 
-![HTML tag](anatomy-of-a-tag-double.png)
-![HTML tag](anatomy-of-a-tag-single.png)
+![Double HTML tag](assets/anatomy-of-a-tag-double.png)
+![Single HTML tag](assets/anatomy-of-a-tag-single.png)
 
 * Tag name - These indicate what a tag means
 * Attributes - These are properties of a tag that either configure it or further describe it
@@ -74,7 +74,7 @@ To access the contents of specific tags with JavaScript, you'll want to add IDs 
 <input id="some-id" />
 ```
 
-It's important to connect labels with inputs for usability.
+It's important to connect labels with inputs for usability. Watch what happens when you click the label in [this example](https://codesandbox.io/s/brave-shape-hdnbg).
 
 ## Watch Out!
 
