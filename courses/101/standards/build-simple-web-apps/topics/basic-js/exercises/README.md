@@ -4,6 +4,7 @@
 
 * What is a JavaScript variable?
 * How do you save something in a JavaScript variable?
+* What does `console.log` do?
 * What are DOM methods?
 * How would you get the value of an HTML input with an id of "email"?
 * How would you get the value of an HTML input with an id of "first-name-input" and save it in a variable called `firstName`?
@@ -15,13 +16,18 @@
 
 ## Activities
 
+### JS Email Repeater
+
 Given this HTML:
 
 ```html
-<label>Email Address</label>
+<label for="email-input">Email Address</label>
 <input id="email-input" />
-<output id="email-output"></output>
 <button id="print">Print email address</button>
+
+<output id="email-output">&nbsp;</output>
 ```
 
 Write JavaScript to capture the email address entered and print it to the output.
+
+[Starter code](https://codesandbox.io/s/lively-monad-wq8fs?file=/index.js)

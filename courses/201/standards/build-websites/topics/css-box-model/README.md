@@ -8,22 +8,21 @@ The box model is another core idea in CSS, and is key to mastering layout.
 
 The box model is what keeps this background color from spilling out:
 
-```css
-```
+![Box model with scrolling](assets/box-model-3.png)
 
 The box model also helps us space these out:
 
-```css
-```
+![Box model with scrolling](assets/box-model-2.png)
 
 The box model lets us have an area scroll, even if we want lots of space around it:
 
-```css
-```
+![Box model with scrolling](assets/box-model-1.png)
+
+[Play with this code](https://codesandbox.io/s/zealous-frost-9trju)
 
 ## What's Going On
 
-(Diagram of the box model)
+![Official box model diagram](assets/box-model.png)
 
 These are the box model properties:
 
