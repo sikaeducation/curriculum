@@ -6,19 +6,19 @@ Check out this example of a [finished MadLibs app]()
 
 ## Big Picture
 
-(image)
+(image goes here)
 
-* The content of your application (words, pictures, buttons, inputs, outputs) will be written in a language called HTML. HTML is a way to structure this content in a way that makes it easy to style with CSS and make interactive with JavaScript.
+The content of your application (words, pictures, buttons, inputs, outputs) will be written in a language called HTML. HTML is a way to structure this content in a way that makes it easy to style with CSS and make interactive with JavaScript.
 
-(image)
+(image goes here)
 
-* The look of the content will be written in a language called CSS. CSS can see your HTML, and it how big, small, wide, tall, bold, and colorful to make your content.
+The appearance of the content will be written in a language called CSS. CSS can see your HTML, and it determines how big, small, wide, tall, bold, and colorful to make your content.
 
-(image)
+(image goes here)
 
-* The interaction of the application will be written in a language called JavaScript. In our application, JavaScript will read the words people enter into the MadLibs app and put those words into a story and display it on the screen when a button is clicked.
+The interaction of the application will be written in a language called JavaScript. In our application, JavaScript will read the words people enter into the MadLibs app and put those words into a story and display it on the screen when a button is clicked.
 
-(image)
+(image goes here)
 
 ## Steps
 

@@ -27,20 +27,13 @@ Make a JavaScript file that contains a function. Inside of this function:
 * Set the text of the relevant <span> elements in the HTML page equal to what you stored in the relevant variable
 * Call the function in your JavaScript file from the HTML page when the button is clicked
 
-Demo
-
-Check out the demo to see one way to do this!
-Example Mad Lib
+## Example Mad Lib
 
 Here is an example MadLib that you can use, but feel free to get creative!
 
-Dear School Nurse:
-
-[First name] [Last name] will not be attending school today. He/she has come down with a case of [illness] and has horrible [Plural names] and a/an [Adjective] fever. We have made an appointment with the [Adjective] Dr. [Silly word], who studied for many years in [Place] and has [Number] degrees in pediatrics. He will send you all the information you need. Thank you! 
-
-Sincerely,
-Mrs. [Adjective].
-
-## Deployment
-
-You can deploy your madlibs to the internet and share it with your friends using [now.sh!](https://now.sh)
+>Dear School Nurse:
+>
+>[First name] [Last name] will not be attending school today. He/she has come down with a case of [illness] and has horrible [Plural names] and a/an [Adjective] fever. We have made an appointment with the [Adjective] Dr. [Silly word], who studied for many years in [Place] and has [Number] degrees in pediatrics. He will send you all the information you need. Thank you! 
+>
+>Sincerely,
+>Mrs. [Adjective].

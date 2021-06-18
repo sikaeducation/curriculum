@@ -115,3 +115,109 @@ Examples:
 * "I'm going to send you a message on Slack right now, let's catch up tomorrow"
 * "Let's catch up at that talk next week!"
 
+## Fake Job Application
+
+### Application
+
+* Fill out the [application](application.md) for this [job](job-description.md), and include a resume and cover letter
+* Have a social media presence. When we look you up online, we should be able to find something code-related.
+
+### Culture Questions
+
+Be prepared to answer all of these:
+
+* Tell me about yourself.
+* Why do you want to work here?
+
+Be prepared to answer any 3 of these:
+
+* What is your greatest weakness?
+* How do you handle stress and pressure?
+* What are your salary expectations?
+* Why do you want to work here?
+* What type of work environment do you prefer?
+* What major challenges and problems did you face at your last position? How did you handle them?
+* What challenges are you looking for in a position?
+* What are your career goals?
+* What is your greatest strength? 
+* How would you describe the pace at which you work?
+* What motivates you?
+* If the people who know you were asked why you should be hired, what would they say?
+* Do you take work home with you?
+* Do you prefer to work independently or on a team?
+* If you knew your boss were 100% wrong about something, how would you handle it?
+* What are your pet peeves?
+* What challenges are you looking for in a position?
+* How do you evaluate success?
+
+### Technical Questions
+
+Be prepared to answer all of these:
+
+* How is data stored and retrieved for a web app?
+* What is a stack and what are they used for?
+* What is a queue, and what are they used for?
+* For Bubble Sort, Selection Sort, and Insertion Sort:
+    * How do they work?
+    * What is their Big O?
+    * What are the tradeoffs you need to consider for each?
+* Walk me through a project you worked on
+* Label this system diagram
+* Diagram a web request
+* What are some things to consider about this article as resource?
+
+### Final Question
+
+* What questions do you have for me?
+
+## Fake Job Description
+
+Web Developer, Fremulon Education
+
+Job duties involve managing multiple projects (up to 23 annually), including web development, vendor management in technical workflows simultaneously, partnering with Rich Media Content Producers to ensure that product quality standards, go-live dates, and budget constraints are met consistently, and efficiently.
+
+* Engaging and managing offsite vendor teams for web development tasks and ensuring that their work meets quality standards and budget constraints.
+* Coding optimized solutions using PHP, Javascript, and/or Python - to solve challenging website and courseware functionality problems.
+* Identifying solutions for complex technical Customer Support issues and managing other teams with resolution deployment.
+* Creating and managing internal web development documentation for multiple platforms, workflows, and custom departmental technologies.
+* Training other teams on how to use our internally-created web development tool sets and workflows.
+* Managing multiple online courseware projects ensuring that web development work meets quality standards and budget constraints.
+* Producing high-quality courseware projects using proprietary Pearson content management systems.
+* Developing custom web technology solutions to meet specific market needs for Pearson products when needed.
+
+Also:
+
+* Manage web development of online courseware, managing offsite vendors and own production work. Own schedules and budgets. Ensure quality standards are met.
+* Enhance, maintain, and adapt technical standards and workflow pathways to meet product and market needs.
+* Provide technical advice and support to Rich Media Content Producers and Portfolio Managers.
+* Identify and determine appropriate solutions for technical customer support issues and ensure that solutions are escalated and communicated appropriately.
+* Consult with and assist the Director of Web Development with project management, resource planning, and in developing and monitoring schedules for projects.
+* Collaborate with Rich Media Content Producers and Core Technology teams to determine appropriate technology approaches for the development of new content and the repurposing of legacy content.
+
+This position is weighted toward technical project management, and includes technical web production. Chosen candidate will have excellent project management, communication, and customer support skills as well as strong HTML5/CSS/JS hand-coding skills.
+
+Qualifications:
+
+* Online portfolio desired
+* Project management experience
+* Vendor management experience
+* Strong written and oral communication skills
+* Excellent email etiquette
+* 4 year college degree or equivalent work experience in Web Development field
+* Expert XHTML/HTML5 hand-coding skills
+* Strong CSS skills
+* Strong JavaScript skills
+* Code Editor
+* Photoshop
+* Google Suite
+* SFTP/WebDAV
+* MS Office
+* Project Management software
+
+Other desirable skills:
+
+* Python coding
+* PHP coding
+* Project and staff management experience, including managing offsite vendors.
+* Ability to work effectively as part of a team.
+* Ability to take ownership of and efficiently manage workload and multiple assigned projects.

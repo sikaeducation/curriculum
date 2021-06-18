@@ -11,38 +11,6 @@ The goal of this course is to prepare someone for work as a backend or full-stac
 * Develop APIs using unfamiliar technologies
 * Build automated tests for APIs
 
-#### Topics
-
-* [ ] - apis-intro
-* [ ] - node-intro
-* [ ] - express-intro
-* [ ] - express-middleware
-* [ ] - express-request-response
-* [ ] - http-cors
-* [ ] - express-debugging
-* [ ] - express-errors
-* [ ] - express-router
-* [ ] - databases-intro
-* [ ] - knex-intro
-* [ ] - knex-migrations
-* [ ] - data-modeling-intro
-* [ ] - knex-relations
-* [ ] - erd-intro
-* [ ] - data-modeling-1-many-relations
-* [ ] - orm-intro
-* [ ] - objection-intro
-* [ ] - objection-modeling-simple
-* [ ] - objection-modeling-1-many
-* [ ] - data-modeling-many-many-relations
-* [ ] - sql-intro
-* [ ] - sql-select
-* [ ] - sql-where
-* [ ] - sql-inner-joins
-* [ ] - sql-left-joins
-* [ ] - cloud-deployment-intro
-* [ ] - cloud-deployment-heroku
-* [ ] - cloud-deployment-databases
-
 ## Activities
 
 ### The Bomb and the General
@@ -629,4 +597,39 @@ Once you're satisfied, feel free to insert more rows to either table as you see 
 
 ---
 
+### MVC
 
+Find an instructor to interview you about MVC and ask you the following questions:
+
+* What is MVC?
+* What are the responsibilities of the different parts of MVC?
+* How do the parts of MVC interact with each other?
+* How would you break up Reddit into the MVC pattern?
+* Describe MVC in relation to a front-end framework of your choice
+* How do components relate to MVC?
+* Look at this example in the fictional xKYLEx MVC framework:
+
+```
+const favoriteColors = ["Blue", "Yellow", "Red", "Magenta"];
+
+<some-component>
+    {{#each favoriteColors as color}}
+        <li>{{color}}</li>
+    {{/each}}
+    <form>
+        <input type="text" model="currentColor" />
+        <input type="submit" value="Add Color" />
+    </form>
+</some-component>
+
+let currentColor = "";
+
+function addColor(){
+    favoriteColors.push(currentColor);
+}
+
+someComponent.on("submit", addColor);
+window.on("load", renderSomeComponent);
+```
+
+Discuss how the above example uses MVC.

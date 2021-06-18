@@ -10,7 +10,3 @@ This is a one-day workshop where attendees (typically with limited technical bac
 * [x] - basic-html
 * [x] - basic-css
 * [x] - basic-js
-
----
-
-Environment setup. Github code?
