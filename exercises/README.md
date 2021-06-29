@@ -6,6 +6,7 @@
 | [Sensible Bat Seller](sensible-bat-seller.md) | Determine which items to sell based on maximizing margin | classes, oop, sorting, priority, collections, accumulators, reduce |
 | [Remove Duplicate Characters](remove-duplicate-characters.md) | Remove repeated characters in strings | string manipulation, regex, javascript, functions, flags |
 | [Reverse a String](reverse-a-string.md) | Reverse a string | string manipulation, iteration, interviewing, multiple strategies |
+| [Memory Game](memory-game.md) | Generate a game board for the memory game | web, tdd, arrays, javascript, dom, cypress, css |
 
 ### Collections
 
@@ -109,7 +110,6 @@
 
 ### Arrays
 
-* [Memory Game](#memory-game)
 * [Find The Nth Longest Word](#find-the-nth-longest-word)
 * [Sorting Callbacks](#sorting-callbacks)
 * [Merge and Sort](#merge-and-sort)
