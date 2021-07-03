@@ -62,7 +62,23 @@ git push origin master
 
 ## Pulling
 
-When someone else makes new commits and pushes them to a Git remote, you can make
+When someone else makes new commits and pushes them to a Git remote, you can sync the new commits to your local repo with `git pull`:
+
+```bash
+git pull origin master
+Already up to date.
+Current branch master is up to date.
+
+# Someone else pushes a new change to GitHub:
+
+git pull origin master
+emote: Enumerating objects: 97, done.
+remote: Counting objects: 100% (94/94), done.
+remote: Compressing objects: 100% (89/89), done.
+remote: Total 89 (delta 68), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (89/89), 44.67 KiB | 109.00 KiB/s, done.
+From github.com:github-user/repo-name
+```
 
 ## Pull Before Push
 
