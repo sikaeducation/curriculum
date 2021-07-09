@@ -2,7 +2,7 @@
 
 ## Objectives
 
-* [Write valid HTML](#Write valid HTML using `<p>`, `<label>`, `<input />`, `<output>`, `<button>`, `id`, and `for`) using:
+* [Write valid HTML](#write-valid-html-using-p-label-input-output-button-id-and-for) using:
   * `<p>`
   * `<label>`, `<input />`, and `<output>`
   * `<button>`
