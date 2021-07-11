@@ -2,6 +2,12 @@
 
 In a graphical file manager, you navigate the file system by double-clicking on folders and using the back or up buttons. Your current location is usually showed as breadcrumbs.
 
+![Graphical file manager](assets/file-manager.png)
+
+In the CLI, you navigate and find your current location by entering commands.
+
+![CLI file management](assets/cli.png)
+
 ## Absolute and Relative Paths
 
 There are two ways to describe any location.
@@ -18,9 +24,11 @@ Lastly, you can describe locations relative to your home directory by using `~`:
 
 (diagram)
 
+Entering paths correctly by hand is tedious and error-prone. Luckily, you can use tab completiion to help you out. If you enter a couple of characters for the path you want and press `Tab`, the terminal will try to complete the rest of the path for you. If there's more than one possible match, you can press `Tab` repeatedly to cycle through options. This accomplishes two things: It saves you time typing, and it also ensures that the file or folder you're looking for actually exists. If the terminal can't tab complete a path, you're probably not in the right place.
+
 ## Finding out where you are
 
-To see your current location, run `pwd`:
+To see the absolute path to your current location, run `pwd`:
 
 ```bash
 pwd
