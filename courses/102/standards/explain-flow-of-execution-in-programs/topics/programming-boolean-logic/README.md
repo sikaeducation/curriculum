@@ -50,7 +50,7 @@ In many programming languages, `OR` is written as `||`, so:
 * `false || true` is true
 * `false || false` is false
 
-### Logic Statements
+### Logic Expressions
 
 These three operators can be combined to make sentences.
 
