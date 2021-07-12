@@ -1,6 +1,48 @@
-### 102: Prework
+# 102: Prework
 
 This is intended to provide students with the technical skills necessary to be productive on the first day of 201.
+
+## Sequence
+
+* [Computer setup](computer-setup.md)
+* [Introduction to the Command Line](standards/manage-file-systems-cli/topics/cli-intro)
+* [CLI Navigation](standards/manage-file-systems-cli/topics/cli-navigation-1)
+* [CLI File Management](standards/manage-file-systems-cli/topics/cli-file-management-1)
+* [CLI Flags and Arguments](standards/manage-file-systems-cli/topics/cli-flags-and-arguments)
+* (CLI programs?)
+* (CLI assessment)
+* [Intro to Git](standards/implement-version-control/topics/git-intro)
+* [Git Repositories](standards/implement-version-control/topics/git-respositories)
+* [Git Staging](standards/implement-version-control/topics/git-staging)
+* [Git Commits 1](standards/implement-version-control/topics/git-commits)
+* [Git Commits 2](standards/implement-version-control/topics/git-commits-2)
+* [Git Remotes](standards/implement-version-control/topics/git-remotes)
+* (Git checking out?)
+* (Git branches?)
+* (Git assessment)
+* [Intro to Programming](standards/explain-flow-of-execution-in-programs/topics/programming-intro)
+* [Programming: Input and Output](standards/explain-flow-of-execution-in-programs/topics/programming-input-output)
+* [Programming: Variables](standards/explain-flow-of-execution-in-programs/topics/programming-variables))
+* [Programming: Data Types](standards/explain-flow-of-execution-in-programs/topics/programming-data-types)
+* [Programming: Expressions](standards/explain-flow-of-execution-in-programs/topics/programming-expressions)
+* [Programming: Math](standards/explain-flow-of-execution-in-programs/topics/programming-math)
+* [Programming: Boolean Logic](standards/explain-flow-of-execution-in-programs/topics/programming-boolean-logic)
+* [Programming: Boolean Logic 2](standards/explain-flow-of-execution-in-programs/topics/programming-boolean-logic-2)
+* [Programming: Conditional Logic](standards/explain-flow-of-execution-in-programs/topics/programming-conditional-logic)
+* [Programming: Functions](standards/explain-flow-of-execution-in-programs/topics/programming-functions)
+* [Programming: Variable Scoping](standards/explain-flow-of-execution-in-programs/topics/programming-variable-scoping)
+* [Programming: Data Types 2](standards/explain-flow-of-execution-in-programs/topics/programming-data-types-2)
+* [Programming: Iteration](standards/explain-flow-of-execution-in-programs/topics/programming-iteration)
+* (Program analysis assessment)
+* [Intro to Problem Analysis](standards/analyze-problems-using-methodology/topics/problem-analysis-intro)
+* [Intro to Problem Analysis](standards/analyze-problems-using-methodology/topics/polya-understanding-the-problem)
+* [Intro to Problem Analysis](standards/analyze-problems-using-methodology/topics/polya-enumerating-solutions)
+* (Problem analysis assessment)
+* (Project)
+
+Remove this:
+
+* [ ] - git-reverting
 
 #### Standards
 
@@ -8,33 +50,6 @@ This is intended to provide students with the technical skills necessary to be p
 * Implement version control on a file system using git
 * Explain the flow of execution in programs
 * Analyze problems using a methodology
-
-#### Topics
-
-* [ ] - cli-intro
-* [ ] - cli-file-management-1
-* [ ] - cli-text-editing
-* [ ] - cli-navigation-1
-* [ ] - cli-flags-and-arguments
-* [ ] - git-intro
-* [ ] - git-repositories
-* [ ] - git-staging
-* [ ] - git-commits
-* [ ] - git-reverting
-* [ ] - git-remotes
-* [ ] - programming-intro
-* [ ] - programming-input-output
-* [ ] - programming-variables
-* [ ] - programming-math
-* [ ] - programming-conditional-logic
-* [ ] - programming-iteration
-* [ ] - programming-functions
-* [ ] - programming-variable-scoping
-* [ ] - programming-expressions
-* [ ] - programming-boolean-logic
-* [ ] - problem-analysis-intro
-* [ ] - polya-understanding-the-problem
-* [ ] - polya-enumerating-solutions
 
 ## Typing Exercises
 

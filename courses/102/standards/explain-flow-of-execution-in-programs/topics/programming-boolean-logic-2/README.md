@@ -42,7 +42,7 @@ The greater than operator `>`/`>=` and the less than operator `<`/`<=` are most 
 * `5 <= 5` is true because 5 is equal to 5
 * `5 < 5` is false because 5 isn't less than 5
 
-## Using Boolean Comparisons in Boolean Statements
+## Using Boolean Comparisons in Boolean Expressions
 
 Since Boolean comparison statements evaluate to true or false, they can be used in the same kinds of expressions that `NOT`, `AND`, and `OR` can be used in. If you take this expression:
 
