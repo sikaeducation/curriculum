@@ -2,6 +2,10 @@
 
 Staging is selecting a group of files you've created or changed and preparing to commit them.
 
+## Seeing The Current Status
+
+`git status` shows you which files in the current directly are untracked, modified, staged, or staged-but-with-new-modifications.
+
 ## Staging Bulk Changes
 
 `git add -A` or `git add --all` will stage every change you've made in the entire repo since your last commit. This is the most common choice.

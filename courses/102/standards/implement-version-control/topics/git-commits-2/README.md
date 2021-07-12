@@ -47,4 +47,3 @@ Rather than referring to a commit by its SHA-1 hash, you can also refer to it re
 ## Watch Out!
 
 * There's no mnemonic way to remember `j` goes up and `k` does down inside `git log`. They're used because they fall under the index and middle finger of your left hand when your hands are on the keyboard's home row. `git log` isn't the only command that uses `j` and `k` this way, so it's worth practicing.
-
