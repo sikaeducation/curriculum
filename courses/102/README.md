@@ -5,12 +5,23 @@ This is intended to provide students with the technical skills necessary to be p
 ## Sequence
 
 * [Computer setup](computer-setup.md)
+
+### Manage file systems on the command line
+
 * [Introduction to the Command Line](standards/manage-file-systems-cli/topics/cli-intro)
 * [CLI Navigation](standards/manage-file-systems-cli/topics/cli-navigation-1)
 * [CLI File Management](standards/manage-file-systems-cli/topics/cli-file-management-1)
-* (CLI programs?)
 * [CLI Flags and Arguments](standards/manage-file-systems-cli/topics/cli-flags-and-arguments)
-* (CLI assessment)
+
+#### Assessments
+
+* [CLI Quiz](standards/manage-file-systems-cli/assessment/cli-quiz)
+* [CLI Exercise 1](standards/manage-file-systems-cli/assessment/cli-exercise-1)
+* [CLI Exercise 2](standards/manage-file-systems-cli/assessment/cli-exercise-2)
+* [CLI Exercise 3](standards/manage-file-systems-cli/assessment/cli-exercise-3)
+
+### Git
+
 * [Intro to Git](standards/implement-version-control/topics/git-intro)
 * [Git: Repositories](standards/implement-version-control/topics/git-respositories)
 * [Git: Staging](standards/implement-version-control/topics/git-staging)
@@ -19,7 +30,10 @@ This is intended to provide students with the technical skills necessary to be p
 * [Git: Commits 2](standards/implement-version-control/topics/git-commits-2)
 * [Git: Branches](standards/implement-version-control/topics/git-branches)
 * [Git: Rolling Back](standards/implement-version-control/topics/git-rolling-back)
-* (Git assessment)
+
+#### Assessments
+
+
 * [Intro to Programming](standards/explain-flow-of-execution-in-programs/topics/programming-intro)
 * [Programming: Input and Output](standards/explain-flow-of-execution-in-programs/topics/programming-input-output)
 * [Programming: Variables](standards/explain-flow-of-execution-in-programs/topics/programming-variables))

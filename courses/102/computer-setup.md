@@ -1,9 +1,10 @@
 # Computer Setup
 
-Before you start your journey to becoming a developer, you should spend some timing turning your computer from a software _consumer_ computer to a software _developer_ computer. Follow each of these instructions in order. If something doesn't work, stop and try the step again.
+Before you start your journey to becoming a developer, you should spend some timing turning your computer from a software consumer computer to a software developer computer. Follow each of these instructions in order. If something doesn't work, stop and try the step again.
 
 Note: When you copy/paste a command from this page to your terminal, you may need to hit enter after everything looks like it's run.
 
+1. [Operating Systems](#operating-systems)
 1. [Set up your terminal](#set-up-your-terminal)
 1. [Set up your text editor](#set-up-your-text-editor)
 1. [Set up your package manager](#set-up-your-package-manager)
@@ -11,6 +12,14 @@ Note: When you copy/paste a command from this page to your terminal, you may nee
 1. [Configure your shell](#configure-your-shell)
 1. [Install nvm and Node](#install-nvm-and-node)
 1. [Configure Git and GitHub](#configure-git)
+
+## Operating Systems
+
+When making software for the web, the path of least resistance is a Unix-like operating system. This means:
+
+* **MacOS** - Any Apple computer running MacOS
+* **Linux** - [Ubuntu Linux](https://ubuntu.com/download/desktop) directly installed on any PC
+* **Windows Subsystem for Linux** - A Windows 10+ computer running [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 ## Set up your terminal
 
