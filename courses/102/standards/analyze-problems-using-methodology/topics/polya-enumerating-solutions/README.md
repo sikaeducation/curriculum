@@ -1,32 +1,17 @@
 # Polya's Problem-Solving Method: Devising a Plan
 
-## Execute Questions
-
-* Are you making progress?
-* Have you solved the problem? Met all of the conditions?
-* What am you positive about?
-* What do you think is likely?
-* Are you doing something you've already tried?
-* Did you use all the data? Did you need to?
-
-## Reflect Questions
-
-* Does this solution indicate a more general rule?
-* Are there counter-examples at the extremes?
-* Does the answer make sense?
-* Could you use this method to solve other problems?
-* Can you derive the same answer a different way?
+The second step of Polya's problem-solving method is to devise a plan to solve the problem. Note that this is distinct from actually solving the problem; all you're doing at this stage is thinking of ways the problem could be solved. Not all questions will relevant to all problems, but even seemingly irrelevant questions may yield useful insights.
 
 ## Strategies For Finding Solutions
 
-When looking for ways to design your solution, remember DAVE:
+When looking for ways to design a solution, use the DAVE questions:
 
 ### Deduce
 
 * Can you eliminate some possibilities?
-* Guess and check
+* You can just guess an answer?
   * Is the answer right? Can you figure out how to get to it?
-  * Is the answer wrong? In what ways?
+  * Is the answer wrong? In what ways? How close was it?
   * Are you noticing patterns?
 * Can you work backwards from the solution? How does the data become the unknown?
 * Are there any patterns present?
@@ -35,7 +20,6 @@ When looking for ways to design your solution, remember DAVE:
 ### Associate
 
 * Can it be translated into an equation or formula?
-* Can you make an analogy?
 * Are any parts of the problem similar to other kinds of problems?
   * Could you use their unknowns?
   * Could you use their constraints?
@@ -45,16 +29,16 @@ When looking for ways to design your solution, remember DAVE:
 
 ### Visualize
 
-* Draw a picture
-  * Do some parts need to be emphasized?
-    * Does it need different kinds of lines (solid, dotted, dashed)?
-    * Should it use multiple colors?
-  * Should it be 2D or 3D?
 * Can you make a list?
 * Can you make a table?
 * Can you make a chart?
 * Can you make a tree diagram?
 * Can you make a model?
+* Draw a picture
+  * Does it help emphasize some parts?
+  * Does it need different kinds of lines (solid, dotted, dashed)?
+  * Should it use multiple colors?
+  * Should it be 2D or 3D?
 
 ### Ease-In
 
@@ -67,10 +51,12 @@ When looking for ways to design your solution, remember DAVE:
   * Combine: Can you combine parts of the problem into one whole?
   * Decompose: Can you split the problem into multiple parts?
 * Change the scope
-  * Can you make it more concrete?
+  * Can you make it more specific?
   * Can you make it more general?
 
 ## Evaluating solutions
+
+If you think you've crafted an approach, these questions will help you assess its viability:
 
 * Can you check the answer using this strategy? Does it solve it?
 * Does it handle special cases?

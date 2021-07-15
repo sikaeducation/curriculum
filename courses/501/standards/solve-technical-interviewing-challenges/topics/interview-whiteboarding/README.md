@@ -2,6 +2,24 @@
 
 Whiteboarding is an intimidating part of interviewing, but it's ultimately a learnable skill. Practice using this 4-step whiteboarding protocol:
 
+## Execute Questions
+
+* Are you making progress?
+* Have you solved the problem? Met all of the conditions?
+* What am you positive about?
+* What do you think is likely?
+* Are you doing something you've already tried?
+* Did you use all the data? Did you need to?
+
+## Reflect Questions
+
+* Does this solution indicate a more general rule?
+* Are there counter-examples at the extremes?
+* Does the answer make sense?
+* Could you use this method to solve other problems?
+* Can you derive the same answer a different way?
+
+
 ## 4-Step Whiteboarding Protocol
 
 ### Clarify the problem

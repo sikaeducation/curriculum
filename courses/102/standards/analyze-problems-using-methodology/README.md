@@ -1,3 +1,20 @@
+# Analyze Problems Using Polya's Problem-Solving Methodology
+
+## Topics
+
+* [Intro to Problem Analysis](topics/problem-analysis-intro)
+  * [Exercises](topics/problem-analysis-intro/exercises)
+* [Understanding the Problem](topics/polya-understanding-the-problem)
+  * [Exercises](topics/polya-understanding-the-problem/exercises)
+* [Enumerating Solutions](topics/polya-enumerating-solutions)
+  * [Exercises](topics/polya-enumerating-solutions/exercises)
+
+## Assessments
+
+* [Git Exercise 1](assessments/git-exercise-1)
+
+---
+
 Suppose a standard 8x8 chessboard has two diagonally opposite corners removed, leaving 62 squares. Is it possible to place 31 dominoes of size 2x1 so as to cover all of these squares?
 
 ---

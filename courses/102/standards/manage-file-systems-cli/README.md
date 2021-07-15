@@ -13,7 +13,7 @@
 
 ## Assessments
 
-* [CLI Quiz](assessment/cli-quiz)
-* [CLI Exercise 1](assessment/cli-exercise-1)
-* [CLI Exercise 2](assessment/cli-exercise-2)
-* [CLI Exercise 3](assessment/cli-exercise-3)
+* [CLI Quiz](assessments/cli-quiz)
+* [CLI Exercise 1](assessments/cli-exercise-1)
+* [CLI Exercise 2](assessments/cli-exercise-2)
+* [CLI Exercise 3](assessments/cli-exercise-3)

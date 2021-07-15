@@ -27,11 +27,12 @@ This is intended to provide students with the technical skills necessary to be p
 * [Git: Staging](standards/implement-version-control/topics/git-staging)
 * [Git: Commits 1](standards/implement-version-control/topics/git-commits)
 * [Git: Remotes](standards/implement-version-control/topics/git-remotes)
-* [Git: Commits 2](standards/implement-version-control/topics/git-commits-2)
-* [Git: Branches](standards/implement-version-control/topics/git-branches)
-* [Git: Rolling Back](standards/implement-version-control/topics/git-rolling-back)
 
 #### Assessments
+
+* [Git Exercise 1](standards/apply-version-control/assessment/cli-exercise-1)
+* [Git Exercise 2](standards/apply-version-control/assessment/cli-exercise-2)
+* [Git Exercise 3](standards/apply-version-control/assessment/cli-exercise-3)
 
 
 * [Intro to Programming](standards/explain-flow-of-execution-in-programs/topics/programming-intro)
@@ -48,20 +49,18 @@ This is intended to provide students with the technical skills necessary to be p
 * [Programming: Data Types 2](standards/explain-flow-of-execution-in-programs/topics/programming-data-types-2)
 * [Programming: Iteration](standards/explain-flow-of-execution-in-programs/topics/programming-iteration)
 * (Program analysis assessment)
+
+
 * [Intro to Problem Analysis](standards/analyze-problems-using-methodology/topics/problem-analysis-intro)
 * [Intro to Problem Analysis](standards/analyze-problems-using-methodology/topics/polya-understanding-the-problem)
 * [Intro to Problem Analysis](standards/analyze-problems-using-methodology/topics/polya-enumerating-solutions)
 * (Problem analysis assessment)
 * (Project)
 
-Remove this:
-
-* [ ] - git-reverting
-
 #### Standards
 
 * Manage file systems on the command line
-* Implement version control on a file system using git
+* Apply version control using Git
 * Explain the flow of execution in programs
 * Analyze problems using a methodology
 

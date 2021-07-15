@@ -13,7 +13,7 @@ Follow these instructions in order. If you make a mistake, start over from the b
 1. List the contents of the current directory (`app`)
 1. Move up to your original directory
 1. Remove the `app` directory
-1. Type the following command `history | tail -n 11 > cli_history`
+1. Type the following command: `history | tail -n 11 > cli_history` to print your last 11 actions to the file `cli_history`.
 1. Commit and push your changes
 
 ## Rubric

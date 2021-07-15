@@ -1,41 +1,40 @@
 # Polya's Problem-Solving Method: Understanding the Problem
 
-## Strategies
+The first step of Polya's problem-solving method is understanding the problem. This may seem obvious, but this is the most critical part of the process to get right. In programming, it's easy to come up with great solutions to the wrong problem. Very small changes in wording can result in large changes in what's being asked.
 
-### Identify
+When faced with a new problem, first identify the facts then understand them.
 
-* What are the unknown parts of the problem?
-* What is the unknown? What are the data? What is the condition?
+## Identify
+
+Most problems have some data that will be supplied, at least one unknown element, and some conditions that must be met. Identify questions. These are questions you can ask that will help pull those out of the problem. 
+
 * Are you being asked to find something or prove something?
-* What are you asked to find or show?
 * Can you separate out the data, the unknown, and conditions?
 * Is all of the information relevant?
 * Are there special cases?
 * Do you understand all of the words in the problem? Is there any special terminology you need to distinguish?
 
-### Understand
+## Understand
 
-* Can you restate the problem?
-  * How many different ways can you do it?
+Being able to identify the parts of a problem is the first step, but it's insufficient on its own. These questions help you shape the facts into understanding.
+
+* Can you restate the problem? How many different ways can you do it?
+* Can you make an table that represents sample inputs and the outputs they should generate?
 * Can you think of what the opposite of this problem is?
 * Can you visualize the problem as a whole?
-* Can you make an input/output table?
 * Can you think of a picture or diagram that might help you understand the problem?
 * Have you seen a problem like this before?
   * What's different about it?
   * Can we use the same solution?
   * Is the similarity biasing you?
 * Is there an analogy for this problem?
-* Are there parts of the condition that can be separated out?
+* Are there multiple parts of the condition that can be separated out?
 * Is there a notation you can use to rewrite the problem?
-* If you simplify parts of the problem, how much precision do you lose?
+* If you simplify or round parts of the problem, how much precision do you lose?
 * Can you stretch the parameters to absurd lengths?
 * Is the sequence things happen in important?
 * Can you think of a more specific example of this problem?
-
-### Judge
-
 * Are any parts of the problem redundant?
 * Are any parts of the problem contradictory?
 * Is the problem solvable with the available information?
-* What else would be useful to know?
+* What other data would be useful to have? If you don't have it, can you make it up?

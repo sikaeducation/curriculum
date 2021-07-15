@@ -12,7 +12,7 @@ Follow these instructions in order. If you make a mistake, start over from the b
 1. Remove the `pages` directory.
 1. Navigate back to the original folder.
 1. Remove the `site` folder.
-1. Type the following command: `history | tail -n 10 > cli_history` to print your last 12 actions to the file `cli_history`.
+1. Type the following command: `history | tail -n 10 > cli_history` to print your last 10 actions to the file `cli_history`.
 
 ## Rubric
 
