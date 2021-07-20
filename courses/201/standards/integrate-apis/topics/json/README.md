@@ -10,7 +10,7 @@ JSON is a common format for sending and receiving data on the web.
   },{
     "name": "lightning-rod"
   }],
-  weight: 60
+  "weight": 60
 }
 ```
 
