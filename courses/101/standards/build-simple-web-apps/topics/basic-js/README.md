@@ -15,7 +15,7 @@ When you use `console.log()`, anything between the parentheses will be printed t
 To open up the console in a browser:
 
 * Mac: ⌘ + ⇧ + `j`
-* Windows: `Control` + ⇧ + `j`
+* Windows and Linux: `Control` + ⇧ + `j`
 
 ## JavaScript Variables
 

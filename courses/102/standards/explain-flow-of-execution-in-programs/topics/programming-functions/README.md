@@ -1,13 +1,125 @@
 # Programming: Functions
 
-## Functions
-
 Functions do two things:
 
-* Make some set of code eat to reuse and repeat
-* Transform an input into an output
+* Make a set of code easier to reuse and repeat
+* Transform inputs into an output
 
-For example, you can log 
+The second thing should sound familiar; that's also what a program does. This is not an accident. In the process of transforming inputs into outputs, you may break the problem into smaller pieces:
+
+(diagram here)
+
+In this way, you can think of many programs as being made up of smaller and smaller programs. For example, if you had a function that title-cases a string:
+
+```js
+titleCase("hello, world!") // "Hello, World!"
+```
+
+The implementation of that function might have a function that splits a string into words, and another function that capitalizes the first letter:
+
+```js
+function splitIntoWords(someString){
+  return someString.split(" ")
+}
+
+function capitalizeFirstLetter(word){
+  const firstLetter = word[0]
+  const capitalizedFirstLetter = firstLetter.toUpperCase()
+  const restOfWord = word.slice(1)
+
+  return capitalizedFirstLetter + restOfWord
+}
+
+function titleCase(someString){
+  const words = splitIntoWords(someString)
+  let capitalizedWords = []
+
+  for (let word in words){
+    const titleCasedWord = capitalizeFirstLetter(word)
+    capitalizedWords.push(titleCasedWord)
+  }
+
+  const titleCasedString = capitalizedWords.join("")
+
+  return titleCasedString
+}
+
+titleCase("hello, world!") // "Hello, World!"
+```
+
+This powerful feature of functions lets you decompose big problems into small ones, and reuse your solutions to small problems.
+
+
+## Declaring functions
+
+There are several ways to create a function in JavaScript, but the simplest looks like this:
+
+```js
+function nameOfFunctionGoesHere(parameters, go, here){
+  // Body of the function goes here
+  return "return value goes here"
+}
+```
+
+* `function` - The `function` keyword identifies the code that comes after it as a function definition
+* `nameOfFunctionGoesHere` - The name of the function. This is how the function will be referred to by other code.
+* `(parameters, go, here)` - Function parameters. These are variables that are given to the function when it's called and are available in the body of the function.
+* `{}` - The body of the function. This is the code that will run whenever the function is called.
+* `return` - The return keyword. Any expression that follows this word will be what a called function will evaluate to.
+
+For example, in our `capitalizeFirstLetter` function:
+
+```
+function capitalizeFirstLetter(word){
+  const firstLetter = word[0]
+  const capitalizedFirstLetter = firstLetter.toUpperCase()
+  const restOfWord = word.slice(1)
+
+  return capitalizedFirstLetter + restOfWord
+}
+```
+
+* The function is called `capitalizeFirstLetter`
+* It takes a single parameter called `word` that will be available throughout the function body
+* The function body has 4 statements that that uppercase the first letter of a word
+* The function returns the word with the first letter capitalized
+
+When the function is called with a word, it will evaluate to the word with the first letter capitalized.
+
+```js
+const greeting = capitalizeFirstLetter("hi!")
+const status = capitalizeFirstLetter("warning")
+const message = capitalize("wait")
+
+console.log(greeting, status, message) // "Hi!", "Warning", "Wait"
+```
+
+## Calling Functions
+
+Calling (also called invoking) a function means telling it to run.
+
+```js
+// This defines the function
+function sayHelloWorld(){
+  console.log("Hello, world!")
+}
+
+// This calls the function 3 times
+sayHelloWorld() // prints "Hello, world!" to the screen
+sayHelloWorld() // prints "Hello, world!" to the screen
+sayHelloWorld() // prints "Hello, world!" to the screen
+```
+
+You can also call a function with a value that can be used inside the function:
+
+```js
+function saySomething(message){
+  console.log("Hello, " + message)
+}
+
+saySomething("Frank") // Prints "Hello, Frank" to the screen
+saySomething("Mabel") // Prints "Hello, Mabel" to the screen
+```
 
 ## Return values
 
@@ -28,44 +140,9 @@ The return value of a function is what calling them function will evaluate to. F
 console.log("Congratulations on your first day at " + getCompanyNameHere())
 ```
 
-## Declaring functions
-
-There are often several different ways to write functions in a given programming language, but the most common looks something like this:
-
-```js
-function nameOfFunctionGoesHere(parameters, go, here){
-  // Body of the function goes here
-  return "return value goes here"
-}
-```
-
-These define functions. To make the function execute, you need to call it.
-
-## Calling Functions
-
-Calling (also called invoking) a function means telling it to run.
-
-```js
-// This defines the function
-function sayHelloWorld(){
-  console.log("Hello, world!")
-}
-
-// This calls the function 3 times
-sayHelloWorld() // "Hello, world!"
-sayHelloWorld() // "Hello, world!"
-sayHelloWorld() // "Hello, world!"
-```
-
-You can also call a function with a value that can be used inside the function:
-
-```js
-function saySomething(message){
-  console.log("Hello, " + message)
-}
-```
-
 ## Parameters and Arguments
+
+### Parameters
 
 The variables that are passed into a function definition are called parameters:
 
@@ -85,6 +162,8 @@ function add(number1, number2){
 
 In this example, `number1` and `number2` are parameters.
 
+### Arguments
+
 When you call a function, you give it arguments:
 
 ```js
@@ -96,7 +175,7 @@ In this example, `someNumber` and 5 are both arguments. You can think of paramet
 
 ## Watch Out!
 
-* Returning a value from a function does not output anything to the screen. This program doesn't output anything:
+Returning a value from a function does not output anything to the screen. This program doesn't output anything:
 
 ```js
 function getName(){
@@ -105,7 +184,7 @@ function getName(){
 getName()
 ```
 
-To output something, you'd have to use `console.log`. You could either do that this way:
+To output something to the screen, you'd have to use `console.log`. You could either do that this way:
 
 ```js
 function printName(){
@@ -124,3 +203,31 @@ console.log(getName())
 ```
 
 The advantage of the second way is that by separating out getting the name from printing the name, you can use the `getName` function for other things like building another string.
+
+---
+
+It's easy to confuse returning a value from a function with printing something to the screen. This returns:
+
+```js
+function getGreeting(){
+  return "Hi, how are you today?"
+}
+```
+
+This prints something to the screen:
+
+```js
+function printGreeting(){
+  console.log("Hi, how are you today?")
+}
+```
+
+This difference becomes apparent when you save the result of a function call into a variable:
+
+```js
+const greeting = getGreeting()
+const nothing = printGreeting()
+
+console.log(greeting) // "Hi, how are you today?"
+console.log(nothing) // Undefined
+```

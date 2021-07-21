@@ -1,4 +1,4 @@
-# Manage file systems on the command line
+# Manage File Systems On The Command Line
 
 ## Topics
 

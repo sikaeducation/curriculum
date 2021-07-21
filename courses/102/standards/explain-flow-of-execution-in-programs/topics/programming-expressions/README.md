@@ -1,10 +1,10 @@
 # Programming: Expressions
 
-You know about values:
+You know about values for different data types:
 
 * **Strings**: "Hello, world!", "true", "50", ""
 * **Booleans**: true, false
-* **Numbers**: -1, 0, 50
+* **Numbers**: -1, 0, 50, 3.42
 
 An expression is something that evaluates to a value.
 
@@ -39,7 +39,9 @@ isGreaterThan10(helloWorld.length) // true
 
 Some examples of expressions:
 
-* `1 + 5`, `6 + 8 * 42`, `4`
-* `!someVariable`
-* `someVariable / someOtherVariable`
-* `[2, 4].includes(someNumber)`
+* `1 + 5` is the same as `6`
+* `6 + 8 * 42` is the same as `342`
+* `4` is the same as `4`. Even though `4` is a simple value, it also technically evaluates to that value so it counts as an expression.
+* `!someTruthyValue` is the same as `false`
+* `theNumberTen / theNumberFive` is the same as `2`
+* `[2, 4].includes(four)` is the same as `true`

@@ -1,4 +1,4 @@
-# Apply version control to projects
+# Apply Version Control To Projects Using Git
 
 ## Topics
 
