@@ -2,18 +2,17 @@
 
 ## Arguments
 
-Arguments are usually files that you want to run a command on. Some commands don't need any arguments:
+Arguments are often files that you want to run a command on. Some commands don't need any arguments:
 
 ```bash
 ls
 ```
 
-This lists all of the files and folders in the current directory. You can also give it the path to a folder as an "argument" to list everything in that directory:
+This lists all of the files and folders in the current directory. You can also give it the path to a folder as an argument to list everything in that directory:
 
 ```bash
 ls ~/projects
 ```
-
 
 Some commands take multiple arguments:
 
@@ -53,7 +52,7 @@ ls -al
 Long flags are represented by two dashes followed by words:
 
 ```bash
-rm --recursive -all some-full-directory
+rm --recursive some-full-directory
 ```
 
 Long flags are descriptive, but take longer to type and can't be chained together.
@@ -66,6 +65,8 @@ Many flags have both long and short versions. These are identical:
 ls -r
 ls --recursive
 ```
+
+Not every short flag has long equivalent, and not every long flag has a short equivalent.
 
 ### Using Arguments and Flags
 

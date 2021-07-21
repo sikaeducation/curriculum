@@ -3,7 +3,6 @@
 ## Topics
 
 * [Intro to Problem Analysis](topics/problem-analysis-intro)
-  * [Exercises](topics/problem-analysis-intro/exercises)
 * [Understanding the Problem](topics/polya-understanding-the-problem)
   * [Exercises](topics/polya-understanding-the-problem/exercises)
 * [Enumerating Solutions](topics/polya-enumerating-solutions)

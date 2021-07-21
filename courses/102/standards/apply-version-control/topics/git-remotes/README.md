@@ -4,7 +4,7 @@ One of the most powerful aspects of Git is that everyone who has a copy of a rep
 
 ## Cloning
 
-The most common way to get a copy of a repo is to _clone_ it from a service like GitHub:
+The most common way to get a copy of a repo is to clone it from a service like GitHub:
 
 ```bash
 git@github.com:githubtraining/example-basic.git
@@ -14,19 +14,17 @@ This will copy the repo from GitHub's computers to your computer, into a folder 
 
 Cloning a repository from a remote repo usually means authenticating somehow. If you clone a repo using GitHub's "SSH" option:
 
-(image)
+![Cloning from GitHub with SSH](assets/github-1.png)
 
 It will look for an SSH key in your `~/.ssh` directory to send with your clone request. If that key is connected to your GitHub account, GitHub will check to see if your account has permission to clone that repo. If it does, it will be copied to your computer.
 
 Alternatively, if you clone a repo using GitHub's "HTTPS" option:
 
-```bash
-git clone https://github.com/githubtraining/example-basic.git
-```
+![Cloning from GitHub with HTTPS](assets/github-2.png)
 
 It will ask you to enter your GitHub username and password.
 
-The SSH option makes working with GitHub much easier, but requires generating an SSH key and connecting it to your GitHub account.
+The SSH option makes working with GitHub much easier, but requires generating an SSH key and connecting it to your GitHub account. Follow these [instructions to connect with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) if you haven't already.
 
 ## Adding a Remote
 

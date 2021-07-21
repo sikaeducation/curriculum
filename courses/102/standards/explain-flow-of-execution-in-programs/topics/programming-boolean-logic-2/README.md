@@ -13,12 +13,12 @@ There are four basic boolean comparison operators:
 
 ### Equal to
 
-The equality comparison operator `===` evaluates to `true` if the things being compared are the same type and value, and false otherwise.
+The equality comparison operator `===` evaluates to `true` if the things being compared are the same type of data and value, and false otherwise.
 
-* `5 === 5` is true because they're the same type and value
-* `5 === 3` is false because they're the same type, but not the same value
-* `"5" === 5` is false because the not the same type, even though they're the same value
-* `5 === "Hello, world!" is false because they're neither the same type or value.
+* `5 === 5` is true because they're the same type (number) and value (5)
+* `5 === 3` is false because they're the same type (number), but not the same value (3 and 5)
+* `"5" === 5` is false because the not the same type (string and number), even though they're the same value (5)
+* `5 === "Hello, world!" is false because they're neither the same type (number and string) or value (5 and "Hello, world!")
 
 ### Not Equal To
 
@@ -31,7 +31,7 @@ The inequality comparison operator `!==` evaluates to `false` if the things bein
 
 ### Greater Than / Less Than
 
-The greater than operator `>`/`>=` and the less than operator `<`/`<=` are most often used when comparing numbers. A number is _greater than_ if it's higher than another number, `less than` if it's lower than another number, and `equal` if it's the same.
+The greater than operator `>`/`>=` and the less than operator `<`/`<=` are used to compare numbers. A number is greater than if it's higher than another number, `less than` if it's lower than another number, and `equal` if they're the same.
 
 * `5 > 3` is true because 5 is more than 3
 * `5 >= 3` is true because 5 is more than 3
@@ -56,7 +56,7 @@ You could swap `true` and `false` for comparison statements and end with the sam
 (5 === 5 && 5 < 3) || ("Hello, world!" || !true) = true
 ```
 
-And you could replace _those_ statements with variables that evaluate to those values:
+And you could replace those statements with variables that evaluate to those values:
 
 ```js
 const someArray = ["a", "b", "c", "d", "e"] 
@@ -68,4 +68,9 @@ const isActive = true
 
 ## Watch Out!
 
-* It's easy to get the order wrong on the characters for greater than or equal to and less than or equal to. Remember that they follow the same order as the saying: `>=` and `<=`, not `=>` or `=<`.
+* It's easy to get the order wrong on the characters for greater than or equal to and less than or equal to. Remember that they follow the same order as how they're commonly said:
+
+* `>=` is "Greater than or equal to"
+* `<=` is "Less than or equal to"
+
+It's not `=>` or `=<` because you wouldn't say "Equal to or less than."

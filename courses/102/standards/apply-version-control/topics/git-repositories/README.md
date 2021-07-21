@@ -6,27 +6,19 @@ A Git repository or "repo" is a folder containing not only files, but every stat
 
 To make a local repository, run `git init`. This makes the `git` command line program able to run commands when your shell is in this folder.
 
-```bash
-ls -a
-. ..
-
-git status
-fatal: not a git repository (or any of the parent directories): .git
-
-git init
-
-ls -a
-. .. .git
-
-git status
-On branch master
-
-No commits yet
-
-nothing to commit (create/copy files and use "git add" to track)
-```
+![Workflow of creating a new Git repo](assets/new-git-repo.png)
 
 Once a folder has become a Git repo, you can stage and commit files in it.
+
+## GitHub Repos
+
+If a repository already exists on GitHub, you copy it to your computer with `git clone`:
+
+![GitHub repo overview](github-1.png)
+
+![Cloning a repo from GitHub](github-2.png)
+
+You can look at this code, make changes to it, or even use it as the basis for your own code without affecting the repository that you cloned from.
 
 ## Watch Out
 

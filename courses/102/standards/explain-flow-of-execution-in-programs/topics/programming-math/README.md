@@ -23,7 +23,7 @@ To raise something to an exponent, use `**` twice. So, `2³` would be written:
 
 ## Modulo
 
-The modulo operator (`%`) gives you the remainder of a division operation. For example, 4 does not divide into 3 evenly- there is a remainder of 1. So, `4 % 3` is 1. Some other examples:
+The modulo operator (`%`) gives you the remainder of a division operation. For example, 4 does not divide into 3 evenly- it leaves a remainder of 1. So, `4 % 3` is 1. Some other examples:
 
 ```js
 4 % 2 === 0
@@ -46,4 +46,4 @@ if (someNumber % 2 === 0){ // An even number is one that divides evenly into 2
 
 ## Watch Out!
 
-* You can only do math with numbers. This also means you can't do math with strings that look like numbers, like `"3" + "2"`.
+* You can only do math with values with a number data type. This also means you can't do math with strings that look like numbers, like `"3" + "2"`.

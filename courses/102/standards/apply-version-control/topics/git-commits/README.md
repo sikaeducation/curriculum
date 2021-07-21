@@ -14,10 +14,14 @@ Commits should represent a single unit of work. This term is open to a wide degr
 
 These usually don't represent single units of work:
 
+* Multiple features
+* Work in progress for multiple features
 * Changing something from being broken in one way to being broken in a different way
 * Adding a single line of code
 * Changing the name of a variable
 * Creating an empty file or folder
+
+That said, you're better off making too many commits than too few. There are variety of advanced techniques for reorganizing and combining previous commits that you've made if you end up with more commits than necessary.
 
 ## Staging Strategy
 
@@ -54,9 +58,9 @@ This can feel a little awkward because it would usually be considered rude to sa
 
 * By default, your terminal will open a text editor called Vim if you enter `git commit` without any other arguments. It looks like this:
 
-(image)
+![Vim commit messages](assets/vim.png)
 
 Vim is a "modal text editor", which means that each key on the keyboard does more than just type characters. For now, learn how to exit out of it:
 
 1. Press `ESC` 3 times
-2. Type `:q!` and hit enter
+2. Type `ZQ`. Note the capitals- that is `Shift` + `z`, followed by `Shift` + `q`. This quits without saving.

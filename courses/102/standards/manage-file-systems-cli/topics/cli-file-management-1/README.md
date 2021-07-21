@@ -1,24 +1,16 @@
 # CLI: File Management
 
-When you manage files in a graphical file manager, you double-click to open files, drag them into new folders, and use key commands and context menus to delete and rename files. You can do all of these efficiently on the command line.
+When you manage files in a graphical file manager, you double-click to open files, drag them into new folders, and use key commands and context menus to delete and rename files. You can do all of these tasks and more efficiently on the command line.
 
 ## Files
 
-In the CLI, there are only files and directories (also called folders). Things like programs, input, and even different processes in the computer are represented by files. Unlike in most graphical file managers, there are no "extensions". The characters at the end of a file (like `.txt`, `.js`, `.md`, `.zip`) are just part of the name and carry no other meaning. Files and folders that start with a `.` (like `.bashrc` and `.ssh`) are considered "hidden", and are only listed if you explicitly ask for them.
+In the CLI, there are only files and directories (also called folders). Directories work exactly like the ones you're used to using in graphical OSes, and all the normal files--text documents, images, music, and so on--are also available. Things like programs, input, and even different processes in the computer are also represented by files, which gives you some really powerful ways to combine them. Unlike in most graphical file managers, there are no "extensions". The characters at the end of a file (like `.txt`, `.js`, `.md`, `.zip`) are just part of the name and carry no other meaning. Files and folders that start with a `.` (like `.bashrc` and `.ssh`) are considered "hidden", and are only listed if you explicitly ask for them.
 
 ## Creating Files
 
 To create a blank file, use the `touch` command:
 
-```bash
-ls
-some-file.md
-
-touch some-new-file.md
-
-ls
-some-file.md some-new-file.md
-```
+![Creating files on the command line](assets/cli-1.png)
 
 The touch command was originally intended to update the "last modified" time of a file to now (and it still does that). If the file doesn't exist, it creates it.
 
@@ -26,27 +18,13 @@ The touch command was originally intended to update the "last modified" time of 
 
 To create an empty directory, use the the `mkdir` command:
 
-```bash
-ls
-some-directory some-file.md
-
-mkdir some-new-directory
-
-ls
-some-directory some-new-directory some-file.md
-```
+![Creating directories on the command line](assets/cli-2.png)
 
 ## Reading files
 
 To see what's in a file, use the `cat` command.
 
-```bash
-ls
-the-alphabet.txt
-
-cat the-alphabet.txt
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-```
+![Reading a file](assets/cli-3.png)
 
 `cat` is short for "concatenate", and was designed to be used to print the combined contents of a multiple files. If you only give it one file though, it prints the contents of the file to the screen.
 
@@ -54,19 +32,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 To move a file or folder, use the `mv` command:
 
-```bash
-ls
-some-directory some-file.md
-
-mv some-file.md some-directory
-
-ls
-some-directory
-
-cd some-directory
-ls
-some-file.md
-```
+![Moving a file](assets/cli-4.png)
 
 `mv` takes two arguments:
 
@@ -77,95 +43,35 @@ some-file.md
 
 To rename a file, use the `mv` command:
 
-```bash
-ls
-some-file.md
-
-mv some-file.md another-file.md
-
-ls
-another-file.md
-```
+![Renaming a file](assets/cli-5.png)
 
 This is the same command used to move files. If you the path you're moving the file to is in a different directory, it will move it there. If the path you're moving the file to is in the same directory, it will rename the file. You can combine these to move and rename a file at the same time:
 
-```bash
-ls
-some-directory some-file.md
-
-mv some-file.md some-directory/new-directory-and-new-name.md
-
-ls
-some-directory
-
-cd some-directory
-ls
-new-directory-and-new-name.md
-```
+![Moving and renaming a file](assets/cli-6.png)
 
 ## Copying files and folders
 
 To copy a file, use the `cp` command:
 
-```bash
-ls
-some-file.md
-
-cp some-file.md copy-of-some-file.md
-
-ls
-some-file.md copy-of-some-file.md
-```
+![Copying a file](assets/cli-7.png)
 
 To copy a folder, you need to add the `-r` ("recursive") flag:
 
-```bash
-ls
-some-directory
-
-cp -r some-directory copy-of-some-directory
-
-ls
-some-directory copy-of-some-directory
-```
+![Copying a directory](assets/cli-8.png)
 
 ## Deleting files and folders
 
 To delete a file, use the `rm` command:
 
-```bash
-ls
-some-file.md copy-of-some-file.md
-
-rm copy-of-some-file.md
-
-ls
-some-file.md
-```
+![Deleting a file](assets/cli-9.png)
 
 To delete a folder, use the `-r` ("recursive") flag:
 
-```bash
-ls
-some-full-directory some-empty-directory
-
-rm -r some-empty-directory
-
-ls
-some-full-directory
-```
+![Deleting a directory](assets/cli-10.png)
 
 Note that this only works if the directory doesn't have any files in it. To delete a folder _and_ its contents, you need to add the `-f` ("force") flag:
 
-```bash
-ls
-some-full-directory some-empty-directory
-
-rm -rf some-directory
-
-ls
-some-empty-directory
-```
+![Deleting a directory](assets/cli-11.png)
 
 ## Watch Out!
 

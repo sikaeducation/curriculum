@@ -1,0 +1,90 @@
+# Introduction to Git
+
+Git is a tool for keeping track of different versions of files. Here are some things you can do with it:
+
+* Make "save points" in your projects that you can go back to
+* Experiment with ideas in branches, discard them if they don't work, and then merge them in with the rest of the code if they do
+* Enable multiple people (potentially thousands) working on the same files at the same time
+
+It's like having a supercharged undo/redo for files, instead of just the contents of files.
+
+## Git By Example
+
+Let's say you're working on a project. You make some files:
+
+```bash
+touch index.html index.css index.js
+```
+
+You decide to version control them with Git, so you initialize a repository, add your files to it, and make a commit:
+
+```bash
+git init
+git add index.html index.css index.js
+git commit -m "Initial commit"
+```
+
+A commit is like a save point for your project. You add some content to the HTML file, add the change, and make another commit:
+
+```bash
+code index.html # Make some changes...
+git add index.html
+git commit -m "Add boilerplate content to index.html"
+```
+
+Then, you add some styles to it:
+
+```bash
+code index.css
+git add index.css
+git commit -m "Add styles to index.html"
+```
+
+Turns out, you're not crazy about these styles, so you undo the last commit:
+
+```bash
+git reset --hard HEAD~1
+```
+
+Now your code has the changes you've made to the HTML, but not the changes you made to the CSS. It's like you ran "undo" on your previous change.
+
+## Git Is Complicated
+
+Git is a really powerful tool that can do much more than this example. Unfortunately, that comes with a lot of complexity, and a even "beginner" Git tutorials can get intimidating very quickly. Fortunately, it's OK to memorize a couple of Git commands to get started. It's not necessary to have a clear mental model of how Git works to get started, and you can always go deeper later.
+
+## Git Is Not GitHub
+
+[Git](https://git-scm.com/) is a open-source command-line tool that keeps track of different versions of your files. You can use it by yourself on files that never leave your computer, or use to collaborate with others over the internet. It's near-ubiquitous today, but its most prominent alternative is [Mercurial](https://www.mercurial-scm.org/). Git has largely replaced [SVN](https://subversion.apache.org/), which was the most common version control system previously.
+
+GitHub is a commercial product (currently owned by Microsoft) that stores Git repositories in the cloud, manages access to them, and offers a suite of tools for enabling efficient collaboration on them. Its major competitors are [Bitbucket](https://bitbucket.org/) (owned by [Atlassian](https://www.atlassian.com/)) and [GitLab](https://about.gitlab.com/).
+
+You'll work with both tools in your career, but even early on it's important to distinguish between these.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Atlassian's Git Tutorials](https://www.atlassian.com/git/tutorials) | The strongest collection of Git tutorials available. Free, covering everything from beginning to advanced tutorials. |
+
+## Trivia
+
+The [first commit](https://github.com/git/git/commit/e83c5163316f89bfbde7d9ab23ca2e25604af290) made to the Git codebase explains the origin of the name:
+
+```
+GIT - the stupid content tracker
+
+"git" can mean anything, depending on your mood.
+
+ - random three-letter combination that is pronounceable, and not 
+   actually used by any common UNIX command.  The fact that it is a
+   mispronunciation of "get" may or may not be relevant.
+ - stupid. contemptible and despicable. simple. Take your pick from the 
+   dictionary of slang.
+ - "global information tracker": you're in a good mood, and it actually
+   works for you. Angels sing, and a light suddenly fills the room. 
+ - "goddamn idiotic truckload of sh*t": when it breaks
+
+This is a stupid (but extremely fast) directory content manager.  It  
+doesn't do a whole lot, but what it _does_ do is track directory
+contents efficiently.
+```

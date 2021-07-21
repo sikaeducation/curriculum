@@ -8,7 +8,7 @@ There are three basic boolean operators: AND, OR, and NOT.
 
 ### NOT
 
-`NOT` is a negation of one value. It is the opposite of whatever the value is.
+`NOT` is a negation of one value. It's the opposite of whatever the value is.
 
 * `NOT true` is false
 * `NOT false` is true
@@ -20,7 +20,7 @@ In many programming languages, `NOT` is written as `!`, so:
 
 ### AND
 
-`AND` is a confirmation of two values. It is true if both values are true.
+`AND` is a confirmation of two values. It's true if both values are true.
 
 * `true AND true` is true
 * `true AND false` is false
@@ -36,7 +36,7 @@ In many programming languages, `AND` is written as `&&`, so:
 
 ### OR
 
-`OR` is an option between two values. It is true if either value is true.
+`OR` is an option between two values. It's true if either value is true.
 
 * `true OR true` is true
 * `true OR false` is true
@@ -52,7 +52,7 @@ In many programming languages, `OR` is written as `||`, so:
 
 ### Logic Expressions
 
-These three operators can be combined to make sentences.
+These three operators can be grouped together with `()` and combined to make logic expressions:
 
 ```
 (true AND false) OR (true OR NOT true) = true
@@ -91,10 +91,11 @@ In programming, the only values that are true and false are `true` and `false`. 
 
 For example, in JavaScript:
 
-* An empty string (`""`) is considered falsy, every other string string is considered truthy
-* `0` is considered falsy, every other number is considered truthy
-* Every object (`{}`) and array (`[]`) is considered truthy
-* `null` and `undefined` are always considered falsy
+* `false` is falsy, `true` is truthy
+* An empty string (`""`) is falsy, every other string string is truthy
+* `0` is falsy, every other number is truthy
+* Every object (`{}`) and array (`[]`) is truthy, even if it's empty
+* `null` and `undefined` are always falsy
 
 So:
 

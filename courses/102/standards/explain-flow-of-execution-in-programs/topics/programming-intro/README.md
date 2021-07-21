@@ -16,15 +16,15 @@ In television programming, the inputs might be button presses on a remote contro
 
 (example)
 
-In each case, a program transforms the given inputs into the expected outputs.
+In each case, a program transforms some kind of inputs into some kind of outputs.
 
 ## Elements of Programming
 
-It may surprise you to learn that almost all programming is based on a relatively small set of concepts. The complexity in programming isn't based on a large volume of building blocks, but rather the near-limitless ways they can be explored and combined.
+It may surprise you to learn that almost all programming is based on a relatively small set of concepts. The complexity in programming isn't based on a large number of ideas, but rather the near-limitless ways they can be explored and combined. The three most basic elements of programming are sequence, selection, and iteration. This three ideas form the building blocks of everything from the tiniest programming exercise to sprawling enterprise software. 
 
 ### Sequence
 
-For example, sequence is controlling the order your code executes in. If we print 4 things to the screen in order, we're using the idea of sequence:
+Sequence is controlling the order your code executes in. If you print 4 things to the screen in order, you're using the idea of sequence:
 
 ```js
 console.log("You put your right foot in")
@@ -33,7 +33,7 @@ console.log("You put your right foot in (again)")
 console.log("You shake it all about")
 ```
 
-Programs can also be a tangle of redirections where the sequence isn't immediately clear:
+Programs can also be a tangle of redirections where the sequence isn't immediately clear. This program does the same thing:
 
 ```js
 const hokeyPokey = () => console.log("You shake it all about")
@@ -51,11 +51,11 @@ function parseJSON(response){
 }
 ```
 
-Even simple ideas in programming can have a lot of depth.
+Even simple ideas in programming can have a lot of depth and nuance.
 
 ### Selection
 
-Another core element of programming is selection, or only running parts of the program under certain circumstances. At its simplest, it looks like this:
+Another core element of programming is selection, which is only running parts of the program under certain circumstances. At its simplest, selection looks like this:
 
 ```js
 if (television.isOn){
@@ -85,21 +85,23 @@ if(television.isOn, () => {
 })
 ```
 
+Like sequence, selection can have a lot of complexity.
+
 ### Iteration
 
-Another core element is iteration, or looping. Often, you want to do the same operation multiple times. For example, you might want to print every word in a list:
+The last core element of programming is iteration, or looping. Often, you want to do the same operation multiple times. For example, you might want to print every video in a list of videos:
 
 ```js
-for (item in list){
-  console.log(item)
+for (video in videos){
+  console.log(video)
 }
 ```
 
-This is also primarily iteration over a list:
+Just like sequence and selection, however, iteration can become very complex. This code is also a series of iterations over a list of videos:
 
 ```js
 function filterIds(){
-    return this.allVideos
+    return this.videos
         .filter(video => {
             const searchStrings = [ video.label ]
             if (video.tags){
@@ -115,9 +117,9 @@ function filterIds(){
 }
 ```
 
----
+## Programming Languages
 
-This three ideas--Sequence, Selection, and Iteration--form the basis for everything from the tiniest programming exercise to the most complicated programs ever written. They're present in every programming language, often even in similar ways. All of these programs do the same thing:
+Sequence, selection, and iteration are in just about every programming language, often even in similar ways. For example, all of these programs do the same thing:
 
 ```js
 // JavaScript
@@ -146,4 +148,4 @@ for item in list
 end
 ```
 
-Different programming languages encourage thinking about programs in particular ways and have different tradeoffs regarding speed, readability, ease of learning, and types of tasks they were designed for. Ultimately, different programming languages have more in common than they don't. The skills learned in ones language tend to not only transfer to other languages, but may even enrich your understanding and abilities in that language.
+Different programming languages encourage thinking about programs in particular ways and have different tradeoffs regarding speed, readability, ease of learning, and types of tasks they were designed for. These examples and exercises are given in JavaScript, but ultimately different programming languages have more in common than they don't. The skills learned in one language tends to not only transfer to other languages, but may even enrich your understanding and abilities in that language as well.

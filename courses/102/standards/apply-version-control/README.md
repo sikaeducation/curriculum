@@ -3,7 +3,6 @@
 ## Topics
 
 * [Intro to Git](topics/git-intro)
-  * [Exercises](topics/git-intro/exercises)
 * [Git Repositories](topics/git-repositories)
   * [Exercises](topics/git-repositories/exercises)
 * [Git Staging](topics/git-staging)

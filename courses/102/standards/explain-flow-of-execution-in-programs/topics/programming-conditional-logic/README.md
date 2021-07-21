@@ -4,7 +4,7 @@ One of the fundamental things every programming language must do is allow for so
 
 ## `if`
 
-`if` is the most basic form of conditional logic. If an expressive given to `if` is `true` or truthy, the code in the `if` block runs:
+`if` is the most basic form of conditional logic. If an expression given to `if` is `true` or truthy, the code in the `if` block runs:
 
 ```js
 if (true){
@@ -20,7 +20,7 @@ if (false){
 }
 ```
 
-The power in conditional logic comes from combining them with boolean expressions:
+The power in conditional logic comes from combining them with Boolean expressions:
 
 ```js
 const zipCode = "802394"
@@ -33,11 +33,13 @@ if (zipCode.length !== 5){
 
 If an `if` condition fails, you may want to specify an alternate behavior. You can do this with `else`:
 
-if (zipCode.length == 5){
+```js
+if (zipCode.length === 5){
   console.log("Your shipping estimate is being calculated now.")
 } else {
   console.log("Please enter a 5 digit ZIP code.")
 }
+```
 
 You can always be sure that one of the two blocks will run.
 
@@ -45,20 +47,22 @@ You can always be sure that one of the two blocks will run.
 
 You can also specify multiple conditions with `else if`:
 
-if (zipCode.length == 5){
+```js
+if (zipCode.length === 5){
   console.log("Your general shipping estimate is being calculated now.")
-} else if (zipCode.length == 10){
+} else if (zipCode.length === 10){
   console.log("Your specific shipping estimate is being calculated now.")
 } else {
   console.log("Please enter a 5 or 9 digit ZIP code.")
 }
+```
 
 ## Watch Out!
 
-* The most common mistake you're likely to make when using comparisons in conditional logic is to mix up the assignment operator (`=`) with one of the comparison operators (such as `==`). In some languages, the result of an assignment is `undefined`, so this:
+The most common mistake you're likely to make when using comparisons in conditional logic is to mix up the assignment operator (`=`) with one the comparison operator (`===`). In some languages (including JavaScript), the result of an assignment is `undefined`, so this:
 
 ```js
-const zipCode = "802394"
+const zipCode = "80239"
 if (zipCode.length = 5){
   console.log("No chance")
 }
@@ -66,20 +70,22 @@ if (zipCode.length = 5){
 
 Will never run.
 
-* If you reverse the condition of an `if` statement, you can reorder the blocks. These two are the same:
+---
+
+If you reverse the condition of an `if` statement, you can reorder the blocks. These two are the same:
 
 ```js
-if (zipCode.length == 5){
+if (zipCode.length === 5){
   console.log("Your shipping estimate is being calculated now.")
 } else {
   console.log("Please enter a 5 digit ZIP code.")
 }
 
-if (zipCode.length != 5){
+if (zipCode.length !== 5){
   console.log("Please enter a 5 digit ZIP code.")
 } else {
   console.log("Your shipping estimate is being calculated now.")
 }
 ```
 
-In general, it's usually easier to read if you put unsuccessful cases first and the ideal case last.
+In general, it's usually easier to read negative cases first and the ideal case last.

@@ -4,7 +4,7 @@ The second step of Polya's problem-solving method is to devise a plan to solve t
 
 ## Strategies For Finding Solutions
 
-When looking for ways to design a solution, use the DAVE questions:
+When looking for ways to design a solution, remember DAVE:
 
 ### Deduce
 
@@ -20,20 +20,21 @@ When looking for ways to design a solution, use the DAVE questions:
 ### Associate
 
 * Can it be translated into an equation or formula?
-* Are any parts of the problem similar to other kinds of problems?
-  * Could you use their unknowns?
-  * Could you use their constraints?
-  * Could you use their data?
-  * Could you use their solutions?
-  * Could you use their methods? 
+* Are any parts of the problem similar to other kinds of problems? Could you use their:
+  * Unknowns?
+  * Constraints?
+  * Data?
+  * Solutions?
+  * Methods? 
 
 ### Visualize
 
-* Can you make a list?
-* Can you make a table?
-* Can you make a chart?
-* Can you make a tree diagram?
-* Can you make a model?
+* Can you visualize it as a:
+  * List?
+  * Table?
+  * Chart?
+  * Tree diagram?
+  * Model?
 * Draw a picture
   * Does it help emphasize some parts?
   * Does it need different kinds of lines (solid, dotted, dashed)?

@@ -55,3 +55,4 @@ Programming languages and frameworks come and go, but the command line isn't goi
 | Resource | Description |
 | --- | --- |
 | [Why Learn The Command Line](https://www.dataquest.io/blog/why-learn-the-command-line/) | An article outlining more arguments in favor of the CLI. |
+| [Learn Enough Command Line To Be Dangerous](https://www.learnenough.com/command-line-tutorial) | A very thorough tutorial on CLI basics |
