@@ -1,40 +1,37 @@
+# 201: Website Development
+
 ## Core Idea
 
-The worldwide web
+* The worldwide web
 
-## Project
+## Sequence
 
-[[Production Website]]
+* [Build websites using HTML and CSS](standards/build-websites)
+* [Add interactivity to websites using JavaScript](standards/add-interactivity)
+* [Integrate APIs into websites using JavaScript](standards/add-interactivity)
 
-## Standards
+## Additional Resources
 
-* Build websites using HTML and CSS
+| Resource | Description |
+| --- | --- |
+| []() | |
+
   * [[Implement Wireframe]]
     * Connect.ly
     * Servis
   * [[HTML and CSS Quiz]]
-* Add interactivity to websites using JavaScript
+* 
   * [[Album Previewer]]
   * [[JS Quiz]]
   * [[DOM Quiz]]
-* Integrate APIs into websites using JavaScript
+* 
     * [[Pokedex]]
     * [[Star Wars video library]]
   * [[API Integration Quiz]]
 * Deploy and publish websites
   * [[Deploy Static Websites]]
   * [[Deploy Static Websites Quiz]]
-
-## Sequence
-
-* Overview
-
-(Needs a diagram of where everything fits)
-
-* [[basic-single-page-websites]]
-* [[add-interactivity]]
-* [[api-integration]]
-
+* [[Production Website]]
 
 ---
 

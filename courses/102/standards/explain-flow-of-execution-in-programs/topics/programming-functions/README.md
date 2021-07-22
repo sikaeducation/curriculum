@@ -47,7 +47,7 @@ function titleCase(someString){
 titleCase("hello, world!") // "Hello, World!"
 ```
 
-This powerful feature of functions lets you decompose big problems into small ones, and reuse your solutions to small problems.
+This powerful feature of functions lets you decompose big problems into small ones and reuse more of your work.
 
 
 ## Declaring functions
@@ -61,11 +61,11 @@ function nameOfFunctionGoesHere(parameters, go, here){
 }
 ```
 
-* `function` - The `function` keyword identifies the code that comes after it as a function definition
-* `nameOfFunctionGoesHere` - The name of the function. This is how the function will be referred to by other code.
-* `(parameters, go, here)` - Function parameters. These are variables that are given to the function when it's called and are available in the body of the function.
-* `{}` - The body of the function. This is the code that will run whenever the function is called.
-* `return` - The return keyword. Any expression that follows this word will be what a called function will evaluate to.
+* `function` - The `function` keyword identifies the code that comes after it as a function definition.
+* `nameOfFunctionGoesHere` - This is the name of the function, and it's how the function will be referred to by other code.
+* `(parameters, go, here)` - These are function parameters, which are variables given to the function when it's called. They're available throughout the body of the function.
+* `{}` - This is the body of the function, and it holds the code that will run whenever the function is called.
+* `return` - Any expression that follows the `return` keyword will be what a called function will evaluate to.
 
 For example, in our `capitalizeFirstLetter` function:
 
@@ -121,9 +121,11 @@ saySomething("Frank") // Prints "Hello, Frank" to the screen
 saySomething("Mabel") // Prints "Hello, Mabel" to the screen
 ```
 
+In this example, `message` is a parameter of the function, and `"Frank"` and `"Mabel"` are arguments to the function.
+
 ## Return values
 
-Functions often, but don't have to, return a value.
+Functions often (but don't have to) return a value.
 
 ```js
 function getCompanyName(){
@@ -134,7 +136,7 @@ const companyName = getCompanyName()
 console.log(companyName) // "Company Name Here"
 ```
 
-The return value of a function is what calling them function will evaluate to. For example, since the `getCompanyName` function has a return value of "Company Name Here", you can use `getCompanyNameHere()` anywhere you want to use that string.
+The return value of a function is what calling them function will evaluate to. For example, since the `getCompanyName` function has a return value of "Company Name Here", you can use `getCompanyNameHere()` anywhere you want to use that string. For example:
 
 ```js
 console.log("Congratulations on your first day at " + getCompanyNameHere())
@@ -171,7 +173,7 @@ double(someNumber)
 add(someNumber, 5)
 ```
 
-In this example, `someNumber` and 5 are both arguments. You can think of parameters as the "theoretical" for how something will be used and arguments as the "actual" for how something will be used.
+In this example, `someNumber` and 5 are both arguments. You can think of parameters as the "theoretical" way something will be used and arguments as the "actual" for how something will be used.
 
 ## Watch Out!
 
@@ -204,8 +206,6 @@ console.log(getName())
 
 The advantage of the second way is that by separating out getting the name from printing the name, you can use the `getName` function for other things like building another string.
 
----
-
 It's easy to confuse returning a value from a function with printing something to the screen. This returns:
 
 ```js
@@ -231,3 +231,5 @@ const nothing = printGreeting()
 console.log(greeting) // "Hi, how are you today?"
 console.log(nothing) // Undefined
 ```
+
+`greeting` is equal to `"Hi, how are you today?"` because that's what the `getGreeting` function returns when its called. The `printGreeting` function doesn't return anything.

@@ -1,8 +1,9 @@
 # 102: Prework
 
-This is intended to provide students with the technical skills necessary to be productive on the first day of 201.
+## Core Idea
 
-It focuses on operating a computer like a developer, and reading.
+* Reading for understanding in software
+* Professional computer operation
 
 ## Sequence
 
