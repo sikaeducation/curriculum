@@ -5,7 +5,12 @@
 * How do you write comments in HTML?
 * How do you write comments in CSS?
 * How do you write comments in JavaScript?
-* Change the following code to use multiline comments:
+* When should comments be used?
+* When should comments not be used?
+
+## Activities
+
+Change the following code to use multiline comments:
 
 ```js
 // This is a comment that goes
@@ -13,7 +18,9 @@
 // Actually use a multiline comment instead
 ```
 
-* What's wrong with this code?
+---
+
+What's wrong with this code?
 
 ```css
 .user-card {
@@ -21,7 +28,9 @@
 }
 ```
 
-* Is this a valid HTML comment?
+---
+
+Is this a valid HTML comment?
 
 ```html
 <div>
@@ -30,12 +39,10 @@
   -->
 </div>
 ```
+---
 
-* Is this a valid HTML comment?
+Is this a valid HTML comment?
 
 ```html
 <img src="<!-- Image URL goes here-->" />
 ```
-
-* When should comments be used?
-* When should comments not be used?

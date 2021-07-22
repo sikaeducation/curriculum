@@ -1,32 +1,22 @@
 # CSS: Flexbox
 
-There are some pretty big limits to only having `inline` and `block` display modes. How do we evenly space a group of elements out?
+There are some pretty big limits to only having `inline` and `block` display modes. How do you evenly space a group of elements out?
 
-(example)
+![Evenly-spaced boxes](assets/flex-1.png)
 
-How do we center something vertically?
+How do you center something vertically?
 
-(example)
+![Vertically-centered box](assets/flex-2.png)
 
-We can use flexbox:
+You can use CSS Flexbox:
 
-(example)
+![Flex code to space and center](assets/flex-3.png)
 
-```css
-display: flex;
-justify-content: space-between;
-```
-
-(example)
-
-```css
-display: flex;
-align-items: center;
-```
+[Play with this code](https://codesandbox.io/s/lucid-allen-gjsxb)
 
 ## Flex Containers and Flex Items
 
-The most important concept in Flexbox is the idea of a container and an item. Flex containers control how their items are rendered. For example, if we have this HTML:
+The most important concept in flexbox is the idea of a container and an item. Flex containers control how their items are rendered. For example, if you have this HTML:
 
 ```html
 <ul>
@@ -36,7 +26,7 @@ The most important concept in Flexbox is the idea of a container and an item. Fl
 </ul>
 ```
 
-We can make the `<ul>` a Flex container, and all of the `<li>`s will become Flex items.
+You can make the `<ul>` a Flex container, and all of the `<li>`s will become Flex items.
 
 ```css
 ul {
@@ -44,7 +34,7 @@ ul {
 }
 ```
 
-We can space out the Flex items evenly:
+You can space out the Flex items evenly:
 
 ```css
 ul {
@@ -53,7 +43,7 @@ ul {
 }
 ```
 
-We can right-align them all:
+You can right-align them all:
 
 ```css
 ul {
@@ -62,7 +52,7 @@ ul {
 }
 ```
 
-We can vertically and horizontally center them:
+You can vertically and horizontally center them:
 
 ```css
 ul {
@@ -85,11 +75,11 @@ li {
 
 ## Primary and Cross Axes
 
-Another critical idea in Flexbox is primary and cross axes. By default, the horizontal axis of a flex container is "primary" and the vertical axis is "cross".
+Another critical idea in flexbox is primary and cross axes. By default, the horizontal axis of a flex container is the primary axis and the vertical axis is the cross axis.
 
 (example)
 
-By changing the `flex-direction` from `row` to `column`, we flip this around:
+By changing the `flex-direction` from `row` to `column`, this is reversed:
 
 (example)
 
@@ -103,13 +93,15 @@ These are the differences:
 (example)
 (example)
 
-## Flex Reference
-
-CSS Tricks has an excellent [reference page](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for flexbox.
-
 ## Watch Out
 
 * Flexbox is well-supported in [every browser except Internet Explorer](https://caniuse.com/flexbox), which was discontinued in 2016 and has an end-of-life of August, 2021
 * A flex container is still flow content. If something isn't vertically centering, make sure that the container has enough height for vertical centering to be visible.
 * A flex container only controls its immediate children. The same element can be a flex item for one container, and a flex container itself.
 * A flex container is treated like a block element (the container tries to take up all the horizontal space it can). You can also flex an inline element by using `display: inline-flex;`.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Flex Reference](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | CSS Tricks' flex reference is the definitive guide to using Flexbox. |

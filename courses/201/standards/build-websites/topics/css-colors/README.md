@@ -1,14 +1,8 @@
 # CSS: Colors
 
-## Why
+There are a few different color formats, and you need to be conversant with all of them. You'll see them in tutorials, in design documents you're given by other developers, and in external tools you use. For example, all of these are the same color:
 
-There are a few different color formats, and you need to be conversant with all of them. You'll see them in tutorials, in design documents you're given by other developers, and in external tools you use.
-
-## Example
-
-All of these are the same color:
-
-![3 boxes with different color models that are the same color](screenshots/same-color.png)
+![3 boxes with different color models that are the same color](assets/same-color.png)
 
 [Edit](https://codesandbox.io/s/ecstatic-sun-qdulk?file=/index.css)
 

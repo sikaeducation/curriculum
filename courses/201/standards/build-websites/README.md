@@ -126,6 +126,12 @@
 * [Star Wars Video Library](assessments/star-wars-video-library)
 * [Implement Wireframes](assessments/implement-wireframe)
 
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| []() | |
+
 ---
 
 ## Other exercises

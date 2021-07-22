@@ -2,6 +2,7 @@
 
 ## Questions
 
+* What are the 4 elements of the box model?
 * When an element has a background color, which parts of the box model will have the background color?
 * What's the difference between padding and margin?
 * When you want to separate two elements, which box model property should you use?

@@ -2,28 +2,62 @@
 
 ## Topics
 
-* [/] - dom-1
-* [/] - dom-query-selectors
-* [/] - dom-create-append-elements
-* [/] - dom-manipulation
-* [/] - linting
-* [/] - eslint
-* [/] - js-strings
-* [/] - js-objects
-* [/] - js-arrays
-* [/] - js-foreach
-* [/] - dom-events
-* [/] - data-structures-intro
-* [/] - data-structures-trees
-* [/] - html-buttons
-* [/] - dom-classlist
-* [/] - html-forms
-* [/] - html-form-inputs
-* [/] - form-submission
-* [/] - css-forms
-* [/] - query-strings
-* [/] - js-find-filter
-* [/] - js-map
+* [DOM](topics/dom-1)
+  * [Exercises](topics/dom-1/exercises)
+* [DOM](topics/dom-query-selectors)
+  * [Exercises](topics/dom-query-selectors/exercises)
+* [DOM: Create and Append Elements](topics/dom-create-append-elements)
+  * [Exercises](topics/dom-create-append-elements/exercises)
+* [DOM: Manipulation](topics/dom-manipulation)
+  * [Exercises](topics/dom-manipulation/exercises)
+* [Linting](topics/linting)
+  * [Exercises](topics/linting/exercises)
+* [ES Lint](topics/es-lint)
+  * [Exercises](topics/linting/exercises)
+* [JavaScript: Strings](topics/js-strings)
+  * [Exercises](topics/js-strings/exercises)
+* [JavaScript: Objects](topics/js-objects)
+  * [Exercises](topics/js-objects/exercises)
+* [JavaScript: Arrays](topics/js-arrays)
+  * [Exercises](topics/js-arrays/exercises)
+* [JavaScript: `.forEach`](topics/js-foreach)
+  * [Exercises](topics/js-arrays/exercises)
+* [DOM: Events](topics/dom-events)
+  * [Exercises](topics/dom-events/exercises)
+* [Data Structures: Intro](topics/data-structures-intro)
+  * [Exercises](topics/data-structures-intro/exercises)
+* [Data Structures: Trees](topics/data-structures-trees)
+  * [Exercises](topics/data-structures-trees/exercises)
+* [HTML: Buttons](topics/html-buttons)
+  * [Exercises](topics/data-structures-trees/exercises)
+* [DOM: `.classList`](topics/dom-classlist)
+  * [Exercises](topics/dom-classlist/exercises)
+* [HTML: Forms](topics/html-forms)
+  * [Exercises](topics/html-forms/exercises)
+* [HTML: Form Inputs](topics/html-form-inputs)
+  * [Exercises](topics/html-form-inputs/exercises)
+* [Form Submission](topics/form-submission)
+  * [Exercises](topics/form-submission/exercises)
+* [CSS Forms](topics/css-forms)
+  * [Exercises](topics/css-forms/exercises)
+* [Query Strings](topics/query-strings)
+  * [Exercises](topics/query-strings/exercises)
+* [JavaScript: `.find` and `.filter`](topics/js-find-filter)
+  * [Exercises](topics/js-find-filter/exercises)
+* [JavaScript: `.map`](topics/js-map)
+  * [Exercises](topics/js-map/exercises)
+
+## Assessments
+
+* [JavaScript Quiz](assessments/js-quiz)
+* [DOM](assessments/dom-quiz)
+* [DOM and Interactivity Quiz](assessments/dom-and-interactivity-quiz)
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| []() | |
 
 ## Other Exercises
 
