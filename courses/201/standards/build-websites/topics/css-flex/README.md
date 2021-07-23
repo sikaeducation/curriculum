@@ -16,7 +16,7 @@ You can use CSS Flexbox:
 
 ## Flex Containers and Flex Items
 
-The most important concept in flexbox is the idea of a container and an item. Flex containers control how their items are rendered. For example, if you have this HTML:
+The most important concept in flexbox is the idea of containers and items. Flex containers control how their items are rendered. For example, if you have this HTML:
 
 ```html
 <ul>
@@ -101,6 +101,7 @@ These are the differences:
 * A flex container is still flow content. If something isn't vertically centering, make sure that the container has enough height for vertical centering to be visible.
 * A flex container only controls its immediate children. The same element can be a flex item for one container, and a flex container itself.
 * A flex container is treated like a block element (the container tries to take up all the horizontal space it can). You can also flex an inline element by using `display: inline-flex;`.
+* By default, flex items will wrap around the primary axis if they take up all the available space. You can override this behavior with `flex-wrap: nowrap`.
 
 ## Additional Resources
 

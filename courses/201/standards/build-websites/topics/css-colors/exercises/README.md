@@ -20,11 +20,7 @@
 
 Try to generate the following colors in HSL the fewest number of guesses:
 
-(examples)
+![List of colors](assets/colors.jpg)
 
 * Now convert each of them to RGB in the fewest number of guesses
 * Now convert each of them to hex in the fewest number of guesses
-
----
-
-Have students pick colors in HSL, and then have the class guess the color values. Closest to the real value wins!
