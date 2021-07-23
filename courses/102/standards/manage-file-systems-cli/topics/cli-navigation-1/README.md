@@ -12,17 +12,27 @@ In the CLI, you navigate and find your current location by entering commands.
 
 There are two ways to describe any location.
 
-An absolute path starts with `/` and describes how to get to a location from the root directory.
+An absolute path starts with `/` and describes how to get to a location from the root directory. For example, in this directory structure, you're in the `wineflix` folder:
 
-(diagram)
+![Directory structure](assets/cli-navigation-1.png)
 
-A relative path is based on your current location, and doesn't start with `/`. You can describe directories above your current directory with `..`.
+* The absolute path to this location is `/home/some-user/projects/wineflix`.
+* The relative path to this location is `.`. `.` is always the shortcut to your present location.
 
-(diagram)
+Without moving from the `wineflix` directory:
+
+* The absolute path to the `pages` directory is `/home/some-user/projects/wineflix/pages`
+* The relative path to the `pages` directory is `./pages`
+
+You can describe directories above your current directory with `..`.
+
+* The absolute path to the `pictures` directory is `/home/some-user/pictures`
+* The relative path to the `pages` directory is `../../pictures`
 
 Lastly, you can describe locations relative to your home directory by using `~`:
 
-(diagram)
+* The absolute path to the `documents` directory is `/home/some-user/documents`
+* It can also be written as `~/documents`
 
 Entering paths correctly by hand is tedious and error-prone. Luckily, you can use tab completiion to help you out. If you enter a couple of characters for the path you want and press `Tab`, the terminal will try to complete the rest of the path for you. If there's more than one possible match, you can press `Tab` repeatedly to cycle through options. This accomplishes two things: It saves you time typing, and it also ensures that the file or folder you're looking for actually exists. If the terminal can't tab complete a path, you're probably not in the right place.
 
@@ -77,7 +87,35 @@ drwxrwxr-x 2 username-here username-here 4096 Jul  3 10:12 some-directory
 
 ## Navigating
 
-To navigate in a shell, use the `cd` command to _change directory_ and give it any relative or absolute path.
+To navigate in a shell, use the `cd` command to change directory and give it any relative or absolute path.
+
+![Directory structure](assets/cli-navigation-1.png)
+
+To move from the `wineflix` directory to the `videos` directory, you could run:
+
+```bash
+cd ../../videos
+```
+
+Or by absolute path:
+
+```bash
+cd /home/some-user/videos
+```
+
+Or by home-relative path:
+
+```bash
+cd ~/videos
+```
+
+To move from the `wineflix` directory to the `assets` directory, you could run:
+
+```bash
+cd assets
+```
+
+Here are some more navigation examples:
 
 ```bash
 cd ..                                               # Move up a directory

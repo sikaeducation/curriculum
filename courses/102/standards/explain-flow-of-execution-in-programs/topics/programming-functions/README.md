@@ -7,7 +7,7 @@ Functions do two things:
 
 The second thing should sound familiar; that's also what a program does. This is not an accident. In the process of transforming inputs into outputs, you may break the problem into smaller pieces:
 
-(diagram here)
+![Diagram of functions inside a program](assets/functions.png)
 
 In this way, you can think of many programs as being made up of smaller and smaller programs. For example, if you had a function that title-cases a string:
 

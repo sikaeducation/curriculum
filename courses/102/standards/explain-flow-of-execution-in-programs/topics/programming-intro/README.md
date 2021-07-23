@@ -2,19 +2,19 @@
 
 Programming is fundamentally about turning inputs into outputs.
 
-(diagram)
+![Inputs going into a program and turning into outputs](assets/programming-1.png)
 
 In a social media app, the inputs might be your posts, your comments, and names or topics you want to read. The outputs might be other people's posts and comments.
 
-(example)
+![Social media inputs going into a program and turning into outputs](assets/programming-2.png)
 
 In scientific programming, the inputs might be each occurrence of an event, and the output might be a statistical summary of the events.
 
-(example)
+![Scientific inputs going into a program and turning into outputs](assets/programming-3.png)
 
 In television programming, the inputs might be button presses on a remote control, and the output might be streams of TV shows on the screen.
 
-(example)
+![TV inputs going into a program and turning into outputs](assets/programming-4.png)
 
 In each case, a program transforms some kind of inputs into some kind of outputs.
 
