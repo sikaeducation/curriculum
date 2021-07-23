@@ -77,23 +77,25 @@ li {
 
 Another critical idea in flexbox is primary and cross axes. By default, the horizontal axis of a flex container is the primary axis and the vertical axis is the cross axis.
 
-(example)
+![Flexing a row](assets/flex-4.png)
 
 By changing the `flex-direction` from `row` to `column`, this is reversed:
 
-(example)
+![Flexing a column](assets/flex-5.png)
 
 These are the differences:
 
 * New flex items in a flex container are added along the primary axis
 * `justify-content` aligns items on the primary axis
 * `align-items` aligns items on the cross axis
-* Only items on the cross axis can be individually aligned:
+* Only the cross axis of any one item can be individually aligned:
 
-(example)
-(example)
+![Flex align-self on rows](assets/flex-7.png)
+![Flex align-self on columns](assets/flex-6.png)
 
-## Watch Out
+[Play with this code](https://codesandbox.io/s/reverent-hodgkin-b3ru6?file=/index.css)
+
+## Watch Out!
 
 * Flexbox is well-supported in [every browser except Internet Explorer](https://caniuse.com/flexbox), which was discontinued in 2016 and has an end-of-life of August, 2021
 * A flex container is still flow content. If something isn't vertically centering, make sure that the container has enough height for vertical centering to be visible.
