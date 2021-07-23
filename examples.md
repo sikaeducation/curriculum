@@ -6,3 +6,4 @@
 | Mad Libs | Solution to the MadLibs workshop, deployed at https://madlibs-workshop.web.app | https://github.com/sikaeducation/mad-libs | https://codesandbox.io/s/sparkling-shadow-qksuf |
 | Flexbox Demo | Demo CSS Flexbox | https://github.com/sikaeducation/flexbox-demo | https://codesandbox.io/s/lucid-allen-gjsxb |
 | Flexbox Axes | Play with flexbox primary and cross axes | https://github.com/sikaeducation/css-flexbox-axes | https://codesandbox.io/s/reverent-hodgkin-b3ru6 |
+| Grid Demo | Demo CSS Grid | https://github.com/sikaeducation/css-grid-usage | https://codesandbox.io/s/optimistic-sun-y8bo8 |

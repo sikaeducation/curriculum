@@ -1,12 +1,14 @@
 # CSS: Grid
 
-We can do a lot with the display modes `inline`, `block`, and `flex`, but we still have some limitations. What if we want to align elements to a consistent grid?
+You can do a lot with the display modes `inline`, `block`, and `flex`, but they have some limitations. What if you want to align elements to a consistent grid?
 
-(example)
+![Example of a grid](assets/grid-1.png)
+
+[Play with this code](https://github.com/sikaeducation/css-grid-usage)
 
 ## Grid Containers and Grid Items
 
-Just like Flexbox, CSS Grid use the concept of containers and items. If we declare an element as a grid container:
+Just like Flexbox, CSS Grid use the concept of containers and items. If you declare an element as a grid container:
 
 ```html
 <ul>
@@ -25,9 +27,9 @@ ul {
 
 All of its children become grid items.
 
-## Defining a Grid
+## Defining Grids
 
-Grids have vertical and horizontal gridlines, and the space between them is a grid area. When you make a grid, you indicate where you'd like those to be:
+Grids have vertical and horizontal gridlines, and the space between them is a grid area. When you make a grid, you indicate where those are with `grid-template-rows` and `grid-template-columns`:
 
 ```css
 ul {
@@ -47,7 +49,7 @@ ul {
 }
 ```
 
-`fr` is a grid-only CSS unit that indicates that something should take up the remaining space. It can also be used to make rows the same size, or multiples of the same size:
+`fr` is a CSS unit that's used in grids indicates that something should take up the remaining space. It can also be used to make rows the same size, or multiples of the same size:
 
 ```css
 ul {
@@ -57,9 +59,9 @@ ul {
 }
 ```
 
-## Using a Grid
+## Using Grids
 
-To place an item on a grid, you declare either its starting and ending grid line or one of those and how many grid areas it should take up.
+To place an item on a grid, declare either its starting and ending grid line or one of those and how many grid areas it should take up.
 
 ```css
 li {
@@ -73,13 +75,15 @@ li {
 
 ## Watch Out!
 
-* "row" and "column" are easy to mix up. Columns determine how wide something is, rows determine how tall something is.
+* `row` and `column` are easy to mix up. Columns determine how wide something is, rows determine how tall something is.
 * Don't be confused by gridline counts. A 2x2 grid will have 3 horizontal gridlines and 3 vertical gridlines. The first row gridline is the top of the container, the first column gridline is the left of the container
-* Only a grid's direct children can be placed on the grid. You cannot place a grid-item's children on the grid.
+* Only a grid's direct children can be placed on the grid. You cannot place a grid item's children on the grid.
 * Don't confuse `fr` with `auto`. `fr` actively takes up as much space as it can and sets up relative sizing. `auto` lets the size of the elements inside the grid areas determine the spacing.
 * Grid items don't need to start and end in any particular place on the grid and grid areas can be empty
 * The way you arrange grid items has no relationship with the order in which they were declared in HTML
 
-## History
+## Additional Resources
 
-Grids are a traditional design element, going to back to the printing press. They became especially important in layout during the 1940s.
+| Resource | Description |
+| --- | --- |
+| [Grid Reference](https://css-tricks.com/snippets/css/complete-guide-grid/) | CSS Tricks' grid reference is the definitive guide to using CSS grid. |
