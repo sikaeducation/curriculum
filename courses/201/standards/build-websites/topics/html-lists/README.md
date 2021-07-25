@@ -96,3 +96,12 @@ You can nest these as deeply as you need to, and you can mix and match `<ul>` an
 (image here)
 
 This can be customized with CSS.
+
+## More Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN Documentation: `<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol) | MDN's documentation of the `<ol>` element |
+| [MDN Documentation: `<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul) | MDN's documentation of the `<ul>` element |
+| [MDN Documentation: `<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li) | MDN's documentation of the `<li>` element |
+| [MDN: Styling Lists](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists) | MDN's lesson on styling lists |

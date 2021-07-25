@@ -10,11 +10,11 @@ One of the core ideas behind the web is that it's a series of interconnected doc
 
 The anchor tag is what links pages together. When you click or tap the text for an anchor tag, your browser requests the HTML file in your `href` attribute.
 
-## Opening the link in a new tab
+## Opening Links In a New Tab
 
 You can open a link in a new tab by giving the `target` attribute a value of `_BLANK`:
 
-```
+```html
 <a href="https://google.com" target="_BLANK">Click this to open Google Search in a new tab</a>
 ```
 
@@ -23,7 +23,7 @@ Use this very carefully. This can violate a user's expectations of how the link 
 * You're linking to an external site
 * You clearly indicate that the link will open in a new tab
 
-(image here)
+![Good and bad examples of external links](assets/link.png)
 
 ## Linking Within A Page
 
@@ -41,16 +41,27 @@ This will scroll the screen until the first element with a matching ID is at the
 <a href="another-file.html#second-heading">Click this to go to the first element with an ID of "second-heading" in `another-file.html`</a>
 ```
 
-## Watch Out
+## Watch Out!
 
-* When linking to a URL, note the following conventions:
-  * `<a href="https://google.com">` - Links to an external site
-  * `<a href="second-page.html">` - Links to a file called `second-page.html` in the same folder as this HTML file
-  * `<a href="./second-page.html">` - Links to a file called `second-page.html` in the same folder as this HTML file
-  * `<a href="pages/second-page.html">` - Links to a file called `second-page.html`, which it will look for in a folder called `pages`, starting in the same folder as this HTML file
-  * `<a href="/second-page.html">` - Links to a file called `second-page.html` in the folder where the server was started
-  * `<a href="/pages/second-page.html">` - Links to a file called `second-page.html`, which it will look for in a folder called `pages`, starting in the folder where the server was started
-* There are several attributes in HTML that take URLs as values, but the attribute names are different.
-  * `<link>` and `a` use `href`
-  * `<script>` and `<img>` use `src`
-* It's easy to confuse `<a>` with `<link>`. `<link>` is for attaching external files like stylesheets to the document, not for linking to another page
+When linking to a URL, note the following conventions:
+
+* `<a href="https://google.com">` - Links to an external site
+* `<a href="second-page.html">` - Links to a file called `second-page.html` in the same folder as this HTML file
+* `<a href="./second-page.html">` - Links to a file called `second-page.html` in the same folder as this HTML file
+* `<a href="pages/second-page.html">` - Links to a file called `second-page.html`, which it will look for in a folder called `pages`, starting in the same folder as this HTML file
+* `<a href="/second-page.html">` - Links to a file called `second-page.html` in the folder where the server was started
+* `<a href="/pages/second-page.html">` - Links to a file called `second-page.html`, which it will look for in a folder called `pages`, starting in the folder where the server was started
+
+There are several attributes in HTML that take URLs as values, but the attribute names are different.
+
+* `<link>` and `<a>` use `href`
+* `<script>` and `<img>` use `src`
+
+It's easy to confuse `<a>` with `<link>`. `<link>` is for attaching external files like stylesheets to the document, not for linking to another page.
+
+## More Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN Documentation: `<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) | MDN's documentation of the `<a>` tag |
+| [MDN: Creating Hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks) | MDN's lesson on hyperlinks |

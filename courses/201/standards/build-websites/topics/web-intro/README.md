@@ -4,6 +4,8 @@ In common language, we use the terms "internet" and "web" interchangeably, but t
 
 ## Web Technologies
 
+These are some common technologies that make up the web:
+
 ### Domains
 
 Look at these IP address:
@@ -26,13 +28,11 @@ A domain is an easier-to-remember shortcut to a IP address. When you use a domai
 
 ### Browsers
 
-A browser is a program that can request and display files from the internet.
+A browser is a program that can request and display files from the internet. It provides a non-technical way to generate HTTP requests, render HTML and CSS files to the screen, display multimedia content, and run programs written in JavaScript. Additionally, browsers often provide tools for making it easier to use the web such as bookmarking URLs and keeping track of sites you've been to.
 
 ### HTTP
 
 Networked computers can share all kinds of things with each other. One way they can do that is with HTTP, which is a format for sending and receiving messages over the internet.
-
-(image)
 
 ### HTML, CSS, and JavaScript
 
@@ -42,14 +42,8 @@ HTML and CSS are instructions on how to display content that your browser unders
 
 When you type a URL into a browser and hit enter:
 
+![Diagramming web requests](assets/web-diagram.png)
+
 1. The browser looks up the IP address for that URL
-2. It sends an HTTP request to that IP address asking for an HTML file
-3. The network that gets the HTTP request gets the HTML file, and sends its contents back in an HTTP response
-4. The browser reads the HTML out of the HTTP response and starts trying to render it on the screen
-5. If the HTML file contains instructions to download CSS, JavaScript, images, or other files, it does so following the same process until the entire HTML file has been processed
-
-(diagram here)
-
-## History
-
-In 1991, Tim Berners-Lee created the first browser and the first web page. While the web has evolved a lot since then, it still uses all of the same underlying ideas. Tim Berners-Lee is currently the chairman of the W3C, which is a standards group governing the web.
+2. It sends an HTTP request to that IP address asking for an HTML file, and then starts rendering it to the screen
+3. If the HTML file contains instructions to include CSS, JavaScript, images, or other files, it does so following the same process until the entire HTML file has been processed

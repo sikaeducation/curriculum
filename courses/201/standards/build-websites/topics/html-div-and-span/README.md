@@ -1,10 +1,6 @@
 # HTML: `<div>` and `<span>`
 
-HTML is for structuring content. What does that mean?
-
-## Unstructured content
-
-When content is unstructured, it doesn't follow any particular format. For example, an unstructured menu at a restaurant might look like this:
+HTML is for structuring content. What does that mean? When content is unstructured, it doesn't follow any particular format. For example, an unstructured menu at a restaurant might look like this:
 
 ```
 We serve cheese pizza ($9.99), you can add pepperoni for 2 bucks, and we serve salads starting at $5.
@@ -26,7 +22,7 @@ The same content might look like this with structure:
 </div>
 ```
 
-When content is structured, we can target specific parts of it. This helps with styling and programming them.
+When content is structured you can target specific parts of it, which helps with styling and programming it.
 
 ## Block and Inline Content
 
@@ -60,4 +56,4 @@ HTML features over 100 tags that are reserved for specific purposes (including h
 
 ## Watch Out!
 
-* It's tempting to use `<div>` and `<span>` for everything in an HTML document, and many developers do exactly this. This is a bad practice for web development. As you learn more semantic tags, you should use those first and only use `<div>` and `<span>` when there aren't existing tags that are more appropriate.
+It's tempting to use `<div>` and `<span>` for everything in an HTML document, and many developers do exactly this. This is a bad practice for web development. As you learn more semantic tags, you should use those first and only use `<div>` and `<span>` when there aren't existing tags that are more appropriate.

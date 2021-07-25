@@ -67,3 +67,15 @@ If no `<source>` is more appropriate or the `<picture>` tag isn't supported, the
 * Images can get really large, which slows down page load. Using CSS to shrink an image does not actually make the file any smaller, so either only use images that are already the largest they'll need to be, or use the `<picture>` tag to load different images for different screen sizes
 
 (image here)
+
+## More Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN Documentation: `<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) | MDN's documentation of the `<img>` element. |
+| [MDN Documentation: `<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) | MDN's documentation of the `<picture>` element. |
+| [MDN Documentation: `<source>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source) | MDN's documentation of the `<source>` element. |
+| [MDN Image Format Guide](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types) | MDN's guide to selecting and using different image formats. |
+| [MDN Responsive Image Lesson](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) | MDN's guide to making images responsive. |
+| [MDN Documentation: `<figure>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) | MDN's documentation of the `<figure>` element |
+| [MDN Documentation: `<figcaption>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption) | MDN's documentation of the `<figcaption>` element |

@@ -10,23 +10,14 @@
 
 ## Activities
 
-Given this content:
+Clone the [Mad Libs repository](https://github.com/sikaeducation/mad-libs).
 
-```html
-```
-
-```css
-```
-
-```js
-```
-
-Put them in files and serve them with a local file server.
+Serve the app with a local file server.
 
 ---
 
 Given this folder structure:
 
-(image)
+![WineFlix folder structure](assets/wineflix.png)
 
-What would the URL to this file look like if it were served up on port 8080 on localhost?
+What would the URL to `red-wine.jpg` look like if the root of the folder were served up on port 8080 on localhost?

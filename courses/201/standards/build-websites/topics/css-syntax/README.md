@@ -1,10 +1,6 @@
-## Why?
+# CSS: Syntax
 
-Unstyled pages look like undifferentiated research white papers. It's difficult to find what you're looking for, and it's difficult to tell one site from another.
-
-## Example
-
-If you don't style your pages, they actually don't look terrible:
+Unstyled pages look like undifferentiated research white papers. It's difficult to find what you're looking for, and it's difficult to tell one site from another. If you don't style your pages, they actually don't look terrible:
 
 (example)
 
@@ -20,7 +16,7 @@ If you use them right, stylesheets help people read and understand your content,
 
 (example)
 
-## What's Going On
+## Adding CSS to HTML
 
 There are 3 ways to apply CSS to a page:
 
@@ -36,13 +32,9 @@ Stylesheets generally store 2 things:
   * What property do I want to set on this?
   * What should it be set to?
 
-## Gotchas
+## Watch Out!
 
 * Your page still has a user-agent stylesheet. All of your styles should override the defaults, but the results may be unexpected. Note that these can be "reset."
 * Semicolons are required
 * Rules are applied top to bottom (except for specificity)
 * Don't forget the `rel="stylesheet"` in the link tag
-
-## History
-
-CSS was added after HTML, but is otherwise entangled with it. "CSS3" marked a big change in how CSS was organized. There won't be a CSS4.

@@ -1,4 +1,4 @@
-# URLs 1: Exercises
+# URLs: Exercises
 
 ## Questions
 
@@ -18,7 +18,13 @@
 
 ## Activities
 
-Identify all of the parts of this URL: `url example`
+Identify all of the parts of these URLs:
+
+* `https://docs.google.com/spreadsheets/d/1Om4PbxYET2HJUAd_ekYYm9jI5fmvoPAlWHKmsOmfIPE/edit#gid=0`
+* `https://canvas.school.edu/conversations#filter=type=inbox`
+* `https://www.google.com/search?channel=fs&client=ubuntu&q=css+flexbox`
+* `https://codesandbox.io/s/optimistic-sun-y8bo8`
+* `https://cloud.digitalocean.com/networking/domains?dropletId=229831123&fleetUuid=6552fa926-3ae2-4032-8512-c2d2jn8712d37&i=8f4ba3`
 
 ---
 

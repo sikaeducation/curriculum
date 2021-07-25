@@ -1,13 +1,13 @@
 # Introduction to HTML
 
-The primary file type on the web is the HTML document. JavaScript files, stylesheets, media, and other kinds of files we use on the web are made available to users through HTML documents.
-
-When you go to a site on the web with your browser, your browser requests an HTML file and renders it on your screen. The HTML file is a set of instructions for your browser that tell it:
+The most important file type on the web is the HTML document. JavaScript files, stylesheets, media, and other kinds of files we use on the web are brought into browsers through HTML documents. When you go to a site on the web with your browser, your browser requests an HTML file, and then follows the instructions in it to render it on your screen. HTML files tell your browser:
 
 * What content is part of this page? Where should it show up?
-* How should this content be described?
+* How should this content be described to machines, search engines, and assistive technologies?
 * Are there are any images or other media to show?
-* Are there any other files needed (like stylesheets) to make to the page work?
+* Are there any other files like stylesheets or script files needed to make to the page work?
+
+The code you write in an HTML document answers all these questions.
 
 ## History
 

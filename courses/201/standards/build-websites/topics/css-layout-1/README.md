@@ -1,12 +1,6 @@
 # CSS: Layout 1
 
-## Why
-
-CSS is often misunderstood, even by expert developers. High-level layout in CSS is usually where the misunderstanding starts. Getting this part right is key to understanding CSS as a whole.
-
-## Example
-
-It's common to see people try to torture their layout into shape with something like this:
+CSS is often misunderstood, even by otherwise expert developers. High-level layout in CSS is usually where the misunderstanding starts, and getting this part right is key to understanding CSS as a whole. It's common to see developers try torture their layouts into shape with something like this:
 
 ```css
 ```

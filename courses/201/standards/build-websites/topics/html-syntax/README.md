@@ -1,12 +1,10 @@
 # HTML Syntax
 
-The syntax for HTML follows some comparatively simple rules, but there's still lots of room for both style and error.
-
-HTML is a markup language, rather than a programming language. Programming languages are concerned with logic- what order things happen in, the circumstances under which they happen, and how often they should happen. Markup languages annotate or "mark up" content to indicate what content is and how it should be treated.
+The syntax for HTML follows some comparatively simple rules, but there's still lots of room for both style and error. HTML is a markup language, rather than a programming language. Programming languages are concerned with logic- what order things happen in, the circumstances under which they happen, and how often they should happen. Markup languages annotate or "mark up" content to indicate what content is and how it should be treated.
 
 For example, something that looks like this in a browser:
 
-![Rendered article](html-from-browser.png)
+![Rendered article](assets/html-from-browser.png)
 
 Might be be marked up like this in HTML:
 
@@ -20,13 +18,13 @@ Might be be marked up like this in HTML:
 
 ## Anatomy of a tag
 
-![HTML tag](anatomy-of-a-tag-double.png)
-![HTML tag](anatomy-of-a-tag-single.png)
+![HTML tag](assets/anatomy-of-a-tag-double.png)
+![HTML tag](assets/anatomy-of-a-tag-single.png)
 
-* Tag name - These indicate what a tag means
-* Attributes - These are properties of a tag that either configure it or further describe it
-* Opening and closing tag - Most tags have an opening and closing pair that wrap the content they describe. Any attributes go inside the opening tag.
-* Self-Closing tag - Some tags don't have closing tags and close themselves
+* **Tag name**: These indicate what a tag means
+* **Attributes**: These are properties of a tag that either configure it or further describe it
+* **Opening and closing tag**: Most tags have an opening and closing pair that wrap the content they describe. Any attributes go inside the opening tag.
+* **Self-Closing tag**: Some tags don't have closing tags and close themselves
 
 ## Nesting
 
@@ -56,18 +54,18 @@ HTML files are called "documents" and have a required structure to them:
 </html>
 ```
 
-* `<!doctype html>` - This declares the document is written in HTML5, rather than a previous version
-* `<html>` - All HTML content must go inside this. It also indicates the language of the content.
-* `<head>` - This is for content that's not intended to show up on the page, such as linked JavaScript and CSS files and meta information about the document.
-  * `<title>` - This is what name will show up in the browser tab
-  * `<meta charset="utf-8" />` - This indicates the character encoding for the document. No need to understand character encoding yet, just accept that it's a required element of the page for now.
-* `<body>` - This is for content that is intended to show up on the page
+* **`<!doctype html>`**: This declares the document is written in HTML5, rather than a previous version of HTML.
+* **`<html lang="en">`**: All HTML content must go inside this. It also indicates the language of the content.
+* **`<head>`**: This is for content that's not intended to show up on the page, such as linked JavaScript and CSS files and meta information about the document.
+  * **`<title>`**: This is what name will show up in the browser tab.
+  * **`<meta charset="utf-8" />`**: This indicates the character encoding for the document. No need to understand character encoding yet, just accept that it's a required element of the page for now.
+* **`<body>`**: This is for content that is intended to show up on the page.
 
 ## HTML Style
 
-Since HTML is whitespace-insensitive, you have flexibility over whether something goes on one line or multiple lines. Unlike many of the other HTML conventions, this one is more open to personal style. Here's a starting place:
+Since HTML is whitespace-insensitive, you have flexibility over whether something goes on one line or multiple lines. Here are some recommendations:
 
-* By default, each new opening, closing, and self-closing tag should get its own line
+By default, each new opening, closing, and self-closing tag should get its own line:
 
 ```html
 <section>
@@ -77,7 +75,7 @@ Since HTML is whitespace-insensitive, you have flexibility over whether somethin
 </section>
 ```
 
-* Opening and closing tags should be at the same level of indentation, and when a tag is nested instead of another is should move right one indentation level
+Opening and closing tags should be at the same level of indentation, and when a tag is nested instead of another is should move right one indentation level:
 
 ```html
 <div>
@@ -86,19 +84,19 @@ Since HTML is whitespace-insensitive, you have flexibility over whether somethin
 </div>
 ```
 
-* When a tag has text content, it's OK to leave the opening and closing tags on the same line
+When a tag has text content, it's OK to leave the opening and closing tags on the same line:
 
 ```html
 <p>Paragraph content</p>
 ```
 
-* It's OK to leave inline text tags on the same line as the text
+It's OK to leave inline text tags on the same line as the text:
 
 ```html
 <p>Really <strong>important</strong> content</p>
 ```
 
-* If a tag has a lot of attributes, it's OK to put each attribute on its own line:
+If a tag has a lot of attributes, it's OK to put each attribute on its own line:
 
 ```html
 <input
@@ -111,9 +109,9 @@ Since HTML is whitespace-insensitive, you have flexibility over whether somethin
 />
 ```
 
-* HTML is case-insensitive, which means that `<article>`, `<ARTICLE>` and `<Article>` will all work. However, it is conventional to write your HTML tags all lowercase.
+HTML is case-insensitive, which means that `<article>`, `<ARTICLE>` and `<Article>` will all work. However, it is conventional to write your HTML tags all lowercase.
 
-* Indentation matters. While HTML is whitespace-insensitive (meaning that it ignores spaces and returns), inconsistent indentation makes it very difficult to read. For example, writing your code like this:
+Indentation matters. While HTML is whitespace-insensitive (meaning that it ignores spaces and returns), inconsistent indentation makes it very difficult to read. For example, writing your code like this:
 
 ```html
 <div><p>Some paragraph content here
@@ -131,19 +129,19 @@ Makes it difficult to tell that neither the `<p>` tag or the `<div>` tag were cl
 
 Both of these problems are easier to notice.
 
-* Self-closing tags can be written with or without the close `/`. In other words, `<img>` and `<img />` are both valid. This has some interesting history, but presently it is conventional to include the `/` on self-closing tags.
-
-* HTML attributes can be technically be enclosed in single or double-quotes. In other words, `<img src='image.jpg' />` and `<img src="image.jpg" />` are both valid. It conventional to use to double-quotes for all HTML attributes.
-
-* Since HTML is whitespace-insensitive, it's often technically valid to leave lots of whitespace around your markup, like this: `< img src = " image.jpg " / >`. It is conventional to keep everything "trimmed" and only use spaces to separate multiple attributes: `<img src="image.jpg" alt="image description" />`.
-
 ## Watch Out!
 
-* Be careful of typographer's quotes! Most word processing programs like Word and Google Docs will substitute the `"` and `'` characters for `“`/`”` and `‘`/`’` characters (look for the curls). These are called "typographer's quotes", and cannot be used for HTML attributes. Always write your code in a text editor, not in a word processor!
+Self-closing tags can be written with or without the close `/`. In other words, `<img>` and `<img />` are both valid. This convention has an interesting history, but presently it is conventional to include the `/` on self-closing tags.
 
-* There are a lot of mistakes with HTML that your browser will automatically correct for you, such as leaving off closing tags or other required elements. This doesn't mean that these things aren't problems, it just means they aren't problems for that browser, yet. Not every browser corrects the same errors the same way, there's no guarantee that the way they fix them now will be the way they fix them later, and the fixes may hide other problems later in development.
+HTML attributes can be technically be enclosed in single or double-quotes. In other words, `<img src='image.jpg' />` and `<img src="image.jpg" />` are both valid. It conventional to use to double-quotes for all HTML attributes.
 
-* Tags need to be opened and closed in order. This is not valid:
+Since HTML is whitespace-insensitive, it's often technically valid to leave lots of whitespace around your markup, like this: `< img src = " image.jpg " / >`. It is conventional to keep everything "trimmed" and only use spaces to separate multiple attributes: `<img src="image.jpg" alt="image description" />`.
+
+Be careful of typographer's quotes! Most word processing programs like Word and Google Docs will substitute the `"` and `'` characters for `“`/`”` and `‘`/`’` characters (look for the curls). These are called "typographer's quotes", and cannot be used for HTML attributes. Always write your code in a text editor, not in a word processor!
+
+There are a lot of mistakes with HTML that your browser will automatically correct for you, such as leaving off closing tags or other required elements. This doesn't mean that these things aren't problems, it just means they aren't problems for that browser, yet. Not every browser corrects the same errors the same way, there's no guarantee that the way they fix them now will be the way they fix them later, and the fixes may hide other problems later in development.
+
+Tags need to be opened and closed in order. This is not valid:
 
 ```html
 <div>
