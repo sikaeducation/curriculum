@@ -1,4 +1,4 @@
-# CSS: Layout 1: Exercises
+# CSS: Layout: Exercises
 
 ## Questions
 

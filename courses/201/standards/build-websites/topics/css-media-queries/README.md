@@ -58,7 +58,7 @@ p {
 
 As a strategy, start with general style rules for the largest display and then use media queries as needed to override those styles for progressively smaller screens. The size at which a design changes is called a "breakpoint."
 
-## Watch Out
+## Watch Out!
 
 * It's tempting to try to make breakpoints based on common device sizes. Instead, make your breakpoints based on when the design needs it, independent of what device is displaying it.
 * Individual queries need to wrapped in `()`

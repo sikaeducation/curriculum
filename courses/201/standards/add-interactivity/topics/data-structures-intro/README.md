@@ -4,6 +4,10 @@ The first concept to explore in computer science is data structures. We've actua
 
 A data structure is a pattern for organizing, managing, and storing data in a computer. In practice, this means defining operations that a data structure can perform and data that it exposes. For example, an array:
 
+## Anatomy of Arrays
+
+![Diagram of an Array](assets/arrays.png)
+
 * Stores a collection of data, usually of the same data type. Each item in the collection is called an element.
 * The order that elements are stored in is important
 * You can randomly access any element of an array by its index

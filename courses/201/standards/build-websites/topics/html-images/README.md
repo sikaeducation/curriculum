@@ -2,7 +2,7 @@
 
 Images serve a lot of purposes on websites. They illustrate complex ideas, they can be used for iconography, and sometimes they are even the primary content. How can you embed images in HTML pages?
 
-## The `<img>` Tag
+## `<img>`
 
 The oldest and most widely-used HTML tag for images is the `<img>` tag. It's a self-closing tag that has 2 required attributes: `src` and `alt`.
 
@@ -14,33 +14,18 @@ The oldest and most widely-used HTML tag for images is the `<img>` tag. It's a s
 * The `<img>` tag supports jpegs, pngs, SVGs, and many other kinds of image files.
 * By default, `<img>` is treated as an inline element (this can be changed with CSS)
 
-## Writing Good Alt Text
-
-[Ideas for exercises](https://supercooldesign.co.uk/blog/how-to-write-good-alt-text)
-[Writing good alt text](https://twitter.com/whykristenburns/status/1391108176695726085)
-
-* Be succinct
-* Include text that's part of the image, unless that text is already in the page or part of a caption
-* Don't say "image of", etc., but indicating the type of image is helpful (eg. "Portrait of")
-* Include things that are important to understanding why the image was used
+Good alt text is succinct. Include any text that's part of the image, unless that text is already in the page or part of a caption. Don't write "Image of", but indicating the type of image can be helpful, such as  "Portrait of". Basically, include things that are important to understanding why the image was used.
 
 ## The `<figure>` Tag
 
-A figure is either:
+A figure is either an image with a caption, or an image that's being referenced in the text but could theoretically be moved to another part of the document or an appendix and still make sense. This is especially common with reference material.
 
-* An image with a caption
-* An image that's being referenced in the text
+The `<figure>` tag usually wraps an `<img>` tag, and often a `<figcaption>` too:
 
-(example)
-(example)
-(example)
-
-The `<figure>` tag wraps an `<img>` tag, and generally a `<caption>` too:
-
-```
+```html
 <figure>
-  <img src="" alt="" />
-  <caption></caption>
+  <img src="bear.jpg" alt="A Grizzly Bear fishing in a stream" />
+  <figcaption>Bears are excellent at fishing</figcaption>
 </figure>
 ```
 
@@ -48,25 +33,23 @@ The `<figure>` tag wraps an `<img>` tag, and generally a `<caption>` too:
 
 This is a newer element. It allows different images to be loaded based on different situations, such as:
 
-* Support for particular image formats
-* Different screen sizes, so bandwidth can be saved
+* Needing browser support for a particular image format
+* Saving bandwidth by serving different resolutions for different screen sizes
 * Art direction, where different images are more artistically appropriate based on the scenario
 
 ```html
 <picture>
-  <source srcset="big.jpg" media="(min-width: 800px)" />
-  <img src="small.jpg" alt="A bear" />
+  <source srcset="bear-full-res.jpg" media="(min-width: 800px)" />
+  <img src="bear-min-res.jpg" alt="A Grizzly Bear fishing in a stream" />
 </picture>
 ```
 
 If no `<source>` is more appropriate or the `<picture>` tag isn't supported, the browser will fallback to the `<img>`.
 
-## Watch Out
+## Watch Out!
 
-* The only `<img>` tags that don't need `alt` text are purely decorative images (such as a fleur de lis):
-* Images can get really large, which slows down page load. Using CSS to shrink an image does not actually make the file any smaller, so either only use images that are already the largest they'll need to be, or use the `<picture>` tag to load different images for different screen sizes
-
-(image here)
+* The only `<img>` tags that don't need `alt` text are purely decorative images, such as a fleur de lis.
+* Images can get really large, which slows down page load. Using CSS to shrink an image does not actually make the file any smaller, so either only use images that are already the largest they'll need to be, or use the `<picture>` tag to load different images for different screen sizes.
 
 ## More Resources
 
@@ -79,3 +62,5 @@ If no `<source>` is more appropriate or the `<picture>` tag isn't supported, the
 | [MDN Responsive Image Lesson](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) | MDN's guide to making images responsive. |
 | [MDN Documentation: `<figure>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) | MDN's documentation of the `<figure>` element |
 | [MDN Documentation: `<figcaption>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption) | MDN's documentation of the `<figcaption>` element |
+| [How to Write Good Alt Text](https://supercooldesign.co.uk/blog/how-to-write-good-alt-text) | Great article with examples of good and bad alt text |
+| [Writing Good Alt Text](https://twitter.com/whykristenburns/status/1391108176695726085) | An outstanding series of Tweets identifying characteristics of good alt text |

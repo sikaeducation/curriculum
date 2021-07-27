@@ -22,15 +22,8 @@ There are two types of lists in HTML: Ordered and unordered. Their syntax is the
 </ul>
 ```
 
-## List Semantics
 
-By default, unordered lists render with numbers and unordered lists render with bullets.
-
-(image here)
-
-However, remember the most important part of semantic markup: It doesn't matter what it looks like, only what it means. Semantically, an ordered list is one where the order of the items is significant (like steps in a recipe), and unordered list is one where the order is not significant (like a list of product features).
-
-This also means that lists are appropriate in lots of situations where neither bullets nor numbers would necessarily be appropriate:
+By default, unordered lists render with numbers and unordered lists render with bullets. However, remember the most important part of semantic markup: It doesn't matter what it looks like, only what it means. Semantically, an ordered list is one where the order of the items is significant, like steps in a recipe. An unordered list is one where the order is not significant, like a list of product features. This also means that lists are appropriate in lots of situations where neither bullets nor numbers would necessarily be appropriate:
 
 ```html
 <!-- A list of links -->
@@ -91,11 +84,7 @@ To nest a list, start a new list inside of a list item:
 </ul>
 ```
 
-You can nest these as deeply as you need to, and you can mix and match `<ul>` and `<ol>` lists. Browsers will indent nested lists by default, and will also apply different bullets and numbering systems:
-
-(image here)
-
-This can be customized with CSS.
+You can nest these as deeply as you need to, and you can mix and match `<ul>` and `<ol>` lists. Browsers will indent nested lists by default, and will also apply different bullets and numbering systems. These numbering systems can be customized with CSS using the `list-style-type` property.
 
 ## More Resources
 
