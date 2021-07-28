@@ -1,8 +1,16 @@
-# Dev Tools 1
+# Dev Tools
 
-You wrote your code and you can serve it to your browser. What do you do when something goes wrong?
+You wrote your code and you can serve it to your browser. What do you do when something goes wrong? Open up the browser's developer tools.
 
-Open up the browser's developer tools.
+<figure>
+  ![Using Firefox dev tools to inspect a page](assets/dev-tools-1.png)
+  <figcaption>Dev tools in Firefox</figcaption>
+</figure>
+
+<figure>
+  ![Using Chrome dev tools to inspect a page](assets/dev-tools-2.png)
+  <figcaption>Dev tools in Chrome</figcaption>
+</figure>
 
 ## Keyboard shortcut
 
@@ -19,15 +27,12 @@ One of the most useful items in the dev tools is the element inspector. There ar
 * This works in reverse as well. If you hover your cursor over an element in the Element Inspector, it will highlight the item on the page it corresponds to
 * When the Dev Tools are already open, you can click this icon to select items from the page:
 
-(firefox image here)
-(chrome image here)
-
 Some things you can do with the element inspector:
 
 * See where (or whether) an element is being rendered
 * Temporarily change the content of an element, its tag name, or any of its attributes (they will all change back when the page is refreshed). Do this by double-clicking in the relevant place on the element
 
-(gif here)
+![Inspecting network requests](assets/dev-tools-4.png)
 
 * See how the browser interpretted the HTML you wrote. What you see in the Element Inspector isn't necessarily what you wrote. If you didn't close tags correctly or otherwise wrote invalid HTML, the browser will make an effort to correct it. The HTML in the Element Inspector represents the browser's interpretation.
 
@@ -35,7 +40,7 @@ Some things you can do with the element inspector:
 
 Another very useful tool is the Network Inspector. This tab shows all network requests your browser made for HTML files, stylesheets, scripts, images, and more. This is useful for seeing whether any of those requests succeeded or failed, what the request looked like, and what the response looked like.
 
-(gif here)
+![Inspecting network requests](assets/dev-tools-3.png)
 
 ## Watch Out!
 
