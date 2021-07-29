@@ -14,8 +14,8 @@ some_button = some_buttons[  0  ]
   some_array.forEach(   function  (  x  )
 {
   console.log(    x);
-});
-)
+})
+);
 ```
 
 It also has lots of problems:
@@ -39,17 +39,17 @@ These aren't bugs, but they do make the code hard to read and they certainly may
 
 Linting tools analyze your code and point out style problems:
 
-(example image)
+![Linting errors](assets/linting.png)
 
 Most of them will also do this in real-time, integrated into your text editor, and can even fix problems for you as you type.
 
-(example gif)
+![Autocorrecting a file with eslint](assets/lint-autocorrect.png)
 
-After running the above code through a linter, we may get something more like this:
+After running the above code through a linter and fixing the errors, you may get something more like this:
 
 ```js
-const some_array = ["first item", "second item", "third item"];
-some_array.forEach(x => console.log(x));
+const someArray = ["first item", "second item", "third item"];
+someArray.forEach(x => console.log(x));
 ```
 
 ## Linting Style Guides
@@ -61,9 +61,9 @@ There are many linting style guides available, each of which is characterized by
 * All arrays should have a dangling comma at the end of the list
 * No line should be longer than 80 characters
 
-You can configure a linter to use any combination of rules it supports, and can even control whether or not the linter should "warn" you (let you know that it happened but otherwise leave it alone) or throw an "error" (attempt to fix it).
+You can configure a linter to use any combination of rules it supports, and can even control whether or not the linter should warn you (let you know that it happened but otherwise leave it alone) or throw an error (attempt to fix it).
 
-There are combinations of rules that are published as style guides. Some companies and teams adopt a custom style guide so that all the code written in their company is consistent. Many reuse popular existing ones:
+Combinations of rules are published as style guides. Some companies and teams adopt a custom style guide so that all the code written in their company is consistent, and others reuse popular existing ones such as:
 
 * AirBnB
 * Standard
@@ -73,8 +73,8 @@ Even when using someone else's styleguide, you can add or override your own rule
 
 ## Watch Out!
 
-* Strictly speaking, things like indentation and semicolon usage are "formatting" and things like naming conventions and language features you should or shouldn't use are "linting." Both of them are commonly referred to as linting collectively.
-* Linters will conveniently also catch most syntax errors, such as missing a closing bracket
+* Strictly speaking, things like indentation and semicolon usage are classified as _formatting_ and things like naming conventions and language features you should or shouldn't use are _linting_. Both of them are commonly referred to as linting collectively.
+* Linters will conveniently also catch most syntax errors, such as missing closing brackets
 
 ## History
 

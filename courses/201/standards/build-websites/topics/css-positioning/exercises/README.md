@@ -1,4 +1,4 @@
-# CSS: Positioning 1: Exercises
+# CSS: Positioning: Exercises
 
 ## Questions
 

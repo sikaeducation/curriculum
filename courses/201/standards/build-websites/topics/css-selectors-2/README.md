@@ -1,4 +1,4 @@
-# CSS: Selectors 2
+# CSS: Selectors: Descendant, Sibling, and Attribute
 
 You can select elements by tag name, class, or ID, and those are sufficient a lot of the time. How would you select an element based on what its parents or siblings are, or by some property that it has?
 
@@ -31,7 +31,7 @@ nav > a {
 }
 ```
 
-In the above example, none of the links would be selected. While they're all descendants of `<nav>`, are all direct descendants of `<li>`. If we changed the selector to:
+In the above example, none of the links would be selected. While they're all descendants of `<nav>`, the `<a>` elements are all direct descendants of `<li>`. If we changed the selector to:
 
 ```css
 li > a {
@@ -86,7 +86,7 @@ This is commonly used to style the first item in a group differently from the su
 
 ## Attribute Selectors
 
-The class selector will match any element that includes has that class. You can also select elements based on any attribute:
+The class selector will match any element that has that class. You can also select elements based on any attribute:
 
 ```html
 <img src="great-picture.jpg" alt="close-up of a puppy" />
@@ -100,6 +100,10 @@ The class selector will match any element that includes has that class. You can 
 
 This is especially useful for targeting data attributes:
 
+```html
+<div data-test>Some content</div>
+```
+
 ```css
 [data-test] {
   border: 1px solid red;
@@ -109,9 +113,17 @@ This is especially useful for targeting data attributes:
 ## Watch Out!
 
 * Don't confuse descendant selectors with including multiple rules. `ul li` selects all `<li>`s that are children of `<ul>`s, `ul, li` selects all `<ul>` as well as all `<li>`s.
-* You can't select an element based on which children it has, or by which elements come after it.
+* There's no way to select an element based on which children it has or by which elements come after it.
 * Descendant and sibling selectors target the last element in the expression. That means `ul li` and `ul > li` will only target the `<li>`, and `p + a` will only target the `<a>`
 
-## History
+## Additional Resources
 
-These selectors were all added later.
+| Resource | Description |
+| --- | --- |
+| [MDN descendant combinator reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator) | MDN official reference for descendant selectors |
+| [MDN child combinator reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator) | MDN official reference for direct descendants |
+| [MDN general sibling reference](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator) | MDN official reference for sibling selectors |
+| [MDN adjacent sibling reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator) | MDN official reference for adjacent sibling selectors |
+| [MDN attribute selector reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) | MDN official reference for selectors |
+| [MDN combinators tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) | MDN official tutorial for descendant and sibling selectors |
+| [MDN attribute selector tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors) | MDN official tutorial for attribute selectors |

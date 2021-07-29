@@ -1,4 +1,4 @@
-# CSS: The Box Model: Exercises
+# CSS: Box Model: Exercises
 
 ## Questions
 

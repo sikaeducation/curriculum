@@ -1,4 +1,4 @@
-# CSS: The Box Model
+# CSS: Box Model
 
 The box model is another core idea in CSS, and is key to mastering layout. The box model is what keeps this background color from spilling out:
 

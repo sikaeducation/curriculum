@@ -1,4 +1,4 @@
-# Dev Tools 2
+# Dev Tools: Style Editor
 
 After the element inspector and the network inspector, the next most important part of the browser dev tools is the style editor.
 
@@ -12,9 +12,9 @@ You can also apply it exclusively to that element:
 
 ![Changing an element in a stylesheet](assets/dev-tools-2.gif)
 
-As a bonus, if you've made an edit you want to permanently apply, you can copy/paste the rule into your stylesheet by highlighting the rule in the dev tools, and copy/pasting it to your text editor.
+If you've made an edit you want to permanently apply, you can copy the rule into your stylesheet by highlighting the rule in the dev tools and copy and pasting it into your text editor.
 
-## Editing Helpers
+## Style Editor Helpers
 
 When you're editing a numeric value, you can use the up and down arrow keys to adjust them. This is especially useful for visually aligning elements.
 
@@ -32,18 +32,22 @@ Each style rule has an autocomplete that shows you all the legal values for a pr
 
 ![Changing an element in a stylesheet](assets/dev-tools-6.gif)
 
-
-## Editing Warnings
+## Style Editor Warnings
 
 Any rules you write that have invalid syntax will be indicated in the style editor:
 
 ![Changing an element in a stylesheet](assets/dev-tools-7.gif)
 
-This is 
-
 ## Box Model
 
-One of the most useful parts of the style editor is being able to see which box model properties have been set, and what they're currently rendering as:
+Another useful part of the style editor is being able to see which box model properties have been set, and what they're currently rendering as:
 
-(example)
 ![Changing an element in a stylesheet](assets/dev-tools-8.gif)
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Firefox Dev Tools Reference](https://developer.mozilla.org/en-US/docs/Tools) | The official guide to Firefox dev tools |
+| [Chrome Dev Tools Reference](https://developer.chrome.com/docs/devtools/) | The official guide to Chrome dev tools |
+| [Free Code Camp: Video guide to Chrome Dev tools](https://www.freecodecamp.org/news/learn-how-to-use-the-chrome-devtools-to-troubleshoot-websites/) | Video tutorial on Chrome dev tools |

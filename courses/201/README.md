@@ -10,6 +10,15 @@
 * [Add interactivity to websites using JavaScript](standards/add-interactivity)
 * [Integrate APIs into websites using JavaScript](standards/add-interactivity)
 
+## Lessons
+
+* Explain how the internet and web work
+* Walking through the website development process
+* Building a color pallette
+* Fixing HTML validation errors
+* Implementing a layout
+* Selecting type
+
 ## Additional Resources
 
 | Resource | Description |

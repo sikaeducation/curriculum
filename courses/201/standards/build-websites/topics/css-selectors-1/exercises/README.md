@@ -1,4 +1,4 @@
-# CSS Selectors 1: Exercises
+# CSS Selectors: Tag, Class & ID: Exercises
 
 ## Questions
 
@@ -16,4 +16,4 @@
 
 ## Activities
 
-* CSS Diner
+[CSS Diner](https://flukeout.github.io/)

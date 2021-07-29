@@ -4,7 +4,10 @@
 
 * What's a breakpoint?
 * What's the problem with using common device widths for breakpoints?
-* What's wrong with this code?
+
+## Activities
+
+What's wrong with this code?
 
 ```css
 p {
@@ -15,31 +18,9 @@ p {
 }
 ```
 
-* What's wrong with this code?
+---
 
-```css
-p {
-  color: red;
-}
-@media max-width: 300px {
-  p {
-    color: blue;
-  }
-}
-```
-
-* What's wrong with this code?
-
-```css
-p {
-  color: red;
-  @media (max-width: 300px) {
-    color: blue;
-  }
-}
-```
-
-* Given the following stylesheet:
+Given the following stylesheet:
 
 ```css
 p {
@@ -54,7 +35,9 @@ p {
 
 The screen is 450px wide. What color is the paragraph text?
 
-* Given the following stylesheet:
+---
+
+Given the following stylesheet:
 
 ```css
 @media (max-width: 300px) {
@@ -69,7 +52,9 @@ p {
 
 The screen is 250px wide. What color is the paragraph text?
 
-* Given the following stylesheet:
+---
+
+Given the following stylesheet:
 
 ```css
 p {

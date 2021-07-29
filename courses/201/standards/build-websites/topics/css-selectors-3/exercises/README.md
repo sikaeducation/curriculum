@@ -1,4 +1,4 @@
-# CSS: Selectors 3: Exercises
+# CSS: Selectors: Pseudo-Classes & Pseudo-Elements: Exercises
 
 ## Questions
 

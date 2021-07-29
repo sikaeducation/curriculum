@@ -1,36 +1,27 @@
-# Deployment: CLI 1
+# Deployment: Surge
 
-## Why?
+No matter how great your site is, it won't matter if the files are only on your computer. That means you need to be able to deploy your files to the public internet so other people can get them with their browser. This site runs on a local computer, but no one else can see it:
 
-No matter how great your site is, it doesn't won't matter much if the files are only on your computer. That means we need to be able to "deploy" our work to the public internet so someone else can get them.
+![App deployed on localhost](assets/cli-deployment-3.png)
 
-## Example
+But once it's deployed:
 
-These files are on my computer, but no one else can see them:
+![App deployed on Surge](assets/cli-deployment-4.png)
 
-(image, localhost URL)
+It's available on the public internet and everyone can go to it.
 
-But once I've deployed the app:
+## Deploying Sites
 
-(image, public URL)
+There are many different deployment providers, but the easiest to get started with is [Surge](https://surge.sh). To deploy to Surge, run `npx surge`. After it downloads, you'll be prompted to create an account:
 
-## What's Going On
+![Creating an account on Surge](assets/cli-deployment-2.png)
 
-There are a few different deployment providers, but one of the easiest to get started with is Vercel's Now. Once you've installed it, running `now` in your terminal will send all of the files in that folder to Vercel's computers, and they'll give you a URL that you can access it at.
+Note that you won't see anything change on the screen while you're typing your password. This is normal.
 
-(Image: Step 1)
-(Image: Step 2)
-(Image: Step 3)
+Then, it will ask some questions about which folder you'd like to deploy and what you'd like the URL to be:
 
-Some similar services:
+![Deploying an app with Surge](assets/cli-deployment-1.png)
 
-* Surge
+The folder you deploy should have an `index.html` file in it, otherwise going to the URL in a browser will 404.
 
-## Gotchas
-
-* When you go to a URL, unless you specify otherwise, the server will look for a file called `index.html`. If you don't have one of these, going to the URL will throw an error.
-* You need to be in the same directory as your files when you deploy.
-
-## History
-
-Originally, to get something on the internet you needed an IP address, a computer connected at that IP address, you needed to listen to requests and send the appropriate files back as the requests came in. Now, this is commodity work. With one command, we can send our files to computers that other people maintain, and they'll give us a URL where the files can be retrieved. This is all part of a larger pattern of "cloud computing" where operations that used to require a lot of technical expertise become commodities.
+To update a site you've already deployed, give it the same URL as your old deployment.

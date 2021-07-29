@@ -30,6 +30,8 @@
 ## Assessments
 
 * [API Integration Quiz](assessments/api-integration-quiz)
+* [Pokemon Library](assessments/pokemon-library)
+* [Star Wars Video Library](assessments/star-wars-video-library)
 
 ## Additional Resources
 

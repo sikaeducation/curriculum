@@ -1,4 +1,4 @@
-# CSS: Selectors 2: Exercises
+# CSS: Selectors: Descendant, Sibling, and Attribute: Exercises
 
 ## Questions
 
@@ -30,11 +30,12 @@
 ```
 
 How many elements do these selectors target:
-  * `li`
-  * `#number-list`
-  * `li + li`
-  * `li ~ .number`
-  * `.number`
-  * `#number-list > li`
-  * `li li`
-  * `li > li`
+
+* `li`
+* `#number-list`
+* `li + li`
+* `li ~ .number`
+* `.number`
+* `#number-list > li`
+* `li li`
+* `li > li`
