@@ -43,7 +43,6 @@
   * [Exercises](topics/css-flex/exercises)
 * [CSS: Grid](topics/css-grid)
   * [Exercises](topics/css-grid/exercises)
-* [Project: Book Promo Page](assessments/book-promo-page)
 * [Comments](topics/comments)
   * [Exercises](topics/comments/exercises)
 * [CSS: Descendant, Sibling, and Attribute Selectors](topics/css-selectors-2)

@@ -4,7 +4,7 @@ There are a few different color formats, and you need to be conversant with all 
 
 ![3 boxes with different color models that are the same color](assets/same-color.png)
 
-[Edit](https://codesandbox.io/s/ecstatic-sun-qdulk?file=/index.css)
+[Play with this code](https://codesandbox.io/s/ecstatic-sun-qdulk?file=/index.css)
 
 There are a three common ways colors are represented in CSS: Hexadecimal, RGB, and HSL.
 

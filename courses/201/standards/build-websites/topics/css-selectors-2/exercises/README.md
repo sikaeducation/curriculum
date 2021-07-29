@@ -5,7 +5,7 @@
 * What is a descendant selector?
 * What is a sibling selector?
 * What is an attribute selector?
-* Define each of these CSS selectors:
+* Define each of these CSS combinators:
   * `+`
   * `>`
   * `~`
