@@ -36,13 +36,13 @@ Each style rule has an autocomplete that shows you all the legal values for a pr
 
 Any rules you write that have invalid syntax will be indicated in the style editor:
 
-![Changing an element in a stylesheet](assets/dev-tools-7.gif)
+![Changing an element in a stylesheet](assets/dev-tools-7.png)
 
 ## Box Model
 
 Another useful part of the style editor is being able to see which box model properties have been set, and what they're currently rendering as:
 
-![Changing an element in a stylesheet](assets/dev-tools-8.gif)
+![Changing an element in a stylesheet](assets/dev-tools-8.png)
 
 ## Additional Resources
 

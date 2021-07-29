@@ -20,5 +20,6 @@
 | [Monologue](http://phildo.itch.io/monologue) | A single-player game to practice typing faster |
 | [Type Racer](http://play.typeracer.com/) | A multi-player game to practice typing faster |
 | [typing.io](https://typing.io/) | Typing exercises specifically for programming syntax |
+| [TommyQ: Zombie Defender](https://www.typing.com/student/game/tommyq) | Typing exercises specifically for layered keyboards |
 | [Rogue](https://www.myabandonware.com/game/rogue-4n/play-4n) | A text-based adventure game that develops familiarity with common CLI motions |
 | [Vim Adventures](http://vim-adventures.com/) | A game for practicing commands for the Vim text editor |

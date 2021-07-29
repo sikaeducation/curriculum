@@ -22,7 +22,7 @@
 * [HTML: Images](topics/html-images)
 * [HTML: Structure Semantics](topics/html-structure-semantics)
   * [Exercises](topics/html-structure-semantics/exercises)
-* [CSS: Syntax](topics/css-syntax-1)
+* [CSS: Syntax](topics/css-syntax)
 * [CSS: Selectors](topics/css-selectors-1)
   * [Exercises](topics/css-selectors-1/exercises)
 * [CSS: Length Units](topics/css-units)
