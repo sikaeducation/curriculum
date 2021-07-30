@@ -7,32 +7,6 @@
 
 ## Activities
 
-Style this button to look like this:
-
-(image)
-
-```html
-<button>Create Account</button>
-```
-
-```css
-```
-
----
-
-Style this button to look like this:
-
-(image)
-
-```html
-<button>Create Account</button>
-```
-
-```css
-```
-
----
-
 When this button is clicked, log the date and time the button was clicked.
 
 ```html

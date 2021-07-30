@@ -1,10 +1,10 @@
 # DOM: Creating and Appending Elements
 
-We can select elements with `document.querySelector`, but what can we do with them once we have them?
+You can select elements with `document.querySelector`, but what can you do with those elements once you have them?
 
 ## `document.createElement`
 
-We can create DOM nodes directly with JavaScript using `document.createElement`:
+You can create DOM nodes directly with JavaScript using `document.createElement`:
 
 ```js
 const p = document.createElement("p") // <p></p>
@@ -12,7 +12,7 @@ const img = document.createElement("img") // <img />
 const li = document.createElement("li") // <li></li>
 ```
 
-`document.createElement` creates a blank DOM node with the tag name that we pass in. After that, we can modify those elements however we want:
+`document.createElement` creates a blank DOM node with the tag name that you pass in. After that, you can modify those elements however you want:
 
 ```js
 p.textContent = "This text will be in the paragraph"

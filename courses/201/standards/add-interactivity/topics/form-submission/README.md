@@ -8,13 +8,25 @@ There are two ways to submit a form in HTML:
 
 ```html
 <form>
-  <input type="submit" value="This button submits the form!" />
+  <label for="username">Username</label>
+  <input type="text" name="username" id="username" />
+
+  <label for="password">Password</label>
+  <input type="password" name="password" id="password" />
+
+  <input type="submit" value="Login" />
 </form>
 ```
 
 ```html
 <form>
-  <button type="submit">This button submits the form!</button>
+  <label for="username">Username</label>
+  <input type="text" name="username" id="username" />
+
+  <label for="password">Password</label>
+  <input type="password" name="password" id="password" />
+
+  <button type="submit">Login</button>
 </form>
 ```
 
@@ -24,6 +36,14 @@ They both do the same thing, with the following distinctions:
 * An `<input />` is mildly more correct semantically, since a `<form>` is supposed to be submitted by keyboard with "enter", while `<button>` interactions are supposed to happen with "spacebar".
 
 Both are in common use.
+
+If you need a button in the form that doesn't submit the form, you can give it a `type` of `button`:
+
+```html
+<form>
+  <button type="button">This won't submit the form when clicked</button>
+</form>
+```
 
 ## The `submit` event and `event.preventDefault()`
 
@@ -38,7 +58,7 @@ form.addEventListener("submit", event => {
 })
 ```
 
-The first thing in a form submission handler should be `event.preventDefault()`. `event` is an object that's passed into the function, and `.preventDefault()` is a method that stops the browser from trying to submit the form and allows you to write your own logic for it.
+The first thing in a form submission handler should be `event.preventDefault()`. `event` is an object that's passed into the function, and `.preventDefault()` is a method that stops the browser from trying to submit the form and allows you to write your own logic to handle form submission.
 
 ## Getting Data From a Form
 
@@ -54,7 +74,7 @@ form.addEventListener("submit", event => {
 })
 ```
 
-To get data from a form, pass `event.target` into `new FormData()` and save the result into a variable. Then, use the `.get()` method to retrive the values for each form input. These match the `name` attribute from the form input.
+To get data from a form, pass `event.target` into `new FormData()` and save the result into a variable. Then, use the `.get()` method to retrieve the values for each form input. These match the `name` attribute from the form input.
 
 You can use this data to create DOM elements, send HTTP requests, and much more.
 
@@ -74,4 +94,4 @@ You can use this data to create DOM elements, send HTTP requests, and much more.
 
 When the form is submitted, your browser makes the type of HTTP request indicated by `method` (although it can only be GET or POST) and the `action` indicates where the HTTP request will be sent to.
 
-While there are still uses for this style of form, it's fallen out of favor. Submitting the form is effectively a page navigation, meaning the response from the server needs to tell the browser where to go and an entire page load is required. For the more modern asynchronous experience, we need to prevent this behavior, which is why the first part of a form submission handler is usually `event.preventDefault()`.
+While there are still uses for this style of form, it's fallen out of favor. Submitting the form is effectively a page navigation, meaning the response from the server needs to tell the browser where to go and an entire page load is required. For the more modern asynchronous experience, you need to prevent this behavior, which is why the first part of a form submission handler is usually `event.preventDefault()`.

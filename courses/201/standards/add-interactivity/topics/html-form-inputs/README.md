@@ -42,7 +42,7 @@ All inputs in a form should be described with `<label>`s, for both accessibility
 
 A `<label>`'s `for` attribute should match an input's `id` attribute. This will both help assistive technologies navigate the form, as well as making an interaction with the label focus the correct input.
 
-(gif here)
+![Clicking a label to focus an input](assets/label-to-focus.gif)
 
 ## `required`
 
@@ -61,18 +61,22 @@ This will prevent the browser from submitting the form until the input has a val
 
 ## Inputs
 
+[Form Input Playground](https://codesandbox.io/s/charming-pike-426kj)
+
+### Regular Input
+
 These are some common HTML inputs types:
 
-* `text` - Collect short-form text
-* `search` - ?
-* `email` - Checks that the text input is a valid email address
-* `url` - Checks that the text input is a valid URL
-* `number` - Collects a number
-* `range` - Collects a lower bound and an upper bounder
-* `date` - Select a date from a calendar
-* `time` - Select a time
-* `month` - Select a month from a calendar
-* `color` - Select a color from a pallette (outputs the hex code for that color)
+* **`text`**: Collects short-form text
+* **`password`**: Collects short-form text and obscures it on the screen
+* **`email`**: Checks that the text input is a valid email address
+* **`url`**: Checks that the text input is a valid URL
+* **`number`**: Collects a number
+* **`range`**: Collects a lower bound and an upper bounder
+* **`date`**: Select a date from a calendar
+* **`time`**: Select a time
+* **`month`**: Select a month from a calendar (doesn't work on all browsers)
+* **`color`**: Select a color from a pallette (outputs the hex code for that color)
 
 Note that you can add placeholder text to an input box to hint at the kind of content expected by adding a `placeholder` attribute:
 
@@ -85,7 +89,21 @@ Note that you can add placeholder text to an input box to hint at the kind of co
 
 You can also add several attributes that constrain or validate input with attributes like `min`, `max`, and `pattern`.
 
-## Dropdowns
+### Long-Form Text
+
+HTML `<input />` tags are for short-form text, like names, email addresses, and urls. For longer-form text (like blog posts, comments, and feedback fields), use `<textarea>`:
+
+```html
+<form>
+  <label for="email">Email Address</label>
+  <input id="email" type="email" name="email" />
+
+  <label for="message">What would you like to tell us?</label>
+  <textarea id="message"></textarea>
+</form>
+```
+
+### Dropdowns
 
 A user can select one item from a list of predefined choices with the `<select>` and `<option>` tags.
 
@@ -115,9 +133,9 @@ You can also give an option a `disabled` attribute to make it unselectable (good
 </select>
 ```
 
-Note that you can also group related options in a select together with `<optgroup>`.
+Note that you can optionally group related options in a select together with `<optgroup>`.
 
-## Radio Buttons
+### Radio Buttons
 
 A radio button is also a way for a user to select one option from many, like a dropdown. It's frequently used when there are fewer options to choose from. A radio button is an `<input />` with a `type` of `radio` that shares a `name` with other `<input />`s:
 
@@ -138,7 +156,7 @@ Note that:
 * The `value` attribute should be preset with what the value of this key/value pair should be if this option is selected
 * The `<label>` is what the user will actually see on the screen and tells them what the option does if they select it
 
-## Multiselect
+### Multiselect
 
 A multiselect is like a dropdown, except it allows users to select more than one option:
 
@@ -156,7 +174,7 @@ A multiselect is like a dropdown, except it allows users to select more than one
 
 The only thing this requires is adding the `multiple` attribute to the `<select>` tag.
 
-## Checkboxes
+### Checkboxes
 
 A checkbox is a type of multiselect, and is frequently used if there are fewer than 7 options.
 
@@ -170,21 +188,7 @@ A checkbox is a type of multiselect, and is frequently used if there are fewer t
 </form>
 ```
 
-## `textarea`
-
-HTML `<input />` tags are for short-form text, like names, email addresses, and urls. For longer-form text (like blog posts, comments, and feedback fields), use `<textarea>`:
-
-```html
-<form>
-  <label for="email">Email Address</label>
-  <input id="email" type="email" name="email" />
-
-  <label for="message">What would you like to tell us?</label>
-  <textarea id="message"></textarea>
-</form>
-```
-
 ## Watch Out!
 
 * `<input />` is a self-closing tag, but `<textarea>` is not.
-* A label's `for` attribute will match a form input's `id` attribute, not its `name`.
+* A label's `for` attribute will match a form input's `id` attribute, not its `name`. `name`s are how JavaScript's `FormData` class will access the values.

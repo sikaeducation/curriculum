@@ -9,27 +9,3 @@
 * How do keep a textarea from being resized?
 * How do keep a textarea from being resized horizontally?
 * How do keep a textarea from being resized vertically?
-
-## Activities
-
-Style this form:
-
-```html
-```
-
-To match this image:
-
-(image)
-
----
-
-Style this form:
-
-```html
-```
-
-To match this image:
-
-(image)
-
----

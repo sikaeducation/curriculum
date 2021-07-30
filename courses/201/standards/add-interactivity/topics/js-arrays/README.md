@@ -24,7 +24,7 @@ console.log(
 )
 ```
 
-Arrays are store collections of related items.
+Arrays store collections of related items.
 
 ## Indexing
 
@@ -74,6 +74,17 @@ const thisWillBeDates = shoppingList.pop() // Removes "Dates" from `shoppingList
 shoppingList.unshift("Apple") // Adds to the beginning
 const thisWillBeApples = shoppingList.shift() // Removes "Apple" from `shoppingList`
 ```
+
+## Getting Part of a String
+
+To get part of an array, use the `.slice` method:
+
+```js
+const array = ["A", "B", "C", "D", "E", "F", "G"]
+const substring = string.slice(2, 4) // ["C", "D", "E"]
+```
+
+`.slice` takes a starting index and an ending index. Note that both of these are zero-based.
 
 ### Spreading
 
@@ -133,6 +144,6 @@ This is called an "off by one error" is a frequent source of frustration in prog
 
 The reason array indexes start at 0 is because of how the data has historically been stored on the computer. Traditionally, every item in an array is stored next to each other in the computer's memory:
 
-![Diagram of an array with indexes](assets/array-zero-indexing.png)
+![Diagram of an array with indexes](assets/array-zero-indexing-2.png)
 
 The address the computer stores for the location of the array is the location of the first element and the index you pass in is an "offset", or how many spaces over the computer should count to find the element you want.

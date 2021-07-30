@@ -20,7 +20,7 @@ The example defaults the `isAgreed` variable to `false` when the page loads, and
 
 Buttons have one of the more distinctive default browser styles:
 
-(example image)
+![Styled HTML button](assets/html-buttons-1.png)
 
 These are the properties you want to override to make butons look consistent across browsers:
 
@@ -37,14 +37,14 @@ button {
   padding: 16px;
   border: none;
   background-color: hsl(240, 50%, 80%);
-  color: hsl(240, 50%, 20%)
-  box-shadow: 2px 0 2px hsl(240, 50%, 20%);
+  color: hsl(240, 50%, 20%);
+  box-shadow: 0 1px 3px hsl(240, 50%, 20%);
 }
 ```
 
 The same button will look like this:
 
-(example image)
+![Styled HTML button](assets/html-buttons-2.png)
 
 ## Watch Out!
 

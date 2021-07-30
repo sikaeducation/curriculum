@@ -12,7 +12,7 @@ for (let i = 0; i < messages.length; i++){
 
 This is fine, and has advantages in some situations. It's also really easy to make mistakes:
 
-(image of all the places you can make mistakes in a for loop)
+[A diagram of places you can make mistakes in for loops](assets/bad-for-loop.png)
 
 Luckily, there is a better way.
 
@@ -78,4 +78,5 @@ const numbers = [1, 2, 3].forEach(number => {
 
 console.log(numbers) // undefined
 ```
+
 * Don't get clever with names for the array and the argument passed into the function. Arrays should be plural, the argument passed into the function should be the singular version of the plural whenever possible. `people.forEach(person => {})`, `users.forEach(user => {})`, `pokemonList.forEach(pokemon => {})`

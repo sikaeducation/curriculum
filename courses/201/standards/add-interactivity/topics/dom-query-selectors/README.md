@@ -1,6 +1,6 @@
 # DOM: Getting Elements
 
-The DOM is how the browser represents HTML internally, and we interact with the DOM through JavaScript. How?
+The DOM is how the browser represents HTML internally, and you interact with the DOM through JavaScript. How can these two technologies talk to each other?
 
 ```html
 <h1>Some Heading</h1>
