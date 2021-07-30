@@ -19,14 +19,14 @@ button.addEventListener("click", event => {
 
 `.addEventListener` is a method available on any DOM node. It takes two arguments:
 
-* A string with the name of the event. Common ones are "click", "dblclick", "submit", "mouseover", and "keydown".
-* A function that should be called when the event happens. The function will be called with an `event` object that has more details about the event that happened.
+1. A string with the name of the event. Common ones are "click", "dblclick", "submit", "mouseover", and "keydown".
+2. A function that should be called when the event happens. The function will be called with an `event` object that has more details about the event that happened.
 
 There are no limits to what or how much can be done in an event handling function. You can read things off the page, create elements and manipulate the DOM, make network requests, and anything you can do with JavaScript.
 
 ## Watch Out!
 
-* Events always come from a specific DOM node. "The page" doesn't have events, a particular DOM node does. It's not always obvious which DOM node fired the event (such as typing on a keyboard or something happening on the network). In these cases, the DOM node is usually `document` itself:
+* Events always come from a specific DOM node. It's not always obvious which DOM node fired the event (such as typing on a keyboard or something happening on the network). In these cases, the DOM node is usually `document` itself:
 
 ```js
 document.addEventListener("keydown", event => {
@@ -35,7 +35,7 @@ document.addEventListener("keydown", event => {
 ```
 
 * You can add an event listener to a DOM node, but not a list of DOM nodes. If you want the event to be added to a list of nodes that came back from `document.querySelectorAll`, you want to `.forEach` over the DOM nodes and use `.addEventListener` to each one.
-* Be careful adding event listeners in loops. You can add multiple event listeners for the same event on the same DOM node. For example:
+* Be careful adding event listeners in loops because you can accidentally add multiple event listeners for the same event on the same DOM node. For example:
 
 ```js
 const button = document.querySelector("button")

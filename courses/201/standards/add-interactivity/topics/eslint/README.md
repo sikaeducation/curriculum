@@ -2,33 +2,12 @@
 
 The most popular way to lint JavaScript is with ESLint.
 
-## Installing
-
-### Node Package
-
-To install ESLint, run this command in your terminal
-
-```bash
-npm i -g eslint 
-```
-
-You only need to do this once, but it won't hurt anything if you do it more than once.
-
-### Text Editor Plugin
-
-You should also install an ESLint integration for your text editor. Here are some ESLint text editor integrations:
-
-* [VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-* [Vim](https://vimawesome.com/plugin/eslint)
-* [Atom](https://atom.io/packages/linter-eslint)
-
-This highlights errors in your text editor automatically.
-
 ### Project Configuration
 
-For every project that you want to lint, you need an `.eslintrc.js` file in your root directory. For now, copy/paste this into it:
+For every project that you want to lint, you need an `.eslintrc.js` file in your root directory that describes the rules you want to apply. For now, make the file in the root of the project directory and paste this into it:
 
 ```js
+/* global module */
 module.exports = {
   env: {
     browser: true,
@@ -98,20 +77,24 @@ module.exports = {
 }
 ```
 
+## Text Editor Plugin
+
+You should install an ESLint integration for your text editor. Here are some ESLint text editor integrations:
+
+* [VS Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Vim](https://vimawesome.com/plugin/eslint)
+* [Atom](https://atom.io/packages/linter-eslint)
+
+These plugins highlights errors in your text editor automatically, and depending on how you configure them may automatically fix errors as well.
+
 ## Using ESLint
 
-Your text editor plugin will often do most of the work. Some other commands that may be useful:
+Text editor plugins will usually do most of the work, but these commands that may be useful as well:
 
-```
+```bash
 # This command prints any errors
-eslint .
-```
+npx eslint .
 
-```
 # This command prints any errors and tries to automatically fix them as well
-eslint --fix .
+npx eslint --fix .
 ```
-
-## Watch Out!
-
-* This uses the global install of `eslint`, which is discouraged by the ESLint maintainers. This is appropriate for website development, but as you move on to web application development, you'll use a new installation of `eslint` for every project, and often use external style-guides by companies like AirBnB and Google. The principles are the same.

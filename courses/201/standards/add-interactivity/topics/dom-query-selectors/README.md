@@ -2,8 +2,6 @@
 
 The DOM is how the browser represents HTML internally, and we interact with the DOM through JavaScript. How?
 
-## `document.querySelector`
-
 ```html
 <h1>Some Heading</h1>
 ```
@@ -12,6 +10,8 @@ The DOM is how the browser represents HTML internally, and we interact with the 
 const h1 = document.querySelector("h1")
 console.log(h1.textContent) // "Some Heading"
 ```
+
+## `document.querySelector`
 
 To read a DOM element, you can use the `document.querySelector()` method. You can pass in any valid CSS selector, and it will return the first element that matches.
 
@@ -36,7 +36,7 @@ byline = document.querySelector("address")
 byline = document.querySelector("#feature h2 + address")
 ```
 
-Once you have DOM node in JavaScript, you can change its content or attributes, add other elements to it, or delete it.
+Once you have a DOM node in JavaScript, you can change its content or attributes, add other elements to it, or delete it.
 
 ## `document.querySelectorAll`
 

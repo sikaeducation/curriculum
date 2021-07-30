@@ -1,15 +1,17 @@
-# DOM 1
+# DOM
 
-You know how to build web pages and write JavaScript, but how do you combine those things to make your web pages dynamic and interactive?
+How do you combine HTML and JavaScript to make your web pages dynamic and interactive?
 
 ## The Document Object Model
 
-The Document Object Model, or DOM is what enables you to manipulate web pages with JavaScript. The web pages you write in HTML actually go through some steps before they're rendered on the screen:
+The Document Object Model, or DOM, is what enables you to manipulate web pages with JavaScript. The web pages you write in HTML go through a few steps before they're rendered on the screen:
 
 1. The browser requests an HTML file from a file server
 2. The file server gives the browser the HTML file
 3. The browser steps through each element in the HTML file and turns them into a tree of DOM nodes
 4. The DOM nodes are rendered to the screen
+
+(image)
 
 So when you write this HTML:
 
@@ -37,8 +39,8 @@ Your browser will create this DOM tree:
 
 (image)
 
-The browser has a variety of JavaScript methods for reading, writing, and otherwise interacting with this tree.
+The browser offers JavaScript a variety of methods for reading, writing, and otherwise interacting with this tree.
 
 ## Watch Out
 
-* Once your browser ingests HTML and builds out the DOM, it is no longer HTML. When you look at HTML in the element inspector, that's actually your browser recreating the HTML based on the current state of the DOM.
+* Once your browser ingests HTML and builds out the DOM, it's not HTML anymore. Even when you look at HTML in the element inspector, that's your browser recreating HTML based on the current state of the DOM. You can think of HTML as a set of instructions for how to build the DOM.

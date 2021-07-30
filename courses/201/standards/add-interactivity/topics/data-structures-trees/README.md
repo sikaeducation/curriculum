@@ -22,11 +22,13 @@ One of the more common and useful data structures to learn is trees.
 
 ### Nodes
 
-Any node is generally aware of its parents and its children, but nothing else in the tree. That means if a node wants to look for another node in the tree, it needs to "walk" the tree one parent or child at a time.
+Nodes in a tree can store any data. This includes simple things like numbers or strings, as well as more complex types like objects and array. A practical example of a node in a tree is a DOM element. Things that may be stored in a DOM element include:
 
-(walking the tree diagram)
+* The tag that was used
+* Any text content inside the tag
+* Any tag attributes
 
-A practical example of this is the DOM. Any DOM node knows its parent, and it knows its children. It can repeatedly look up parents and children to do things like event bubbling and applying styles. It can also communicate with siblings and other subtrees by going up the tree and then back down. This idea is a critical part of understanding component frameworks like React.
+Each tag also has a reference to its parent and a reference to each of its children. This is useful for searching for something inside of a tree or passing messages back up to parents in a tree.
 
 ### Grafting
 

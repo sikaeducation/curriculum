@@ -20,6 +20,8 @@ img.src = "cute-puppy.jpg"
 li.id = "primary"
 ```
 
+The attributes you're familiar with in HTML elements are exposed as properties of DOM nodes in JavaScript.
+
 ## `.append`
 
 Adding a new element to a page has 4 steps:
@@ -29,7 +31,7 @@ Adding a new element to a page has 4 steps:
 3. Query for an existing element to add the new element to
 4. Append the new element to the existing element
 
-So if we start with:
+So if you start with:
 
 ```html
 <div class="user"></div>
@@ -52,7 +54,7 @@ The result will be:
 </div>
 ```
 
-## Watch Out
+## Watch Out!
 
-* Just because an element has been created doesn't mean its on the page yet. An element needs to be `append`ed to another element before it renders.
-* There is a similar method to `.append` called `.appendChild`. It works similarly, except it accepts fewer types, has a different return value, and can only append one DOM node at a time. Unless you have a strong reason not to, you should always use `.append`.
+* Just because an element has been created doesn't mean it's on the page yet. An element needs to be `append`ed to an element that's on the page before it renders.
+* There is a similar method to `.append` called `.appendChild`. It works similarly, except it accepts fewer types, has a different return value, and can only append one DOM node at a time. Unless you have a strong reason not to, you should prefer `.append`.

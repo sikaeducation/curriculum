@@ -1,10 +1,12 @@
 # DOM Manipulation
 
-We can get elements, create elements, and add them to the page. But what if we want to:
+You can get elements, create elements, and add them to the page. But what if you want to:
 
 * Change an image
 * Add HTML to an element
 * Remove an element
+
+You need to use more methods and properties of DOM nodes.
 
 ## `.textContent`
 
@@ -17,7 +19,7 @@ p.textContent = "This is the text that will appear in the p tag"
 
 ## `.innerHTML`
 
-If we have several HTML elements to add to something, we can do them all at once with `.innerHTML`:
+If you have several HTML elements to add to something, you can do them all at once with `.innerHTML`:
 
 ```js
 const user = document.createElement("div")
@@ -65,7 +67,7 @@ const p = document.querySelector("p")
 p.remove()
 ```
 
-And your DOM will look like this:
+And the DOM will look like this:
 
 ```html
 <h1>A heading</h1>
@@ -75,6 +77,6 @@ And your DOM will look like this:
 
 * There's no need to make a bunch of individual elements, append them all together, and then append the resulting tree to the DOM. Use `.innerHTML` instead.
 * There is a similar property to `.textContent` called `.innerText` that works almost identically. The difference is that `.innerText` is "CSS aware" and will not return any text that's been hidden by CSS (for example with `display: none;`). `.textContent` will also return text that's been hidden. You can think of `.innerText` as what would go on a user's clipboard if they highlighted the text in the browser and copied it.
-* You can manually change an element's classes with `.class` (since `class` is an attribute), but you should use `.classList` instead.
+* You can manually change an element's classes with `.class` (since `class` is an attribute), but you should use `.classList` and its associated methods instead.
 * To add an element directly to the `<body>` of the document, use `document.querySelector("body")`
-* Watch your capitalization- it's `.innerHTML`, not `innerHtml`.
+* Watch your capitalization; the correct property is `.innerHTML`, not `innerHtml`.

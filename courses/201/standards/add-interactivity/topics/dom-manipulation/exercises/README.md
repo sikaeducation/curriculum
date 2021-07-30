@@ -5,19 +5,10 @@
 * What's the difference between `.textContent` and `.innerHTML`?
 * How do you change the picture on an `img` node?
 * How would dynamically add this HTML:
-* How do you change a node's classes?
-
-```html
-```
-
-To this HTML:
-
-```html
-```
 
 ## Activities
 
-Go to a website. Open up the console and manipulate DOM using only JavaScript.
+Go to a website. Open up the console and manipulate the DOM using only JavaScript.
 
 ---
 
@@ -32,4 +23,3 @@ Write the JavaScript to remove items 2 and 4 from this list:
   <li>5</li>
 </ul>
 ```
-

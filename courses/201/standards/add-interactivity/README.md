@@ -5,7 +5,7 @@
 * [Linting](topics/linting)
   * [Exercises](topics/linting/exercises)
 * [ES Lint](topics/es-lint)
-  * [Exercises](topics/linting/exercises)
+  * [Exercises](topics/es-lint/exercises)
 * [JavaScript: Strings](topics/js-strings)
   * [Exercises](topics/js-strings/exercises)
 * [JavaScript: Objects](topics/js-objects)
@@ -199,3 +199,23 @@ function double(arr){
 function countLetters(str){
 
 }
+
+## Activities
+
+Reverse a string
+
+---
+
+Save a string with a bunch of kinds of quotes in it.
+
+---
+
+Replace all the expletitives with grawlix.
+
+---
+
+Write code that tells how often a word appears.
+
+---
+
+Save an essay in a string, tell how many characters it is, and how many words it is.

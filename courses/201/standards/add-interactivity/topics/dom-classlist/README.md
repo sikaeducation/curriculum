@@ -1,6 +1,6 @@
 # DOM: .classList
 
-Classes can display in any order, and manipulating them may involve splitting up a string and putting it back together. Gross.
+Classes can display in any order, and manipulating them may involve splitting up a string and putting it back together. Luckily, `.classList` can be used to avoid all the pitfalls of manual class manipulation.
 
 ## `.classList`
 

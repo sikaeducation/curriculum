@@ -4,13 +4,6 @@
 
 * When should the `<button>` tag be used?
 * How do you execute JavaScript when a button is clicked?
-* Is this a `<button>`?
-
-(image of nav link)
-
-* Is this a `<button>`?
-
-(image of a checkbox)
 
 ## Activities
 
@@ -40,7 +33,8 @@ Style this button to look like this:
 
 ---
 
-When this button is clicked, log the time the button was clicked.
+When this button is clicked, log the date and time the button was clicked.
 
 ```html
+<button>Click me!</button>
 ```

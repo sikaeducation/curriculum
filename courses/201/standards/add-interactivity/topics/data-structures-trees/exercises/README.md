@@ -1,4 +1,4 @@
-# Data Structures: Trees I: Exercises
+# Data Structures: Trees: Exercises
 
 ## Questions
 
@@ -20,36 +20,4 @@
 * True or False: A node in a tree is aware of its parents
 * True or False: A node in a tree is aware of its grandparents
 * True or False: A node in a tree is aware of its siblings
-* Identify all the subtrees in this tree:
-
-(image here)
-
 * Describe one practical use for the tree data structure
-
-## Activities
-
-Given this HTML, create the DOM tree:
-
-```html
-```
-
----
-
-Given this HTML, create the DOM tree:
-
-```html
-```
-
----
-
-Given this DOM tree, create the HTML that generated it
-
-(image here)
-
----
-
-Given this DOM tree, create the HTML that generated it
-
-(image here)
-
----

@@ -1,6 +1,6 @@
 # JavaScript: Arrays
 
-Let's say you have a shopping list:
+You have a shopping list:
 
 ```js
 const item1 = "Apple"
@@ -9,8 +9,6 @@ const item3 = "Carrot"
 ```
 
 How could you tell that you have 3 items on the list? How would get the second item? How would you perform some operation on every item in the list?
-
-## Arrays
 
 ```js
 const shoppingList = [
@@ -26,7 +24,7 @@ console.log(
 )
 ```
 
-Arrays are for storing collections of things.
+Arrays are store collections of related items.
 
 ## Indexing
 
@@ -47,9 +45,23 @@ console.log(
 
 Trying to access an index that doesn't exist (like `shoppingList[3]`) will throw an error.
 
+Indexes are zero-based, meaning that the first item has an index of 0, the second item has an index of 1, and so on.
+
 ## Methods, Properties, and Operations
 
 ### Adding and Removing Elements
+
+To add an element to an array:
+
+* Use `.push` to add an element to the end of an array
+* Use `.unshift` to add an element to the beginning of an array
+
+To remove an element from an array:
+
+* Use `.pop` to remove an element from the end of an array
+* Use `.shift` to remove an element from the beginning of an array
+
+For example:
 
 ```js
 const shoppingList = [
@@ -59,8 +71,8 @@ const shoppingList = [
 
 shoppingList.push("Dates") // Adds to the end
 const thisWillBeDates = shoppingList.pop() // Removes "Dates" from `shoppingList`
-shoppingList.shift("Apple") // Adds to the beginning
-const thisWillBeApples = shoppingList.unshift() // Removes "Apple" from `shoppingList`
+shoppingList.unshift("Apple") // Adds to the beginning
+const thisWillBeApples = shoppingList.shift() // Removes "Apple" from `shoppingList`
 ```
 
 ### Spreading
@@ -117,15 +129,10 @@ for (let i = 0; i < someArray.length; i++){
 
 This is called an "off by one error" is a frequent source of frustration in programming.
 
-
 ## History
 
-The reason array indexes start at 0 is because of how the data has historically been stored on the computer. Traditionally, every item in an array is stored next to each other in memory:
+The reason array indexes start at 0 is because of how the data has historically been stored on the computer. Traditionally, every item in an array is stored next to each other in the computer's memory:
 
-(image)
+![Diagram of an array with indexes](assets/array-zero-indexing.png)
 
-The address you store in the computer for the location of the array is the location of the first element:
-
-(image)
-
-And the index you pass in is an "offset", or how many spaces over the computer should count to find the element you want.
+The address the computer stores for the location of the array is the location of the first element and the index you pass in is an "offset", or how many spaces over the computer should count to find the element you want.

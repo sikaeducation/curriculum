@@ -1,8 +1,8 @@
 # JS: Objects
 
-Let's we wanted to represent a person's attributes in code. How would we do it?
+How would you represent a person's attributes in code?
 
-```
+```js
 const firstName = "Miles"
 const lastName = "Davis"
 const age = 100
@@ -10,7 +10,7 @@ const age = 100
 
 This works pretty well, until we have more than one person.
 
-```
+```js
 const firstName1 = "Miles"
 const lastName1 = "Davis"
 const age1 = 100
@@ -39,7 +39,7 @@ const john = {
 }
 ```
 
-(image pointing to keys and values)
+![Diagram of an object](assets/js-objects.png)
 
 Objects generally group together related values. Keys are always strings and values can be any valid JavaScript expression, including strings, numbers, booleans, and even functions, arrays, and other objects:
 
@@ -135,4 +135,4 @@ musician.guitar.play("Chromazone") // prints "I'm playing Chromazone!"
 
 * The only reason to use bracket notation is if you need to look up a property or method with a variable or expression. Otherwise, use dot notation.
 * The word "object" is used very differently in most other programming languages. JavaScript objects are more similar to dictionaries in Python, hashes in Ruby, and associative arrays in PHP than they are to objects in those languages.
-* Objects are the most powerful data type in JavaScript. Arrays, functions, DOM Nodes, DOM Node Lists, and events are actually different kinds of objects. We're not going to go any deeper on this yet, but this knowledge may help explain why the data type of many things in JavaScript is reported as "object" and why different kinds of objects have many similar behaviors.
+* Objects are the most powerful data type in JavaScript. Arrays, functions, DOM Nodes, DOM Node Lists, and events are actually different kinds of objects.
