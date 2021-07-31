@@ -1,8 +1,6 @@
 # Query Strings
 
-URLs are designed to be "stateless", meaning that a URL will load the same web page whether its your first time or your hundredth. Sometimes a URL needs more data than just the path to do this correctly. For example, if you have a search page at `https://website.com/search.html`, how can you bookmark a _specific_ search or share it with someone else?
-
-## Query Strings
+URLs are designed to be "stateless", meaning that a URL will load the same web page whether its your first time or your hundredth. Sometimes a URL needs more data than just the path to do this correctly. For example, if you have a search page at `https://website.com/search.html`, how can you bookmark a specific search or share it with someone else?
 
 You add a query string to the URL:
 
