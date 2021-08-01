@@ -12,3 +12,9 @@ The code you write in an HTML document answers all these questions.
 ## History
 
 HTML was originally designed as a way for researchers to share their research papers with each other. HTML's uses grew to include people sharing content of all kinds with each other, and eventually became a software application platform. This history is why we call HTML pages "documents" and why so much of the syntax on the web is centered around marking up content.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | MDN's collection of resources on HTML |
