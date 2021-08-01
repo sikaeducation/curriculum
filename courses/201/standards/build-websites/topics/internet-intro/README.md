@@ -32,3 +32,10 @@ Your home network is connected to the public internet via your router, which has
 ## History
 
 The internet was originally a US military project called ARPANET. It was later opened up to universities and researchers to help people share research, and around 1989 it was opened for commercial use. That coincided with Tim Berners-Lee's creation of the web around the same time, which began the internet as we know it today.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: How the Internet Works](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work) | MDN's article on how the internet works |
+| [Wikipedia: Internet](https://en.wikipedia.org/wiki/Internet) | Wikipedia article on how the internet works |

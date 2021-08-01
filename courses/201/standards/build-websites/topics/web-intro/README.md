@@ -47,3 +47,9 @@ When you type a URL into a browser and hit enter:
 1. The browser looks up the IP address for that URL
 2. It sends an HTTP request to that IP address asking for an HTML file, and then starts rendering it to the screen
 3. If the HTML file contains instructions to include CSS, JavaScript, images, or other files, it does so following the same process until the entire HTML file has been processed
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works) | MDN's article on how the internet works |
