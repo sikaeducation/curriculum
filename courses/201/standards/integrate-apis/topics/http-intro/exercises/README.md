@@ -47,16 +47,14 @@ Using the Pokemon API: https://pokeapi.co/api/v2/pokemon
 
 ---
 
-
-#HTTP Request Warmups
+## HTTP Request Warmups
 
 A good portion of your software career as a web developer will involve getting and sending HTTP requests. 
 
 The goal of this warm-up series Will be to parse HTTP headers, and turn the given information into useful data stored within an object.
 
-##🐾🐾🐾🐾 Part One: GET 🐾🐾🐾🐾
+### Part One: GET
 
-### 💡 EXAMPLE:
 If making a GET request to Spotify searching for the the Artist by the name of Bob Dylan, something like the following GET request header will be generated:
 
 ```
@@ -66,7 +64,6 @@ Cache-Control: no-cache
 Postman-Token: e2f09f98-f8e0-43f7-5f0e-b16e670399e2
 ```
 
-
 The first line contains 3 parts:
 
 * the HTTP verb, 
@@ -74,7 +71,6 @@ The first line contains 3 parts:
 * and the protocol.
 
 The remaining lines are the rest of the header.
-
 
 Given this information, your goal will be to write a function that will parse this data to return an object with key value pairs in the following structure:
 
@@ -88,21 +84,19 @@ Given this information, your goal will be to write a function that will parse th
   protocol: 'HTTP/1.1' }
 ```
 
-### 💡 Note:
 When the the header is passed to your function for any of these exercises, it will be a single string.
 
+#### Starter Code
+
 ```js
-// 🐾🐾🐾 PART ONE 🐾🐾🐾
-  // console.log('hey!');
+const inputString = "GET /v1/search?q=bob%20dylan&amp;type=artist HTTP/1.1\nHost: api.spotify.com\nCache-Control: no-cache\nPostman-Token: e2f09f98-f8e0-43f7-5f0e-b16e670399e2";
 
-  let inputString = "GET /v1/search?q=bob%20dylan&amp;type=artist HTTP/1.1\nHost: api.spotify.com\nCache-Control: no-cache\nPostman-Token: e2f09f98-f8e0-43f7-5f0e-b16e670399e2";
-
-var parseRequest = function (inputString) {
+const parseRequest = function (inputString) {
   //1. Change this http request into a string (add \n) so we can break it into pieces - replace spaces with \n
   //2. Need an empty request object to fill up
-      //var request = {};
+      //const request = {};
   //3. Need an empty request headers object
-      //var request.headers = {};
+      //const request.headers = {};
   //4. Need to make each line into an array
       //split on \n
   //5. Split out GET request (1st array) by spaces
@@ -122,11 +116,11 @@ var parseRequest = function (inputString) {
 
 // console.log(inputString);
 
-    var request = {};
+    const request = {};
     request.headers = {};
-    let lineArray = inputString.split('\n');
+    const lineArray = inputString.split('\n');
     // console.log(lineArray);
-    let firstLine = lineArray[0].split(' ');
+    const firstLine = lineArray[0].split(' ');
     // console.log(firstLine);
     // console.log(request);
     request.verb = firstLine[0];
@@ -136,33 +130,29 @@ var parseRequest = function (inputString) {
     request.protocol = firstLine[2];
     // console.log(request);
 
-    for (var i = 1; i < lineArray.length; i++){
+    for (let i = 1; i < lineArray.length; i++){
       // console.log(lineArray[i]);
-      var currentLine = lineArray[i];
+      const currentLine = lineArray[i];
       // console.log(currentLine);
-      var currentKeyValuePair = currentLine.split(':');
+      const currentKeyValuePair = currentLine.split(':');
       // console.log(currentKeyValuePair);
-      var key = currentKeyValuePair[0];
+      const key = currentKeyValuePair[0];
       // console.log('key', key);
-      var value = currentKeyValuePair[1];
+      const value = currentKeyValuePair[1];
       // console.log('value', value);
       console.log(request.headers);
       request.headers[key] = value;
     }
     // console.log(request);
   return request;
-} // END FUNCTION
+}
 
 parseRequest(inputString);
 ```
 
-##🐾🐾🐾🐾 Part Two: POST 🐾🐾🐾🐾
+### Part Two: POST
 
-If making a POST request to some api (Spotify in this case), something like the following POST request header will be generated (note that in practice the POST path will contain more information than in this simplified example):
-
-### 💡 EXAMPLE:
-
-If making a POST request, something like the following POST request will be generated:
+If making a POST request to some api (Spotify in this case), something like the following POST request header will be generated (note that in practice the POST path will contain more information than in this simplified example). If making a POST request, something like the following POST request will be generated:
 
 ```
 POST /v1/ HTTP/1.1
@@ -173,6 +163,7 @@ Content-Type: application/x-www-form-urlencoded
 
 fish=catfish&dog=dogfish
 ```
+
 The line after the space in the example is the body of the POST request.
 
 Modify your earlier function to determine if the string passed as a parameter is a GET or a POST request. 
@@ -194,19 +185,17 @@ Modify your earlier function to determine if the string passed as a parameter is
   body: { fish: 'catfish', dog: 'dogfish' } }
 ```
 
-```js
-var parseRequest = function (inputString) {
-  return;
-} // END FUNCTION
+#### Starter Code
 
+```js
+const parseRequest = function (inputString) {
+  return;
+}
 ```
 
-##🐾🐾🐾🐾 Part Three: Query 🐾🐾🐾🐾
+### Part Three: Query
 
-
-Now let's working with a query string! Taking a previous example where something like the following POST request header is generated, pull also pull out the query string into a seperate key/value pair inside the returned object.
-
-### 💡 EXAMPLE:
+Now let's start working with a query string! Taking a previous example where something like the following POST request header is generated, pull also pull out the query string into a seperate key/value pair inside the returned object.
 
 If making a POST request, something like the following POST request will be generated:
 
@@ -223,7 +212,7 @@ The parts after the ? in the path are the query parameters
 
 Modify your earlier function to determine if the string passed as a parameter contains a query string. 
 
-* if the path contains a query string, grab each key/value pair being queried and add those to a query property inside the response object.
+* If the path contains a query string, grab each key/value pair being queried and add those to a query property inside the response object.
 
 ```
 { headers:
@@ -238,23 +227,27 @@ Modify your earlier function to determine if the string passed as a parameter co
   body: { fish: 'catfish', dog: 'dogfish' } }
 ```
 
-```js
-var parseRequest = function (inputString) {
-  return;
-} // END FUNCTION
-```
+#### Starter Code
 
 ```js
-var partOne = require('../partOne').parseRequest
-var partTwo = require('../partTwo').parseRequest
-var partThree = require('../partThree').parseRequest
-var expect = require('chai').expect 
+const parseRequest = function (inputString) {
+  return;
+}
+```
+
+### Tests
+
+```js
+const partOne = require('../partOne').parseRequest
+const partTwo = require('../partTwo').parseRequest
+const partThree = require('../partThree').parseRequest
+const expect = require('chai').expect 
 
 
 describe ('GET HTTP function', function() {
   it ('should when given a HTTP input string, return a properly formatted object' , function() {
-    var str1 = "GET /v1/search?q=bob%20dylan&amp;type=artist HTTP/1.1\nHost: api.spotify.com\nCache-Control: no-cache\nPostman-Token: e2f09f98-f8e0-43f7-5f0e-b16e670399e2";
-    var str2 = 'GET /api/v2/ability/4/ HTTP/1.1\nHost: pokeapi.co\nCache-Control: no-cache\nPostman-Token: b98466a7-6222-a4b5-dec3-1af3e4f866da'
+    const str1 = "GET /v1/search?q=bob%20dylan&amp;type=artist HTTP/1.1\nHost: api.spotify.com\nCache-Control: no-cache\nPostman-Token: e2f09f98-f8e0-43f7-5f0e-b16e670399e2";
+    const str2 = 'GET /api/v2/ability/4/ HTTP/1.1\nHost: pokeapi.co\nCache-Control: no-cache\nPostman-Token: b98466a7-6222-a4b5-dec3-1af3e4f866da'
     expect(partOne(str1)).to.eql(
       { 
       headers:
@@ -282,8 +275,8 @@ describe ('GET HTTP function', function() {
 
 describe ('POST HTTP function', function() {
   it ('should when given a HTTP input string, return a properly formatted object' , function() {
-    var str1 = "POST /v1/search?q=bob%20dylan&amp;type=artist HTTP/1.1\nHost: api.spotify.com\nCache-Control: no-cache\nPostman-Token: f6741a35-c20f-3051-e3f9-301904256b3f\nContent-Type: application/x-www-form-urlencoded\nfish=catfish&dog=dogfish";
-    var str2 = 'POST /api/v2/ability/4/ HTTP/1.1\nHost: pokeapi.co\nCache-Control: no-cache\nPostman-Token: 80c0c09f-f995-fdb1-1d3a-9255c6842ff9\nContent-Type: application/x-www-form-urlencoded\nWhat...is+your+name%3F=Sir+Lancelot+of+Camelot.&What...is+your+quest%3F=To+seek+the+Holy+Grail.&What...is+your+favorite+color%3F=Blue.&Bridgekeeper=Right%2C+off+you+go.'
+    const str1 = "POST /v1/search?q=bob%20dylan&amp;type=artist HTTP/1.1\nHost: api.spotify.com\nCache-Control: no-cache\nPostman-Token: f6741a35-c20f-3051-e3f9-301904256b3f\nContent-Type: application/x-www-form-urlencoded\nfish=catfish&dog=dogfish";
+    const str2 = 'POST /api/v2/ability/4/ HTTP/1.1\nHost: pokeapi.co\nCache-Control: no-cache\nPostman-Token: 80c0c09f-f995-fdb1-1d3a-9255c6842ff9\nContent-Type: application/x-www-form-urlencoded\nWhat...is+your+name%3F=Sir+Lancelot+of+Camelot.&What...is+your+quest%3F=To+seek+the+Holy+Grail.&What...is+your+favorite+color%3F=Blue.&Bridgekeeper=Right%2C+off+you+go.'
 
     expect(partTwo(str1)).to.eql(
       { headers:
@@ -317,7 +310,7 @@ describe ('POST HTTP function', function() {
 
 describe ('QUERY HTTP function', function() {
   it ('should when given a HTTP input with a query string, return a properly formatted object' , function() {
-    var str1 = "POST /v1/search?q=bob%20dylan&amp;type=artist HTTP/1.1\nHost: api.spotify.com\nCache-Control: no-cache\nPostman-Token: f6741a35-c20f-3051-e3f9-301904256b3f\nContent-Type: application/x-www-form-urlencoded\nfish=catfish&dog=dogfish";
+    const str1 = "POST /v1/search?q=bob%20dylan&amp;type=artist HTTP/1.1\nHost: api.spotify.com\nCache-Control: no-cache\nPostman-Token: f6741a35-c20f-3051-e3f9-301904256b3f\nContent-Type: application/x-www-form-urlencoded\nfish=catfish&dog=dogfish";
 
     expect(partThree(str1)).to.eql(
     { headers:

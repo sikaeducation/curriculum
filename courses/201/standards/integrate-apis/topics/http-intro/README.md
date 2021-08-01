@@ -1,10 +1,8 @@
 ## Intro to HTTP
 
-When we request files on the internet or request data from an API, what is the browser actually sending?
+When you request files on the internet or request data from an API, what is the browser actually sending? HyperText Transfer Protocol, or HTTP, is a format for sending and receiving messages over the internet. One computer, called the client, sends a message to another computer on the network called the server. Every request is expected to have a matching response to be considered complete. HTTP is language-agnostic, meaning that JavaScript can send an HTTP request that is received by a Ruby server, which can then generate a request that is sent to a Java server, and so on. HTTP can be thought of as a neutral format that most programming languages can read and write.
 
-## HTTP
-
-HTTP ("HyperText Transfer Protocol") is a format for sending and receiving messages over the internet. Every request is expected to have a matching response to be considered successful. HTTP is language-agnostic, meaning that JavaScript can send an HTTP request that is received by a Ruby server, which can then generate a request that is sent to a Java server, and so on. HTTP can be thought of as a "neutral messaging format" that most languages can read and write.
+![Diagram of HTTP request](assets/http-request.png)
 
 ## HTTP Requests
 
@@ -68,7 +66,7 @@ If the server is written in JavaScript, the headers might be parsed into a JavaS
 }
 ```
 
-The server can use this data to help generate its response.
+The server can use this data to help generate its response. For example, the request might specify a particular language or format to be used, including authorization credentials, or specify what kinds of compression or encoding the browser understands.
 
 ### Body
 
@@ -89,6 +87,8 @@ TE: Trailers
 
 {"username": "usernamegoeshere", "password": "s3cr3t"}
 ```
+
+In this example, `{"username": "usernamegoeshere", "password": "s3cr3t"}` is the request body.
 
 ## HTTP Responses
 
@@ -115,15 +115,22 @@ HTTP Responses have headers, and they work the same way as HTTP Request Headers.
 
 * The data type the browser should treat the data in the body as
 * How many characters the body has (so you can check to see if you got all of it)
-* If the browser should store any data for future requests it makes (these are called "cookies")
-* How long the data being sent should be considered valid (so the browser knows how long it can cache the data for)
+* If the browser should store any data for future requests it makes (these are called cookies)
+* How long the data being sent should be considered valid so the browser knows how long it can cache the data for
 
 ### Body
 
-If the HTTP request was for a file (like HTML, CSS, JavaScript, or a media file), the body contains the contents of that file. If the HTTP request was for data (like an API), the body contains the data that was requested, often formatted as JSON or XML.
+If the HTTP request was for a file, such as an HTML, CSS, JavaScript, or media file, the body contains the contents of that file. If the HTTP request was for data, the body contains the data that was requested, often formatted as JSON or XML.
 
 ## Watch Out!
 
 * Just because it's called an "HTTP Request" doesn't mean that you always receive data in the response. For example, a `DELETE` request generally doesn't have a body in its HTTP response. "Request" in this sense just means that you're asking the server to do something, not necessarily send you data.
 * `GET` requests generally don't have HTTP request bodies but do get HTTP response bodies. `POST`, `PUT`, and `PATCH` requests generally have both request and response bodies. `DELETE` requests generally have neither.
 * HTTP requests and responses are untyped. That means there's no concept of objects, arrays, booleans, or strings- it's just a bunch of characters that are arranged in a particular pattern. It's up to the clients and servers to interpret the data in them as appropriate.
+* HTTP requests were originally sent in plain text, meaning other computers like the router or the ISP could see all the data inside of them. The more secure variant of HTTP called HTTPS encrypts the body and headers of the request so that only the client and server know what's in them. These protocols are otherwise identical, and are both commonly referred to as HTTP.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) | MDN's collection of tutorials and references on HTTP. |

@@ -47,13 +47,15 @@ someElement.addEventListener(async event => {})
 Once you're inside an `async` function, you can use the `await` keyword to use a promise the same way you would use a synchronous value:
 
 ```js
-async function anAsyncFunction(){
-  const response = await fetch(someUrl)
+async function fetchSomeData(url){
+  const response = await fetch(url)
   const parsedResponse = await response.json()
+
+  return parsedResponse
 }
 ```
 
-Note that an async function call is itself asynchronous:
+Note that calling an async function is asynchronous:
 
 ```js
 async function anAsyncFunction(){
@@ -61,7 +63,7 @@ async function anAsyncFunction(){
 }
 
 async function anotherAsyncFunction(){
-  const result = await anAsyncFunction() // Needs to await!
+  const result = await anAsyncFunction() // Needs to await to control flow
 }
 ```
 
@@ -76,7 +78,7 @@ async function anAsyncFunction(){
 
 ## `try` / `catch`
 
-Errors are a little bit less elegant in `async`/`await`. To handle errors, you need to use the built-in `try`/`catch` blocks:
+Errors handling is less elegant in `async`/`await`. To handle errors, you need to use the built-in `try`/`catch` blocks:
 
 ```js
 async function anAsyncFunction(){
@@ -93,7 +95,7 @@ The browser will try to run all of the code in the `try` block. If any of it thr
 
 ## Watch Out!
 
-* `async`/`await` is not a replacement for `.then`/`.catch`, it's an alternate syntax for working with promises. `async`/`await` comes with tradeoffs. You can come up with examples where `async`/`await` is clearly more readable:
+`async`/`await` is not a replacement for `.then`/`.catch`, it's an alternate syntax for working with promises. `async`/`await` comes with tradeoffs. You can come up with examples where `async`/`await` is clearly more readable:
 
 ```js
 // .then / .catch
@@ -112,7 +114,7 @@ async function showPikachu(){
 }
 ```
 
-`async`/`await` loses a lot of its readability advantage once errors are handled and more advanced syntax is used:
+However, `async`/`await` loses a lot of its readability advantage once errors are handled and more advanced syntax is used:
 
 ```js
 // .then / .catch
@@ -131,17 +133,19 @@ async function showPikachu(){
   let response
   try {
     response = await fetch(url)
+    const parsedResponse = await response.json()
+    return parsedResponse
   } catch (error) {
     console.log(error)
   }
-  const parsedResponse = await response.json()
-  console.log(parsedResponse)
 }
 ```
 
-There are great uses for both syntaxes, and you should be fluent in both.
+There are great uses for both syntaxes and you should be fluent in both.
 
-* You can only `await` inside of an `async function`. So, this works:
+---
+
+You can only `await` inside of an `async function`. So, this works:
 
 ```js
 async function someFunction(){
@@ -162,3 +166,11 @@ function someFunction(){
   const response = await fetch(someUrl)
 }
 ```
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Async Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) | MDN's reference on async functions |
+| [MDN: Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) | MDN's reference on `await` |
+| [MDN: Async/Await Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) | MDN's tutorial on `async`/`await` |

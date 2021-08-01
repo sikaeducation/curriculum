@@ -40,7 +40,7 @@ fetch(someUrl)
 
 ## Watch Out!
 
-* If all of the code in your application depends on the result of a promise like an HTTP request, then all of the logic has to happen after a `.then` or `await`. There are techniques for making this more readable, but something like this:
+If all of the code in your application depends on the result of a promise like an HTTP request, then all of the logic has to happen after a `.then` or `await`. There are techniques for making this more readable, but something like this will never work:
 
 ```js
 const data = ""
@@ -50,9 +50,17 @@ fetch(someUrl)
     data = parsedResponse
   })
 
-console.log(data)
+console.log(data) // ""
 ```
 
-Will never work.
+---
 
-* `.then`/`.catch` and `async`/`await` are two different techniques for working with the promise data type. You can freely mix and match them, there is nothing that can only be accomplished with one of them.
+`.then`/`.catch` and `async`/`await` are two different techniques for working with the promise data type. You can freely mix and match them, there is nothing that can only be accomplished with one of them.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) | MDN's reference on promises |
+| [MDN: Guide to Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) | MDN's guide to promises |
+| [MDN: Promises Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises) | MDN's tutorial on promises |

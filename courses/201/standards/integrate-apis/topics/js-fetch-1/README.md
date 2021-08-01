@@ -1,8 +1,6 @@
-# JavaScript: `fetch` 1
+# JavaScript: `fetch`
 
 How do you use APIs in JavaScript?
-
-## Fetch
 
 ```js
 const url = "https://pokeapi.co/api/v2/pokemon/pikachu"
@@ -31,9 +29,13 @@ fetch(url)
 
 ## Watch Out!
 
-* Despite the name, `fetch` is used for all HTTP requests, not just `GET`.
-* `response.json()` turns a JSON HTTP response body into a JavaScript object, not the other way around. It does not the response into JSON.
+* Despite the name, `fetch` is used for all HTTP requests, not just requests that use the `GET` method.
+* `response.json()` turns a JSON HTTP response body into a JavaScript object, not the other way around. It does not transform the response into JSON.
 
-## History
+## Additional Resources
 
-`fetch` was added to Browser JavaScript as part of ES2015. The predecessor to `fetch` was called `XMLHTTPRequest`, which worked off of event handlers. It was awkward and highly technical to use, and `fetch` is much more straight-forward.
+| Resource | Description |
+| --- | --- |
+| [MDN: Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) | MDN's reference on `fetch` |
+| [MDN: Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) | MDN's guide to `fetch` |
+| [MDN: Fetch Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data) | MDN's tutorial on `fetch` |
