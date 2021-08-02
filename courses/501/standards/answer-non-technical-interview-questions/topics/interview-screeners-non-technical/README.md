@@ -45,14 +45,26 @@ This framework helps your stories stay on track and be easier for people to foll
 3. "The action I took was to implement some static versions of the things they wanted that didn't scale especially well, but allowed us to hit the deadline and bought us the time to refactor the app correctly after the deadline. I hard-coded some values instead of pulling them from the database, which allowed us to move a lot faster."
 4. "The result was that we were able to accomodate the last-minute changes, hit the deadline, and maintain our positive culture."
 
+## Do You Have Any Questions For Me?
+
+Most interviews will end with the interviewer asking if you have any questions. You should always have questions because it demonstrates your interest in the company and their work. Also, interviews are two-way streets, and this is your opportunity to find out if they're a place you want to work. Here are some ideas:
+
+* Based on the research you did during your application, were there any parts that didn't make sense or anything you wanted more detail on?
+* Ask questions about the company's products. For example, "Have you had any products or features that surprised you by not being as successful as you expected? How did you respond?"
+* Ask questions about the interviewer's experience with company. For example, "What's a typical day like for you at this company?"
+* Are there any controversies you uncovered about the company you'd like them to address? For example, "I noticed on Glassdoor that some employees feel the company isn't committed enough to creating an inclusive culture. Can you speak to what the company is doing to address this?"
+* You can respond to something you've noticed in the interview process. For example, "In my technical interview, I noticed that you requested tests for the code. Do you have a strong culture of testing here?"
+
+It may help you to write 2-4 questions ahead of time.
+
 ## Watch Out!
 
-* Each of these should take about the same amount of time- don't linger too long on the situation and the task
-* It's really common to not clearly dilineate between the situation, the task, and the action:
+* Each of parts of STAR should take about the same amount of time. Don't linger too long on the situation and the task.
+* It's common to not clearly dilineate between the situation, the task, and the action.
     * The situation is context- the company you worked for, the composition of the team, etc.
     * The task is a defined problem that needs to be solved
-    * The action is a solution the problem that *you* came up with or implemented
-* Do these in order, and don't double-back- it's confusing if you're talking about your solution, and then start giving more context
-* Don't get too caught up in the details. The stories need to be _true_, but they don't necessarily need to be _factual_. The point is for the interviewer to learn something about you, not to fact-check your memoir.
-* Don't be afraid to literally say the words "situation," "task," "action," and "result." You don't have to be sneaky about using this technique- knowing that someone is using STAR to explain something doesn't reduce its efficacy.
-* Don't leave off the result! There should be some positive outcome, even if the outcome is that you learned something valuable
+    * The action is a solution the problem that you came up with or implemented
+* Do the STAR parts in order and don't double-back. It's confusing if you're talking about your solution and then start giving more context.
+* Don't get too caught up in the details when using STAR. The stories need to be true, but they don't necessarily need to be factual. The point is for the interviewer to learn something about you, not to fact-check your memoir.
+* Don't be afraid to literally say the words "situation," "task," "action," and "result" when using the STAR technique. You don't have to be sneaky about using this technique because knowing that someone is using STAR to explain something doesn't reduce its efficacy.
+* Don't forget the result in STAR. There should be some positive outcome, even if the outcome is that you learned something valuable.
