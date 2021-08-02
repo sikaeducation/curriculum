@@ -2,4 +2,4 @@
 
 ## Activities
 
-[[The Human Asynchronous Program]]
+[The Human Async Program](exercises/the-human-async-program)

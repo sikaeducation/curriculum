@@ -3,8 +3,8 @@
 ## Questions
 
 * What is iteration?
-* What is the first thing given to a `for...in` loop in JavaScript?
-* What is the second thing given to a `for...in` loop in JavaScript?
+* What is the first thing given to a `for...of` loop in JavaScript?
+* What is the second thing given to a `for...of` loop in JavaScript?
 
 ## Activities
 
@@ -14,7 +14,7 @@ What do the following programs print to the screen?
 const numbers = [2, 4, 6, 8]
 let product = 1
 
-for (let number in numbers){
+for (let number of numbers){
   product = product * number
 }
 
@@ -25,7 +25,7 @@ console.log(product)
 const words = ["Excellent", "weather", "we're", "having", "today"]
 let string = ""
 
-for (let word in words){
+for (let word of words){
   string = `${string} ${word}`
 }
 
@@ -45,7 +45,7 @@ const users = [{
 }]
 const ids = []
 
-for (let user in users){
+for (let user of users){
   ids.push(user.id)  
 }
 

@@ -1,0 +1,5 @@
+# Intro to Resumes: Exercises
+
+## Activities
+
+Write content for 3 completely different resumes that emphasize different parts of your skillset. Next, select or design 3 completely different resume layouts that range from casual to formal. Last, apply all 3 sets of content to all 3 resume layouts, for a total of 9 resumes.

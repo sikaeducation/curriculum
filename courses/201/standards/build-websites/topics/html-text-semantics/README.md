@@ -52,3 +52,11 @@ Used primarily for legal text and copyright notices. You can remember this by th
 ## History
 
 Before HTML5, the most common inline text markup elements were `<b>` (for bold), `<i>` for (italic), and `<u>` (for underline). All three of those describe what text looks like, rather than what it is. All three elements are still present in HTML, but have new semantic meanings and are much less common.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Inline Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements) | MDN's article on how the internet works |
+| [MDN: Text Fundamentals](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals) | MDN's tutorial on how the internet works |
+| [MDN: HTML Text Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Test_your_skills:_HTML_text_basics) | MDN's assessment on HTML text skills |

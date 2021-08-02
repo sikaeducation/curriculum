@@ -2,13 +2,13 @@
 
 Another critical thing that a programming language has to be able to do is do an operation repeatedly. There are a lot of ways to do this, but for now focus on `for...in` loops.
 
-## `for..in` Loops
+## `for..of` Loops
 
-You can do something for every item in an array with a `for..in` loop:
+You can do something for every item in an array with a `for...of` loop:
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
-for (let number in numbers){
+for (let number of numbers){
   console.log(number)
 }
 // Prints 1, 2, 3, 4, then 5 to the screen
@@ -17,11 +17,11 @@ for (let number in numbers){
 In a `for..in` loop, you pick a variable name to represent each item in the array, which will then be available to you inside the block. You can name it anything you want, but it's typical for an array to be plural and the item to be singular.
 
 ```js
-for (let user in users){
+for (let user of users){
 }
-for (let word in words){
+for (let word of words){
 }
-for (let pokemon in pokemonList){ // Good for uncountable words
+for (let pokemon of pokemonList){ // Good for uncountable words
 }
 ```
 
@@ -33,7 +33,7 @@ for (let pokemon in pokemonList){ // Good for uncountable words
 ```js
 const numbers = [1, 2, 3, 4, 5]
 
-for (let number in numbers){
+for (let number of numbers){
   let sum = 0
   sum = sum + number
 }
@@ -45,7 +45,7 @@ console.log(sum) // undefined, sum is not in scope
 const numbers = [1, 2, 3, 4, 5]
 let sum = 0
 
-for (let number in numbers){
+for (let number of numbers){
   sum = sum + number
 }
 

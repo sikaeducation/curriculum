@@ -4,8 +4,8 @@
 
 * [Linting](topics/linting)
   * [Exercises](topics/linting/exercises)
-* [ES Lint](topics/es-lint)
-  * [Exercises](topics/es-lint/exercises)
+* [ES Lint](topics/eslint)
+  * [Exercises](topics/eslint/exercises)
 * [JavaScript: Strings](topics/js-strings)
   * [Exercises](topics/js-strings/exercises)
 * [JavaScript: Objects](topics/js-objects)

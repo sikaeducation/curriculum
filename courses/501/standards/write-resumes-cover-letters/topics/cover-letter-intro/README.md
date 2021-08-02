@@ -2,11 +2,27 @@
 
 If a resume is an advertisement, a cover letter is a sales pitch.
 
-The most common mistake you can make when writing a cover letter is focusing on what you will get out of the job. You may really want to work for the company, or you may really need the money, or you may really like their tech stack. However, none of those things benefit the company. Your pitch should be about the unique things you can offer them that make you a better candidate than everyone else they're talking to.
+The most common mistake when writing a cover letter is focusing on what you will get out of the job. You may really want to work for the company, or you may really need the money, or you may really like their tech stack. However, none of those things benefit the company. Your pitch should be about the unique things you can offer them that make you a better candidate than everyone else they're talking to.
 
 Truthfully, not everyone reads cover letters. You should still write them, because the people who do read them often value them highly. With some practice, they'll get easy enough to write that they won't feel like a chore.
 
-## Sections
+## Research
+
+Spend some time researching the company. Look through their website, especially any kind of "about the company" sections. Look for press releases, interviews, and blog posts. Additionally, look through reviews on company and salary review sites like [Glassdoor](https://www.glassdoor.com/member/home/index.htm) to see what employees have said about the company. Look at consumer sites for reviews on the company's customers. Try to answer the following questions:
+
+* What is the company's mission? What are its values? How tightly aligned are their products and overall branding to these?
+* How formal is the company?
+* What kinds of words do they use when talking about themselves?
+* Are there any new products or initiatives they're promoting?
+* Have they come under scrutiny for anything recently?
+* Is their compensation lower or higher than average?
+* Are their customers happy? Why or why not?
+* Are their employees happy? Why or why not?
+* What does the company need and/or care about that you have?
+
+Take notes on all of these things, and use what you learn to craft your cover letter.
+
+## Cover Letter Sections
 
 ### Salutation
 
@@ -24,7 +40,7 @@ In between:
 
 >MediumCo team,
 
-Do not use "To whom it may concern." It's dated and trite.
+Do not use "To whom it may concern" because it's dated and trite.
 
 ### Opening
 
@@ -34,11 +50,11 @@ The purpose of an opening is to introduce yourself and express why you're intere
 
 >I'm a full-stack developer who cares a lot about helping people make better food. That's why I'm elated that my favorite receipe app is looking for new folks to join the mission! Here are a few reasons I think I'm who you're looking for:
 
->I'm a JavaScript programmer with a touch of design expertise, and there's nothing I care about more than helping people get organized. When I went to Jeff Ridges' recent talk on API Quality and he mentioned that Shelf.ly is looking for engineers, I knew I had to get in touch with you. I know you're trying to grow the platform, and here's how I can help:
+>I'm a JavaScript programmer with a touch of design expertise, and there's nothing I care about more than helping people get organized. I went to Jeff Ridges' recent talk on API Quality and when he mentioned that Shelf.ly is looking for engineers I knew I had to get in touch with you. I know you're trying to grow the platform, and here's how I can help:
 
 ### Body
 
-This is the actual pitch, and much like resumes, these are scanned--not read. Your goal is 3-5 tightly worded bullet points that tie their needs to your skills and experience. When possible, use language that matches the job description, the company's mission and values, and their general branding. Here are some ideas:
+This is the actual pitch and much like resumes, these are scanned--not read. Your goal is 3-5 tightly worded bullet points that tie the company's needs to your skills and experience. When possible, use language that matches the job description, the company's mission and values, and their general branding. Here are some ideas:
 
 >You're looking for developers with modern JavaScript experience. I recently wrote a blog post on upcoming features ESNext features, and gave a lightning talk based on it at the local JavaScript meetup.
 
@@ -50,7 +66,7 @@ You want the person reading these to think "Oh, that's interesting!", and "That'
 
 ### Call to Action
 
-A sales pitch needs to end with a call to action, sometimes called "asking for the sale." The specific action you're looking for in an application is to get an interview. This may feel forward, but again, job applications aren't a time to be shy. Here are some examples:
+A sales pitch needs to end with a call to action, and the specific action you're looking for is to get an interview. This may feel forward, but again, job applications aren't a time to be shy. Here are some examples:
 
 >I'm interested in discussing my qualifications with you further. Please email me with the best times to talk.
 
@@ -63,3 +79,7 @@ A sales pitch needs to end with a call to action, sometimes called "asking for t
 If you're writing with a formal tone, include a complimentary close. "Sincerely," is the most common, but "Warmly," "Best regards,", and "Yours" work too. Additionally, you should include a scan of your signature.
 
 If you're writing with an informal tone, the close can simply be your first name or full name.
+
+## Review
+
+When you're done with your cover letter, go back to your research notes. Evaluate whether the cover letter you wrote is right for the company you researched. If you worked at the company and were reviewing this cover letter from an applicant, would you be interested in talking to them? Revise your cover letter as necessary.

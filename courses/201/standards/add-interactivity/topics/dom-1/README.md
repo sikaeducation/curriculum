@@ -46,3 +46,10 @@ The browser offers JavaScript a variety of methods for reading, writing, and oth
 ## Watch Out!
 
 Once your browser ingests HTML and builds out the DOM, it's not HTML anymore. Even when you look at HTML in the element inspector, that's your browser recreating HTML based on the current state of the DOM. You can think of HTML as a set of instructions for how to build the DOM.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) | MDN's introduction the DOM |
+| [MDN: DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) | MDN's reference on the DOM |

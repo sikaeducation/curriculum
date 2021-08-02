@@ -47,3 +47,10 @@ console.log(
 * Anything in a query string can be seen by your router, your ISP, and every computer in between you and the server. It can't be encrypted, and it can be bookmarked and shared. This makes it inappropriate for any kind of sensitive data, such as usernames or passwords.
 * There is no theoretical limit to how long a query string can, but browsers have a practical limit of 2000 characters for URLs.
 * If you include the same key multiple times, only the last one will be available. You can add `[]` to the key (as in `?favorite[]=milk&favorite[]=cookies` to make them available as an array.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Wikipedia: Query String](https://en.wikipedia.org/wiki/Query_string) | Wikipedia's query string article |
+| [MDN: `URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) | MDN's reference on `URLSearchParams` |

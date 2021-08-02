@@ -72,3 +72,10 @@ You can remember this by thinking of a clock- the first value is "top", and it m
 * Values for padding and margin can have 1 value (applies to all 4 dimensions), 2 values (first is top/bottom, second is left/right), or 4 values (top/right/bottom/left). They cannot have 3 values, and you can't only put 2 values for top and right.
 * You can override part of a composite property by giving a more specific property a different value. For example, the rule `padding: 10px;` can be overriden on the right side only by adding a rule for `padding-right: 20px;` after the first rule.
 * By default, the `width` and `height` of a block element are independent of any padding or border. This is almost never what you want. You can override this with `box-sizing: border-box;` to make `width` and `height` include the padding and border.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Introduction to the CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) | MDN's overview of the box model |
+| [MDN: The Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) | MDN's tutorial on the box model |

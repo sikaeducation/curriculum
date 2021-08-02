@@ -35,3 +35,9 @@ Note that these are just defaults and can always be overidden with CSS.
 
 * If the parent of an element is the entire document, it will take up the entire width of the screen
 * If you set an element's height to 100%, it won't stretch its parent container out, which is counter-intuitive. To control the amount of vertical space an element takes up, the `height` of the element needs to be explicitly set.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout) | MDN's tutorial on CSS layout |

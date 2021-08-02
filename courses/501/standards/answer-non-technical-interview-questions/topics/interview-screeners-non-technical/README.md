@@ -2,7 +2,7 @@
 
 ## The Question Beneath the Question
 
-A lot of the seemingly straight-forward questions you get asked are actually meant to reveal more complex things about you. You'll do a lot better if you address the _real_ question being asked. Some examples:
+A lot of the seemingly straight-forward questions you get asked are actually meant to reveal more complex things about you. You'll do a lot better if you address the real question being asked. Some examples:
 
 | Question                 | Real Question                 |
 | ------------------------ | ----------------------------- |
@@ -45,7 +45,7 @@ This framework helps your stories stay on track and be easier for people to foll
 3. "The action I took was to implement some static versions of the things they wanted that didn't scale especially well, but allowed us to hit the deadline and bought us the time to refactor the app correctly after the deadline. I hard-coded some values instead of pulling them from the database, which allowed us to move a lot faster."
 4. "The result was that we were able to accomodate the last-minute changes, hit the deadline, and maintain our positive culture."
 
-Some important things to note:
+## Watch Out!
 
 * Each of these should take about the same amount of time- don't linger too long on the situation and the task
 * It's really common to not clearly dilineate between the situation, the task, and the action:

@@ -25,3 +25,9 @@ Then, it will ask some questions about which folder you'd like to deploy and wha
 The folder you deploy should have an `index.html` file in it, otherwise going to the URL in a browser will 404.
 
 To update a site you've already deployed, give it the same URL as your old deployment.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Publishing Your Website](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website) | MDN's overview of deployment |

@@ -149,3 +149,10 @@ const usernames = users.map(user => {
 })
 ```
 * Don't get clever with names for the array and the argument passed into the function. Arrays should be plural, the argument passed into the function should be the singular version of the plural whenever possible. `people.map(person => {})`, `users.map(user => {})`, `pokemonList.map(pokemon => {})`
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: `.map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | MDN's reference on `.map` |
+| [FreeCodeCamp: How `Array.prototype.map` works](https://www.freecodecamp.org/news/how-array-prototype-map-works-b6b69379c3af/) | FreeCodeCamp's tutorial on `.map` |

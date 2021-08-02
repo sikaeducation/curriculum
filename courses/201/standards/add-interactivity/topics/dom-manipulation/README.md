@@ -80,3 +80,9 @@ And the DOM will look like this:
 * You can manually change an element's classes with `.class` (since `class` is an attribute), but you should use `.classList` and its associated methods instead.
 * To add an element directly to the `<body>` of the document, use `document.querySelector("body")`
 * Watch your capitalization; the correct property is `.innerHTML`, not `innerHtml`.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Manipulating Documents](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents) | MDN's tutorial on DOM manipulation |

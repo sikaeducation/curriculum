@@ -84,3 +84,10 @@ The function passed into `.filter` should return `true` if the element should be
 * `.find` will evaluate to whatever data time the first match is.
 * `.filter` will always evaluate to an array, even if there is only one match. If you ever write code that looks like `someArray.filter(someItem => someItem.someCondition)[0]`, you probably want `.find` instead.
 * Don't get clever with names for the array and the argument passed into the function. Arrays should be plural, and the argument passed into the function should be the singular version of the plural whenever possible. `people.find(person => {})`, `users.find(user => {})`, `pokemonList.filter(pokemon => {})`
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: `.find`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) | MDN's reference on `.find` |
+| [MDN: `.filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) | MDN's reference on `.filter` |

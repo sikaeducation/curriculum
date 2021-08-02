@@ -1,10 +1,6 @@
 # Intro to Resumes
 
-A resume is the document you will be asked for the most in your job search process.
-
-A resume is a product advertisement, except the product is you. It's an opportunity to highlight which parts of your background make you especially well-suited for a particular position.
-
-A resume is not a list of everything you've ever done (that's a "Curriciulum Vitae"). It's not a legal document. It's not a place to be humble or indirect.
+A resume is the document you will be asked for the most in your job search process. A resume is a product advertisement, except the product is you. It's an opportunity to highlight which parts of your background make you especially well-suited for a particular position. A resume is not a list of everything you've ever done (that's a Curriciulum Vitae), it's not a legal document like a contract, and it's not a place to be humble or indirect.
 
 ## Resume Sections
 
@@ -40,7 +36,7 @@ Focus on the benefits you provided to the company more than the tasks you perfor
 
 ### Skills
 
-List of your revelant technical skills. Ideally, these match some of the key skills outlined in the job description you're applying for. Three things to leave off:
+List your revelant technical skills. Ideally, these match some of the key skills outlined in the job description you're applying for. Three things to leave off:
 
 * Don't include a laundry list of every technology you've ever used; stick with your most relevant, impressive, and strongest skills.
 * Don't include skills that are common to any professional. These include things like the Microsoft Office suite, browsers, critical thinking skills, punctuality, teamwork, or communication skills. These things should be inferred by how you handle the application process.
@@ -50,17 +46,17 @@ Skills should be listed from most to least relevant to the position.
 
 Be extremely careful in how you list a technology. Many common technologies are spelled counterintuitively and inconsistently. A few for reference:
 
-* React
-* Express
-* Node.js
-* Ruby on Rails
-* Sass
-* Jest
-* Cypress
-* AWS
-* Unix
+* React (not React.js, ReactJS, or REACT)
+* Express (not Express.js)
+* Node.js (not Node, NodeJS, or NODE)
+* Ruby on Rails (not Rails)
+* Sass (not SASS)
+* Jest (not Jest.js)
+* Cypress (not Cypress.io or Cypress.js)
+* AWS (not Aws or Amazon Web Services)
+* Unix (not UNIX)
 
-Always check the official website or documentation to verify spelling.
+Always check the official website or documentation to verify spelling and punctuation.
 
 ### Education
 
@@ -73,9 +69,7 @@ List any formal education, including university programs and code schools. In mo
 
 ### Accomplishments
 
-Awards, volunteer work, or unique credentials
-
-This section serves a couple purposes:
+Awards, volunteer work, or unique credentials. This section serves a couple purposes:
 
 * Showcasing impressive parts of your background that don't fit into any of the other sections
 * Signaling attractive values or attributes that are hard to quantify otherwise, such as dedication and generosity
@@ -103,29 +97,32 @@ For each project in your portfolio, include:
 
 To be effective as an advertisement for yourself, you should prioritize sections by how impressive they are likely to be to the person reading your resume. Here are some scenarios:
 
-* If you have some relevant technology experience already and some formal education:
-  * Contact
-  * Work Experience
-  * Education
-  * Accomplishments
-  * Skills
-* If you have no technology experience and no formal education and few accomplishments:
-  * Contact
-  * Portfolio
-  * Work Experience
-  * Skills
-  * Accomplishments
+If you have some relevant technology experience already and some formal education:
+
+1. Contact
+1. Work Experience
+1. Education
+1. Accomplishments
+1. Skills
+
+If you have no technology experience and no formal education and few accomplishments:
+
+1. Contact
+1. Portfolio
+1. Work Experience
+1. Skills
+1. Accomplishments
 
 Some principles:
 
 * Always lead with your contact information
 * Work experience is usually the most valuable because it represents you delivering value to an organization
-* A portfolio is usually used in place of work experience if none exists
+* A portfolio is usually used in place of technical work experience if none exists
 * Skills are usually the lowest priority, because they're less concrete than education or accomplishments. If you can include skills in the descriptions of jobs or portfolio items, this section can be omitted.
 
 ## Applicant Tracking Systems
 
-Applicant Tracking Systems (ATS's) are automated tools that scan resumes from incoming applications and help recruiters manage the flow. You may come across a lot of advice about optimizing your resume for ATSs, often people or companies selling resume services. This is rarely necessary. ATS keyword matching is notoriously unreliable, and most recruiters know it. Recruiters are afraid of missing applications from great candidates because they were filtered by the ATS, so there's a good chance a human will scan your resume.
+Applicant Tracking Systems, or ATSs, are automated tools that scan resumes from incoming applications and help recruiters manage the flow. You may come across a lot of advice about optimizing your resume for ATSs, often people or companies selling resume services. This is rarely necessary. ATS keyword matching is notoriously unreliable, and most recruiters know it. Recruiters are afraid of missing applications from great candidates because they were filtered by the ATS, so there's a good chance a human will scan your resume.
 
 ## Resumes are Scanned, Not Read
 

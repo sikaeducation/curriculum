@@ -55,9 +55,9 @@ The equivalent data in JSON looks like this:
 
 ```json
 {
-  user: {
-    firstName: "Cannonball",
-    lastName: "Adderly",
+  "user": {
+    "firstName": "Cannonball",
+    "lastName": "Adderly",
   }
 }
 ```

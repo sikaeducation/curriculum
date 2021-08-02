@@ -49,3 +49,9 @@ The same button will look like this:
 ## Watch Out!
 
 Semantics still matter with buttons. Many elements can look button-like (such as checkboxes and navigation links), but a `<button>` element is specifically for issuing commands.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: `<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) | MDN's reference on the `<button>` element |

@@ -80,3 +80,9 @@ console.log(numbers) // undefined
 ```
 
 * Don't get clever with names for the array and the argument passed into the function. Arrays should be plural, the argument passed into the function should be the singular version of the plural whenever possible. `people.forEach(person => {})`, `users.forEach(user => {})`, `pokemonList.forEach(pokemon => {})`
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: `.forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) | MDN's reference on `.forEach` |

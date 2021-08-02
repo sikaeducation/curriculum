@@ -192,3 +192,10 @@ A checkbox is a type of multiselect, and is frequently used if there are fewer t
 
 * `<input />` is a self-closing tag, but `<textarea>` is not.
 * A label's `for` attribute will match a form input's `id` attribute, not its `name`. `name`s are how JavaScript's `FormData` class will access the values.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: `<input />`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) | MDN's reference on `<input />` |
+| [MDN: The HTML input types`](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types) | MDN's overview of input types |

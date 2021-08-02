@@ -13,4 +13,4 @@
 
 ## Activities
 
-Make a fetch request to (http status API) to intentionally generate an error. Check whether the status is OK, and if it's not throw an error with a custom message. Display this message in the DOM.
+Make a fetch request to [https://httpstat.us](https://httpstat.us/) to intentionally generate an error. Check whether the status is OK, and if it's not throw an error with a custom message. Display this message in the DOM.

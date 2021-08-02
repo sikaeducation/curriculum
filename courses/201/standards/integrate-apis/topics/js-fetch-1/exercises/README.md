@@ -1,4 +1,4 @@
-# JavaScript: `fetch` 1: Exercises
+# JavaScript: `fetch`: Exercises
 
 ## Questions
 

@@ -136,3 +136,11 @@ musician.guitar.play("Chromazone") // prints "I'm playing Chromazone!"
 * The only reason to use bracket notation is if you need to look up a property or method with a variable or expression. Otherwise, use dot notation.
 * The word "object" is used very differently in most other programming languages. JavaScript objects are more similar to dictionaries in Python, hashes in Ruby, and associative arrays in PHP than they are to objects in those languages.
 * Objects are the most powerful data type in JavaScript. Arrays, functions, DOM Nodes, DOM Node Lists, and events are actually different kinds of objects.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) | MDN's overview of objects |
+| [MDN: Working with Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) | MDN's tutorial on objects |
+| [MDN: Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | MDN's reference on objects |

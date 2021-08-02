@@ -68,8 +68,8 @@ Convert this JavaScript object to JSON by hand:
 {
   home: {
     teamName: 'Beboppers',
-    colors => ['red, 'yellow'],
-    players => [{
+    colors: ['red, 'yellow'],
+    players: [{
       playerName: 'Dizzy Gillespie',
       number: 0,
       shoeSize: 16,
@@ -83,8 +83,8 @@ Convert this JavaScript object to JSON by hand:
   },
   away: {
     teamName: 'Modal Mayhem',
-    colors => ['black', 'blue],
-    players => [{
+    colors: ['black', 'blue],
+    players: [{
       playerName: 'Miles Davis',
       number: 25,
       shoeSize: 8,

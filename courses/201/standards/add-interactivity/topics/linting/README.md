@@ -76,6 +76,8 @@ Even when using someone else's styleguide, you can add or override your own rule
 * Strictly speaking, things like indentation and semicolon usage are classified as _formatting_ and things like naming conventions and language features you should or shouldn't use are _linting_. Both of them are commonly referred to as linting collectively.
 * Linters will conveniently also catch most syntax errors, such as missing closing brackets
 
-## History
+## Additional Resources
 
-The term linting was coined by Douglas Crockford. A variety of linters have come and gone over the years in the JavaScript world, but today ESLint is the most popular.
+| Resource | Description |
+| --- | --- |
+| [Wikipedia: Lint](https://en.wikipedia.org/wiki/Lint_(software)) | Wikipedia's article on linting |

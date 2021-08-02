@@ -147,3 +147,10 @@ The reason array indexes start at 0 is because of how the data has historically 
 ![Diagram of an array with indexes](assets/array-zero-indexing-2.png)
 
 The address the computer stores for the location of the array is the location of the first element and the index you pass in is an "offset", or how many spaces over the computer should count to find the element you want.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | MDN's reference on arrays |
+| [MDN: Array Tutorial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | MDN's tutorial on arrays |

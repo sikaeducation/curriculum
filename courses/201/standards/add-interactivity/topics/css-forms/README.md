@@ -54,3 +54,10 @@ input:focus, textarea:focus {
 
 * Setting the width of an `<input />` doesn't take into account the padding of the element by default. The inputs must have `box-sizing: border-box;` set for them to work as expected.
 * Red is commonly used to indicate that there was a problem with an input. The most common form of color-blindness makes the color red appear grey, so invalid input requires an additional indicator (usually a text message or `*`, sometimes provided by the browser itself).
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms) | MDN's tutorial on styling web forms |
+| [MDN: Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling) | MDN's tutorial on advanced web form styling |

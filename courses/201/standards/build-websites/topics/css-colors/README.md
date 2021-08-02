@@ -80,3 +80,10 @@ HSL is great because when you need to tweak a color or build a pallette, it's mu
 
 * The exact same color doesn't necessarily render identically in every browser
 * Just because you have a color in one format doesn't mean you can't convert it to another format. All of the color formats support approximately all the same colors.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) | MDN's overview of colors |
+| [MDN: Applying Color](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color) | MDN's tutorial on the colors |

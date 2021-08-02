@@ -122,3 +122,9 @@ console.log(message) // "Hello, my name is Herbie Hancock"
 ```
 
 Historically, this was the only way to accomplish this. Unforunately, it's difficult to read and easy to make mistakes writing strings this way, especially with spaces. With the wide support of template literals, there is no reason to use string concatenation anymore.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | MDN's reference on strings |

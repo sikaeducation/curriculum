@@ -58,3 +58,10 @@ The result will be:
 
 * Just because an element has been created doesn't mean it's on the page yet. An element needs to be `append`ed to an element that's on the page before it renders.
 * There is a similar method to `.append` called `.appendChild`. It works similarly, except it accepts fewer types, has a different return value, and can only append one DOM node at a time. Unless you have a strong reason not to, you should prefer `.append`.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: `document.createElement`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) | MDN's reference on `document.createElement` |
+| [MDN: `document.append`](https://developer.mozilla.org/en-US/docs/Web/API/Element/append) | MDN's reference on `document.append` |

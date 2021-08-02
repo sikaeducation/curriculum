@@ -3,6 +3,7 @@
 ## Core Idea
 
 * The worldwide web
+* The DOM
 * APIs
 
 ## Sequence

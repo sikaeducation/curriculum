@@ -62,3 +62,11 @@ console.log(listItems[2].textContent) // "Three"
 * `document.querySelector` only returns the first match, even if multiple matches are possible.
 * Traditionally, selecting elements was done with the methods `document.getElementsByTagName`, `document.getElementsByClassName`, and `document.getElementById`. These methods are still in common use, but unless you have a reason not to you should prefer `document.querySelector` and `document.querySelectorAll`.
 * `document.querySelectorAll` returns a `NodeList`. A `NodeList` is very similar to an array, but it doesn't have all the same methods. For example, a `NodeList` has a `.forEach` method, but it does not have a `.map` method.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Locating DOM elements using selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors) | MDN's article on locating DOM elements |
+| [MDN: `document.querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) | MDN's introduction on `querySelector` |
+| [MDN: `document.querySelectorAll`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) | MDN's reference on the `querySelectorAll` |

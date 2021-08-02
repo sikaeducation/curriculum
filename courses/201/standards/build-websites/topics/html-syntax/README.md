@@ -162,3 +162,9 @@ XML is a generic data format that stores any structured data, like this:
 ```
 
 HTML was heavily influenced by this. At one point, there was an attempt to reconcile this and make HTML a "subset" of XML (meaning all HTML would also be valid XML). This was eventually abandoned in favor the current version of HTML, HTML5.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Getting started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started) | MDN's tutorial introducing HTML |

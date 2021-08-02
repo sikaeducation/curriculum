@@ -23,3 +23,9 @@ You likely use URLs daily, but do you know what the different parts of the URL m
 ## Watch Out!
 
 * While it was once common to prefix URLs with `www`, this is just a regular subdomain and does not otherwise confer any special meaning.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: What is a URL?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL) | MDN's article on URLs |

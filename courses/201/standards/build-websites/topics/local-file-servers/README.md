@@ -47,3 +47,10 @@ What if you want to serve multiple websites from your computer at the same time?
 * If you have multiple windows open for a website run by `lite-server`, you can get some unusual behavior with buttons and forms firing multiple times.
 * If you get the `Cannot GET /` in the browser when starting `lite-server`, it means there was no file named `index.html` in the folder where you ran the `npx lite-server` command.
 * If you suspect you have multiple instances of `lite-server` running and would like to terminate all of them, run the command `killall node`.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) | MDN's article on web servers |
+| [MDN: Set Up a Local Testing Server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server) | MDN's tutorial on setting up a local server |

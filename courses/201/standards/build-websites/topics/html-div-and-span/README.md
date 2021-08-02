@@ -57,3 +57,10 @@ HTML features over 100 tags that are reserved for specific purposes (including h
 ## Watch Out!
 
 It's tempting to use `<div>` and `<span>` for everything in an HTML document, and many developers do exactly this. This is a bad practice for web development. As you learn more semantic tags, you should use those first and only use `<div>` and `<span>` when there aren't existing tags that are more appropriate.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: `<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) | MDN's reference on `<div>` |
+| [MDN: `<span>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span) | MDN's reference on `<span>` |

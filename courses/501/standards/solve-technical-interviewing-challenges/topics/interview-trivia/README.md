@@ -44,4 +44,10 @@ If you don't know the answer to a question, don't just say "I don't know."
 1. Admit you're not sure about the answer
 2. Try to pull out any words or concepts that you recognize and create connections to them
 3. Ask for help
-4. Ask if you can look it up
+4. Optionally, ask if you can look it up
+
+For example, if you don't know the answer to "What is inheritance?", you could respond:
+
+"I'm not sure, but I can infer from the name it's about getting something from somewhere else, a parent maybe? Am I in the ballpark?"
+
+You can use this as a springboard for a conversation or an opportunity to learn. Things your interviewer says may also trigger your memory for times you have used or seen the concept being discussed.
