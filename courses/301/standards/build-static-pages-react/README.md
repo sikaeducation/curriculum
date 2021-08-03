@@ -6,11 +6,14 @@ This needs to be ported from Vue to React
 
 ## Topics
 
+* [Props](topics/react-props)
+
+---
+
 * [ ] - Vue CLI
 * [ ] - Build components
 * [ ] - Templates
 * [ ] - Props
-* [ ] - 1-way Binding
 * [ ] - Iteration
 * [ ] - Conditional rendering
 * [ ] - Computed properties

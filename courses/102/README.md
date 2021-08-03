@@ -1,11 +1,11 @@
 # 102: Prework
 
-## Core Idea
+## Core Ideas
 
 * Reading for understanding in software
 * Professional computer operation
 
-## Sequence
+## Standards
 
 * [Computer setup](computer-setup.md)
 * [Manage file systems on the command line](standards/manage-file-systems-cli)

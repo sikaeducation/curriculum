@@ -9,10 +9,11 @@
 
 ## Activities
 
-Use the 4-step interview protocol on these problems:
+Use the 4-step interview protocol on these problems. Remember to do them out loud in front of someone else. The problems are not especially difficult, but doing them with someone watching is the specific skill that you want to develop.
 
 * [5 Gardens](#5-gardens)
 * [Goat, Cabbage, Wolf](#goat-cabbage-and-wolf)
+* [Reverse a String](#reverse-a-string)
 * [Stable Employment Problem](#stable-employment-problem)
 * [Weird Words](#weird-words)
 * [Apple Building](#apple-building)
@@ -24,15 +25,43 @@ Use the 4-step interview protocol on these problems:
 
 ### 5 Gardens
 
-https://github.com/sikaeducation/5-gardens
+Five friends have their gardens next to one another, where they grow three kinds of crops: fruits (apple, pear, nut, cherry), vegetables (carrot, parsley, gourd, onion) and flowers (aster, rose, tulip, lily).
+
+* They grow 12 different varieties.
+* Everybody grows exactly 4 different varieties
+* Each variety is at least in one garden.
+* Only one variety is in 4 gardens.
+* Only in one garden are all 3 kinds of crops.
+* Only in one garden are all 4 varieties of one kind of crops.
+* Pears are only in the two border gardens.
+* Paul's garden is in the middle with no lily.
+* Aster grower doesn't grow vegetables.
+* Rose grower doesn't grow parsley.
+* Nuts grower has also gourd and parsley.
+* In the first garden are apples and cherries.
+* Only in two gardens are cherries.
+* Sam has onions and cherries.
+* Luke grows exactly two kinds of fruit.
+* Tulips are only in two gardens.
+* Apples are in a single garden.
+* Only in one garden next to the Zick's is parsley.
+* Sam's garden is not on the border.
+* Hank grows neither vegetables nor asters.
+* Paul has exactly three kinds of vegetable.
+
+Who has which garden and what is grown where?
 
 ---
 
 ### Goat Cabbage and Wolf
 
-https://github.com/sikaeducation/goat-caggage-wolf
+A farmer returns from the market, where he bought a she-goat, a cabbage and a wolf (what a crazy market :-). On the way home he must cross a river. His boat is small and won't fit more than one of his purchases. He cannot leave the she-goat alone with the cabbage (because the she-goat would eat it), nor he can leave the she-goat alone with the wolf (because the she-goat would be eaten).
+
+How can the farmer get everything on the other side in this puzzle?
 
 ---
+
+## Reverse a String
 
 Write a function named reverse that takes a string argument and returns the string reversed. `.reverse()` should not be used.
 

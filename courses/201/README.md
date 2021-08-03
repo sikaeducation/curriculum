@@ -1,12 +1,12 @@
 # 201: Website Development
 
-## Core Idea
+## Core Ideas
 
 * The worldwide web
 * The DOM
 * APIs
 
-## Sequence
+## Standards
 
 * [Build websites using HTML and CSS](standards/build-websites)
 * [Add interactivity to websites using JavaScript](standards/add-interactivity)
