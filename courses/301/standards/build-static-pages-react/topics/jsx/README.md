@@ -1,103 +1,89 @@
-Templates are how HTML is represented in Vue. They work similar to templating mechanisms in other languages and frameworks. Some high-level ideas:
+# JSX
 
-* All regular HTML is valid (unlike JSX which requires special words for things like `class` or Pug which is an entirely new syntax)
-* It relies on a directive syntax which adds attributes to elements (similar to Angular, different than Handlebars)
-* Any HTML attribute can be bound to anything on the component or most arbitrary JS expressions (like JSX, unlike HTMLBars)
-* Event listeners can and should be attached in the template syntax since you shouldn't work directly with the DOM
-* Values can be used in templates with `{{}}` (like Handlebars, unlike React)
+How do write HTML that uses bound dynamic values and JavaScript expressions? Use a templating language. JSX is a templating language commonly used with React.
 
-This template:
+## Keyword Changes
 
-```vue
-<template>
-  <div class="some-component">
-    <h2>{{ heading }}</h2>
-    <ul v-if="listShowing">
-      <li v-for="listItem in listItems" :key="listItem.id">{{ listItem.content }}</li>
-    </ul>
-  </div>
-</template>
+JSX is similar to HTML, with the following differences:
 
-<script>
-export default {
-  computed: {
-    heading() {
-      return "These are a few of my favorite things"
-    },
-    listShowing() {
-      return true
-    },
-    listItems() {
-      return [{
-        id: 1,
-        content: "Raindrops on roses",
-      }, {
-        id: 2,
-        content: "Whiskers on kittens",
-      }]
-    },
-  },
-}
-</script>
+* You can't use HTML keywords that are already JavaScript keywords, so the following keywords are changed:
+  * `class` becomes `className`
+  * `for` becomes `htmlFor`
+
+## Including JavaScript
+
+To put JavaScript variables in a JSX template, use the `{}` characters:
+
+```jsx
+const firstName = "Lucy"
+const template = <p>{firstName}</p>
 ```
 
-Will render as this HTML:
+This will render to the following HTML:
 
-```html
-<div class="some-component">
-  <h2>These are a few of my favorite things</h2>
-  <ul>
-    <li>Raindrops on roses</li>
-    <li>Whiskers on kittens</li>
-  </ul>
-</div>
+```jsx
+<p>Lucy</p>
 ```
 
-Templates in Vue 1.x and 2.x were required to have a single top-level element. This is still a sound practice, but it's no longer required in Vue 3.x.
+You can also put any kind of JavaScript expression inside the braces:
 
-## Syntax
-
-There are two syntaxes for using templates:
-
-### Single-File Components
-
-Templates in SFCs are contained between `<template>` tags:
-
-```vue
-<template>
-  <p>Hi!</p>
-</template>
-
-<script>
-</script>
-
-<style>
-</style>
+```jsx
+const getFirstName = () => "Lucy"
+const template = <p>{getFirstName()}</p>
 ```
 
-Use these with webpack or Vue CLI.
+```jsx
+const firstName = "Lucy"
+const template = <p>{`My name is ${firstName}`}</p>
+```
 
-### Inline Components
+```jsx
+const template = <p>{["l", "u", "c", "y"].join("")}</p>
+```
 
-Inline components use a `template` attribute:
+This also works inside of attributes:
 
-```vue
-const SomeComponent = {
-  computed: {},
-  methods: {},
-  template: "<p>Hi!</p>",
+```jsx
+const url = "https://wikipedia.org"
+const linkText = "Wikipedia"
+const template = <a href={url}>{linkText}</a>
+```
+
+Lastly, you can include any component by writing it like a self-closing HTML element:
+
+```jsx
+const Heading = () => <h2>Breaking News!</h2>
+const SomeArticle = () => <article><Heading /></article>
+```
+
+## Using JSX in React
+
+Modern React components are functions that should return JSX. A typical component might look like this:
+
+```js
+const Image = ({ url, altText }) => {
+  return <img className="media image" src={url} alt={altText} />
 }
 ```
 
-Use this syntax when you're making components without a build system. Other than challenges around escaping quotes, it has the same features as the SFC syntax.
+JSX can also be saved in variables and returned from normal functions:
 
-## Exercises
+```js
+const Images = ({ images }) => {
+  const lis = images.map(image => {
+    return <li><Image url={image.url} altText={image.altText} /></li>
+  })
 
-* What's the relationship between HTML and Vue templates?
-* What are two ways you can use templates in Vue?
-* What specific considerations do you need to make for using Vue in a server-templated environment?
-* Where will the template look for `{{someProp}}`?
+  return <ul>{lis}</li>
+}
+```
 
-## References
+## Watch Out!
 
-* [Official Vue docs on template syntax](https://v3.vuejs.org/guide/template-syntax.html#template-syntax)
+* When using braces for attributes, note that the braces replace the quotes. For example, a link with an `href` attribute would look like `<a href={url}></a>`, not `<a href="{url}"></a>`
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| []() | |

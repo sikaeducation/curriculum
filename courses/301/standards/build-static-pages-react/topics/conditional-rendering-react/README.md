@@ -1,35 +1,69 @@
-Conditionally rendering in Vue templates is achieved through `v-if`, `v-else-if`, and `v-else` directives. Their use closely mirrors the `if`/`else if`/`else` syntax in JavaScript:
+# React: Conditional Rendering
 
-```vue
-<template>
-  <div v-if="someConditionIsMet">Something</div>
-  <p v-else-if="someOtherConditionIsMet">Something Else</p>
-  <span v-else>Something Else</span>
-</template>
+Many components need to render some parts of the template in some cases but not others. For example, a library book app may an "Overdue" badge that only shows up if today's date is after the book's due date. How would you render this?
 
-<script>
-export default {
-  computed: {
-    someConditionIsMet() {
-      return false
-    },
-    someOtherConditionIsMet() {
-      return true
-    },
-  },
+```react
+const BookListing = ({ title, dueDate }) => {
+  const isOverdue = Date.parse(dueDate) < Date.now()
+
+  return (
+    <div className="book-listing">
+      <h2>{title}</h2>
+      {
+        isOverdue
+          ? <span className="alert badge">Overdue!</span>
+          : null
+      }
+    </div>
+  )
 }
-</script>
 ```
 
-This example would render:
+This component:
 
-```html
-<p>Something Else</p>
+1. Calculates a boolean value for whether or not the book is overdue and stores it in `isOverdue`
+2. The template checks whether `isOverdue` is truthy or falsy
+  * If it's true, it renders the JSX element `<span className="alert badge">Overdue!</span>`
+  * If it's false, it renders nothing
+
+You can also use this technique render different content in each case:
+
+```react
+const BookListing = ({ title, daysRemaining }) => {
+  const isOverdue = daysRemaining <= 0
+
+  return (
+    <div className="book-listing">
+      <h2>{title}</h2>
+      {
+        isOverdue
+          ? <span className="alert badge">Overdue!</span>
+          : <span className="badge">{daysRemaining} days remaining</span>
+      }
+    </div>
+  )
+}
 ```
 
-Notes:
+## Watch Out!
 
-* The bindings for the directives are looked up on the component. You can also do arbitrary JS expressions (eg. `<ul v-if="list.length > 0">`).
-* The elements you put the different directives on don't need to be the same, but they should be at the same level of hierarchy
-* You can have as many `v-else-if` conditions as you want
-* `v-else` doesn't accept any arguments
+The reason that JSX uses ternaries instead of `if`/`else` is that JSX allows any JS expression, but no JS statements or control structures. That means no `if`/`else`, `for`, variable assignments, and so on.
+
+---
+
+Since JSX allows you to do any JavaScript expression, you can also write all of the conditional logic in the template directly:
+
+```jsx
+return (
+  <div className="book-listing">
+    <h2>{title}</h2>
+    {
+      Date.parse(dueDate) < Date.now()
+        ? <span className="alert badge">Overdue!</span>
+        : null
+    }
+  </div>
+)
+```
+
+This is almost always harder to read and understand than testing for simple boolean values.

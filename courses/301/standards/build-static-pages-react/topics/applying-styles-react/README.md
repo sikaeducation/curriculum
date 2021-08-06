@@ -1,48 +1,56 @@
-Classes can be bound to components with a special syntax:
+## React: Applying Styles
 
-```vue
-<template>
-  <p :class="{ "this-class-shows-up": ifThisIsTruthy }">
-    Hi
-  </p>
-</template>
+For the most part, applying styles to React components is done the same as it is in regular HTML. Since React components render as HTML, all traditional CSS techniques are applicable. There are a couple of new techniques specific to React components however: Importing stylesheets and dynamic classes.
 
-<script>
-export default {
-  computed: {
-    ifThisIsTruthy() {
-      return true
-    }
-  },
+## Importing Stylesheets
+
+It's common to make separate stylesheets for each component and then import them at the top the component file:
+
+```css
+/* Link.css */
+.Link {
+  display: inline-block;
+  color: hsl(240, 50%, 50%);
 }
-</script>
 
-<style>
-.this-class-shows-up {
-  color: red;
+.link:visited {
+  color: hsl(330, 50%, 50%);
 }
-</style>
 ```
 
-The thing that's bound to the `style` attribute is just a regular key/value object, and you can also supply that object through something like a computed property if it helps clean up the syntax.
+```js
+/* Link.js */
+import "./Link.css"
 
-You do static and dynamic class bindings at the same time:
-
-```vue
-<SomeComponent class="this-will-always-be-here" :class="{ thisMightNotBe: someState }"
+export default const Link = ({ url, linkText }) => {
+  return <a className="Link" href={url}>{linkText}</a>
+}
 ```
 
-You can also do ternary expressions inside of arrays to toggle between two classes:
+It may be useful to give the component a CSS class with the name of the component and prefix all styles for that component with that class. This is called namespacing.
 
-```vue
-<SomeComponent :class="[ ifThisIsTruthy ? 'this-class-will-there' : 'otherwise-this-will' ]"
+Note that you don't need to save the imported stylesheet into a variable. Just by importing it, webpack will include the stylesheet as-is in the final CSS file it generates.
+
+## Dynamic Classes
+
+Classes can be given dynamic values like any other JSX attribute.
+
+```jsx
+const User = ({ username, isDisabled }) => {
+  return (
+    <div className={`User ${isDisabled ? "disabled" : null}`}>
+      {username}
+    </div>
+  )
+}
 ```
 
-## Exercises
+## Watch Out!
 
-* Bind a class to state
-* Toggle between two classes using a class biding
+* When using component names as CSS namespaces, make sure that your component names are unique throughout your application and don't conflict with any other CSS libraries that may have their own classes.
 
-## Resources
+## Additional Resources
 
-* [Official Vue docs on style bindings](https://v3.vuejs.org/guide/class-and-style.html#class-and-style-bindings)
+| Resource | Description |
+| --- | --- |
+| []() | |

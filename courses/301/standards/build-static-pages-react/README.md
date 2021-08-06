@@ -1,23 +1,24 @@
-This needs to be ported from Vue to React
+# Build Static Pages Using React
+
+## Topics
+
+* [Intro to React](topics/react-intro)
+* [npm](topics/npm)
+* [Create React App](topics/create-react-app)
+* [React: JavaScript](topics/react-javascript)
+* [Build Components](topics/build-components-react)
+* [JSX](topics/jsx)
+* [Props](topics/react-props)
+* [Computed Properties](topics/computed-properties-react)
+* [Conditional Rendering](topics/conditional-rendering-react)
+* [Iteration](topics/iteration-react)
+* [React Deployment](topics/react-deploy)
+* [Applying Styles](topics/applying-styles-react)
+* [React Images](topics/react-images)
 
 ## Assessment
 
 * [[WineFlix]]
-
-## Topics
-
-* [Props](topics/react-props)
-
----
-
-* [ ] - Vue CLI
-* [ ] - Build components
-* [ ] - Templates
-* [ ] - Props
-* [ ] - Iteration
-* [ ] - Conditional rendering
-* [ ] - Computed properties
-* [ ] - Applying styles
 
 ## Questions
 

@@ -1,34 +1,27 @@
 # Create React App
 
-Vue CLI is a great way to maintain a decoupled Vue front-end, or learn and experiment with Vue without needing a build system.
+It's difficult to write and run React-based apps directly in the browser without the help of additional tools. Luckily, there are tools available that do lot of the heavy-lifting for you. One of the simplest of these is called Create React App, or CRA.
 
-## Installation
+## Running CRA
 
-`npm i -g @vue/cli`
+To make a new CRA project, use `npx create-react-app project-name-goes-here`. This will create a new React project with all of the pieces needed to make it work installed and wired together already.
 
-## Creating New Projects
+## Serving CRA Apps
 
-`vue create project-name` (You can also use `vue create .` to start new project in the current directory)
+To run a local server for an app built with CRA, run `npm start` anywhere in the project directory. By default, CRA will host the app at `http://localhost:3000` and will automatically update the browser every time you save changes to the project. To stop serving an app, press `ctrl` + C.
 
-Recommendation for beginners:
+## Folder Structure
 
-1. Manually select features
-2. Use `j`/`k`/`spacebar` to select:
-  * Choose Vue version
-  * Babel
-  * CSS Pre-processors
-  * Linter / Formatter
-3. 3.x (Preview)
-4. Sass/SCSS (with dart-sass)
-5. ESLint + Airbnb config
-6. Lint on save
-7. In package.json
-8. No
+There two folders in a fresh CRA project that you should be aware of.
 
-## Using Vue CLI
+### `public`
 
-While in a Vue CLI project, you can use the following scripts:
+The `public` directory contains static assets, such as images, fonts, and favicons. React doesn't do anything special with these and you can't import them into your projects, but they will be served via URL in your app. For example, if you have a file in the `public` directory called `profile.jpg`, it will be available by default at `localhost:3000/profile.jpg`.
 
-* `npm run serve` - Run a development server
-* `npm run build` - Make a production build in the `/dist` directory
-* `npm run lint` - Run the linter
+### `src`
+
+All of your React components go in this directory. The `App.js` file is considered your top-level component and should be left there, but it can be modified. Everything else in the `src` folder is available for you to add to, delete, modify, or organize however you like.
+
+## Watch Out!
+
+If port 3000 is already being used on your computer (such as by another instance of CRA), you will be asked if you would like to server the app on another port instead.
