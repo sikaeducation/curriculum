@@ -87,7 +87,7 @@ export default const AnotherComponent = () => {
 }
 ```
 
-## Destructuring
+## Object Destructuring
 
 Destructuring is a way to pull properties out of an object and assign them to variables.
 
@@ -132,6 +132,28 @@ const UserBadge = ({username, displayName}) => {
     <p>{displayName} ({username})</p>
   )
 }
+```
+
+## Array Destructuring
+
+You can also use the idea of destructuring with arrays:
+
+```js
+const someArray = [1, 2, 3]
+const [one, two, three] = someArray
+
+console.log(one, two, three) // 1, 2, 3
+```
+
+In React, this gets used to pull values out of things called hooks:
+
+```js
+const hookArray = useState(0)
+const someState = hookArray[0] // 0
+const updateSomeState = hookArray[1] // Function that updates the value in hookArray[0]
+
+// Same thing in one line
+const [someState, updateSomeState] = useState(0)
 ```
 
 ## Spreading

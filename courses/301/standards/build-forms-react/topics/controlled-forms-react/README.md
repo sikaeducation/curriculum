@@ -1,94 +1,60 @@
-[Official Vue docs on 2-way binding](https://v3.vuejs.org/guide/forms.html)
+# React: Controlled Forms
 
-Most props in Vue are bound in one direction only- a change in the source is reflected in the destination:
+React is all about one-way data flow. However, form inputs are naturally two-way; you want to be able to set the value of an input programmatically, and you want the value to change when a user types. Luckily, this can be accomplished by a circular approach called a controlled form.
 
-```vue
-<template>
-  <p>{{ counter }}</p>
-  <button @click="() => data += 1">Increment</button>
-</template>
+```js
+import { useState } from "react"
 
-<script>
-export default {
-  data() {
-    return {
-      counter: 1
-    }
-  }
+export default const FormInput = () => {
+  const [inputValue, setInputValue] = useState("")
+  const updateValue = event => setInputValue(event.target.value)
+
+  return <input type="text" value={inputValue} onChange={updateValue} />
 }
-</script>
 ```
 
-Any time `counter` is changed, the value in the `<p>` tag updates and that's the single source of truth for what the counter currently is.
+1. The `useState` hook sets a variable called `inputValue` to `""`, and gets a function called `setInputValue` that will update the value.
+2. A function called `updateValue` is set that accepts an `event` as a parameter and calls `setInputValue` with `event.target.value`, which will be the whatever the current value of the input is.
+3. A JSX element is returned that has its value set to `inputValue`, and whenever a user changes the value of the input, the `updateValue` function will be called.
 
-With form inputs however, we usually want the binding to go both ways: A change in the state is reflected in the input, *and* a change in the input is reflected in state. In Vue, we do this with the `v-model` property:
+The value of the `<input />` is `inputValue`, and when it changes `updateValue` is called, which changes the value of `inputValue`.
 
-```vue
-<template>
-  <form>
-    <input v-model="searchTerm" />
-  </form>
-</template>
+This works for a single input, but to truly capture user input, it needs to be done in the context of an entire form. That looks like this:
 
-<script>
-export default {
-  data() {
-    return {
-      searchTerm: ""
-    }
+```js
+import { useState } from "react"
+
+export default const LoginForm = ({login}) => {
+  const [username, setUsername] = useState("")
+  const [password, setPassword] = useState("")
+
+  const updateUsername = event => setUsername(event.target.value)
+  const updatePassword = event => setPassword(event.target.value)
+  const handleSubmit = event => {
+    event.preventDefault()
+    login(username, password)
   }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label for="username">Username</label>
+      <input type="text" id="username" value={username} onChange={updateUsername} />
+
+      <label for="password">Username</label>
+      <input type="password" id="password" value={password} onChange={updatePassword} />
+
+      <input type="submit" value="Login" />
+    </form>
+  )
 }
-</script>
 ```
 
-Now, the state can be changed from either direction. This is a shorthand for binding the value of the input to state and updating the state on the `change` event.
+This looks more complicated, but it functions similarly:
 
-## 2-way Binding On Components
+1. A function called `login` is passed as a prop that accepts a `username` and `password` as parameters
+2. Variables called `username` and `password` are initialized, as well as functions to update them
+3. Event handlers for updating the text inputs are defined
+4. An event handler for the form submission is defined that calls the `login` function with the values of `username` and `password` at the time the event handler is called
+5. A form that calls `handleSubmit` when the form is submitted, and the input change handlers when a user types in the inputs
 
-You *can* use `v-model` on components (not just HTML elements), but it's a little trickier:
-
-```vue
-// SomeComponent.vue
-<template>
-  <form>
-    <MyCoolCustomInput v-model:searchTerm="searchTerm" />
-  </form>
-</template>
-
-<script>
-import MyCoolCustomInput from '@/components/MyCoolCustomInput';
-
-export default {
-  components: {
-    MyCoolCustomInput,
-  },
-  data() {
-    return {
-      searchTerm: ""
-    }
-  }
-}
-</script>
-
-// MyCoolCustomInput.vue
-<template>
-  <form>
-    <input :value="searchTerm" @input="$emit('update:searchTerm', $event.target.value)" />
-  </form>
-</template>
-
-<script>
-export default {
-  props: {
-    searchTerm: ""
-  }
-}
-</script>
-```
-
-Watch the syntax on that *very* carefully. Some notes:
-
-* `v-model:searchTerm="searchTerm"` - The first `searchTerm` is what the prop will be called in the child component, the second is what it's called in the parent
-* The binding on the child component is *1-way*. Bind the value of the HTML element on the child component to whatever you named the prop.
-* Fire an event when the child component changes in the format `update:propName`. `v-model` will listen for this change automatically.
-* Pass the updated value into the event. You can access this on `<input />` elements with `$event.target.value`.
+A stateful variable is bound the value of the input, the input's change event updates the stateful variable, the value of the input is updated.

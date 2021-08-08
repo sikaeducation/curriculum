@@ -1,118 +1,76 @@
-[Official Vue docs on event handling](https://v3.vuejs.org/guide/events.html#multiple-event-handlers)
+# React Events
 
-## In templates
+Since you don't interact with the DOM directly in React apps, how do you handle DOM events?
 
-You attach event handlers in Vue with the `@` syntax:
+```js
+const Counter = () => {
+  const [count, setCount] = useState(0)
 
-```vue
-<template>
-  <button @click="handleClick"></button>
-</template>
+  const handleClick = () => setCount(count + 1)
 
-<script>
-export default {
-  methods: {
-    handleClick(event){
-      // Behavior
-    }
+  return (
+    <div>
+      <p>{count}</p>
+      <button onClick={handleClick}>Increment Count</button>
+    </div>
+  )
+}
+```
+
+`onClick={handleClick}` is the React way to do `document.querySelector("button").addEventListener(handleClick)`. Traditional DOM events, like `click`, `submit`, `keydown`, and others are written directly in JSX templates by prefixing them with `on`. For example:
+
+```jsx
+<form onSubmit={submitHandler}></form>
+<input onFocus={focusHandler} />
+<input onChange={changeHandler} />
+<div onScroll={scrollHandler}></div>
+```
+
+Handlers are plain JavaScript functions. Like regular DOM event handlers, they'll be called with an `event` object containing details about the event. For example, to prevent form submission in a submit handler, you can use:
+
+```react
+const LoginForm = () => {
+  const submitHandler = event => {
+    event.preventDefault()
+    // Other handling logic
   }
+
+  return (
+    <form onSubmit={submitHandler}>
+      {/* Form Inputs */}
+    </form>
+  )
 }
-</script>
 ```
 
-Like binding, this has a longer syntax: `v-on:click="handleClick"`. The syntaxes are otherwise equivalent, and you should always use the `@` syntax. Note that unlike React, you can attach listeners to HTML elements *and* components.
+Some other useful event properties:
 
-### Passing in arguments
+* `event.target.value` is the value of an `<input />`
+* `event.key` is the character of the key that was pressed in keyboard event
+* `event.target.dataset` is the value of any data attributes
 
-In addition to giving the event a method, you can alternately invoke the method and pass in any other arguments you want:
+## Watch Out!
 
-```vue
-<template>
-  <ul>
-    <li v-for="item in list" :key="item.id">
-      <button @click="handleClick(item)"></button>
-    </li>
-  </ul>
-</template>
+You can also inline the handler function in JSX:
 
-<script>
-export default {
-  methods: {
-    handleClick(item){
-      // Behavior
-    }
-  }
-}
-</script>
+```jsx
+<button onClick={() => setCount(count + 1)}>Increment Count</button>
 ```
 
-If you need to pass something in and have access to the original event, you can pass in the special `$event` argument:
+This is almost always harder to read than extracting the function and should be avoided.
 
-```vue
-<template>
-  <button @click="handleClick"></button>
-  <button @click="handleClick($event)"></button> // Same as above
-  <button @click="handleClick($event, item)"></button> // With other arguments
-  <button @click="handleClick(item, $event)"></button> // Position isn't important
-</template>
+---
+
+Note that the value of an event handler in JSX must always be a function that will be called with the event. This code:
+
+```jsx
+<button onClick={setCount}>Increment Count</button>
 ```
 
-## Types of events
+Will set the value of `count` to the `event` object when clicked. This code:
 
-All normal DOM events have Vue equivalents:
-
-* `@click`
-* `@submit`
-* `@keydown`
-* `@focus`
-* `@change`
-* [DOM Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
-
-There are also built-in modifiers for common tasks:
-
-```vue
-<template>
-  <form @submit.prevent="formHandler"></form>       // Adds `event.preventDefault()`
-  <buton @click.stop="buttonHandler">Click</button> // Adds `event.stopPropagation()`
-  <buton @click.self="buttonHandler">Click</button> // Only fires if this element fired the event, not a child
-</template>
+```jsx
+<button onClick={setCount(count + 1)}>Increment Count</button>
 ```
 
-## Custom Events
-
-You can also fire custom events from components with `this.$emit`:
-
-```vue
-//NewButton.vue
-<template>
-  <button @click="addNew">New</button>
-</template>
-
-<script>
-export default {
-  name: "NewButton",
-  methods: {
-    addNew() {
-      this.$emit("add-new", "Any parameters", { you: "want" })
-    },
-  },
-}
-
-//ItemForm.vue
-<template>
-  <new-button @add-new="addNew" />
-</template>
-
-<script>
-export default {
-  name: "ItemForm",
-  methods: {
-    addNew(someString, someObject) {
-      // Whatever
-    },
-  },
-}
-</script>
-```
-
-This is the primary way you communicate from child components to parent components.
+Isn't valid because calling `setCount` doesn't evaluate to a function.

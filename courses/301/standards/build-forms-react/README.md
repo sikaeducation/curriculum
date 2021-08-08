@@ -3,10 +3,12 @@
 ## Topics
 
 * [State](topics/state-react)
-* [Controlled Forms](topics/controlled-forms-react)
 * [React Events](topics/events-react)
-* [React Form Submission](topics/form-submission-react)
-* [React Form Validation](topics/form-validation-react)
+* [Controlled Forms](topics/controlled-forms-react)
+* [React: `fetch`](topics/react-fetch)
+
+--
+
 * [Higher-Order Components](topics/higher-order-components-react)
 
 ## Assessment

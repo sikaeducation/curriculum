@@ -1,3 +1,121 @@
 # Intro to React
 
+## Web Applications
 
+Websites are primarily focused on content and are designed to be consumed. Web applications, by contrast, are designed to be used. Web applications can be social media apps like Facebook and Twitter, productivity applications like Gmail and Google Docs, eCommerce applications like Amazon and Home Depot, and many more. The common factor shared between them is that people use as tools.
+
+Early web applications were rendered by servers. Instead of sending back API data, servers would build HTML documents dynamically and send them to browsers. The problem was every time a user interacts with a server-rendered page, the browser needs to send an HTTP request and render an entirely new HTML document every time. This adds some lag between each interaction and keeps them from feeling as smooth as desktop or phone apps.
+
+## Single-Page Applications
+
+Single Page applications, or SPAs, are a particular style of modern web application. Instead of a server rendering a new HTML page for every interaction, a single HTML page is loaded one time. Whenever the user interacts with the page, an asyncronous HTTP request is sent with something like `fetch` to retrieve new data. This data is applied to different HTML templates that are stored in JavaScript, and the browser adds and removes DOM elements to make the page appear to have changed.
+
+There are many tools for helping build SPAs, and the most popular tool is React. React is a JavaScript library that helps developers build web applications interfaces using units called components, as well as being host to a larger ecosystem of application development tools.
+
+## React
+
+These are some concepts central to React:
+
+## Components
+
+The basic units of React apps and most other SPAs are components. You can think of components as custom HTML elements. They're made up of temlate consisting of traditional HTML elements and other components, as well as related JavaScript variables and functionality.
+
+For example, you might have a component that represents a collection of HTML elements:
+
+```react
+const TopBar = () => {
+  return (
+    <header>
+      <img src="logo.png" id="logo" alt="InvestoCorp Logo" />
+      <h1>InvestoCorp</h1>
+    </header>
+  )
+}
+```
+
+You can then use that component in other components just like you would any other HTML element:
+
+```react
+import TopBar from "./TopBar"
+
+const App = () => {
+  return (
+    <div id="app">
+      <TopBar />
+      <main>
+        <p>New website coming soon!</p>
+      </main>
+    </div>
+  )
+}
+```
+
+What's more, you can pass data into these components to make them more generic and reusable:
+
+```react
+const NameBadge = ({ firstName, lastName }) => {
+  return <p className="NameBadge">{ firstName } { lastName }</p>
+}
+
+const firstName = "Miles"
+const lastName = "Davis"
+const UserProfile = () => {
+  return (
+    <div className="UserProfile">
+      <span>User:</span>
+      <NameBadge firstName={firstName} lastName={lastName} />
+    </div>
+  )
+}
+```
+
+This will render the following HTML:
+
+```html
+<div class="UserProfile">
+  <span>User:</span>
+  <p class="NameBadge">Miles Davis</p>
+</div>
+```
+
+These uses are powerful for making your code more reusable and expressive, but the true power of React is in the way it handles interactivity:
+
+```js
+const Counter = () => {
+  const [count, setCount] = useState(0)
+  const handleClick = () => setCount(count + 1)
+
+  return (
+    <div className="Counter">
+      <p>The current count is {count}</p>
+      <button onClick={handleClick}>Increment Count</button>
+    </div>
+  )
+}
+```
+
+This component displays a count and a button. Whenever the button is clicked, the count increases and the component renders again with the new count. This pattern can be used to collect user input, interact with data from APIs, and dynamically filter content.
+
+
+## One-Way Data Flow
+
+A recurring theme in modern SPAs is one-way data flow. Most of the original SPAs used two-way data flow, which means that the value of things like form inputs can be set by the application or by the user. Two-way data flow uses a complicated means of synchronizing these two things. React popularized a simpler pattern called one-way data flow, which involves data in the application being bound to HTML, and events from the HTML updating the values.
+
+## Virtual DOM
+
+One of the core ideas in all single-page apps is that you don't work directly with the DOM. That means React apps don't use any of the following:
+
+* `document.querySelector()
+* `document.querySelectorAll()
+* `document.createElement()
+* `element.addEventListener()`
+* `element.append`
+* `element.classList`
+* `element.innerHTML`
+* `element.textContent`
+
+It turns out that one of the slowest parts of web applications is updating the DOM. One of the ways to work around this is to work with an abstraction called the virtual DOM that manages how and when to update the actual DOM. Instead of grabbing elements out of the DOM and updating them, you bind variables to them in templates using a language called JSX. Instead of adding event listeners with the DOM, you call handlers from templates.
+
+## Transpiling
+
+Some of the syntax used in making React apps and other SPAs isn't valid JavaScript, HTML, or CSS. As a reminder, those are the only files your browser understands. That means you need another tool that transforms the code you're writing into HTML, CSS, and JavaScript. The most common tool for this is called [webpack](https://webpack.js.org/).
