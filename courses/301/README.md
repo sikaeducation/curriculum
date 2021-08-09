@@ -13,7 +13,6 @@
 * [Build owner/member pages using React](standards/build-owner-member-pages-react)
 * [Integrate routing into a single-page application](standards/integrate-routing-react)
 * [Integrate state management into a single-page application](standards/integrate-state-management-react)
-* [Integrate secure APIs into websites using JavaScript](standards/integrate-state-management-react)
 
 ## Assessments
 

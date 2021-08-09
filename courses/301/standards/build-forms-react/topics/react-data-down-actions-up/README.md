@@ -42,37 +42,9 @@ The trickiest part of the entire flow is passing in the `increment` function to 
 
 When the `increment` function calls `setCount`, `count` changes, and `CounterDisplay` re-renders. This pattern works no matter how many components the function or state travel through.
 
-## Lifting State
-
-Another common issue with state is sharing it across components that don't have a parent-child relationship. For example, consider a component that displays a list of items and displays more details about a featured item:
-
-```js
-const ItemSummary = ({ title }) => {
-  <div className="ItemSummary">{ title }</div>
-}
-
-const ItemDetails = ({ details }) => {
-  <div className="ItemDetails">{ details }</div>
-}
-
-const ItemList = () => {
-  const items = [{
-    id: 1,
-    title: "Apple",
-    details: "A scrumptious apple",
-  },{
-    id: 2,
-    title: "Banana",
-    details: "A delectable banana",
-  }]
-  const [selectedId, setSelectedId] = useState(1)
-}
-```
-
 ---
 
 The ideas of data down, actions up can be summarized as follows:
 
-* Props can only be passed down.
-* If two components need access to the same data and aren't in the same component hierarchy, the data needs to live in a common ancestor.
+* Data can only be passed down.
 * Functions that directly change state must be defined in the same component as the state, but these functions can be passed down as props.
