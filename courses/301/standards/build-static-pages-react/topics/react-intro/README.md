@@ -81,12 +81,15 @@ This will render the following HTML:
 These uses are powerful for making your code more reusable and expressive, but the true power of React is in the way it handles interactivity:
 
 ```js
-const Counter = () => {
+import { useState } from 'react'
+import './App.css';
+
+const App = () => {
   const [count, setCount] = useState(0)
   const handleClick = () => setCount(count + 1)
 
   return (
-    <div className="Counter">
+    <div className="App">
       <p>The current count is {count}</p>
       <button onClick={handleClick}>Increment Count</button>
     </div>
@@ -94,8 +97,9 @@ const Counter = () => {
 }
 ```
 
-This component displays a count and a button. Whenever the button is clicked, the count increases and the component renders again with the new count. This pattern can be used to collect user input, interact with data from APIs, and dynamically filter content.
+[Play with this code](https://codesandbox.io/s/sweet-gould-xdbwv?file=/src/App.js)
 
+This component displays a count and a button. Whenever the button is clicked, the count increases and the component renders again with the new count. This pattern can be used to collect user input, interact with data from APIs, and dynamically filter content.
 
 ## One-Way Data Flow
 

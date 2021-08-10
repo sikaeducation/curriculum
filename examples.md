@@ -9,3 +9,4 @@
 | Grid Demo | Demo CSS Grid | https://github.com/sikaeducation/css-grid-usage | https://codesandbox.io/s/optimistic-sun-y8bo8 |
 | CSS Positioning | Demo CSS positioning | https://github.com/sikaeducation/css-positioning | https://codesandbox.io/s/wonderful-moon-jzcd2?file=/index.css |
 | Form Input Playground | Demo form inputs | https://github.com/sikaeducation/form-input-playground | https://codesandbox.io/s/charming-pike-426kj |
+| React Counter Example | Classic React counter | https://github.com/sikaeducation/react-counter | https://codesandbox.io/s/sweet-gould-xdbwv?file=/src/App.js |
