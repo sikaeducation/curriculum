@@ -3,8 +3,10 @@
 ## Topics
 
 * [Intro to SPA State Management](topics/spa-state-management-intro)
-* [Intro to Redux](topics/react-redux-intro)
-* [Redux: State Mapping](topics/react-redux-state-mapping)
-* [Redux: Dispatching Actions](topics/react-redux-dispatching)
+  * [Exercises](topics/spa-state-management-intro/exercises)
+* [Intro to React Context](topics/react-context-intro)
+  * [Exercises](topics/react-context-intro/exercises)
+* [React Context: Setting State](topics/react-context-setting-state)
+  * [Exercises](topics/react-context-setting-state/exercises)
 
 ## Assessments

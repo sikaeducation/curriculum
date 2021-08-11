@@ -1,6 +1,6 @@
 # React Events
 
-Since you don't interact with the DOM directly in React apps, how do you handle DOM events?
+Since you don't interact with the DOM directly in React apps, how do you response to DOM events?
 
 ```js
 const Counter = () => {
@@ -67,7 +67,7 @@ Note that the value of an event handler in JSX must always be a function that wi
 <button onClick={setCount}>Increment Count</button>
 ```
 
-Will set the value of `count` to the `event` object when clicked. This code:
+Will set the value of `count` to the `event` object when clicked, which is not what you want. This code:
 
 ```jsx
 <button onClick={setCount(count + 1)}>Increment Count</button>

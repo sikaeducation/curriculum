@@ -2,6 +2,6 @@
 
 ## Topics
 
-* [](topics/)
+* [Computed Properties](topics/computed-properties-react)
 
 ## Assessment
