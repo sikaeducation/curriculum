@@ -102,3 +102,10 @@ import SomeOtherComponent from "../some-folder/SomeOtherComponent" // Adjacent f
 ---
 
 `package.json` is JSON, not JavaScript. All keys and string values must be double-quoted, no trailing commas are allowed.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [npm](https://www.npmjs.com/) | npm's officially site |
+| [Toptal: A guide to npm](https://www.toptal.com/javascript/a-guide-to-npm-the-node-package-manager) | Overview of npm's features |

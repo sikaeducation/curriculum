@@ -125,3 +125,10 @@ It turns out that one of the slowest parts of web applications is updating the D
 ### Transpilation
 
 Some of the syntax used in making React apps and other SPAs isn't valid JavaScript, HTML, or CSS. As a reminder, those are the only files your browser understands, which means you need another tool that transforms the code you're writing into HTML, CSS, and JavaScript. These kinds of tools are called transpilers, and the one of the most common tools for this is in React apps is [webpack](https://webpack.js.org/).
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React With Hooks](https://reactwithhooks.netlify.app/) | Comprehensive guide to React |
+| [Thinking in React](https://reactwithhooks.netlify.app/docs/thinking-in-react.html) | Overview of React philosophy |

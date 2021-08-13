@@ -240,3 +240,18 @@ const rsvpResponse = isAttending
 ```
 
 These are important in React because JSX doesn't support other forms of conditional logic.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) | MDN's documentation on arrow functions |
+| [MDN: ES6 in Depth: Arrow functions](https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/) | MDN's deep-dive on arrow functions |
+| [MDN: `import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) | MDN's documentation on `import` |
+| [MDN: `export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) | MDN's documentation on `export` |
+| [MDN: Modules Tutorial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) | MDN's tutorial on JS modules |
+| [MDN: Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) | MDN's documentation on destructuring |
+| [JavaScript.info: Destructuring Assignment](https://javascript.info/destructuring-assignment) | The modern JavaScript tutorial on destructuring assignment |
+| [MDN: Spread Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) | MDN's documentation on spread |
+| [Free Code Camp: An introduction to spread syntax](https://www.freecodecamp.org/news/an-introduction-to-spread-syntax-in-javascript-fba39595922c/) | Free code camp's overview of spread |
+| [MDN: Conditional (ternary) Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) | MDN's documentation on the ternary operator |

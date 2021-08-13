@@ -33,3 +33,9 @@ All of your React components go in this directory. The `App.js` file is consider
 After creating an app with CRA, don't forget you still need to `cd` into the folder.
 
 If port 3000 is already being used on your computer (such as by another instance of CRA), you will be asked if you would like to server the app on another port instead.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Create React App](https://create-react-app.dev/docs/getting-started) | Official guide to Create React App |
