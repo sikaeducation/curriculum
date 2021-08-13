@@ -28,6 +28,8 @@ const Counter = () => {
 }
 ```
 
+[Play with this code](https://codesandbox.io/s/awesome-gauss-xyw1r)
+
 Some highlights:
 
 * The `CounterDisplay` component takes a `count` as a prop and displays it. It doesn't need to know that this prop is actually a stateful variable in the `Counter` component, which makes it a much simpler component to understand. These are sometimes called dumb components.

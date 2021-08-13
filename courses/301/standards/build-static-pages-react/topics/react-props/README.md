@@ -8,9 +8,7 @@ import ChildComponent from "./ChildComponent"
 
 module.exports = function ParentComponent(){
   return (
-    <>
-      <ChildComponent someProp="Hello, world!" />
-    </>
+    <ChildComponent someProp="Hello, world!" />
   )
 }
 ```
@@ -55,7 +53,7 @@ This state will be bound, meaning that any change in the parent immediately trig
 
 ## Watch Out!
 
-It's called 1-way binding for a reason. In the example above, pressing the button changes the state, and that state change is reflected down through the props. We can't also have a button in the child that changes the state in the parent. If a child component needs to change state in its parent, it needs to do it by passing in a function that changes. State changes need to happen in the same place the state is held.
+In the example above, pressing the button changes the state, and that state change is reflected down through the props. We can't also have a button in the child that changes the state in the parent. If a child component needs to change state in its parent, it needs to do it by passing in a function that changes the original value. State changes need to happen in the same place the state is held.
 
 ## Additional Resources
 

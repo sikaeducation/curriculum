@@ -2,6 +2,13 @@
 
 One of React's advantages is that most of it just JavaScript and introduces very little additional React-specific syntax. Some of the JavaScript syntax used is more advanced than the syntax commonly used in websites and bears review.
 
+* [Arrow Functions](#arrow-functions)
+* [Modules](#modules)
+* [Object Destructuring](#object-destructuring)
+* [Array Destructuring](#array-destructuring)
+* [Spreading](#spreading)
+* [Ternary Expressions](#ternary-expressions)
+
 ## Arrow Functions
 
 All of these are the same:
@@ -69,14 +76,18 @@ const YetAnotherFunction = (greeting, place) => `${greeting}, ${place}!`
 
 ## Modules
 
-JavaScript allows you to export variables from one file and import them into another. In React, you'll mostly work with default imports and exports where files only export and import one thing:
+JavaScript allows you to export variables from one file and import them into another. You'll mostly work with default imports and exports in React, where files only export and import one thing:
 
 ```js
 // SomeComponent.js
 export default const SomeComponent = () => {
-  name: "SomeComponent",
+  return (
+    <p>Hello, world!</p>
+  )
 }
+```
 
+```js
 // AnotherComponent.js
 import SomeComponent from "./SomeComponent.js"
 
@@ -111,7 +122,7 @@ getUserString = ({ username, displayName }) => {
 }
 ```
 
-This is especially useful in React because each component is called with an object conventionally called `props` containing any values given to it.
+This is especially useful in React because each component is called with an object that's conventionally called `props`. `props` contains any values given that were passed into the component as attributes:
 
 ```js
 const UserBadge = props => {
@@ -122,6 +133,7 @@ const UserBadge = props => {
     <p>{displayName} ({username})</p>
   )
 }
+// <UserBadge username="milesdavis" displayName="Prince of Darkness" />
 ```
 
 The same component with props destructured is more condensed:
@@ -132,6 +144,7 @@ const UserBadge = ({username, displayName}) => {
     <p>{displayName} ({username})</p>
   )
 }
+// <UserBadge username="milesdavis" displayName="Prince of Darkness" />
 ```
 
 ## Array Destructuring
@@ -145,7 +158,7 @@ const [one, two, three] = someArray
 console.log(one, two, three) // 1, 2, 3
 ```
 
-In React, this gets used to pull values out of things called hooks:
+In React, this is often used to pull values out of things called hooks:
 
 ```js
 const hookArray = useState(0)
@@ -189,7 +202,14 @@ const captainJack = {
 */
 ```
 
-These are handy for combining and making shallow copies of things.
+These are handy for combining and making shallow copies of things. You can also use it to pass all of the props given to a component through to another component:
+
+```js
+const InnerComponent = ({ someProp, someOtherProp }) => <p>I was given {someProp} and {someOtherProp}.</p>
+const OuterComponent = props => <InnerComponent {...props} />
+
+// <OuterComponent someProp="one thing" someOtherProp="another" />
+```
 
 ## Ternary Expressions
 

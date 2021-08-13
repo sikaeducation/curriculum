@@ -24,11 +24,11 @@ To do this in React, save these computed properties as variables. These can be r
 
 ```react
 const MovieDisplayer = ({ movies }) => {
-  const headline = movies.reduce((headline, movie) => `${headline}, ${movie}`, "")
+  const headline = movies.map(movie => movie.title).join(", ")
   const alphabetizedMovies = movies.sort((movieA, movieB) => {
     if (movieA.title > movieB.title) {
       return 1
-    } else if (movieB.title < movieB.title) {
+    } else if (movieA.title < movieB.title) {
       return -1
     } else {
       return 0
@@ -39,14 +39,18 @@ const MovieDisplayer = ({ movies }) => {
     .map(movie => <li key={movie.id}>{movie.title}</li>)
 
   return (
-    <h2>{headline}, and more!</h2>
-    <h3>In Your Favorite Genre:<h3>
-    <ul>{comedies}</ul>
-    <h3>All Movies<h3>
-    <ul>{alphabetizedMovies}</ul>
+    <div className="MovieDisplayer">
+      <h2>{headline}, and more!</h2>
+      <h3>In Your Favorite Genre:</h3>
+      <ul>{comedies}</ul>
+      <h3>All Movies</h3>
+      <ul>{allGenres}</ul>
+    </div>
   )
 }
 ```
+
+[Play with this code](https://codesandbox.io/s/restless-lake-vp45p)
 
 You can also use this to alias or restructure props you're given:
 

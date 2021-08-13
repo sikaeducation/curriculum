@@ -21,6 +21,7 @@ const SomeList = () => {
 
   return <ul>{items}</ul>
 }
+```
 
 This produces the following HTML:
 
@@ -31,6 +32,8 @@ This produces the following HTML:
   <li>C</li>
 </ul>
 ```
+
+[Play with this code](https://codesandbox.io/s/loving-carson-uthpx)
 
 ## Keys
 
@@ -46,7 +49,7 @@ If some other value in each item is unique (such as an employee ID), you can use
 
 ## Watch Out!
 
-* Array indexes are not suitable for the `key` attribute, because they can change.
+Array indexes are not suitable for the `key` attribute because they can change (for example, if the list is sorted).
 
 ## Additional Resources
 

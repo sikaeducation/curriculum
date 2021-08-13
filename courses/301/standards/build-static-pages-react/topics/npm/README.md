@@ -1,6 +1,6 @@
-# NPM
+# npm
 
-`npm`, or Node Package Manager, is a tool for installing and using code that others have written and shared.
+npm, or Node Package Manager, is a tool for installing and using code that others have written and shared.
 
 ## Searching for Packages
 
@@ -16,7 +16,7 @@ In general, packages with more weekly downloads can be expected to be more robus
 
 ## Installing Packages
 
-For example to install Lodash, a popular collection of JavaScript tools:
+You can add an npm package to a project with `npm install package-name-here`. For example to install the popular library Lodash:
 
 ```bash
 npm install lodash
@@ -37,7 +37,7 @@ const someOtherArray = [2, 4, 6]
 console.log(_.intersection(someArray, someOtherArray)) // [2]
 ```
 
-If a package has named exports, you can import them too:
+If a package has specific parts available as named exports, you can import them too:
 
 ```js
 import { intersection } from "lodash"
@@ -48,7 +48,7 @@ const someOtherArray = [2, 4, 6]
 console.log(intersection(someArray, someOtherArray)) // [2]
 ```
 
-Note that this syntax is similar to the syntax for JavaScript object destructuring, but works very differently. You cannot destructure an object while importing a package.
+Note that this syntax is similar to the syntax for JavaScript object destructuring, but works very differently. You can't destructure an object while importing a package.
 
 ## Using npm Scripts
 

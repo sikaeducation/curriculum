@@ -1,8 +1,6 @@
 # React: Controlled Forms
 
-React is all about one-way data flow. However, form inputs are naturally two-way; you want to be able to set the value of an input programmatically, and you want the value to change when a user types. Luckily, this can be accomplished by a circular approach to managing state called controlled forms.
-
-If you're trying to control the state of an input, you could use an approach like this:
+React is all about one-way data flow. However, form inputs are naturally two-way; you want to be able to set the value of an input programmatically, and you want the value to change when a user types. Luckily, this can be accomplished by a circular approach to managing state. If you're trying to control the state of an input, you could use an approach like this:
 
 ```js
 const FormInput = () => {
@@ -31,9 +29,7 @@ Put differently, the value of the `<input />` is `inputValue`, and when it chang
 This works for a single input, but to truly capture user input, it needs to be done in the context of an entire form. That looks like this:
 
 ```js
-import { useState } from "react"
-
-export default const LoginForm = ({login}) => {
+const LoginForm = ({login}) => {
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
 
@@ -45,12 +41,12 @@ export default const LoginForm = ({login}) => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label for="username">Username</label>
-      <input type="text" id="username" value={username} onChange={updateUsername} />
+    <form className="LoginForm" onSubmit={handleSubmit}>
+      <label htmlFor="username">Username</label>
+      <input type="text" id="username" required value={username} onChange={updateUsername} />
 
-      <label for="password">Username</label>
-      <input type="password" id="password" value={password} onChange={updatePassword} />
+      <label htmlFor="password">Password</label>
+      <input type="password" id="password" required value={password} onChange={updatePassword} />
 
       <input type="submit" value="Login" />
     </form>

@@ -6,13 +6,19 @@ It's difficult to write and run React-based apps directly in the browser without
 
 To make a new CRA project, use `npx create-react-app project-name-goes-here`. This will create a new React project with all of the pieces needed to make it work installed and wired together already.
 
+![Running npx create-react-app project-name-goes-here](assets/cra-1.png)
+
 ## Serving CRA Apps
 
 To run a local server for an app built with CRA, run `npm start` anywhere in the project directory. By default, CRA will host the app at `http://localhost:3000` and will automatically update the browser every time you save changes to the project. To stop serving an app, press `ctrl` + C.
 
+![Serving a CRA app](assets/cra-2.png)
+
 ## Folder Structure
 
 There two folders in a fresh CRA project that you should be aware of.
+
+![Structure of a fresh CRA app](assets/cra-3.png)
 
 ### `public`
 
@@ -23,5 +29,7 @@ The `public` directory contains static assets, such as images, fonts, and favico
 All of your React components go in this directory. The `App.js` file is considered your top-level component and should be left there, but it can be modified. Everything else in the `src` folder is available for you to add to, delete, modify, or organize however you like.
 
 ## Watch Out!
+
+After creating an app with CRA, don't forget you still need to `cd` into the folder.
 
 If port 3000 is already being used on your computer (such as by another instance of CRA), you will be asked if you would like to server the app on another port instead.

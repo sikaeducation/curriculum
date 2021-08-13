@@ -1,5 +1,7 @@
 # React Router: Nested Routing
 
+Often, your routes need to have sub-routes, such display a specific comments for a specific post: `/posts/23423/comments`. React router handles this kind of nested routing by adding an additional `<Switch>` within a view that's been routed.
+
 ## URL Conventions
 
 Most URLs in SPAs are based around resources and IDs. Resources are names for types of items, and IDs are anything that can uniquely identify a single item within those. When designing nested URLs in an app, observe the following conventions:
@@ -7,7 +9,27 @@ Most URLs in SPAs are based around resources and IDs. Resources are names for ty
 * Resource names are plural. That means that the URL for a product with the ID of 3 should be `example.com/products/3`, not `example.com/product/3`.
 * Individual items should be linked to by a unique identifier in the URL, usually a database-generated ID. That means that the url for a T-shirt should something like `example.com/shirts/23421` rather than `example.com/shirts/blue-tee`. You can use descriptive words in the URL, but you need to take care to ensure that they're unique or you won't be able to display the correct item. Things that are naturally unique such as departments in an organization are a good fit for this.
 * A resource without an ID is called an index, and is often used to display a list of resources. For example, `example.com/albums` might display a list of albums, while `example.com/albums/34` might display details about a particular album.
-* The suffixes `create`, `edit`, and `delete` are standard for displaying forms that offer options about each related action, but can customized or branded as necessary. For example, a URL to edit a participant might look like `example.com/participants/34/edit`.
+* The suffixes `create`, `edit`, and `delete` are standard for displaying forms that offer options about each related action, but can customized or branded as necessary. For example, a URL to edit a participant might look like `example.com/participants/34/edit` or `example.com/participants/34/update`.
+
+## The `useRouteMatch` Hook
+
+The `useRouteMatch` hook evaluates to an object containing information about the current path. This is useful in dynamically filling out the `to` attribute of links and the `path` attribute of nested routes:
+
+```react
+const match = useRouteMatch()
+
+// ...
+
+<Link to={`${match.url}/${someDynamicValue}`}>Arts and Culture Management</Link>
+
+// ...
+
+<Route path={`${match.url}/:someDynamicValue`}>
+  <SomeMatchingComponent />
+</Route>
+```
+
+`match` contains the current path in its `url` property, and all dynamic segments in its `params` property.
 
 ## Nesting Routes
 
@@ -16,87 +38,114 @@ With React Router, a nested route is a component that has its own router. For ex
 ```js
 const App = () => {
   return (
-    <Router>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/"><h1>University of Denver</h1></Link>
-          </li>
-          <li>
+    <div className="App">
+      <Router>
+        <header>
+          <h1><Link to="/">The University of Denver</Link></h1>
+          <nav>
             <ul>
+              <li>
+                <Link to="/career">University College</Link>
+              </li>
               <li>
                 <Link to="/law">Sturm College of Law</Link>
               </li>
               <li>
                 <Link to="/business">Daniels College of Business</Link>
               </li>
-              <li>
-                <Link to="/career">University College</Link>
-              </li>
             </ul>
-          </li>
-        </ul>
-      </nav>
-      <Switch>
-        <Route path="/">
-          <UniversityHomeView />
-        </Route>
-        <Route path="/law">
-          <LawSchoolView />
-        </Route>
-        <Route path="/business">
-          <BusinessSchoolView />
-        </Route>
-        <Route path="/career">
-          <CareerSchoolView />
-        </Route>
-      </Switch>
-    </Router>
-  )
-}
-
-const UniversityHomeView = () => {
-  return (
-    <div className="UniversityHomeView">
-      <h2>Welcome to the University of Denver</h2>
+          </nav>
+        </header>
+        <main>
+          <Switch>
+            <Route path="/law">
+              <LawSchoolView />
+            </Route>
+            <Route path="/business">
+              <BusinessSchoolView />
+            </Route>
+            <Route path="/career">
+              <CareerSchoolView />
+            </Route>
+            <Route exact path="/">
+              <UniversityHomeView />
+            </Route>
+          </Switch>
+        </main>
+      </Router>
     </div>
   )
-}
-
-const UniversityCollegeView = () => {
-  const match = useRouteMatch()
-
-  return (
-    <div className="UniversityCollegeView">
-      <h2>Welcome to the University of Denver's University College</h2>
-      <nav>
-        <ul>
-          <li>
-            <Link to={`${match.url}/acm`}>Arts and Culture Management</Link>
-          </li>
-          <li>
-            <Link to={`${match.url}/cm`}>Communication Management</Link>
-          </li>
-          <li>
-            <Link to={`${match.url}/ict`}>Information and Communications Technology</Link>
-          </li>
-        </ul>
-      </nav>
-      <Switch>
-        <Route path={`${match.url}/:departmentName`}>
-          <DepartmentView />
-        </Route>
-        <Route path={match.url}>
-          <CollegeIndexView college="university-college" />
-        </Route>
-      </Switch>
-    </div>
-  )
-}
-
-const DepartmentView = () => {
-  const { departmentName } = useParams()
-
-  // Look up `departmentName from an API, use data to populate template
 }
 ```
+
+```react
+const CareerSchoolView = () => {
+  const { url, path } = useRouteMatch()
+  const departments = [{
+    id: "ict",
+    label: "Information and Communications Technology",
+  },{
+    id: "acm",
+    label: "Arts and Culture Management",
+  },{
+    id: "cm",
+    label: "Communication Management",
+  }]
+  const $departments = departments.map(department => (
+    <li key={department.id}>
+      <Link to={`${url}/${department.id}`}>{department.label}</Link>
+    </li>
+  ))
+
+  return (
+    <div className="CareerSchoolView">
+      <h2>Welcome to the University of Denver's University College</h2>
+      <nav>
+        <ul>{$departments}</ul>
+      </nav>
+      <Switch>
+        <Route path={`${path}/:departmentName`}>
+          <DepartmentView />
+        </Route>
+        <Route exact path={path}>
+          <DepartmentIndexView />
+        </Route>
+      </Switch>
+    </div>
+  )
+}
+```
+
+```react
+const DepartmentView = () => {
+  const { departmentName } = useParams()
+  const [greeting, setGreeting] = useState("Loading...")
+
+  useEffect(() => {
+    fetch("/university-college.json")
+      .then(response => response.json())
+      .then(({ departments }) => {
+        const department = departments[departmentName]
+        setGreeting(department.greeting)
+      })
+  }, [departmentName])
+
+  return (
+    <p>{ greeting }</p>
+  )
+}
+```
+
+[Play with this code](https://codesandbox.io/s/bold-butterfly-bifmk)
+
+In this example:
+
+1. The `<App />` component wraps the entire application in a `<Router>`, has `<Link>`s that sets new URL paths, and a `<Switch>` that determines which school component to display based on the URL path.
+2. The `<CareerSchoolView />` gets the `url` and the `path` from the `useRouteMatch` hook. These will both be `/career` in this case.
+3. The `<CareerSchoolView />` makes nested links to each department using the `url`.
+4. Another `<Switch>` matches URL paths that contain a dynamic segment representing the career school's department ID. These are what the `<Link>` tags in this component will link to. It also has a default view that will display when the route first loads.
+5. The `<DepartmentView />` gets the department ID from the `useParams` hook. It uses this to look up and display that department's unique greeting from a local JSON file with `fetch`.
+
+## Watch Out!
+
+`match.url` is used in `<Link>`s, `match.path` is used in `<Route>`s. A linking URL should contain the entire path, while a route only needs the new parts of the path since the last `<Route>` component.

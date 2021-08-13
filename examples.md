@@ -12,3 +12,13 @@
 | React Counter Example | Classic React counter | https://github.com/sikaeducation/react-counter | https://codesandbox.io/s/admiring-bouman-g30dj |
 | React Controlled Input| Demo a controlled input | https://github.com/sikaeducation/react-controlled-input | https://codesandbox.io/s/shy-smoke-62fuh |
 | React Controlled Form| Demo a controlled form | https://github.com/sikaeducation/react-controlled-form | https://codesandbox.io/s/priceless-snyder-b5nng |
+| React Data Down Actions Up | Classic React counter with multiple components | https://github.com/sikaeducation/react-counter-ddau | https://codesandbox.io/s/awesome-gauss-xyw1r |
+| React Pokemon Card | Fetching and display data in a React app | https://github.com/sikaeducation/react-pokemon-display | https://codesandbox.io/s/epic-mendel-7ys34?file=/src/PokemonCard.js |
+| React Owner Member | Demonstrating the owner member pattern | https://github.com/sikaeducation/react-owner-member-example | https://codesandbox.io/s/brave-wind-boc7m?file=/src/ItemList.js |
+| React Movie Displayer | Demonstrating fetching from an API into state | https://github.com/sikaeducation/react-movie-displayer | https://codesandbox.io/s/restless-lake-vp45p |
+| React Overdue Badge | Demonstrating conditional rendering in React | https://github.com/sikaeducation/react-overdue-badge | https://codesandbox.io/s/little-surf-b2qot |
+| React Iteration | Demonstrating iteration in React | https://github.com/sikaeducation/react-iteration | https://codesandbox.io/s/loving-carson-uthpx |
+| Manual SPA Routing | Demonstrating SPA routing as DOM manipulation | https://github.com/sikaeducation/manual-spa-routing | https://codesandbox.io/s/hardcore-lalande-hwewm |
+| React Router Simple Routing | Demonstrating basic SPA routing with React Router | https://github.com/sikaeducation/react-router-simple | https://codesandbox.io/s/awesome-payne-4wkvd |
+| React User Profile Context| Demonstrating React Context | https://github.com/sikaeducation/react-user-profile-context | https://codesandbox.io/s/angry-cache-wqbkf |
+| React User Profile Context with Set | Demonstrating React Context with set | https://github.com/sikaeducation/react-user-profile-context-with-set | https://codesandbox.io/s/exciting-meadow-r4xeg |

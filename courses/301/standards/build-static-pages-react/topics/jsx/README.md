@@ -1,14 +1,14 @@
 # JSX
 
-How do write HTML that uses bound dynamic values and JavaScript expressions? Use a templating language. JSX is a templating language commonly used with React.
+You can use basic DOM manipulation to put JavaScript values into a document. What if you want to include the values in the markup language itself? One way to do this is with a templating language and JSX is the most commonly used templating language in React.
 
 ## Keyword Changes
 
-JSX is similar to HTML, with the following differences:
+JSX is similar to HTML except You can't use HTML keywords that are already JavaScript keywords, so the following keywords are changed:
 
-* You can't use HTML keywords that are already JavaScript keywords, so the following keywords are changed:
-  * `class` becomes `className`
-  * `for` becomes `htmlFor`
+* `class` becomes `className`
+* `for` becomes `htmlFor`
+* Neither HTML or JS comment syntax is supported, so comments are done with `{/* Comment here */}`
 
 ## Including JavaScript
 
@@ -56,6 +56,14 @@ const Heading = () => <h2>Breaking News!</h2>
 const SomeArticle = () => <article><Heading /></article>
 ```
 
+This renders to:
+
+```html
+<article>
+  <h2>Breaking News!</h2>
+</article>
+```
+
 ## Using JSX in React
 
 Modern React components are functions that should return JSX. A typical component might look like this:
@@ -81,6 +89,34 @@ const Images = ({ images }) => {
 ## Watch Out!
 
 * When using braces for attributes, note that the braces replace the quotes. For example, a link with an `href` attribute would look like `<a href={url}></a>`, not `<a href="{url}"></a>`
+* It's possible to nest `{}` in JSX. The rule is that `{}` creates a new block for JavaScript expressions, and opening a new element within one of those  goes back into JSX. For example:
+
+```jsx
+<div>
+{
+  someValue && <ElementNameHere attribute={someAttribute} />
+}
+</div>
+```
+* JSX expressions always need to run one and only one top-level element. This is invalid:
+
+```react
+const SomeComponent = () => (
+  <p>Hello,</p>
+  <p>World!</p>
+)
+```
+
+If there are no suitable elements to wrap them in, you can use empty elements called fragments instead:
+
+```react
+const SomeComponent = () => (
+  <>
+    <p>Hello,</p>
+    <p>World!</p>
+  </>
+)
+```
 
 ## Additional Resources
 

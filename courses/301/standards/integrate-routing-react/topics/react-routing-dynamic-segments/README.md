@@ -1,6 +1,37 @@
 # React Router: Dynamic Segments
 
-Sometimes routes have components that are applied to an arbitrary number of URLs. For examples, a `ProductView` component may have a route for every product in the catalog. For situations like, use dynamic segments.
+Sometimes routes have components that are applied to an arbitrary number of URLs. For examples, a `ProductView` component may have a route for every product in the catalog. For situations like this, use dynamic segments.
+
+## The `useParams` Hook
+
+The core idea in dynamic segments is that you can define a part of a path that will be read as a URL. For example, the path `/users/3242` might have the route `<Route path="users/:userId">`. The part of the path after the colon will be available in the component the route renders with the `useParams` hook as the variable `userId`.
+
+```react
+const Users = () => {
+  return (
+    <Switch>
+      <Route path="/users/:userId">
+        <UserProfile />
+      </Route>
+      <Route path="/users">
+        <UserList />
+      </Route>
+    </Switch>
+  )
+}
+```
+
+```react
+const UserProfile => {
+  const { userId } = useParams()
+
+  // Fetch user with `userId`, etc.
+}
+```
+
+## Routing with Dynamic Segments
+
+This example routes to different product categories. Each one uses the same `<ProductView />` component, but uses the `useParams` hook to get the data specific to that product category when it's rendered.
 
 ```react
 const App = () => {
@@ -19,18 +50,45 @@ const App = () => {
           <ProductView />
         </Route>
         <Route path="/">
-          <ProductView />
+          <ProductIndexView />
         </Route>
       </Switch>
     </Router>
   )
 }
+```
 
+```react
 const ProductView = () => {
   const { productCategory } = useParams()
-  // Fetch items for that product category, etc.
+  const [ productCategory, setProductCategory ] = useState({})
+  const [ error, setError ] = useState(false)
+
+  useEffect(() => {
+    fetch(`products/${productCategory}`)
+      .then(response => response.json())
+      .then(productCategory => {
+        setProductCategory(productCategory)
+      }).catch(error => {
+        console.error(error.message)
+        setError(true)
+      })
+  }, [ productCategory ])
+
   return (
-    <h2>{ productCategory }</h2>
+    <div className="ProductCategory">
+      {
+        productCategory.title
+          ? <>
+            <h2>{ productCategory.title }</h2>
+            <p>{ productCategory.details }</p>
+          </>
+          : <span className="loading-indicator">Loading...</span>
+      }
+      {
+        error && <p className="error">There was an error loading this product category</p>
+      }
+    </div>
   )
 }
 ```
@@ -69,7 +127,9 @@ const App = () => {
     </Router>
   )
 }
+```
 
+```react
 const Item = () => {
   const { itemId } = useParams()
   // Fetch the item with this `itemId`

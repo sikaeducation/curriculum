@@ -2,25 +2,25 @@
 
 ## Web Applications
 
-Websites are primarily focused on content and are designed to be consumed. Web applications, by contrast, are designed to be used. Web applications can be social media apps like Facebook and Twitter, productivity applications like Gmail and Google Docs, eCommerce applications like Amazon and Home Depot, and many more. The common factor shared between them is that people use as tools.
+Websites are primarily focused on content and are designed to be consumed. By contrast, web applications are designed to be used. Web applications can be social media apps like Facebook and Twitter, productivity applications like Gmail and Google Docs, eCommerce applications like Amazon and Home Depot, and much more. The common factor between them is that people use them as tools.
 
-Early web applications were rendered by servers. Instead of sending back API data, servers would build HTML documents dynamically and send them to browsers. The problem was every time a user interacts with a server-rendered page, the browser needs to send an HTTP request and render an entirely new HTML document every time. This adds some lag between each interaction and keeps them from feeling as smooth as desktop or phone apps.
+Early web applications were rendered by servers. Instead of sending back API data, servers would programmatically build HTML documents and send them to browsers. The downside of building HTML this way is when a user interacts with a server-rendered page the browser needs to send an HTTP request and render an entirely new HTML document every time. This adds some lag between each interaction and keeps them from feeling as smooth as desktop or phone apps.
 
 ## Single-Page Applications
 
-Single Page applications, or SPAs, are a particular style of modern web application. Instead of a server rendering a new HTML page for every interaction, a single HTML page is loaded one time. Whenever the user interacts with the page, an asyncronous HTTP request is sent with something like `fetch` to retrieve new data. This data is applied to different HTML templates that are stored in JavaScript, and the browser adds and removes DOM elements to make the page appear to have changed.
+Single Page applications, or SPAs, are a particular style of modern web application. Instead of a server rendering a new HTML page for every interaction, a single HTML page is loaded one time. Whenever the user interacts with the page, an asynchronous HTTP request is sent with something like `fetch` to retrieve new data. This data is applied to different HTML templates that are stored in JavaScript, and the browser adds and removes DOM elements to make the page appear to have changed.
 
-There are many tools for helping build SPAs, and the most popular tool is React. React is a JavaScript library that helps developers build web applications interfaces using units called components, as well as being host to a larger ecosystem of application development tools.
+There are many tools for helping build SPAs and one of the most popular is React. React is a JavaScript library that helps developers build interfaces for web applications using units called components, as well as being host to a larger ecosystem of application development tools.
 
 ## React
 
-These are some concepts central to React:
+The core concepts in React applications include components, one-way data flow, the virtual DOM, and transpilation.
 
 ## Components
 
-The basic units of React apps and most other SPAs are components. You can think of components as custom HTML elements. They're made up of temlate consisting of traditional HTML elements and other components, as well as related JavaScript variables and functionality.
+The basic units of React apps and most other SPAs are components, which you can think of as custom HTML elements. They're made up of temlate consisting of traditional HTML elements and other components, as well as any related JavaScript variables and functionality.
 
-For example, you might have a component that represents a collection of HTML elements:
+For example, you might have a component that represents a collection of HTML elements in an application's top bar:
 
 ```react
 const TopBar = () => {
@@ -56,7 +56,9 @@ What's more, you can pass data into these components to make them more generic a
 const NameBadge = ({ firstName, lastName }) => {
   return <p className="NameBadge">{ firstName } { lastName }</p>
 }
+```
 
+```react
 const firstName = "Miles"
 const lastName = "Davis"
 const UserProfile = () => {
@@ -103,11 +105,11 @@ This component displays a count and a button. Whenever the button is clicked, th
 
 ## One-Way Data Flow
 
-A recurring theme in modern SPAs is one-way data flow. Most of the original SPAs used two-way data flow, which means that the value of things like form inputs can be set by the application or by the user. Two-way data flow uses a complicated means of synchronizing these two things. React popularized a simpler pattern called one-way data flow, which involves data in the application being bound to HTML, and events from the HTML updating the values.
+A recurring theme in all modern SPAs is one-way data flow. Most of the original SPAs used two-way data flow, which means that the value of things like form inputs can be set by the application or by the user interacting with the page. Two-way data flow uses a complicated method of synchronizing these two things. React popularized a simpler pattern called one-way data flow, which involves data in the application being bound to HTML and events from the HTML updating the values.
 
 ## Virtual DOM
 
-One of the core ideas in all single-page apps is that you don't work directly with the DOM. That means React apps don't use any of the following:
+Another core idea in all single-page apps is that you don't work directly with the DOM. That means React apps don't use any of the following:
 
 * `document.querySelector()
 * `document.querySelectorAll()
@@ -118,8 +120,8 @@ One of the core ideas in all single-page apps is that you don't work directly wi
 * `element.innerHTML`
 * `element.textContent`
 
-It turns out that one of the slowest parts of web applications is updating the DOM. One of the ways to work around this is to work with an abstraction called the virtual DOM that manages how and when to update the actual DOM. Instead of grabbing elements out of the DOM and updating them, you bind variables to them in templates using a language called JSX. Instead of adding event listeners with the DOM, you call handlers from templates.
+It turns out that one of the slowest parts of web applications is updating the DOM. One of the ways to work around this limitation is to work with an abstraction called the virtual DOM that manages how and when to update the actual DOM. Instead of grabbing elements out of the DOM and updating them, you bind variables to them in templates using a language called JSX. Instead of adding event listeners with the DOM, you call handlers from templates.
 
-## Transpiling
+## Transpilation
 
-Some of the syntax used in making React apps and other SPAs isn't valid JavaScript, HTML, or CSS. As a reminder, those are the only files your browser understands. That means you need another tool that transforms the code you're writing into HTML, CSS, and JavaScript. The most common tool for this is called [webpack](https://webpack.js.org/).
+Some of the syntax used in making React apps and other SPAs isn't valid JavaScript, HTML, or CSS. As a reminder, those are the only files your browser understands, which means you need another tool that transforms the code you're writing into HTML, CSS, and JavaScript. These kinds of tools are called transpilers, and the one of the most common tools for this is in React apps is [webpack](https://webpack.js.org/).

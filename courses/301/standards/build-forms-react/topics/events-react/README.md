@@ -5,17 +5,18 @@ Since you don't interact with the DOM directly in React apps, how do you respons
 ```js
 const Counter = () => {
   const [count, setCount] = useState(0)
-
   const handleClick = () => setCount(count + 1)
 
   return (
-    <div>
-      <p>{count}</p>
+    <div className="App">
+      <p>The current count is {count}</p>
       <button onClick={handleClick}>Increment Count</button>
     </div>
   )
 }
 ```
+
+[Play with this code](https://codesandbox.io/s/sweet-gould-xdbwv?file=/src/App.js)
 
 `onClick={handleClick}` is the React way to do `document.querySelector("button").addEventListener(handleClick)`. Traditional DOM events, like `click`, `submit`, `keydown`, and others are written directly in JSX templates by prefixing them with `on`. For example:
 

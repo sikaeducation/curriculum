@@ -22,12 +22,12 @@ const SomeComponent = () => {
 
 There are a couple of key elements of this:
 
-* Importing the `useState` hook, which is a function from the `react` npm library. This is automatically installed by CRA.
-* Calling the `useState` hook with an initial value. In this case, it's the string "Hello, world!"
-* This hook evaluates to an array with two elements: A variable representing the state, and a function that will update that state when called. The syntax looks unusual; it's called array destructuring.
-* `someState` is logged, showing its initial value.
-* `updateSomeState` is called with a new value.
-* `someState` is logged again with its new value.
+1. Importing the `useState` hook, which is a function from the `react` npm library
+2. Calling the `useState` hook with an initial value. In this case, it's the string "Hello, world!"
+3. This hook evaluates to an array with two elements: A variable representing the state, and a function that will update that state when called. The syntax looks unusual; it's called array destructuring.
+4. `someState` is logged, showing its initial value.
+5. `updateSomeState` is called with a new value.
+6. `someState` is logged again with its new value.
 
 Remember the syntax of array destructuring:
 
@@ -42,5 +42,5 @@ const [someState, updateSomeState] = useState(0)
 
 Some notes on state:
 
-* If something never changes, it's not state. You can store static values in variables instead.
+* If something never changes, it's not state. You can still store static values in variables without needing to declare them as state.
 * State in one component may be passed into another component as a prop. Whenever the state is updated, it will update the prop as well, causing the component to rerender.

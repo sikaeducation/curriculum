@@ -1,26 +1,26 @@
 # Intro to React Context
 
-These don't make sense to think of as part of the component hierarchy and they could reasonably be used just about anywhere. These are application state. For these, use React Context.
-
-## Context Overview
-
-React's Context API is a tool for tunneling state from one part of an app to another. For example, you can keep track of a logged-in user in the `App` component, and then use a Context Provider and the `UseContext` hook to read it.
+React's Context API is a tool for tunneling state from one part of an app to another. For example, you can keep track of a logged-in user in the `App` component, and then use a Context Provider and the `UseContext` hook to read it. For example, in an app that has a header bar with a user profile in it, you can store the user profile's data in the `<App />` component and tunnel it to the `<UserProfile />` component without going through the `<HeaderBar />` component.
 
 ```react
 import { createContext } from "react"
-export default const UserContext = createContext()
+
+const UserContext = createContext()
+
+export default UserContext
 ```
 
 ```react
-import { useState } from "react"
-import UserContext from "./contexts/UserContext"
-import HeaderBar from "./components/HeaderBar"
+import UserContext from "../contexts/UserContext"
 
-const app = () => {
-  const [currentUser, setCurrentUser] = useState()
+const App = () => {
+  const [currentUser, setCurrentUser] = useState({
+    name: "Miles Davis",
+    imageUrl: Avatar,
+  })
 
   return (
-    <div className="app">
+    <div className="App">
       <UserContext.Provider value={currentUser}>
         <HeaderBar />
       </UserContext.Provider>
@@ -30,10 +30,6 @@ const app = () => {
 ```
 
 ```react
-import UserContext from "./contexts/UserContext"
-import NavBar from "./components/NavBar"
-import UserProfile from "./components/UserProfile"
-
 const HeaderBar = () => {
   return (
     <header className="HeaderBar">
@@ -46,8 +42,7 @@ const HeaderBar = () => {
 ```
 
 ```react
-import { useContext } from "react"
-import UserContext from "./contexts/UserContext"
+import UserContext from "../contexts/UserContext"
 
 const UserProfile = () => {
   const user = useContext(UserContext)
@@ -61,10 +56,14 @@ const UserProfile = () => {
 }
 ```
 
+[Play with this code](https://codesandbox.io/s/angry-cache-wqbkf)
+
 1. A new `UserContext` object is created
 2. The `<App />` component creates a stateful variable to track the logged in user
 3. The `<App />` component uses the `UserContext`'s `.Provider` component to make the `currentUser` available to all child components
-4. The `<UserProfile />` component passes the `UserContext` object into the `useContext` hook, which gives it the `currentUser` object the `UserContext.provider` made available. It was not passed down as a prop, and it bypassed the `<HeaderBar />` component entirely.
+4. The `<UserProfile />` component passes the `UserContext` object into the `useContext` hook, which gives it the `currentUser` object the `UserContext.provider` made available. It was not passed down as a prop and it bypassed the `<HeaderBar />` component entirely.
+
+The current user is tracked in `<App />` and the `UserContext` helps tunnel it to the `<UserProfile />.
 
 ---
 

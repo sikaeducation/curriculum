@@ -1,13 +1,13 @@
 # React: Conditional Rendering
 
-Many components need to render some parts of the template in some cases but not others. For example, a library book app may an "Overdue" badge that only shows up if today's date is after the book's due date. How would you render this?
+Many components need to render some parts of the template in certain cases but not others. For example, a library book app may an "Overdue" badge that only shows up if today's date is after the book's due date. How would you render this?
 
 ```react
 const BookListing = ({ title, dueDate }) => {
   const isOverdue = Date.parse(dueDate) < Date.now()
 
   return (
-    <div className="book-listing">
+    <div className="BookListing">
       <h2>{title}</h2>
       {
         isOverdue
@@ -19,6 +19,10 @@ const BookListing = ({ title, dueDate }) => {
 }
 ```
 
+[Play with this code](https://codesandbox.io/s/little-surf-b2qot?file=/src/BookListing.js)
+
+![2 books, 1 overdue](assets/conditional-rendering-1.png)
+
 This component:
 
 1. Calculates a boolean value for whether or not the book is overdue and stores it in `isOverdue`
@@ -29,11 +33,11 @@ This component:
 You can also use this technique render different content in each case:
 
 ```react
-const BookListing = ({ title, daysRemaining }) => {
+const BookListingWithDaysRemaining = ({ title, daysRemaining }) => {
   const isOverdue = daysRemaining <= 0
 
   return (
-    <div className="book-listing">
+    <div className="BookListing">
       <h2>{title}</h2>
       {
         isOverdue
@@ -44,6 +48,10 @@ const BookListing = ({ title, daysRemaining }) => {
   )
 }
 ```
+
+[Play with this code](https://codesandbox.io/s/little-surf-b2qot?file=/src/BookListingWithDaysRemaining.js)
+
+![2 books, 1 overdue, 1 with 3 days remaining](assets/conditional-rendering-2.png)
 
 ## Watch Out!
 
