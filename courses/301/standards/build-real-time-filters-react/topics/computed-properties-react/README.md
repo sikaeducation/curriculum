@@ -22,7 +22,7 @@ There are a few different ways you could process this data. You might want only 
 
 To do this in React, save these computed properties as variables. These can be referenced in other computed properties or used directly in the template:
 
-```react
+```jsx
 const MovieDisplayer = ({ movies }) => {
   const headline = movies.map(movie => movie.title).join(", ")
   const alphabetizedMovies = movies.sort((movieA, movieB) => {
@@ -54,7 +54,7 @@ const MovieDisplayer = ({ movies }) => {
 
 You can also use this to alias or restructure props you're given:
 
-```react
+```jsx
 const FavoriteMovieBadge = ({ favoriteMovie }) => {
   const title = favoriteMovie.title
 
@@ -63,3 +63,10 @@ const FavoriteMovieBadge = ({ favoriteMovie }) => {
 ```
 
 Whenever the source data changes, any dependent properties will be automatically recalculated when the component rerenders.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Dave Ceddia: Computed Properties in React](https://daveceddia.com/computed-properties-in-react/) | Blog post on using computed properties in React|

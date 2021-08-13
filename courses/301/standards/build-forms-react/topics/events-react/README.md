@@ -2,7 +2,7 @@
 
 Since you don't interact with the DOM directly in React apps, how do you response to DOM events?
 
-```js
+```jsx
 const Counter = () => {
   const [count, setCount] = useState(0)
   const handleClick = () => setCount(count + 1)
@@ -29,7 +29,7 @@ const Counter = () => {
 
 Handlers are plain JavaScript functions. Like regular DOM event handlers, they'll be called with an `event` object containing details about the event. For example, to prevent form submission in a submit handler, you can use:
 
-```react
+```jsx
 const LoginForm = () => {
   const submitHandler = event => {
     event.preventDefault()
@@ -75,3 +75,10 @@ Will set the value of `count` to the `event` object when clicked, which is not w
 ```
 
 Isn't valid because calling `setCount` doesn't evaluate to a function.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React: Events](https://reactwithhooks.netlify.app/docs/handling-events.html) | React's official guide to events |

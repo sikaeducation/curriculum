@@ -1,14 +1,14 @@
 # React: State
 
-Some components receive their data through props. Other components maintain some data of their own that can change. Imagine:
+Some components receive their data through props while other components maintain data of their own that can change. Think of:
 
 * Data being entered into forms
 * One of multiple options being selected
 * Data that comes from a server being updated
 
-This kind of data is called state. State is any data that can change value over time. To simplest way to manage state in React is with the `useState` hook.
+This kind of data is called state. State is any data that can change value over time. To simplest way to manage state in React is with the `useState` hook:
 
-```js
+```jsx
 import { useState } from "react"
 
 const SomeComponent = () => {
@@ -31,7 +31,7 @@ There are a couple of key elements of this:
 
 Remember the syntax of array destructuring:
 
-```js
+```jsx
 const hookArray = useState(0)
 const someState = hookArray[0] // 0
 const updateSomeState = hookArray[1] // Function that updates the value in hookArray[0]
@@ -44,3 +44,9 @@ Some notes on state:
 
 * If something never changes, it's not state. You can still store static values in variables without needing to declare them as state.
 * State in one component may be passed into another component as a prop. Whenever the state is updated, it will update the prop as well, causing the component to rerender.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React: State and Lifecycle](https://reactwithhooks.netlify.app/docs/state-and-lifecycle.html) | Official React docs on state |

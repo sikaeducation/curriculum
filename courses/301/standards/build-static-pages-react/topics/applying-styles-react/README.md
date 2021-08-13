@@ -1,4 +1,4 @@
-## React: Applying Styles
+# React: Applying Styles
 
 For the most part, applying styles to React components is done the same as it is in regular HTML. Since React components render as HTML, all traditional CSS techniques are applicable. There are a couple of new techniques specific to React components however: Importing stylesheets and dynamic classes.
 

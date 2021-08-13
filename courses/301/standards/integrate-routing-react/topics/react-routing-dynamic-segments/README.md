@@ -6,7 +6,7 @@ Sometimes routes have components that are applied to an arbitrary number of URLs
 
 The core idea in dynamic segments is that you can define a part of a path that will be read as a URL. For example, the path `/users/3242` might have the route `<Route path="users/:userId">`. The part of the path after the colon will be available in the component the route renders with the `useParams` hook as the variable `userId`.
 
-```react
+```jsx
 const Users = () => {
   return (
     <Switch>
@@ -21,7 +21,7 @@ const Users = () => {
 }
 ```
 
-```react
+```jsx
 const UserProfile => {
   const { userId } = useParams()
 
@@ -33,7 +33,7 @@ const UserProfile => {
 
 This example routes to different product categories. Each one uses the same `<ProductView />` component, but uses the `useParams` hook to get the data specific to that product category when it's rendered.
 
-```react
+```jsx
 const App = () => {
   return (
     <Router>
@@ -58,7 +58,7 @@ const App = () => {
 }
 ```
 
-```react
+```jsx
 const ProductView = () => {
   const { productCategory } = useParams()
   const [ productCategory, setProductCategory ] = useState({})
@@ -95,7 +95,7 @@ const ProductView = () => {
 
 The part of the URL following the `:` will be available as a variable with that name from the `useParams` hook. So if you request `/hammers`, `productCategory` will be equal to `hammers`. This is especially useful for passing IDs:
 
-```js
+```jsx
 const App = () => {
   const items = [{
     id: 1,
@@ -129,9 +129,16 @@ const App = () => {
 }
 ```
 
-```react
+```jsx
 const Item = () => {
   const { itemId } = useParams()
   // Fetch the item with this `itemId`
 }
 ```
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React Router: `useParams`](https://reactrouter.com/web/api/Hooks/useparams) | Official React Router docs for the `useParams` hook |
+| [React Router: URL Params Example](https://reactrouter.com/web/example/url-params) | Official example of using dynamic segments |

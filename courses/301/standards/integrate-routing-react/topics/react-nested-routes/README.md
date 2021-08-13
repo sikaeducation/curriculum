@@ -15,7 +15,7 @@ Most URLs in SPAs are based around resources and IDs. Resources are names for ty
 
 The `useRouteMatch` hook evaluates to an object containing information about the current path. This is useful in dynamically filling out the `to` attribute of links and the `path` attribute of nested routes:
 
-```react
+```jsx
 const match = useRouteMatch()
 
 // ...
@@ -35,7 +35,7 @@ const match = useRouteMatch()
 
 With React Router, a nested route is a component that has its own router. For example:
 
-```js
+```jsx
 const App = () => {
   return (
     <div className="App">
@@ -78,7 +78,7 @@ const App = () => {
 }
 ```
 
-```react
+```jsx
 const CareerSchoolView = () => {
   const { url, path } = useRouteMatch()
   const departments = [{
@@ -116,7 +116,7 @@ const CareerSchoolView = () => {
 }
 ```
 
-```react
+```jsx
 const DepartmentView = () => {
   const { departmentName } = useParams()
   const [greeting, setGreeting] = useState("Loading...")
@@ -149,3 +149,10 @@ In this example:
 ## Watch Out!
 
 `match.url` is used in `<Link>`s, `match.path` is used in `<Route>`s. A linking URL should contain the entire path, while a route only needs the new parts of the path since the last `<Route>` component.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React Router: `useRouteMatch`](https://reactrouter.com/web/api/Hooks/useroutematch) | React Router's official docs for the `useRouteMatch` hook |
+| [React Router: Nested Routes example](https://reactrouter.com/web/example/nesting) | React Router's official nested routes example |

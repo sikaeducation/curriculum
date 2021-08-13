@@ -66,3 +66,10 @@ This looks more complicated, but it functions similarly:
 6. The input change handlers are called whenenver a user types in the inputs
 
 A stateful variable is bound the value of the input, the input's change event updates the stateful variable, the value of the input is updated.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React: Forms](https://reactwithhooks.netlify.app/docs/forms.html) | The official React guide to forms |

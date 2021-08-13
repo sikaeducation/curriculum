@@ -1,4 +1,4 @@
-# React: Data Down, Actions Up
+# React: Lifting State
 
 Data is passed from one component to another by props. These only move one direction though; you can't pass data "up" from a child component to a parent component. How can a child component update something in a parent component?
 
@@ -46,7 +46,14 @@ When the `increment` function calls `setCount`, `count` changes, and `CounterDis
 
 ---
 
-The ideas of data down, actions up can be summarized like this:
+The ideas of lifting state can be summarized as:
 
 * Data can only be passed down.
 * Functions that directly change state must be defined in the same component as the state, but these functions can be passed down as props.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React: Lifting State Up](https://reactwithhooks.netlify.app/docs/lifting-state-up.html) | React's official guide to lifting state |

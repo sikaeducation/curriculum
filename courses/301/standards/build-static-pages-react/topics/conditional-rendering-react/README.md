@@ -10,9 +10,7 @@ const BookListing = ({ title, dueDate }) => {
     <div className="BookListing">
       <h2>{title}</h2>
       {
-        isOverdue
-          ? <span className="alert badge">Overdue!</span>
-          : null
+        isOverdue && <span className="alert badge">Overdue!</span>
       }
     </div>
   )
@@ -30,7 +28,8 @@ This component:
   * If it's true, it renders the JSX element `<span className="alert badge">Overdue!</span>`
   * If it's false, it renders nothing
 
-You can also use this technique render different content in each case:
+You can also use a variation on this technique with ternaries to render different content in each case:
+
 
 ```jsx
 const BookListingWithDaysRemaining = ({ title, daysRemaining }) => {
@@ -54,6 +53,10 @@ const BookListingWithDaysRemaining = ({ title, daysRemaining }) => {
 ![2 books, 1 overdue, 1 with 3 days remaining](assets/conditional-rendering-2.png)
 
 ## Watch Out!
+
+The reason that the boolean comparison `&&` works to conditionally render an element is that if the first condition is true, the browser attempts to render the second one. If the first condition is false, the browser ignores the rest of the expression since `&&` can't be satisfied.
+
+---
 
 The reason that JSX uses ternaries instead of `if`/`else` is that JSX allows any JS expression, but no JS statements or control structures. That means no `if`/`else`, `for`, variable assignments, and so on.
 

@@ -2,7 +2,7 @@
 
 What do you do if you want to update a stateful value from a component that's consuming context? You can pass the function that updates state as a value in the Context's provider:
 
-```react
+```jsx
 const App = () => {
   const [currentUser, setCurrentUser] = useState({
     name: "Miles Davis",
@@ -23,7 +23,7 @@ const App = () => {
 }
 ```
 
-```react
+```jsx
 const UserProfile = () => {
   const { currentUser, setCurrentUser } = useContext(UserContext)
   const handleLogout = () => setCurrentUser(null)
@@ -61,3 +61,9 @@ In this example:
 6. If the user is logged in, their profile picture and a logout button is rendered. Otherwise, a login button is rendered.
 
 Both parts of the state hook are send to the context provider, and can be used with the `useContext` hook in any child component.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React Context: Updating state from a nested component](https://reactwithhooks.netlify.app/docs/context.html#updating-context-from-a-nested-component) | Official guide to updating state from a nested component |

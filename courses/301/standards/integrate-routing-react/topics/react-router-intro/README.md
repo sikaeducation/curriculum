@@ -11,7 +11,7 @@ React Router has 4 basic components:
 
 A simple routing scenario might look like this:
 
-```react
+```jsx
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import "./App.css"
 
@@ -43,7 +43,7 @@ const App = () => {
 }
 ```
 
-```react
+```jsx
 const AppHeader = () => {
   return (
     <header className="AppHeader">
@@ -76,8 +76,14 @@ Some highlights:
 
 ## Watch Out!
 
-The `react-router-dom` package doesn't have a `Router` export, it has a `BrowserRouter` export. To name it `<Router>` in your app, import it as `import { BrowserRouter as Router } from "react-router-dom".
+The `react-router-dom` package doesn't have a `Router` export, it has a `BrowserRouter` export. To name it `<Router>` in your app, import it as `import { BrowserRouter as Router } from "react-router-dom"`.
 
 When using a default path (like `/`), it must be the last `<Route>` in the `<Switch>`, otherwise it will be the first match and the `<Switch>` won't look for a more specific one.
 
 Having more than one `<Router>` in the same hierarchy will cause problems that are difficult to diagnose. Be especially careful when renaming the import.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React Router: Quick Start](https://reactrouter.com/web/guides/quick-start) | Official guide to React Router |

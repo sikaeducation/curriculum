@@ -10,8 +10,8 @@
   * [Exercises](topics/controlled-forms-react/exercises)
 * [React: `fetch`](topics/react-fetch)
   * [Exercises](topics/react-fetch/exercises)
-* [Data Down, Actions Up](topics/react-data-down-actions-up)
-  * [Exercises](topics/react-data-down-actions-up/exercises)
+* [Lifting State](topics/react-lifting-state)
+  * [Exercises](topics/react-lifting-state/exercises)
 
 ## Assessment
 

@@ -8,7 +8,7 @@ The owner/member pattern in React app involves:
 * Passing that object into a detail component
 * Changing the currently selected item when a different item is clicked
 
-```react
+```jsx
 const ItemList = ({ items }) => {
   const [selectedItem, setSelectedItem] = useState(items[0])
   const select = id => {
@@ -43,7 +43,7 @@ The `<ItemList />` component:
 3. Maps over the `items` prop to create elements. It checks each item's ID to determine whether it's the selected element
 4. Displays both the `<ItemDetail />` and the collection of `<ItemSummary />` components
 
-```react
+```jsx
 const ItemSummary = ({ id, title, isSelected, select }) => {
   const handleClick = () => select(id)
   return (
@@ -61,7 +61,7 @@ The `<ItemSummary />` component:
 * Calls a function to change the selected item with the id of them when it's clicked
 * Always has a class of `ListItem`, and has a class of `active` if `isActive` is true and `inactive` otherwise. Watch the braces on this carefully; it's a JSX expression with a template string inside of it
 
-```react
+```jsx
 const ItemDetail = ({ title, details }) => {
   return (
     <div className="ItemDetail">
@@ -75,3 +75,9 @@ const ItemDetail = ({ title, details }) => {
 The `<ItemDetail />` component is a dumb component that takes in a title and details and displays them.
 
 [Play with this code](https://codesandbox.io/s/brave-wind-boc7m?file=/src/ItemList.js)_
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React: Composition vs. Inheritance](https://reactwithhooks.netlify.app/docs/composition-vs-inheritance.html) | Official React guide to composing components |
