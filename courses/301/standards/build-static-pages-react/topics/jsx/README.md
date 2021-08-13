@@ -68,7 +68,7 @@ This renders to:
 
 Modern React components are functions that should return JSX. A typical component might look like this:
 
-```js
+```jsx
 const Image = ({ url, altText }) => {
   return <img className="media image" src={url} alt={altText} />
 }
@@ -76,7 +76,7 @@ const Image = ({ url, altText }) => {
 
 JSX can also be saved in variables and returned from normal functions:
 
-```js
+```jsx
 const Images = ({ images }) => {
   const lis = images.map(image => {
     return <li><Image url={image.url} altText={image.altText} /></li>
@@ -100,7 +100,7 @@ const Images = ({ images }) => {
 ```
 * JSX expressions always need to run one and only one top-level element. This is invalid:
 
-```react
+```jsx
 const SomeComponent = () => (
   <p>Hello,</p>
   <p>World!</p>
@@ -109,7 +109,7 @@ const SomeComponent = () => (
 
 If there are no suitable elements to wrap them in, you can use empty elements called fragments instead:
 
-```react
+```jsx
 const SomeComponent = () => (
   <>
     <p>Hello,</p>
@@ -122,4 +122,4 @@ const SomeComponent = () => (
 
 | Resource | Description |
 | --- | --- |
-| []() | |
+| [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html) | React's guide to JSX |

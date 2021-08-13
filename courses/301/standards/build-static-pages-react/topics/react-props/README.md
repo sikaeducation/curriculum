@@ -2,7 +2,7 @@
 
 Data can be passed from a parent component to a child component, and whenever the data changes in the parent it will rerender the child. The data in the child component is called a prop, which is short for property. You can pass simple values as props:
 
-```react
+```jsx
 // ParentComponent.js
 import ChildComponent from "./ChildComponent"
 
@@ -13,7 +13,7 @@ module.exports = function ParentComponent(){
 }
 ```
 
-```react
+```jsx
 // ChildComponent.js
 module.exports = function ChildComponent({ someProp }){
   return (
@@ -24,7 +24,7 @@ module.exports = function ChildComponent({ someProp }){
 
 You can also pass state:
 
-```react
+```jsx
 // ParentComponent.js
 import ChildComponent from "./ChildComponent"
 
@@ -40,7 +40,7 @@ module.exports = function ParentComponent(){
 }
 ```
 
-```react
+```jsx
 // ChildComponent.js
 module.exports = function ChildComponent({ someProp }){
   return (

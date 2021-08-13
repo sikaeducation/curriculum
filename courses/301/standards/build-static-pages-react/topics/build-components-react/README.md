@@ -25,7 +25,7 @@ File names should match component names, there should only be one component per 
 
 At a minimum, a component needs to export a function the returns a JSX template. A minimal component looks like this:
 
-```react
+```jsx
 const SomeComponent = () => {
   return <p>Hello, world!</p> 
 }
@@ -35,7 +35,7 @@ export default SomeComponent
 
 On components that render longer templates, it's common to wrap the return in `()`:
 
-```react
+```jsx
 export default const SomeComponent = () => {
   return (
     <div>
@@ -49,7 +49,7 @@ This allows you to indent the JSX independently of the JavaScript, which helps w
 
 Many components import other components, styles, or libraries. These go at the top of the file:
 
-```react
+```jsx
 import { useState } from "react"
 import SomeOtherComponent from "./SomeOtherComponent"
 import "./SomeComponent.css"
@@ -70,10 +70,16 @@ export default SomeComponent
 
 Components are functions that return JSX templates--don't forget the function part!
 
-```react
+```jsx
 // This is a valid component
 const SomeOtherComponent = () => <p>Hello, world!</p>
 
 // This is not a valid component
 const SomeComponent = <p>Hello, world!</p>
 ```
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Components and Props](https://reactjs.org/docs/components-and-props.html) | React's guide to components |

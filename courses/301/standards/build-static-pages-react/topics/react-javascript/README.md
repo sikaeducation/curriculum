@@ -35,7 +35,7 @@ const someFunction = someParameter => someParameter
 
 In React, arrow functions (both syntaxes) are preferred. This is a valid component:
 
-```js
+```jsx
 function SomeComponent(){
   return (
     <p>Hello, world!</p>
@@ -45,7 +45,7 @@ function SomeComponent(){
 
 But you're more likely to see this:
 
-```js
+```jsx
 const SomeComponent = () => {
   return (
     <p>Hello, world!</p>
@@ -55,7 +55,7 @@ const SomeComponent = () => {
 
 Or even this:
 
-```js
+```jsx
 const SomeComponent = () => <p>Hello, world!</p>
 ```
 
@@ -67,7 +67,7 @@ When writing arrow function, the following rules apply to parameters
 
 For example:
 
-```js
+```jsx
 const SomeFunction = () => "Hello, world!"
 let SomeOtherFunction = (place) => `Hello, ${place}!`
 SomeOtherFunction = place => `Hello, ${place}!`
@@ -78,7 +78,7 @@ const YetAnotherFunction = (greeting, place) => `${greeting}, ${place}!`
 
 JavaScript allows you to export variables from one file and import them into another. You'll mostly work with default imports and exports in React, where files only export and import one thing:
 
-```js
+```jsx
 // SomeComponent.js
 export default const SomeComponent = () => {
   return (
@@ -87,7 +87,7 @@ export default const SomeComponent = () => {
 }
 ```
 
-```js
+```jsx
 // AnotherComponent.js
 import SomeComponent from "./SomeComponent.js"
 
@@ -124,7 +124,7 @@ getUserString = ({ username, displayName }) => {
 
 This is especially useful in React because each component is called with an object that's conventionally called `props`. `props` contains any values given that were passed into the component as attributes:
 
-```js
+```jsx
 const UserBadge = props => {
   const username = props.username
   const displayName = props.displayName
@@ -138,7 +138,7 @@ const UserBadge = props => {
 
 The same component with props destructured is more condensed:
 
-```js
+```jsx
 const UserBadge = ({username, displayName}) => {
   return (
     <p>{displayName} ({username})</p>
@@ -160,7 +160,7 @@ console.log(one, two, three) // 1, 2, 3
 
 In React, this is often used to pull values out of things called hooks:
 
-```js
+```jsx
 const hookArray = useState(0)
 const someState = hookArray[0] // 0
 const updateSomeState = hookArray[1] // Function that updates the value in hookArray[0]
@@ -204,7 +204,7 @@ const captainJack = {
 
 These are handy for combining and making shallow copies of things. You can also use it to pass all of the props given to a component through to another component:
 
-```js
+```jsx
 const InnerComponent = ({ someProp, someOtherProp }) => <p>I was given {someProp} and {someOtherProp}.</p>
 const OuterComponent = props => <InnerComponent {...props} />
 
@@ -215,7 +215,7 @@ const OuterComponent = props => <InnerComponent {...props} />
 
 Ternary expressions, also called ternaries, are a condensed way to write `if`/`else` statements. This `if`/`else` statement:
 
-```js
+```jsx
 let rsvpResponse
 
 if (isAttending){
@@ -227,13 +227,13 @@ if (isAttending){
 
 Can be written in one line using a ternary:
 
-```js
+```jsx
 const rsvpResponse = isAttending ? "Attending" : "Not attending, with regrets"
 ```
 
 You can improve the readability of a ternary expression by putting the condition and each branch on its own line:
 
-```js
+```jsx
 const rsvpResponse = isAttending
   ? "Attending"
   : "Not attending, with regrets"

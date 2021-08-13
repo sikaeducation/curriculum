@@ -18,7 +18,7 @@ It's common to make separate stylesheets for each component and then import them
 }
 ```
 
-```js
+```jsx
 /* ExternalLink.js */
 import "./ExternalLink.css"
 

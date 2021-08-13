@@ -22,7 +22,7 @@ The basic units of React apps and most other SPAs are components, which you can 
 
 For example, you might have a component that represents a collection of HTML elements in an application's top bar:
 
-```react
+```jsx
 const TopBar = () => {
   return (
     <header>
@@ -35,7 +35,7 @@ const TopBar = () => {
 
 You can then use that component in other components just like you would any other HTML element:
 
-```react
+```jsx
 import TopBar from "./TopBar"
 
 const App = () => {
@@ -52,13 +52,13 @@ const App = () => {
 
 What's more, you can pass data into these components to make them more generic and reusable:
 
-```react
+```jsx
 const NameBadge = ({ firstName, lastName }) => {
   return <p className="NameBadge">{ firstName } { lastName }</p>
 }
 ```
 
-```react
+```jsx
 const firstName = "Miles"
 const lastName = "Davis"
 const UserProfile = () => {
@@ -82,7 +82,7 @@ This will render the following HTML:
 
 These uses are powerful for making your code more reusable and expressive, but the true power of React is in the way it handles interactivity:
 
-```js
+```jsx
 import { useState } from 'react'
 import './App.css';
 

@@ -2,7 +2,7 @@
 
 Many components need to render some parts of the template in certain cases but not others. For example, a library book app may an "Overdue" badge that only shows up if today's date is after the book's due date. How would you render this?
 
-```react
+```jsx
 const BookListing = ({ title, dueDate }) => {
   const isOverdue = Date.parse(dueDate) < Date.now()
 
@@ -32,7 +32,7 @@ This component:
 
 You can also use this technique render different content in each case:
 
-```react
+```jsx
 const BookListingWithDaysRemaining = ({ title, daysRemaining }) => {
   const isOverdue = daysRemaining <= 0
 
