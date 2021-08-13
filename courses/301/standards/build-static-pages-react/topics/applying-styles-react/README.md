@@ -54,4 +54,4 @@ const User = ({ username, isDisabled }) => {
 
 | Resource | Description |
 | --- | --- |
-| []() | |
+| [React: Styling and CSS](https://reactwithhooks.netlify.app/docs/faq-styling.html) | React's guide to styling and CSS |

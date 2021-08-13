@@ -55,4 +55,4 @@ Array indexes are not suitable for the `key` attribute because they can change (
 
 | Resource | Description |
 | --- | --- |
-| []() | |
+| [React: Lists and Keys](https://reactwithhooks.netlify.app/docs/lists-and-keys.html) | React's guide to iteration |

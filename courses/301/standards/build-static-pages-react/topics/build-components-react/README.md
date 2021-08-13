@@ -79,7 +79,6 @@ const SomeComponent = <p>Hello, world!</p>
 ```
 
 ## Additional Resources
-
 | Resource | Description |
 | --- | --- |
-| [Components and Props](https://reactjs.org/docs/components-and-props.html) | React's guide to components |
+| [Components and Props](https://reactwithhooks.netlify.app/docs/components-and-props.html) | React's guide to components |

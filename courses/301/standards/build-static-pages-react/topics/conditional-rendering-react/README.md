@@ -75,3 +75,9 @@ return (
 ```
 
 This is almost always harder to read and understand than testing for simple boolean values.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React: Conditional Rendering](https://reactwithhooks.netlify.app/docs/conditional-rendering.html) | React's guide to conditional rendering |

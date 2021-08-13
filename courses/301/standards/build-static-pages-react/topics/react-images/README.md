@@ -47,3 +47,9 @@ When the app is compiled, the image will be moved to a different directory and g
 Importing any file type other than JavaScript is not normally supported in JavaScript environments. This particular behavior is powered by a tool CRA uses called [webpack](https://webpack.js.org/).
 
 JavaScript modules don't need the `.js` extension when being imported, but images, CSS, and all other file types do.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Create React App: Adding Images, Fonts, and Files](https://reactwithhooks.netlify.app/) | CRA's guide to images |

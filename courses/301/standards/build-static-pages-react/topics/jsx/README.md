@@ -122,4 +122,4 @@ const SomeComponent = () => (
 
 | Resource | Description |
 | --- | --- |
-| [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html) | React's guide to JSX |
+| [Introducing JSX](https://reactwithhooks.netlify.app/docs/introducing-jsx.html) | React's guide to JSX |

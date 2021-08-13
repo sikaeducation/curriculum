@@ -59,5 +59,5 @@ In the example above, pressing the button changes the state, and that state chan
 
 | Resource | Description |
 | --- | --- |
-| [Hooks: State](https://reactjs.org/docs/hooks-state.html) | Official React docs on the `useState` hook |
-| [Components and Props](https://reactjs.org/docs/components-and-props.html) | Official React docs on props |
+| [Hooks: State](https://reactwithhooks.netlify.app/docs/hooks-state.html) | Official React docs on the `useState` hook |
+| [Components and Props](https://reactwithhooks.netlify.app/docs/components-and-props.html) | Official React docs on props |
