@@ -16,7 +16,7 @@ There are many tools for helping build SPAs and one of the most popular is React
 
 The core concepts in React applications include components, one-way data flow, the virtual DOM, and transpilation.
 
-## Components
+### Components
 
 The basic units of React apps and most other SPAs are components, which you can think of as custom HTML elements. They're made up of temlate consisting of traditional HTML elements and other components, as well as any related JavaScript variables and functionality.
 
@@ -103,11 +103,11 @@ const App = () => {
 
 This component displays a count and a button. Whenever the button is clicked, the count increases and the component renders again with the new count. This pattern can be used to collect user input, interact with data from APIs, and dynamically filter content.
 
-## One-Way Data Flow
+### One-Way Data Flow
 
 A recurring theme in all modern SPAs is one-way data flow. Most of the original SPAs used two-way data flow, which means that the value of things like form inputs can be set by the application or by the user interacting with the page. Two-way data flow uses a complicated method of synchronizing these two things. React popularized a simpler pattern called one-way data flow, which involves data in the application being bound to HTML and events from the HTML updating the values.
 
-## Virtual DOM
+### Virtual DOM
 
 Another core idea in all single-page apps is that you don't work directly with the DOM. That means React apps don't use any of the following:
 
@@ -122,6 +122,6 @@ Another core idea in all single-page apps is that you don't work directly with t
 
 It turns out that one of the slowest parts of web applications is updating the DOM. One of the ways to work around this limitation is to work with an abstraction called the virtual DOM that manages how and when to update the actual DOM. Instead of grabbing elements out of the DOM and updating them, you bind variables to them in templates using a language called JSX. Instead of adding event listeners with the DOM, you call handlers from templates.
 
-## Transpilation
+### Transpilation
 
 Some of the syntax used in making React apps and other SPAs isn't valid JavaScript, HTML, or CSS. As a reminder, those are the only files your browser understands, which means you need another tool that transforms the code you're writing into HTML, CSS, and JavaScript. These kinds of tools are called transpilers, and the one of the most common tools for this is in React apps is [webpack](https://webpack.js.org/).
