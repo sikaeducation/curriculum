@@ -27,3 +27,10 @@ LEFT JOIN order on order.customer_id = customer.id;
 ## Watch Out!
 
 * There's a `RIGHT JOIN` that does the exact same thing as a `LEFT JOIN` but tolerates absences in the second column instead of the first. You can often rewrite a query to use on or the other, but use whichever one makes your query easier to follow.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [W3Schools: `LEFT JOIN`](https://www.w3schools.com/sql/sql_join_left.asp) | W3Schools' `LEFT JOIN` reference |
+| [SQL Zoo: Using Null](https://sqlzoo.net/wiki/Using_Null) | SQL Zoo's interactive tutorial on `LEFT JOIN` |

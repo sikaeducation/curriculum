@@ -28,6 +28,9 @@ Node is way to run JavaScript outside the browser. It's not a language; JavaScri
 
 * One of the differences from Browser JavaScript that throws people off is that there is `fetch` in Node by default. This is because making HTTP requests is part of the runtime, not part of the JavaScript language. That said, the `node-fetch` NPM library can paper over this and give the same `fetch` you're used to.
 
-## History
+## Additional Resources
 
-Ryan Dahl created Node in 2012. He also created Deno.
+| Resource | Description |
+| --- | --- |
+| [Node.js](https://nodejs.org/en/) | Official Node.js webpage |
+| [Wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js) | Wikipedia's article on Node.js |

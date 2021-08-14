@@ -1,4 +1,4 @@
-# Data Modeling: One-to_-Many
+# Data Modeling: One-to-Many
 
 The most common type of data relationship is One-to-Many:
 
@@ -64,3 +64,10 @@ That means that when relating two tables, the "one" side of the relationship sho
 
 If you read this as "one room can have many windows and many windows have one room", you'll technically be correct but it's not likely to help your thinking very much. Instead, always focus on single items: "One room can have many TVs, but each TV can only be in one room."
 * One record can have multiple foreign keys because it can be related to multiple tables.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [One-to-Many (data model)](https://en.wikipedia.org/wiki/One-to-many_(data_model)) | Wikipedia's article on One-to-Many relationships. |
+| [What is a One-to-Many Relationship in a Database?](https://vertabelo.com/blog/one-to-many-relationship/) | A blog post on One-to-Many relationships |

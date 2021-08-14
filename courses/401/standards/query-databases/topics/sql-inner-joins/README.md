@@ -54,3 +54,10 @@ Some rules to live by:
 ## Deep Dive
 
 When you make an INNER JOIN, the database starts by making a cartesian product of the two tables. The clauses in your INNER JOIN eliminate everything except the records in the cartesian product where the primary key matches the foreign key.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [W3Schools: SQL Inner Join](https://www.w3schools.com/sql/sql_join_inner.asp) | W3Schools' tutorial on inner joins |
+| [SQL Zoo: Joins](https://sqlzoo.net/wiki/The_JOIN_operation) | SQL Zoo's interactive tutorial on inner joins |

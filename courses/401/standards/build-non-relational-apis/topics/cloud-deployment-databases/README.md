@@ -41,3 +41,11 @@ module.exports = require("knex")(config)
 
 * Running migrations requires [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) to be installed and for `heroku login` to have been run.
 * If your database works locally but not on Heroku, try logging the `config` in your `database-connection.js` or equivalent to make sure that Heroku is trying to load the right Knex configuration.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Prisma: How to set up a free PostgreSQL database on Heroku](https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1) | Blog post on how to set up a Heroku Postgres database |
+| [Heroku: Heroku Postgres Docs](https://devcenter.heroku.com/articles/heroku-postgresql) | Heroku's official docs on Heroku Posgres |
+| [Knex: Client Configuration](https://knexjs.org/#Installation-client) | Knex's official docs on configuring clients |

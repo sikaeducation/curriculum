@@ -50,3 +50,9 @@ This is helpful for debugging an app that works locally but isn't working on Her
 ## Watch Out!
 
 * By default, a Heroku app will "sleep" if it hasn't received any requests in 15 minutes, which means the next request it gets will "wake up" the server and have a long delay. This is a limitation of Heroku's free tier. To keep an app "awake", go to "Resources" -> "Change Dyno Type" -> "Hobby". This will cost $7 a month to run, but is prorated down to the second.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Heroku: Deploying With Git](https://devcenter.heroku.com/articles/git) | Heroku's official guide to deploying with Git |

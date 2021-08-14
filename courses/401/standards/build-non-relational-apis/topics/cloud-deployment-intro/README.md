@@ -36,3 +36,13 @@ Here are some examples of cloud providers:
 Why is it called the "cloud"?
 
 When you rent a server on a cloud provider, you may not be renting a physical device similar to the one discussed in the introduction. Often, one physical computer may be host to a dozen different sites, or the duties for hosting may be distributed across multiple computers. None of this is important to their users, who just work with the abstract concept of a server. The cloud is when the logical use of someone else's computer is abstracted away from the literal use of a physical computer.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Wikipedia: Cloud Computing](https://en.wikipedia.org/wiki/Cloud_computing) | Wikipedia's article on cloud computing |
+| [Wikipedia: Cloud Storage](https://en.wikipedia.org/wiki/Cloud_storage) | Wikipedia's article on cloud storage |
+| [AWS](https://aws.amazon.com/) | Amazon Web Services, a cloud provider |
+| [GCP](https://cloud.google.com/) | Google Cloud Platform, a cloud provider |
+| [Heroku](https://www.heroku.com/) | Heroku, a cloud provider |

@@ -70,3 +70,16 @@ This gives us every `user` whose name contains `vi`. You can also restrict it to
 
 * Don't forget the semicolon!
 * Columns that you use in your `WHERE` clause **do not** have to also be in your `SELECT` clause`. ``SELECT` what you want to see in the result, `WHERE` what you want to filter on.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [W3Schools: `WHERE`](https://www.w3schools.com/sql/sql_where.asp) | W3Schools' `WHERE` reference |
+| [W3Schools: `LIKE`](https://www.w3schools.com/sql/sql_like.asp) | W3Schools' `LIKE` reference |
+| [W3Schools: `AND` and `OR`](https://www.w3schools.com/sql/sql_and_or.asp) | W3Schools' `AND` and `OR` reference |
+| [SQL Zoo: `SELECT` from `world`](https://sqlzoo.net/wiki/SELECT_from_WORLD_Tutorial) | SQL Zoo's interactive `SELECT` from `world` tutorial |
+| [SQL Zoo: `SELECT` from `nobel`](https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial) | SQL Zoo's interactive `SELECT` from `novel` tutorial |
+| [SQL Zoo: `SELECT` within `SELECT`](https://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial) | SQL Zoo's interactive `SELECT` within `SELECT` tutorial |
+| [SQL Zoo: `SUM` and `COUNT`](https://sqlzoo.net/wiki/SUM_and_COUNT) | SQL Zoo's interactive `SUM` and `COUNT` tutorial |
+| [SQL Zoo: `SELECT` card game](https://sqlzoo.net/40289347/sql3/) | SQL Zoo's interactive `SELECT` game |

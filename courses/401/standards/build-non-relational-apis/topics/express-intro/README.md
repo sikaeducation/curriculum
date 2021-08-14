@@ -60,3 +60,10 @@ When you run `npm start` on the command line, NPM will run `node app.js`, which 
 
 * The code that goes into `package.json` is JSON, not JavaScript. That means keys must be quoted, everything must use double-quotes, and you can't use trailing commas.
 * When you run an Express app, by default your terminal will appear to freeze. This is OK- Express is just waiting for requests to come in. To stop your server, press `control` + `c`.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Express/Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction) | MDN tutorial on Express and Node |
+| [Express: Getting Started](https://expressjs.com/en/starter/installing.html) | Official guide to getting started with Express |

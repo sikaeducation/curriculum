@@ -64,3 +64,10 @@ SQL is a relatively small language (there are about 30 keywords in common use), 
 ## History
 
 There are lots of different relational database platforms- PostgreSQL, MySQL, Oracle, SQL Server, MariaDB, and many more. While there are some syntax and feature differences between them, they all support many of the exact same queries. This is because the syntax for SQL is standardized by ANSI.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [W3Schools: Introduction to SQL](https://www.w3schools.com/sql/sql_intro.asp) | W3Schools' intro to SQL |
+| [W3Schools: Syntax](https://www.w3schools.com/sql/sql_syntax.asp) | W3Schools' syntax reference |

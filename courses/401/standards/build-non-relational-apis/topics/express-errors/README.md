@@ -48,3 +48,10 @@ app.get("/message", (request, response, next) => {
 ```
 
 If `next` receieves anything as its first argument, it considers it an error and will pass that error on to the error handler.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Express: Errors](https://expressjs.com/en/guide/error-handling.html) | Official guide to handling errors in Express |

@@ -35,3 +35,11 @@ The steps look like this:
 
 * If you get an error saying something like `No 'Access-Control-Allow-Origin' header is present on the requested resource.`, it means the response was missing an `Access-Control-Allow-Origin` header that either specified the URL the request came from or the wildcard (`*`). This is **also** the case with the `OPTIONS` preflight request.
 * Do not, under any circumstances, install a browser plug-in that disables cross-origin restrictions. The browser's cross-origin restrictions protect you from a type of attack called "Cross-Site Scripting" (XSS).
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) | MDN's reference on CORS |
+| [Authoritative Guide to CORS](https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/) | Blog post about CORS |
+| [Express: CORS](http://expressjs.com/en/resources/middleware/cors.html) | Express's CORS middleware |

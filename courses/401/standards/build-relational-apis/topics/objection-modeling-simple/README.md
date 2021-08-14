@@ -63,3 +63,9 @@ await Dog
   .query()
   .deleteById(1)
 ```
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Objection: Modeling](https://vincit.github.io/objection.js/guide/models.html#examples) | Official Objection docs on models |

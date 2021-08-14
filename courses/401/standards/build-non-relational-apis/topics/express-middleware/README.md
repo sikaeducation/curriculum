@@ -74,3 +74,10 @@ This allows us to abstract out all of the behavior for a route into individual f
 ## Watch Out!
 
 * `next()` doesn't need to be called with `request` and `response`, they'll automatically be available in the next middleware function. You should only call `next` with an argument if an error occurs.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Express: Using Middleware](https://expressjs.com/en/guide/using-middleware.html) | Official guide to Express middleware |

@@ -31,3 +31,11 @@ Additionally, there several `response` methods that terminate the entire HTTP cy
 
 * `request.body` is `undefined` until it has been parsed with something like `express.json()`. The same is true of `request.cookies` and `request.signedCookies`.
 * `request.cookies` is `undefined` until it has been parsed with something like `express.json()`.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Flavio Copes: Express, a Popular Node.js Framework](https://flaviocopes.com/express/) | A blog post with lots of details of Express's request and response objects |
+| [Express: Request](https://expressjs.com/en/4x/api.html#req) | Official Express docs on the `request` object |
+| [Express: Response](https://expressjs.com/en/4x/api.html#res) | Official Express docs on the `response` object |

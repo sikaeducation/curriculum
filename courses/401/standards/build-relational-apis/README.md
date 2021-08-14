@@ -2,12 +2,31 @@
 
 ## Topics
 
-* [ ] - data-modeling-intro
-* [ ] - knex-relations
-* [ ] - erd-intro
-* [ ] - data-modeling-1-many-relations
-* [ ] - orm-intro
-* [ ] - objection-intro
-* [ ] - objection-modeling-simple
-* [ ] - objection-modeling-1-many
-* [ ] - data-modeling-many-many-relations
+* [Intro to Data Modeling](topics/data-modeling-intro)
+  * [Exercises](topics/data-modeling-intro/exercises)
+* [Intro to Databases](topics/databases-intro)
+  * [Exercises](topics/databases-intro/exercises)
+* [Intro to Knex](topics/knex-intro)
+  * [Exercises](topics/knex-intro/exercises)
+* [Knex: Migrations](topics/knex-migrations)
+  * [Exercises](topics/knex-migrations/exercises)
+* [Intro to ERDs](topics/erd-intro)
+  * [Exercises](topics/erd-intro/exercises)
+* [Data Modeling: 1-to-Many Relations](topics/data-modeling-1-many-relations)
+  * [Exercises](topics/data-modeling-1-many-relations/exercises)
+* [Knex: Relations](topics/knex-relations)
+  * [Exercises](topics/knex-relations/exercises)
+* [Express: Router](topics/express-router)
+  * [Exercises](topics/express-router/exercises)
+* [Intro to ORMs](topics/orm-intro)
+  * [Exercises](topics/orm-intro/exercises)
+* [Intro to Objection](topics/objection-intro)
+  * [Exercises](topics/objection-intro/exercises)
+* [Objection Modeling: Simple](topics/objection-modeling-simple)
+  * [Exercises](topics/objection-modeling-simple/exercises)
+* [Objection Modeling: 1-to-Many](topics/objection-modeling-1-many)
+  * [Exercises](topics/objection-modeling-1-many/exercises)
+* [Data Modeling: Many-to-Many Relations](topics/data-modeling-many-many-relations)
+  * [Exercises](topics/data-modeling-1-many-relations/exercises)
+
+## Assessments

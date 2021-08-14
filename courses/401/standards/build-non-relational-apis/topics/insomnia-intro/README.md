@@ -35,3 +35,10 @@ Note that you can also debug back-ends with Insomnia, verify that particular cod
 ## Watch Out!
 
 * When sending a JSON body, make sure you're formatting the body as JSON, not a JavaScript object. That means quoted keys, double-quotes for keys and string values, no trailing commas.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Insomnia](https://insomnia.rest/) | Insomnia, a headless browser |
+| [Getting Started With Insomnia](https://support.insomnia.rest/article/157-getting-started-with-insomnia) | Official guide to getting started with Insomnia |

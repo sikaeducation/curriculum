@@ -61,3 +61,11 @@ This says "one person can have one pen-name, and each pen-name can have one auth
 * Technically, an ERD is just entities and their relationships and doesn't include any attributes of the entities. ERDs don't even necessarily need to specifically be used for databases or even anything digital. A diagram that includes columns, data types, and keys is more properly called a schema diagram. In practice, "ERD" and "schema" are used interchangeably.
 * A data model will never capture the complexity of the real world. Fortunately, they don't need to. A data model only needs to match the rules your application is expecting.
 * ERDs capture abstract relationships. They aren't the data, they are the shape of the data.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [IBM: Data Modeling](https://www.ibm.com/cloud/learn/data-modeling) | IBM's overview of data modeling |
+| [Wikipedia: Data Modeling](https://en.wikipedia.org/wiki/Data_modeling) | Wikipedia's article on data modeling |
+| [Agile Data: Data Modeling 101](http://agiledata.org/essays/dataModeling101.html) | Overview of data modeling |

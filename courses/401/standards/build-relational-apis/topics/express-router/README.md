@@ -72,3 +72,11 @@ Note:
 * Remember the route paths are passed into the router, and every route you use will be prefixed with whatever path the router was mounted with!
 * Routes in a router are set with `router.method`, not `app.method`
 * Remember to export the `router` object from a router file
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Express: Routing](https://expressjs.com/en/guide/routing.html) | Express's official router docs |
+| [Express: Routing guide](https://expressjs.com/en/starter/basic-routing.html) | Express's guide to routing |
+| [MDN: Routing tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes) | MDN's tutorial on Express routing |

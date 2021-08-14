@@ -24,3 +24,12 @@ Here are some examples of APIs:
 * __URL Shortener Service__ - Give it a long URL, get back a short URL
 * __Skyscanner Flight Search__ - Search flight data and ticket price quotes
 * __IBM Watson__ - Use IBM's Supercomputer to do a variety of artificial intelligence tasks
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Free Code Camp: What Is An API? In English Please](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/) | Free Code Camp's blog post on APIs |
+| [Public APIs](https://github.com/public-apis/public-apis) | Open source list of public APIs |
+| [Wikipedia: APIs](https://en.wikipedia.org/wiki/API) | Wikipedia's entry on APIs |
+| [Wikipedia: Web Service](https://en.wikipedia.org/wiki/Web_service) | Wikipedia's entry on Web Services |

@@ -154,3 +154,11 @@ To create new columns, use the same methods used in `createTable`. To drop a col
 ## Watch Out!
 
 * One of the easiest mistakes to make when writing a migration is that the `.up` and `.down` functions **must** return a promise. This is usually as easy as making sure the `return` keyword is present.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Knex: Migrations](https://knexjs.org/#Migrations) | Official Knex docs on Migrations |
+| [Knex: Seeds](https://knexjs.org/#Seeds-CLI) | Official Knex docs on Seeds |
+| [Migrations and Seeding](https://gist.github.com/NigelEarle/70db130cc040cc2868555b29a0278261) | Blog post about migrations and seeds with Knex |

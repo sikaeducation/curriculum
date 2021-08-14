@@ -124,3 +124,9 @@ This inserts 2 people and 3 dogs into the database and correctly associates the 
 
 * You need to avoid `require` loops with models. Most of the properties in the `Model` class also work as methods, which means you can do a calculations in them at runtime. As long as the method returns data in the right shape, it can be used interchangeably with properties.
 * `HasManyRelation` and `BelongsToOneRelation` are classes (not properties or methods) so they start with capital letters
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Objection: Relations](https://vincit.github.io/objection.js/guide/relations.html#examples) | Official Objection docs on relations |

@@ -98,3 +98,10 @@ module.exports = {
 This says that Knex should use SQLite locally, and it should store the database in a file called `dev.sqlite3`. In production, Knex should should PostgreSQL, and it should connect to a database located at `postgres://production-database-connection-string-goes-here`.
 
 Once your Knexfile is configured, you're ready to write queries, version your database structure, and seed sample data!
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Knex.js](https://knexjs.org/) | Official Knex.js site |
+| [Knex Cheatsheet](https://devhints.io/knex) | Cheatsheet containing common Knex.js boilerplate |
