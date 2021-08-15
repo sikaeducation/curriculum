@@ -1,15 +1,21 @@
-### 401: Backend
+# 401: Backend
 
-The goal of this course is to prepare someone for work as a backend or full-stack engineer. It focuses on API development, database design and management, and authentication/authorization.
+## Core Ideas
 
-#### Standards
+* RESTful APIs
+* Relational data
+* Identity on the web
 
-* Build non-relational APIs
-* Build relational APIs
-* Query databases using SQL
-* Deploy and publish web backends
-* Develop APIs using unfamiliar technologies
-* Build automated tests for APIs
+## Standards
+
+* [Build non-relational APIs](standards/build-non-relational-apis)
+* [Build relational APIs](standards/build-relational-apis)
+* [Query databases using SQL](standards/query-databases)
+* [Integrate identity management into APIs](standards/integrate-identity-management-apis)
+
+## Assessments
+
+* []()
 
 ## Activities
 

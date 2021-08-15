@@ -18,7 +18,7 @@ module.exports.up = knex => {
 
 This example says that the `student` table will have a column called `teacher_id`, which is a foreign key to the `id` column in the `teacher` table.
 
-(ERD image)
+![ERD of one teacher having many students](assets/teacher-student.png)
 
 ## Cascading
 
@@ -27,6 +27,10 @@ What should happen to a teacher's students if you delete the teacher from the da
 * **The students should be deleted too**. This is common when one entity has a exclusive ownership relationship with another. In this case, the foreign key should be written as `table.integer("teacher_id").references("id").inTable("teacher").onDelete("CASCADE")`
 * **The students should have no teacher until they're reassigned**. This is common when one entity has a temporary ownership relationship with another. In this case, the foreign key should be written as `table.integer("teacher_id").references("id").inTable("teacher").onDelete("SET NULL")`
 * **The teacher should be prevented from being deleted if they still have students**. This is common when you want to enforce rules, such as never deleting a student but also ensuring that every student always has a teacher. In this case, the foreign key should be written as `table.integer("teacher_id").references("id").inTable("teacher").onDelete("RESTRICT")`
+
+## Watch Out!
+
+A table needs to exist already before you make references to it. More broadly, this means that generally you need to create tables that aren't used as references before you create tables that are used as references.
 
 ## Additional Resources
 

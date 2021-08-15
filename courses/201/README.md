@@ -12,7 +12,7 @@
 * [Add interactivity to websites using JavaScript](standards/add-interactivity)
 * [Integrate APIs into websites using JavaScript](standards/integrate-apis)
 
-### Assessment
+## Assessment
 
 * [Production Website](assessments/production-website/)
 

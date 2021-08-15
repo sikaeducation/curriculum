@@ -15,11 +15,11 @@ The code that uses this data looks like this:
 const person = {
   firstName: databaseRecord.firstName,
   lastName: databaseRecord.firstName,
-  age: Date.now() - (new Date(databaseRecord.birthdate)).getTime(),
+  age: Date.now() - (new Date(databaseRecord.birthDate)).getTime(),
 }
 ```
 
-Then, version 2 removes the birth date:
+Then, the birth date is removed in version 2:
 
 | Key | Column      | Type          |
 | --- | ----------- | ------------- |
@@ -34,21 +34,21 @@ const person = {
 }
 ```
 
-There's a problem with version 2 of the code, so you roll the code back to version 1. There's a problem though:
+You find a problem with version 2 of the code, so you roll the code back to version 1. There's a problem though:
 
 ```js
 const person = {
   firstName: databaseRecord.firstName,
   lastName: databaseRecord.firstName,
-  age: Date.now() - (new Date(databaseRecord.birthdate)).getTime(),
+  age: Date.now() - (new Date(databaseRecord.birthDate)).getTime(),
 }
 ```
 
-`databaseRecord` no longer has a `birthdate` column, because it was removed in the database, causing an error. How can we keep our database structure and code synchronized?
+`databaseRecord` no longer has a `birthDate` property because it was removed in the database. How can you keep your database structure and code synchronized?
 
 ## Migrations
 
-Migrations allow us to describe the steps to create our database structure as code that can be version controlled. For example, we can describe how to make the first version of the table:
+Migrations describe the steps to create a database structure as code that can be version controlled. For example, to describe how to make the first version of the table, you may write this migration:
 
 ```js
 exports.up = knex => {
@@ -65,7 +65,7 @@ exports.down = knex => {
 }
 ```
 
-When this migration is run, it will create a `person` table with 4 fields. Just as importantly, the migration can be "un-run", which will drop the table (this is called "rolling back" a migration). This file gets commited along with the rest of the code.
+When this migration is run, it will create a `person` table with 4 fields. Just as importantly, the migration can be "un-run", which will drop the table. This is called rolling back a migration.
 
 Later, a second migration is made:
 
@@ -83,7 +83,7 @@ exports.down = knex => {
 }
 ```
 
-This says to drop the `birth_date` column when you run the migration and to re-add the column when the migration is rolled back. This can also be saved along with the code in version control. Now, if we revert to an earlier version of the code, we've also rolled back Knex's instructions on how to build the database.
+This says to drop the `birth_date` column when you run the migration and to re-add the column when the migration is rolled back. This can also be saved along with the code in version control. This if you revert to an earlier version of the code, you can also roll back Knex's instructions on how to build the database.
 
 ## Creating a Migration
 
@@ -105,7 +105,7 @@ exports.down = function(knex) {
 };
 ```
 
-The first function defines what happens when the migration is run, and the second is what happens when a migration is rolled back. They should mirror each other- if you're creating a table in `.up`, you should be dropping the table in `.down` (and vice-versa).
+The `.up` method defines what happens when the migration is run and the `.down` method defines what happens when the migration is rolled back. They should mirror each other; if you create a table in `.up` you should drop that table in `.down` and vice-versa.
 
 ## Creating a Table
 
@@ -129,13 +129,13 @@ exports.down = knex => {
 
 The `table` parameter in the function passed into `createTable` has a few methods that help define columns. Some examples:
 
-* `table.increments("column_name_here_defaults_to_id")` - An auto-incrementing ID
-* `table.string("column_name_here")` - General string storage
-* `table.integer("column_name_here")` - Integers
-* `table.decimal("column_name_here")` - Decimals
-* `table.date("column_name_here")` - YYYY-MM-DD dates
-* `table.datetime("column_name_here")` - Dates with times
-* `table.boolean("column_name_here")` - True/False
+* <strong>`table.increments("column_name_here_defaults_to_id")`</strong>: An auto-incrementing ID
+* <strong>`table.string("column_name_here")`</strong>: General string storage
+* <strong>`table.integer("column_name_here")`</strong>: Integers
+* <strong>`table.decimal("column_name_here")`</strong>: Decimals
+* <strong>`table.date("column_name_here")`</strong>: YYYY-MM-DD dates
+* <strong>`table.datetime("column_name_here")`</strong>: Dates with times
+* <strong>`table.boolean("column_name_here")`</strong>: True/False
 
 ## Altering a Table
 
@@ -149,11 +149,29 @@ exports.up = knex => {
 }
 ```
 
-To create new columns, use the same methods used in `createTable`. To drop a column, use `table.dropColumn(column_name_here)`. You can also rename a column with `table.dropColumn(old_name, new_name)`. Don't forget to mirror these in `exports.down`!
+To create new columns, use the same methods used in `createTable`. To drop a column, use `table.dropColumn(column_name_here)`. Columns can be renamed with `table.dropColumn(old_name, new_name)`. Don't forget to mirror these alterations in the `exports.down` method.
 
 ## Watch Out!
 
-* One of the easiest mistakes to make when writing a migration is that the `.up` and `.down` functions **must** return a promise. This is usually as easy as making sure the `return` keyword is present.
+* One of the easiest mistakes to make when writing a migration is that the `.up` and `.down` functions **must** return a promise. That means migration methods should look like this:
+
+```
+exports.up = knex => {
+  return knex.schema.createTable("table_name_goes_here", table => {
+    // Table schema here
+  })  
+}
+```
+
+Not this:
+
+```
+exports.up = knex => {
+  knex.schema.createTable("table_name_goes_here", table => {
+    // Table schema here
+  })  
+}
+```
 
 ## Additional Resources
 

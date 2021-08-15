@@ -22,3 +22,6 @@
 | React Router Simple Routing | Demonstrating basic SPA routing with React Router | https://github.com/sikaeducation/react-router-simple | https://codesandbox.io/s/awesome-payne-4wkvd |
 | React User Profile Context| Demonstrating React Context | https://github.com/sikaeducation/react-user-profile-context | https://codesandbox.io/s/angry-cache-wqbkf |
 | React User Profile Context with Set | Demonstrating React Context with set | https://github.com/sikaeducation/react-user-profile-context-with-set | https://codesandbox.io/s/exciting-meadow-r4xeg |
+| Simple Hash | Demonstration of a simple hash algorithm | https://github.com/sikaeducation/simple-hash | https://codesandbox.io/s/hungry-margulis-27msn?file=/index.js |
+| Express Middleware | Demonstration of the Express middleware pattern | https://github.com/sikaeducation/express-middleware | https://codesandbox.io/s/gifted-shadow-k0g4z |
+| Express Basic | Express smoke test | https://github.com/sikaeducation/express-basic | https://codesandbox.io/s/nifty-dan-13d2p |

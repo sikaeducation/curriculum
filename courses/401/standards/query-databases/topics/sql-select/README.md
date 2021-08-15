@@ -1,14 +1,13 @@
-# SQL: SELECT
+# SQL: `SELECT`
 
-The most useful SQL command to learn is the `SELECT` query. It has this format:
+The most useful SQL command is the `SELECT` query, which has this format:
 
 ```sql
-SELECT one, or, more, columns
-FROM some_table;
+SELECT first_name, last_name
+FROM user;
 ```
 
-In normal language, you could describe this as "Show me the columns "one", "or", "more", and "columns" from every record in the "some_table" table.
-
+Conversationally, you could describe this as "Show me the first and last name from every record in the user table."
 
 ## Watch Out!
 

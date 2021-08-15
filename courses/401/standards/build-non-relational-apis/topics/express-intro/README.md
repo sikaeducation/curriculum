@@ -11,28 +11,30 @@ const express = require("express")
 const app = express()
 
 app.get("/", (request, response) => {
-  reponse.send("It worked!")
+  response.send("It worked!")
 })
 
 app.listen(3000)
 ```
 
+[Play with this code](https://codesandbox.io/s/nifty-dan-13d2p)
+
 This code listens for GET requests to `http://localhost:3000`, and responds with the string "It worked!" when it gets one.
 
 ## Installing Express
 
-To start an Express app:
+To create a new Express app:
 
 * Run `npm init -y`. This initializes a folder as a Node project by adding a `package.json` file, which allows you to install NPM packages like Express.
 * Run `npm install express`. This downloads Express and marks it in the `package.json` file as a dependency of the project.
-* Copy this code into a new file called `app.js`:
+* Copy this code into a new file called `index.js`:
 
 ```js
 const express = require("express")
 const app = express()
 
 app.get("/", (request, response) => {
-  reponse.send("It worked!")
+  response.send("It worked!")
 })
 
 app.listen(3000)
@@ -54,7 +56,7 @@ To this:
   },
 ```
 
-When you run `npm start` on the command line, NPM will run `node app.js`, which will make your server start listening for requests. Go to `http://localhost:3000` in a browser to see for yourself!
+When you run `npm start` on the command line, NPM will run `node app.js`, which will make your server start listening for requests. Go to `http://localhost:3000` in a browser to see site.
 
 ## Watch Out!
 

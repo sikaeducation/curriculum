@@ -18,11 +18,13 @@ app.delete("/products/:id", deleteProductsHandler)
 // Same thing for 10 other models
 ```
 
-How can you split this out to focus the files more?
+How can you split these routes out to keep each file more focused?
 
 ## Express Router
 
 Express's router matches a method and a path like every other Express route, but then it delegates the handling of that request to another module.
+
+Routes related to users:
 
 ```js
 // routes/users.js
@@ -38,6 +40,8 @@ router.delete("/:id", deleteUsersHandler)
 module.exports = router
 ```
 
+Routes related to products:
+
 ```js
 // routes/products.js
 const express = require("express")
@@ -52,6 +56,8 @@ router.delete("/:id", deleteProductsHandler)
 module.exports = router
 ```
 
+Loading both routers:
+
 ```js
 // app.js
 const userRoutes = require("./routes/users")
@@ -63,13 +69,13 @@ app.use("/products", productRoutes)
 
 Note:
 
-* Routers are typically mounted with `use` (which matches all request methods)
+* Routers are typically mounted with `use`, which matches all request methods
 * The prefix a router was mounted with is assumed in all requests that router handles. That means that a router mounted with `app.use("/books", booksRouter)` can use `router.get("/")` to match a GET request to `/books`.
-* A file that's going to be mounted as a router should export the `router` object
+* A module that's going to be mounted as a router should export the `router` object
 
 ## Watch Out!
 
-* Remember the route paths are passed into the router, and every route you use will be prefixed with whatever path the router was mounted with!
+* Remember the route paths are passed into the router, and every route you use will be prefixed with whatever path the router was mounted with
 * Routes in a router are set with `router.method`, not `app.method`
 * Remember to export the `router` object from a router file
 

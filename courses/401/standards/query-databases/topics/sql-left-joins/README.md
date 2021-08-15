@@ -1,6 +1,6 @@
 # SQL: LEFT JOIN
 
-An `INNER JOIN` finds every column where there's a match. For example, if you want all of a customer's orders, you might write something like:
+An `INNER JOIN` finds every column where there's a match. For example, to get all of a customer's orders you might write something like:
 
 ```sql
 SELECT customer.*, order.*

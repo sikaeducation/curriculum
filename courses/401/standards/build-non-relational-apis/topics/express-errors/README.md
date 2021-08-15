@@ -2,8 +2,6 @@
 
 You can write Express routes that match different methods and paths. What do you do if nothing matches? What do you do if a route throws an error?
 
-(image)
-
 ## Error-Handling Routes
 
 Somewhat confusingly, an Express error handler is a middleware function that has 4 parameters:
@@ -21,7 +19,7 @@ Whenever Express encounters an error, it will throw control to this handler. It 
 
 ## Throwing Errors
 
-Some errors are thrown directly by the framework, such as not finding a matching route handler or general JavaScript errors. Sometimes, you want to throw an error yourself:
+Some errors are thrown directly by the framework, such as not finding a matching route handler or general JavaScript errors. Other times you want to throw an error yourself:
 
 ```js
 app.post("/users", (request, response) => {
@@ -33,7 +31,7 @@ app.post("/users", (request, response) => {
 })
 ```
 
-These will be caught by your error handler middleware. If the error comes back from an async operation (like `fs.readFile`), you'll want to use the `next` parameter instead:
+These will be caught by `app`'s next error handler middleware. If the error comes back from an async operation like `fs.readFile`, you'll want to use the `next` parameter instead:
 
 ```js
 app.get("/message", (request, response, next) => {
@@ -47,8 +45,7 @@ app.get("/message", (request, response, next) => {
 })
 ```
 
-If `next` receieves anything as its first argument, it considers it an error and will pass that error on to the error handler.
-
+If `next` receieves anything other than `null` as its first argument, it considers it an error and will pass that error on to the error handler.
 
 ## Additional Resources
 

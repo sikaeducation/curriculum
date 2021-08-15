@@ -14,7 +14,7 @@ The `sudo -u postgres` prefix runs the `psql` command as the `psql` command as t
 psql postgresql://username:password@database.server.com:5432/database_name
 ```
 
-Once inside `psql`, you can quit with `\q` or by pressing `ctrl` + `d`. Note that this is different than the command used to kill other processes in the CLI, `ctrl` + `c`.
+Once inside `psql`, you can run any SQL command on the database by typing it in and pressing enter. You can quit with `\q` or by pressing `ctrl` + `d`. Note that this is different than the command used to kill other processes in the CLI, `ctrl` + `c`.
 
 ## Common `psql` Commands
 
@@ -22,6 +22,8 @@ Once inside `psql`, you can quit with `\q` or by pressing `ctrl` + `d`. Note tha
 * <strong>`\d table_name_goes_here`</strong>: List all the columns in a table
 * **`\l`**: List all the databases
 * **`\q`**: Quit `psql`
+* **`\?`**: Display help on PostgreSQL commands
+* **`\h`**: Display help on SQL commands
 
 Note that none of these commands end with `;`; These commands display metadata about the database, but they're not SQL commands.
 

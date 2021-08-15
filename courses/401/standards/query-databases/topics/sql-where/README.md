@@ -1,14 +1,14 @@
-# SQL: WHERE
+# SQL: `WHERE`
 
-SQL statements are made up of several "clauses". We've seen a `SELECT` clause (which says what we want to see), and a `FROM` clause. (which says where to get it from). Next, look at the `WHERE` clause, which says what to leave out.
+SQL statements are made up of several sections called clauses. `SELECT` clauses declare what you want to see and a `FROM` clauses declare where to get the data from. The `WHERE` clause declares which data to leave out. For example:
 
 ```sql
 SELECT one, or, more, columns
 FROM some_table;
-WHERE some_column = "some condition";
+WHERE some_column = 'some condition';
 ```
 
-If you were trying to get username and display name for a user with an ID of `3`, you might write this query:
+If you were trying to get the username and display name for a user with an ID of `3`, you might write this query:
 
 ```sql
 SELECT username, display_name
@@ -16,7 +16,7 @@ FROM user
 WHERE id = 3;
 ```
 
-You could also return every column by using the wildcare (`*`):
+You could also return every column from the `user` table by using the wildcard (`*`):
 
 ```sql
 SELECT *
@@ -24,52 +24,54 @@ FROM user
 WHERE id = 3;
 ```
 
-Or, you could return every record by leaving off the `WHERE` clause:
+## `AND` and `OR`
 
-```sql
-SELECT username, display_name
-FROM user;
-```
-
-## AND
-
-`AND` allows you to have multiple `WHERE` clauses.
+`AND` allows you to have multiple `WHERE` clauses. Just like boolean logic, `AND` requires both conditions to be true:
 
 ```sql
 SELECT *
 FROM user;
-WHERE first_name = "Miles"
-AND last_name = "Davis";
+WHERE first_name = 'Miles'
+AND last_name = 'Davis';
 ```
 
-## NOT
-
-Ordinarily in a `WHERE` clause, we use `=` to make the condition. We can also invert that:
-
-```
-SELECT *
-FROM user;
-WHERE first_name NOT "Miles";
-```
-
-This gives us every `user` whose first_name is not "Miles."
-
-## LIKE
-
-Ordinarily in a `WHERE` clause, we use `=` to make the condition. We can also use `LIKE` and `%` to search for partial matches. This is great for searching.
+While `OR` requires only one of the conditions to be true:
 
 ```sql
 SELECT *
 FROM user;
-WHERE last_name LIKE "%vi%";
+WHERE instrument = 'trumpet'
+OR instrument = 'guitar';
 ```
 
-This gives us every `user` whose name contains `vi`. You can also restrict it to names that start or end with things using "Mil%, "%les", or "M%s".
+## `NOT`
+
+Ordinarily in a `WHERE` clause, `=` defines the condition. You can also invert conditions with `NOT`:
+
+```
+SELECT *
+FROM user;
+WHERE first_name NOT 'Miles';
+```
+
+This gives us every `user` whose `first_name` is not `'Miles'`.
+
+## `LIKE`
+
+You can also use `LIKE` and `%` to return partial matches, which is great for searching:
+
+```sql
+SELECT *
+FROM user;
+WHERE last_name LIKE '%vi%';
+```
+
+This returns every `user` whose name contains `vi`, such as Marvin and Vivian. You can also restrict it to names that start or end with things by moving the `%`, such as `'Mil%'`, `'%les'`, or `'M%s'`.
 
 ## Watch Out!
 
-* Don't forget the semicolon!
-* Columns that you use in your `WHERE` clause **do not** have to also be in your `SELECT` clause`. ``SELECT` what you want to see in the result, `WHERE` what you want to filter on.
+* Don't forget the semicolon in SQL statements
+* Columns that you use in your `WHERE` clause do not have to also be in your `SELECT` clause. `SELECT` what you want to see in the result, use `WHERE` to determine what to filter on.
 
 ## Additional Resources
 

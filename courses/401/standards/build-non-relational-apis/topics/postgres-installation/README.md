@@ -1,5 +1,7 @@
 # PostgreSQL Installation and Setup
 
+To integrate databases into your applications, you need to install the database software.
+
 ## Installing and Running PostgreSQL
 
 Follow these instructions to install the PostgreSQL database management system on your operating system:
