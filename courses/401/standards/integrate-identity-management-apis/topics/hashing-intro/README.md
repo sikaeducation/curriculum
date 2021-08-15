@@ -49,9 +49,9 @@ A great hashing algorithm has these characteristics:
 
 Some popular hashing algorithms include:
 
-* MD5: A hashing algorithm that was popular in the 90's until it was was declared broken because ways to intentionally create hashes were discovered.
-* SHA1: A hashing algorithm that succeeded MD5, until similar vulnerabilities were discovered. It's no longer used for security, but has some other modern applications, such as identifying Git commits.
-* bcrypt: One of the most popular hashing algorithms in web security. By design, it can be made more or less secure at the cost of processing power. This has helped it adapt over time; as cracking computer get faster, so do consumer computers.
+* **MD5**: A hashing algorithm that was popular in the 90's until it was was declared broken because ways to intentionally create hashes were discovered.
+* **SHA1**: A hashing algorithm that succeeded MD5, until similar vulnerabilities were discovered. It's no longer used for security, but has some other modern applications, such as identifying Git commits.
+* **bcrypt**: One of the most popular hashing algorithms in web security. By design, it can be made more or less secure at the cost of processing power. This has helped it adapt over time; as cracking computer get faster, so do consumer computers.
 
 Other modern hashing algorithms include SHA2, SHA3, BLAKE, and more. Each comes with different strengths and weaknesses, which make make them suitable for different applications.
 
