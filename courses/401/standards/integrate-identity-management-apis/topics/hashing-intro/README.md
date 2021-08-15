@@ -51,9 +51,15 @@ Some popular hashing algorithms include:
 
 * **MD5**: A hashing algorithm that was popular in the 90's until it was was declared broken because ways to intentionally create hashes were discovered.
 * **SHA1**: A hashing algorithm that succeeded MD5, until similar vulnerabilities were discovered. It's no longer used for security, but has some other modern applications, such as identifying Git commits.
-* **bcrypt**: One of the most popular hashing algorithms in web security. By design, it can be made more or less secure at the cost of processing power. This has helped it adapt over time; as cracking computer get faster, so do consumer computers.
+* **bcrypt**: One of the most popular hashing algorithms in web security. By design, it can be made more or less secure at the cost of processing power. This has helped it adapt over time; as cracking computers get faster, so do consumer computers.
 
 Other modern hashing algorithms include SHA2, SHA3, BLAKE, and more. Each comes with different strengths and weaknesses, which make make them suitable for different applications.
+
+## Watch Out!
+
+It's possible for more than one input to generate the same hash. For example, Brad Pitt's `soap` password results in a `6` using the simple hashing algorithm, but so does the letter `f`. The point of hashing isn't to make it impossible for anything but the given input to generate the hash, just statistically unlikely.
+
+Real hashing algorithms are far more complex. For example, running `soap` through the bcrypt hashing function results in the hash `$2a$10$S56gg7sK8OWUqZN9fzoP7eVVYK1JpF1jYJch9vpiNf5paG.HR.xy2`. If you had 340,000,000,000,000,000,000,000,000,000,000,000,000 users (that's 340 undecillion) users and every one of them had a unique password, there's still only a 50% chance that two of them would have the same password hash.
 
 ## Additional Resources
 
