@@ -30,7 +30,7 @@ function simpleHash(string){
 
 [Play with this code](https://codesandbox.io/s/hungry-margulis-27msn?file=/index.js)
 
-This is called a hashing algorithm. It turns an input string into something statistically likely to be unique, but is otherwise irreversible. Hashing algorithms are an active area of research.
+This is called a hashing algorithm. It turns an input string into something statistically likely to be unique, but is otherwise irreversible. Hashing algorithms are an active area of math research and have many applications.
 
 ## Hashing Passwords
 
@@ -44,16 +44,16 @@ A great hashing algorithm has these characteristics:
 
 * Make full use of all the available output space
 * It should be impossible to recreate the original input from the output
-* It should be impossible to intentionally recreate any other valid input from the output
+* It should be impossible to intentionally create a target output
 * Small changes in the input should result in big changes in the output
 
 Some popular hashing algorithms include:
 
-* MD5: A hashing algorithm that was popular in the 90's until it was was declared broken because ways to intentionally recreate hashes were discovered.
+* MD5: A hashing algorithm that was popular in the 90's until it was was declared broken because ways to intentionally create hashes were discovered.
 * SHA1: A hashing algorithm that succeeded MD5, until similar vulnerabilities were discovered. It's no longer used for security, but has some other modern applications, such as identifying Git commits.
 * bcrypt: One of the most popular hashing algorithms in web security. By design, it can be made more or less secure at the cost of processing power. This has helped it adapt over time; as cracking computer get faster, so do consumer computers.
 
-Modern hashing algorithms include SHA2, SHA3, BLAKE, and more. Each comes with different strengths and weaknesses making it suitable for different situations.
+Other modern hashing algorithms include SHA2, SHA3, BLAKE, and more. Each comes with different strengths and weaknesses, which make make them suitable for different applications.
 
 ## Additional Resources
 
