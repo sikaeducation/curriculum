@@ -121,9 +121,4 @@ await Dog
 | Resource | Description |
 | --- | --- |
 | [Objection: Modeling](https://vincit.github.io/objection.js/guide/models.html#examples) | Official Objection docs on models |
-
----
-
-**Need URL for this:**
-
-| [Objection: Querying]() | Official Objection docs on querying |
+| [Objection: Querying](https://vincit.github.io/objection.js/guide/query-examples.html) | Official Objection docs on querying |

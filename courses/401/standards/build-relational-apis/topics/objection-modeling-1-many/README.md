@@ -4,7 +4,7 @@ Building models with Objection is elegant and has some benefits, but you really 
 
 ## Modeling One-to-Many Relationships
 
-To model a relationship with Objection, use the `relationMappings` method on your model:
+To model a relationship with Objection, use the `relationMappings` static method on your model:
 
 ```js
 // models/Dog.js
@@ -43,11 +43,12 @@ module.exports = Person
 
 Some things to note:
 
-* Each key in the object that's returned from the method is what you want to name a relationship. In general, you should use the plural of the model if it's a `hasManyRelation` and the singular of the model if it's a `BelongsToOneRelation`, but you can name them anything you wish
+* Each key in the object that's returned from the method is what you want to name a relationship. In general, you should use the plural of the model if it's a `hasManyRelation` and the singular of the model if it's a `BelongsToOneRelation`, but you can name them anything you wish.
 * The `Model` object has specific classes that define the type of relationship. The two relevant to 1:M relationships are:
   * `Model.HasManyRelation`, which should be used to reference the "many" side of a relationship
   * `Model.BelongsToOneRelation`, which should be used to reference the "one" side of a relationship
 * The `modelClass` property needs to reference the actual class of the model you're creating a relationship with, not just the name of it. The safest way to do this is by putting it in an external file and requiring directly into the property.
+* Putting the `require` statement in the `modelClass` itself helps resolve situations where two models depend on each other.
 
 ## Reading Related Records
 
@@ -122,7 +123,6 @@ This inserts 2 people and 3 dogs into the database and correctly associates the 
 
 ## Watch Out!
 
-* You need to avoid `require` loops with models. Most of the properties in the `Model` class also work as methods, which means you can do a calculations in them at runtime. As long as the method returns data in the right shape, it can be used interchangeably with properties.
 * `HasManyRelation` and `BelongsToOneRelation` are classes (not properties or methods) so they start with capital letters
 
 ## Additional Resources
