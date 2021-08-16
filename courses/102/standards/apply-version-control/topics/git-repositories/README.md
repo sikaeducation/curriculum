@@ -14,9 +14,9 @@ Once a folder has become a Git repo, you can stage and commit files in it.
 
 If a repository already exists on GitHub, you copy it to your computer with `git clone`:
 
-![GitHub repo overview](github-1.png)
+![GitHub repo overview](assets/github-1.png)
 
-![Cloning a repo from GitHub](github-2.png)
+![Cloning a repo from GitHub](assets/github-2.png)
 
 You can look at this code, make changes to it, or even use it as the basis for your own code without affecting the repository that you cloned from.
 
