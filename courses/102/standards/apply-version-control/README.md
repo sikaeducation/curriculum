@@ -7,7 +7,7 @@
   * [Exercises](topics/git-repositories/exercises)
 * [Git Staging](topics/git-staging)
   * [Exercises](topics/git-staging/exercises)
-* [Git Commits](topics/git-commit)
+* [Git Commits](topics/git-commits)
   * [Exercises](topics/git-commits/exercises)
 * [Git Remotes](topics/git-remotes)
   * [Exercises](topics/git-remotes/exercises)
