@@ -4,5 +4,6 @@
 * [Express: User Creation](topics/express-user-creation.md)
 * [Intro to Hashing](topics/hashing-intro.md)
 * [Express Authentication](topics/express-authentication.md)
+* [Base-64 Encoding](topics/encoding-base64)
 * [JWTs](topics/jwt-intro)
 * [Intro to Encryption](topics/encryption-intro.md)

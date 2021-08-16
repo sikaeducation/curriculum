@@ -10,7 +10,7 @@ SELECT *
 FROM instructor;
 ```
 
-But how would we get all of one instructor's students?
+But how would you get all of one instructor's students?
 
 ## Joins
 
@@ -28,23 +28,38 @@ Joins add more tables to a query that you can display with `SELECT` and filter w
 
 ## Writing a Join
 
-Let's say you have a data model like this:
+![4 table ERD](assets/inner-join.png)
 
-(image of data model with 4 tables)
+In this model:
 
-To traverse these tables, you need to pick one to start with and join your way across.
+* Each band has multiple musicians, but each musician is in one band
+* Each musician has multiple instruments, but each instrument is owned by one musician
+* Each instrument model has multiple instruments, but each instrument is of one model
+
+If you want to find out all of the instrument models used by the band 311, you need to traverse these 4 tables with joins.
 
 ```sql
-SELECT table_1.some_column, table_4.some_column
-FROM table_1
-INNER JOIN table_1.some_foreign_key = table_2.id
-INNER JOIN table_2.some_foreign_key = table_3.id
-INNER JOIN table_3.some_foreign_key = table_4.id;
+SELECT DISTINCT band.name, instrument_model.label
+FROM band
+INNER JOIN musician.band_id = band.id
+INNER JOIN instrument.musician_id = musician.id
+INNER JOIN instrument.model_id = instrument_model.id
+WHERE band.name = '311';
 ```
 
-Some rules to live by:
+This will result in something like:
 
-* Don't worry too much about the logic of the joins right now. If you need data from two tables, just find a way to walk from one to the other. The logic of what to display is handled by `SELECT`, the logic of what to filter out is handled by the `WHERE` clause.
+| band.name | instrument_model.label
+| --- | --- |
+| 311 | Pearl |
+| 311 | Tama |
+| 311 | GHS |
+| 311 | PRS Guitars |
+| 311 | Warwick |
+
+Some guidelines:
+
+* Don't worry too much about the logic of the joins. If you need data from two tables, just find a way to walk from one to the other. The logic of what to display is handled by `SELECT`, the logic of what to filter out is handled by the `WHERE` clause.
 * The order of the columns in a join statement is not important.
 
 ## Watch Out!

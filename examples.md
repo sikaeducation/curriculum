@@ -25,3 +25,4 @@
 | Simple Hash | Demonstration of a simple hash algorithm | https://github.com/sikaeducation/simple-hash | https://codesandbox.io/s/hungry-margulis-27msn?file=/index.js |
 | Express Middleware | Demonstration of the Express middleware pattern | https://github.com/sikaeducation/express-middleware | https://codesandbox.io/s/gifted-shadow-k0g4z |
 | Express Basic | Express smoke test | https://github.com/sikaeducation/express-basic | https://codesandbox.io/s/nifty-dan-13d2p |
+| Generate JWT | Generate a JWT in Node | https://github.com/sikaeducation/generate-jwt | https://codesandbox.io/s/little-water-zijgq |
