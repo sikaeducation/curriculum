@@ -1,6 +1,6 @@
 # HTTP: CORS
 
-When a browser makes an HTTP request with something like `fetch`, by default it will only make that request to a URL on the same domain for security reasons. Ordinarily, that would mean a website can't use any third-party API, or even an API that's on a different subdomain.
+When a browser makes an HTTP request with something like `fetch`, by default it will only make that request to a URL on the same domain for security reasons. Ordinarily, that would restrict websites from using any third-party API or even APIs on different subdomains.
 
 Meanwhile, APIs often need to restrict which sites can make requests to them. If another server is requesting data from the API the IP address can be blocked or throttled, but this strategy doesn't work with web clients. All an attacker needs to do to send a request from a new IP address is move to a different wifi hotspot. Luckily, there's a strategy that helps address both problems.
 
