@@ -1,11 +1,6 @@
 # Debugging APIs With Insomnia
 
-Without scripting, a normal browser:
-
-* Can only make `GET` requests
-* Can't modify the headers, cookies, body, or any other aspect of the request
-* Can only inspect the response through the browser dev tools
-* Make be subject to plugins that are installed in the browser
+A normal browser can only make `GET` requests to URLs. Futhermore, they can't modify the headers, cookies, body, or any other aspect of the request. The only way to inspect the response of a request is through the dev tools, and everything you see may be subject to interference from browser plugins. This makes browsers a poor tool for inspecting and testing APIs, which need much more flexibility. Insomnia is a tool for crafting detailed HTTP requests and examining the responses, which makes it indispensible for testing APIs.
 
 ## Installing Insomnia
 
