@@ -16,7 +16,7 @@ Then you realize that the first Harry Potter book was alternately called "Harry 
 
 ![ERD of books and authors](assets/library-erd-4.png)
 
-Then you realize that each book edition has had multiple printings, so you add a table for printings.
+Then you realize that each book edition has had multiple printings, so you add a table for printings:
 
 ![ERD of books and authors](assets/library-erd-5.png)
 
@@ -24,10 +24,10 @@ This is the process of relational data modeling.
 
 ## ERDs
 
-An Entity-Relationship Diagram (or ERD) describes things (entities) and their relationships with each other. The three basic categories of relationship are:
+Entity-Relationship Diagrams, or ERDs, describe things (entities) and their relationships with each other. The three basic categories of relationship are:
 
-* 1-to-Many: This indicates that one thing shows up many times in another thing. For example, one building has many rooms, but each room can only be in one building.
-* Many-to-Many: This indicates that one thing shows up many times in another thing _and vice-versa_. For example, one building can have more than one administrator, and each administrator can manage more than one building.
+* 1-to-Many: This indicates that one entity can own more than one of another entity. For example, one building has many rooms, but each room can only be in one building.
+* Many-to-Many: This indicates that entity can own more than one of another entity and vice-versa_. For example, one building can have more than one administrator, and each administrator can manage more than one building.
 * 1-to-1: This indicates that something is actually the same as something else. For example, an employee may have a manager, who is also an employee.
 
 There are other relationships in data modeling that are more nuanced, but they're subsets of these three types.
