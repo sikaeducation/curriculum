@@ -6,6 +6,8 @@
   * [Exercises](topics/data-modeling-intro/exercises)
 * [Intro to Databases](topics/databases-intro)
   * [Exercises](topics/databases-intro/exercises)
+* [PostgreSQL: Installation](topics/postgres-installation)
+  * [Exercises](topics/postgres-installation/exercises)
 * [Intro to Knex](topics/knex-intro)
   * [Exercises](topics/knex-intro/exercises)
 * [Knex: Migrations](topics/knex-migrations)
@@ -26,5 +28,7 @@
   * [Exercises](topics/objection-modeling-1-many/exercises)
 * [Data Modeling: Many-to-Many Relations](topics/data-modeling-many-many-relations)
   * [Exercises](topics/data-modeling-1-many-relations/exercises)
+* [Cloud Deployment: Databases](topics/cloud-deployment-databases)
+  * [Exercises](topics/cloud-deployment-databases/exercises)
 
 ## Assessments
