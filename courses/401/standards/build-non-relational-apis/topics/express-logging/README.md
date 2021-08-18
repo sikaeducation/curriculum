@@ -1,6 +1,6 @@
 # Express: Logging
 
-When an Express app gets an HTTP request, examining the HTTP request that made it is an important troubleshooting tool. Luckily, there's some middleware that prints out information about every request it receives to the console.
+When an Express app gets an HTTP request, the request itself is a valuable troubleshooting tool. Luckily, there's Express middleware that prints out information about every request to the console.
 
 ## Installing Morgan
 
