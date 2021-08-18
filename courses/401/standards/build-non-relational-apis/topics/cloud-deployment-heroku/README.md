@@ -41,7 +41,7 @@ This is helpful for debugging an app that works locally but isn't working on Her
 
 ## Watch Out!
 
-By default, a Heroku app will if it hasn't received any requests for 30 minutes. This means the next request it gets will need to the server, which causes a substantial delay in the response. This is a limitation of Heroku's free tier. To keep an app awake full-time, go to "Resources" -> "Change Dyno Type" -> "Hobby". This costs $7 a month to run, but is prorated down to the second.
+By default, a Heroku app will sleep if it hasn't received any requests for 30 minutes. This means the next request it gets will need to wake up the server, which causes a substantial delay in the response. This is a limitation of Heroku's free tier. To keep an app awake full-time, go to "Resources" -> "Change Dyno Type" -> "Hobby". This costs $7 a month to run, but is prorated down to the second.
 
 ## Additional Resources
 
