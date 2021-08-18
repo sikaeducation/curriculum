@@ -17,7 +17,7 @@ To allow an HTTP request from a domain other than the one the API is on, one of 
 
 ## Preflighting
 
-Before a browser makes certain HTTP requests to another origin, it checks to see if that request will be allowed. This is done with an HTTP request using the `OPTIONS` method, and it expects an `Access-Control-Allow-Origin` header with an appropriate value to be present on the HTTP response. If the browser gets such a response, it executes the original HTTP request. This strategy is called preflighting. Browsers preflight automatically, but to be successful API servers need to respond to `OPTIONS` requests in addition to the actual API requests.
+Before browsers make certain HTTP requests to another origin, they check to see if that request will be allowed. This is done with an HTTP request using the `OPTIONS` method, and it expects an `Access-Control-Allow-Origin` header with an appropriate value to be present on the HTTP response. If the browser gets such a response, it executes the original HTTP request. This strategy is called preflighting. Browsers preflight automatically, but to be successful API servers need to respond to `OPTIONS` requests in addition to the actual API requests.
 
 ![HTTP preflight request](assets/preflight.png)
 
