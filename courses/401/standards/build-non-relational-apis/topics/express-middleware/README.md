@@ -1,12 +1,12 @@
 # Express Middleware
 
-Some things API servers need to do when fulfilling HTTP requests are common, such as:
+There are some common things API servers need to do when fulfilling HTTP requests:
 
 * Adding a particular header to the response
 * Authenticating a user based on a token in the request
 * Validating that the correct data was sent in the request
 
-Since they're common, it makes sense to extract them into functions:
+Since they're so common, it makes sense to extract them into functions:
 
 ```js
 app.get("/", (request, response) => {
@@ -18,7 +18,7 @@ app.get("/", (request, response) => {
 })
 ```
 
-This is awkward because it's repetitive to use in every route and adds a lot of bulk and noise. How can it be improved?
+These are repetitive to use in every route and add a lot of bulk and noise to the could. How can this strategy be improved?
 
 ## The Middleware Pattern
 
