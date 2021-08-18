@@ -67,7 +67,7 @@ function validateRequest(request, response, next){
 
 [Play with this code](https://codesandbox.io/s/gifted-shadow-k0g4z)
 
-1. All `GET` requests to `/products/:productId` start by adding a CORS header to the `response` object
+1. All `GET` requests to `/products/:productId` add a CORS header to the `response` object
 2. Next, a user is looked up and added to the `request` object
 3. Next, the request is validated to ensure the product was requested correctly
 4. Next, the requested product is looked up and the response is sent back to the user
