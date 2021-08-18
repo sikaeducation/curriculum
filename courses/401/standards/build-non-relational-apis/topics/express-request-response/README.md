@@ -23,9 +23,9 @@ Every Express route handler has access to a `response` object containing details
 
 Additionally, there several `response` methods that end Express's processing and send the response back down to the client.
 
-* **`response.json(someObject)`*: Encodes a JavaScript object as JSON and sends it in the HTTP response body
-* *`response.send(someString)`*: Sends a string in the HTTP response body
-* *`response.sendStatus(someStatusCode)`*: Send an HTTP status code as the response with no HTTP response body
+* **`response.json(someObject)`**: Encodes a JavaScript object as JSON and sends it in the HTTP response body
+* **`response.send(someString)`**: Sends a string in the HTTP response body
+* **`response.sendStatus(someStatusCode)`**: Send an HTTP status code as the response with no HTTP response body
 
 ## Watch Out!
 
