@@ -16,7 +16,7 @@ This is modifiable, as well. For example, it's possible to create a `user` objec
 
 ## `response`
 
-Every Express route handler has access to a `response` object containing details about the HTTP response. You call methods on the `response` object to progressively build your eventual HTTP response. For example:
+Every Express route handler has access to a `response` object containing details about the HTTP response. Call methods on the `response` object to progressively build your eventual HTTP response. For example:
 
 * **`response.status(statusCode)`**: Sets the HTTP status code
 * **`response.set("header-name-here", "header value here")`**: Sets an HTTP response header
