@@ -89,7 +89,7 @@ function routeHandler(request, response){
 app.get("/", addCORSHeader, lookupUser, validateRequest, routeHandler)
 ```
 
-Since route handlers typically send the HTTP response back to the client by calling `response.json()` or `response.sendStatus()`, they're intended to be the last middleware in the chain. As such, they usually only call `next()` for errors.
+Since route handlers typically send the HTTP response back to the client by calling `response.json()` or `response.sendStatus()`, they're intended to be the last middleware in the chain. As such, they usually only call `next()` if there's an error.
 
 ## Watch Out!
 
