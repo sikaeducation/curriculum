@@ -34,7 +34,7 @@ function showError(error) {
 
 [Play with this code](https://codesandbox.io/s/upbeat-kowalevski-ww0ks?file=/index.js)
 
-This application has 27 lines of code and no other data of its own, yet it's capable of showing over 1000 different characters from the popular franchise. This is an example of the power of APIs.
+This application has 27 lines of code and no other data of its own, yet it's capable of showing over 1000 different characters from the popular franchise. This is the power of APIs.
 
 ## APIs
 
