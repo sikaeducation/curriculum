@@ -66,4 +66,7 @@ Express will automatically break a query string into separate key:value pairs in
 
 | Resource | Description |
 | --- | --- |
-| [Express: `body-parser`](http://expressjs.com/en/resources/middleware/body-parser.html) | |
+| [Express: `express.json()`](http://expressjs.com/en/resources/middleware/body-parser.html) | Express's built-in JSON body parser |
+| [Express: `req.body`](http://expressjs.com/en/4x/api.html#req.body) | Express's documentation on `request.body` |
+| [Express: `req.params`](http://expressjs.com/en/4x/api.html#req.params) | Express's documentation on `request.params` |
+| [Express: `req.query`](http://expressjs.com/en/4x/api.html#req.query) | Express's documentation on `request.query` |
