@@ -22,7 +22,7 @@ Putting these in every route is repetitive and adds a lot of bulk and noise to t
 
 ## The Middleware Pattern
 
-Express, like other API server software, is primarily based around HTTP requests and responses. A request comes into the server, a response comes out. Consider this example of a route the looks up a requested product:
+Express, like other API server software, is primarily based around HTTP requests and responses. A request comes into the server, a response comes out. Consider this example of a route that looks up a product:
 
 ```js
 app.get("/products/:productId", addCORSHeader, lookupUser, validateRequest, (request, response, next) => {
