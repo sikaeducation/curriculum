@@ -54,7 +54,11 @@ If you make an HTTP GET request to `https://api-example.com/products/34`, you wi
 }
 ```
 
-This is useful for matching specific items from a database by their IDs.
+This is useful for matching specific items from a database by their IDs. Note that you can have multiple route params:
+
+```js
+app.get("/posts/:productId/comments/:commentId/likes", routeHandler)
+```
 
 ### Universal Matchers
 
