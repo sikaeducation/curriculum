@@ -25,7 +25,7 @@ Additionally, there several `response` methods that end Express's processing and
 
 * **`response.json(someObject)`**: Encodes a JavaScript object as JSON and sends it in the HTTP response body
 * **`response.send(someString)`**: Sends a string in the HTTP response body
-* **`response.sendStatus(someStatusCode)`**: Send an HTTP status code as the response with no HTTP response body
+* **`response.sendStatus(someStatusCode)`**: Sends an HTTP status code as the response with no HTTP response body
 
 Refer to the [full list](https://expressjs.com/en/guide/routing.html#response-methods) for other options.
 
