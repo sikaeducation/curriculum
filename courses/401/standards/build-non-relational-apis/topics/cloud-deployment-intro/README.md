@@ -1,6 +1,6 @@
 # Intro to Cloud Deployment
 
-Traditionally, hosting something on the public internet involved these steps:
+Hosting something on the public internet traditionally involves these steps:
 
 1. Purchase a domain from a domain registrar
 2. Create a DNS record that points your domain to the IP address of your office or data center
@@ -8,9 +8,7 @@ Traditionally, hosting something on the public internet involved these steps:
 4. Route traffic that comes into your office or data center to that computer
 5. Maintain the computer running your app
 
-This works, but it has issues. Steps 3-5 involve a lot of expensive expertise that has little overlap with application development. There are also a lot of ways it can go badly. If the computer turns off because of a power outage, hardware failure, or someone just tripped over the cable, the entire website goes down. Upgrading a site often means turning the server off for scheduled maintenance, updating the code, and restarting the server.
-
-Luckily, this kind of work is now available as a commodity service from several providers now.
+This works and is still used some places, but it has issues. Steps 3-5 involve a lot of expensive expertise that has little overlap with application development, and there are a lot of ways these steps can go badly. If the computer turns off because of a power outage, hardware failure, or even because someone just tripped over the cable, the entire website goes down. Upgrading a site often means turning the server off for scheduled maintenance, updating the code, and restarting the server. Luckily, this kind of server work is available as a commodity from several providers now.
 
 ## Cloud Deployment
 
