@@ -18,7 +18,7 @@ app.get("/", (request, response) => {
 })
 ```
 
-These are repetitive to use in every route and add a lot of bulk and noise to the could. How can this strategy be improved?
+Putting these in every route is repetitive and adds a lot of bulk and noise to the code. How can you keep the resuability without the repetition?
 
 ## The Middleware Pattern
 
