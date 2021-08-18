@@ -7,9 +7,9 @@ An HTTP server starts with an HTTP request and ends with an HTTP response. What 
 Every Express route handler gets a `request` object containing details about the HTTP request. For example:
 
 * **`request.body`**: Contains the body of the HTTP request after it's been parsed
-* **`request.params`**: An object containing the Express route keys and their values
-* **`request.query`**: An object containing the query string of the request as keys and values
-* **`request.cookies` / `request.signedCookies`**: An object containing any cookies that were sent over as keys and values after they've been parsed
+* **`request.params`**: Contains the Express route keys and their values
+* **`request.query`**: Contains the query string of the request as keys and values
+* **`request.cookies` / `request.signedCookies`**: Contains any cookies that were sent over as keys and values after they've been parsed
 * **`request.get("header-name-here")`**: Returns the value of an HTTP request header
 
 This is modifiable, as well. For example, it's possible to create a `user` object and add it to the `request` as `request.user`.
