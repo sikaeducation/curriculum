@@ -17,7 +17,7 @@ With cloud deployment, the deployment process is as simple as:
 1. Fill out a form to create a new server on a cloud provider
 2. Attach your server to a Git repository
 
-The burden of keeping your site up, upgrading hardware, and dealing with backups and disasters is outsourced to the cloud provider. Instead of maintaining IT staff and hardware, you pay a very low hourly rate to run the server. Need more capacity or speed? It can be as simple as moving a slider. Only need that capacity or speed for a short period of time? Move the slider back when you're done. Some cloud providers even allow you to do this automatically based on conditions. The same providers also often offer database hosting services, logging, domain name registration, and more.
+The burden of keeping your site up, upgrading hardware, and dealing with backups and disasters is outsourced to the cloud provider. Instead of maintaining IT staff and hardware, you pay a low by-the-second rate to run the server. Need more capacity or speed? It can be as simple as moving a slider. Only need that capacity or speed for a short period of time? Move the slider back when you're done. Some cloud providers even allow you to do this automatically based on conditions. The same providers also often offer database hosting services, logging, domain name registration, and more.
 
 Turning these essential parts of the web into commodity services drastically lowers the barriers to making web apps. Instead of requiring an IT staff to start a modest web app, all you need is a credit card.
 
