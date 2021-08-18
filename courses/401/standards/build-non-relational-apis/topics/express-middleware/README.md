@@ -73,7 +73,7 @@ function validateRequest(request, response, next){
 4. Next, the requested product is looked up and the response is sent back to the user
 5. If an error occurs at any step, the error handling middleware sends back a `400` HTTP response and a description of the error
 
-The middleware pattern in Express has a `request` and `response` object that are passed one after the other into middleware functions. Each function takes in the `request` object, the `response` object, and an optional `next` function. When `next` is called with no arguments, it moves to the "next" middleware function until `.json()`, `.sendStatus()` is called. If `next` is called with an argument, Express assumes that something went wrong and it passes control to an error handler middleware function. This allows us to abstract out all of the behavior for a route into individual functions, which greatly improves both readability and reusability.
+The middleware pattern in Express has a `request` and `response` object that are passed one after the other into middleware functions. Each function takes in the `request` object, the `response` object, and an optional `next` function. When `next` is called with no arguments, it moves to the "next" middleware function until `.json()`, `.sendStatus()` or another response sender is called. If `next` is called with an argument, Express assumes that something went wrong and it passes control to an error handler middleware function. This allows us to abstract out all of the behavior for a route into individual functions, which greatly improves both readability and reusability.
 
 ![Diagram of the Express middleware pattern](assets/express-middleware.png)
 
