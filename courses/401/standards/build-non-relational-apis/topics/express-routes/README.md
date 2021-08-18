@@ -1,6 +1,6 @@
 # Express: Routes
 
-Express is based around the idea of HTTP requests and responses. You declare routes that match a particular HTTP request pattern, and then attach functions that will run when one matches.
+Express is based around the idea of HTTP requests and responses. You declare routes that match a particular HTTP request pattern and attach functions to run when one matches.
 
 ## Route Matching
 
