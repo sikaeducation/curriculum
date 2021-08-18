@@ -2,7 +2,7 @@
 
 When a browser makes an HTTP request with something like `fetch`, by default it will only make that request to a URL on the same domain for security reasons. Ordinarily, that would restrict websites from using any third-party API or even APIs on different subdomains.
 
-Meanwhile, APIs often need to restrict which sites can make requests to them. If another server is requesting data from the API the IP address can be blocked or throttled, but this strategy doesn't work with web clients. All an attacker needs to do to send a request from a new IP address is move to a different wifi hotspot. Luckily, there's a strategy that helps address both problems. Cross-origin resource sharing, or CORS, is a strategy for using HTTP headers to tell browsers that it's OK to load resources them.
+Meanwhile, APIs often need to restrict which sites can make requests to them. If another server is requesting data from the API the IP address can be blocked or throttled, but this strategy doesn't work with web clients. All an attacker needs to do to send a request from a new IP address is move to a different wifi hotspot. Luckily, there's a strategy that helps address both problems. Cross-origin resource sharing, or CORS, is a strategy where servers use HTTP headers to tell browsers that it's OK to load resources them.
 
 ## `Access-Control-Allow-Origin`
 
