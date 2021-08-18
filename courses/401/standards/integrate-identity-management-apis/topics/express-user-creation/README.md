@@ -31,12 +31,12 @@ The only difference between creating a user and any other resource is how the pa
 ```js
 class User extends Model {
   static tableName = "user"
-  static signup(user){
-    return bcrypt.hash(user.password, 12).then(hashedPassword => {
-      delete user.password
-      user.password_hash = hashedPassword
-      return this.query().insert(user)
-    })
+  static async signup(user){
+    const hashedPassword = await bcrypt.hash(user.password, 12)
+    delete user.password
+    user.password_hash = hashedPassword
+
+    return this.query().insert(user)
   }
 }
 ```

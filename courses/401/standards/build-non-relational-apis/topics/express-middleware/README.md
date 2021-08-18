@@ -101,3 +101,4 @@ Since route handlers typically send the HTTP response back to the client by call
 | Resource | Description |
 | --- | --- |
 | [Express: Using Middleware](https://expressjs.com/en/guide/using-middleware.html) | Official guide to Express middleware |
+| [Express: Middleware](http://expressjs.com/en/resources/middleware.html) | Full list of popular middleware modules for Express |

@@ -27,3 +27,6 @@
 | Express Basic | Express smoke test | https://github.com/sikaeducation/express-basic | https://codesandbox.io/s/nifty-dan-13d2p |
 | Generate JWT | Generate a JWT in Node | https://github.com/sikaeducation/generate-jwt | https://codesandbox.io/s/little-water-zijgq |
 | Express User Creation | Creating users with hashed passwords in Express and Objection | https://github.com/sikaeducation/express-user-creation | https://codesandbox.io/s/lingering-dawn-o70gt?file=/models/User.js |
+| Express User Login | Logging in users in Express and giving them JWTs | https://github.com/sikaeducation/express-user-login | https://codesandbox.io/s/bold-faraday-p74es |
+| Express Route Protection | Protecting routes in Express with Passport | https://github.com/sikaeducation/express-protecting-routes | https://codesandbox.io/s/admiring-saha-ik32w |
+| Express Logging | Demonstrates different logging formats in Express | https://github.com/sikaeducation/express-logging | https://codesandbox.io/s/affectionate-water-4gkgg |

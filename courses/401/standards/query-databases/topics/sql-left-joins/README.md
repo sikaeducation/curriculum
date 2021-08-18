@@ -8,21 +8,49 @@ FROM customer
 INNER JOIN order on order.customer_id = customer.id;
 ```
 
-There's a catch to this though. If the customer doesn't have any orders, not only will the order information not show up, but the customer information won't show up either.
+There's a catch to this though. If the customer doesn't have any orders, not only will the order information not show up, but the customer information won't show up either. For example, consider a user table and an agreement agreement table representing whether each user has agreed to a change in the terms of service.
 
-(image with customer info + order)
+**customer**
 
-(image with no results at all)
+| id | name |
+| --- | --- |
+| 1 | Bill Bellamy |
+| 2 | Kennedy Montgomery |
+| 3 | Peter King |
 
-## LEFT JOIN
+**agreement**
+
+| id | is_signed | customer_id |
+| --- | --- | --- |
+| 1 | true | 1 |
+
+If you try to list all of the customers and whether they've signed the agreement with an inner join, you may be surprised:
 
 ```sql
-SELECT customer.*, order.*
+SELECT customer.name, order.product
 FROM customer
-LEFT JOIN order on order.customer_id = customer.id;
+INNER JOIN agreement ON agreement.customer_id = customer.id
 ```
 
-(results)
+| customer.name | order.product |
+| --- | --- |
+| Bill Bellamy | true |
+
+`INNER JOIN` only returns results that have matches. If you want every custoer whether or not there's a match, use `LEFT JOIN`:
+
+```sql
+SELECT customer.name, order.product
+FROM customer
+LEFT JOIN agreement ON customer.id = agreement.customer_id
+```
+
+| customer.name | order.product |
+| --- | --- |
+| Bill Bellamy | true |
+| Kennedy Montgomery | |
+| Peter King | |
+
+`LEFT JOIN` will include everyone right in the first ("left") column in the join clause, even if there's not match in the second column.
 
 ## Watch Out!
 

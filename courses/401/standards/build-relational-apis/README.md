@@ -10,8 +10,6 @@
   * [Exercises](topics/knex-intro/exercises)
 * [Knex: Migrations](topics/knex-migrations)
   * [Exercises](topics/knex-migrations/exercises)
-* [Intro to ERDs](topics/erd-intro)
-  * [Exercises](topics/erd-intro/exercises)
 * [Data Modeling: 1-to-Many Relations](topics/data-modeling-1-many-relations)
   * [Exercises](topics/data-modeling-1-many-relations/exercises)
 * [Knex: Relations](topics/knex-relations)
