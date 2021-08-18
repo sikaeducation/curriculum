@@ -1,6 +1,6 @@
 # Express: Logging
 
-When an Express app gets an HTTP request, the request itself is a valuable troubleshooting tool. Luckily, there's Express middleware that prints out information about every request to the console.
+When an Express app gets an HTTP request, the request itself is a valuable troubleshooting tool. Luckily, there's Express middleware that prints out information about every request and response to the console.
 
 ## Installing Morgan
 
@@ -15,9 +15,6 @@ npm install morgan
 To configure Morgan for an express app, import it and pass it to `app.use()`:
 
 ```js
-const express = require("express")
-const app = express()
-
 const morgan = require("morgan")
 app.use(morgan("dev"))
 ```
