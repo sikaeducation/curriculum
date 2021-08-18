@@ -16,7 +16,7 @@
   * [Exercises](topics/cloud-deployment-intro/exercises)
 * [Cloud Deployment: Heroku](topics/cloud-deployment-heroku)
   * [Exercises](topics/cloud-deployment-heroku/exercises)
-* [Express: Request/Response](topics/express-request-response)
+* [Express: `request` and `response`](topics/express-request-response)
   * [Exercises](topics/express-request-response/exercises)
 * [Express: Request Data](topics/express-request-data)
   * [Exercises](topics/express-request-data/exercises)
