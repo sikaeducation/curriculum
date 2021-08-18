@@ -102,7 +102,7 @@ app.get("/", (request, response) => {
 
 ## Watch Out!
 
-Paths always start with `/`.
+Paths always start with `/`. `app.get("products")` will not work, it must be `app.get("/products")`.
 
 ## Additional Resources
 
