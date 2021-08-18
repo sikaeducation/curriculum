@@ -31,8 +31,8 @@ Refer to the [full list](https://expressjs.com/en/guide/routing.html#response-me
 
 ## Watch Out!
 
-* `request.body` is `undefined` until it has been parsed with something like `express.json()`. The same is true of `request.cookies` and `request.signedCookies`.
-* `request.cookies` is `undefined` until it has been parsed with something like `express.json()`.
+* `request.body` is not usable until it has been parsed with something like `express.json()`. The same is true of `request.cookies` and `request.signedCookies`.
+* `request.cookies` is not usable until it has been parsed with something like `express.json()`.
 
 ## Additional Resources
 
