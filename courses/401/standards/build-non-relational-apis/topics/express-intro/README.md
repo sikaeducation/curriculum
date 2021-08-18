@@ -25,7 +25,7 @@ This code listens for GET requests to `http://localhost:3000`, and responds with
 
 To create a new Express app:
 
-* Run `npm init -y`. This initializes a folder as a Node project by adding a `package.json` file, which allows you to install NPM packages like Express.
+* Run `npm init -y`. This initializes a folder as a Node project by adding a `package.json` file, which allows you to install npm packages like Express.
 * Run `npm install express`. This downloads Express and marks it in the `package.json` file as a dependency of the project.
 * Copy this code into a new file called `index.js`:
 
@@ -61,7 +61,7 @@ When you run `npm start` on the command line, NPM will run `node app.js`, which 
 ## Watch Out!
 
 * The code that goes into `package.json` is JSON, not JavaScript. That means keys must be quoted, everything must use double-quotes, and you can't use trailing commas.
-* When you run an Express app, by default your terminal will appear to freeze. This is OK- Express is just waiting for requests to come in. To stop your server, press `control` + `c`.
+* When you run an Express app, by default your terminal will appear to freeze. This is normal; Express is just waiting for requests to come in. To stop your server, press `control` + `c`.
 
 ## Additional Resources
 
