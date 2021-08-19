@@ -38,29 +38,53 @@ Classes are a kind of blueprint for creating objects that are used in many progr
 * Classes can inherit methods and properties from other classes, which allows you to create hierarchies of classes that go from general to specific.
 
 
-Classes have a lot of features, but these are the ones that are relevant to using Objection:
+Classes have a lot of features, but these are the ones relevant to using Objection:
 
 ```js
 class SomeClass extends SomeOtherClass {
   someProperty = "Some value"
-  static someOtherProperty = "Some other value"
+  static someStaticProperty = "Some other value"
   someMethod(){
     return "Some value"
   }
-  static someOtherMethod(){
+  static someStaticMethod(){
     return "Some other value"
   }
   get someGetterProperty(){
     return "Some value"
   }
   static get someStaticGetterProperty(){
-    return "Some value"
+    return "Some other value"
   }
 }
+
+class SomeOtherClass {
+  someInheritedProperty = "Some inherited value"
+  someInheritedMethod(){
+    return "Some inherited value"
+  }
+  static someStaticInheritedMethod(){
+    return "Some inherited value"
+  }
+  static someStaticInheritedProperty = "Some inherited value"
+}
+
+const someObject = new SomeClass
+someObject.someProperty // "Some value"
+someObject.someMethod() // "Some value"
+someObject.someGetterProperty // "Some value"
+someObject.someInheritedProperty // "Some inherited value"
+someObject.someInheritedMethod() // "Some inherited value"
+
+SomeClass.someStaticProperty // "Some other value"
+SomeClass.someStaticMethod() // "Some other value"
+SomeClass.someStaticGetterProperty // "Some other value"
+SomeClass.someStaticInheritedProperty // "Some inherited value"
+SomeClass.someStaticInheritedMethod // "Some inherited value"
 ```
 
 1. Classes are declared with the `class` keyword and the names are traditionally PascalCased.
-2. The `extends` keyword allows one class to inherit all the methods and properties from another class
+2. The `extends` keyword allows one class to inherit all the methods and properties from another class, meaning that any property or method in the class being extended can be used by the extending class.
 3. Properties are declared similarly to variables, but don't use `const` or `let`
 4. Methods use a function syntax called method shorthand that otherwise works identically to other kinds of functions
 5. The `get` keyword is used to create properties that are calculated like methods. Unlike regular properties, this allows them to be calculated dynamically.
