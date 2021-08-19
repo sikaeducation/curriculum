@@ -27,7 +27,7 @@ This is the process of relational data modeling.
 Entity-Relationship Diagrams, or ERDs, describe things (entities) and their relationships with each other. The three basic categories of relationship are:
 
 * 1-to-Many: This indicates that one entity can own more than one of another entity. For example, one building has many rooms, but each room can only be in one building.
-* Many-to-Many: This indicates that entity can own more than one of another entity and vice-versa_. For example, one building can have more than one administrator, and each administrator can manage more than one building.
+* Many-to-Many: This indicates that entity can own more than one of another entity and vice-versa. For example, one building can have more than one administrator, and each administrator can manage more than one building.
 * 1-to-1: This indicates that something is actually the same as something else. For example, an employee may have a manager, who is also an employee.
 
 There are other relationships in data modeling that are more nuanced, but they're subsets of these three types.
