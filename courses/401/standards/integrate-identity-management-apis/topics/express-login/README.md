@@ -26,6 +26,7 @@ app.post("/login", async (request, response) => {
     const user = await User.authenticate(request.body.user)
     const data = { username: user.username }
     const token = jwt.sign(data, JWT_SECRET, {
+      subject: user.username,
       expiresIn: "1h",
       issuer: "api.myapp.com",
     })

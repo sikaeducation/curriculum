@@ -1,6 +1,6 @@
 # Express: Protecting Routes with Passport
 
-Once a user can create an account and login with it to get a token, you can start protecting routes. This means that any HTTP request going to a protected route must contain a valid token. If the token is valid, the user associated with it is looked up and added to the `request` object as `.user` in all future middleware and routes. Otherwise, the HTTP request is rejected with a `401 Unauthorized` status.
+Once users can create accounts and login with them to get tokens, you can start protecting routes. This means that any HTTP request going to a protected route must contain a valid token. If the token is valid, the user associated with it is looked up and added to the `request` object as `.user` in all future middleware and routes. Otherwise, the HTTP request is rejected with a `401 Unauthorized` status.
 
 ## Passport
 

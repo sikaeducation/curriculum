@@ -72,7 +72,7 @@ API_ACCESS_TOKEN=1234567890123456789012345678901234567890
 JWT_SIGNING_KEY=s3cr3t
 ```
 
-When the repo is cloned, the `.env.example` file is copied to `.env` and the values replaced.
+When the repo is cloned, the `.env.example` file is copied to `.env` and the values replaced with real ones.
 
 ## `dotenv`
 
@@ -82,7 +82,7 @@ npm's `dotenv` package is a tool for integrating environment variables in Node a
 npm install dotenv
 ```
 
-Then as early as possible in the application, invoke it's `config()` method:
+Then as early as possible in the application, invoke its `config()` method:
 
 ```js
 require("dotenv").config()
