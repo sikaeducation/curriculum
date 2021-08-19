@@ -44,7 +44,7 @@ However, that data is usually nested in applications:
 }]
 ```
 
-How can you translate between these two formats?
+How do you translate between these two styles?
 
 ## The Object-Relational Impedance Mismatch
 
