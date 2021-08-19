@@ -94,7 +94,7 @@ const studentsWithTeachers = await Student.query().withGraphFetched("teacher")
 
 ## Watch Out!
 
-ORMs are powerful, but they're also too general-purpose to work efficiently in every scenario. In particular, there's an issue that frequently comes up called the N+1 problem. N+1 problems occur when an ORM issues separate database queries for a large list of related items instead of making one query and associating the records in memory. Most ORMs have a way to work around this called eager loading.
+ORMs are powerful, but they're also too general-purpose to work efficiently in every scenario. In particular, the N+1 problem occurs when an ORM executes separate database queries for a large list of related items instead of making one large query and associating the related records in memory. Most ORMs have a way to work around this called eager loading.
 
 ## Additional Resources
 
