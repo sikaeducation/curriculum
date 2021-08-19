@@ -109,7 +109,7 @@ The `authenticate` middleware contains the configured Passport strategy. Any rou
 
 All passport does is verify that a user is who they say they are and adds their database record to `request.user`; it doesn't specify what that user is allowed to do. If you have different roles in your application, such as users who can manipulate their own data and admins that can manipulate everyone's data, you will need to code that separately. In particular, watch out for users being able to edit data that isn't owned by them. This can be as simple as:
 
-```
+```js
 app.put("/posts/:postId", authenticate, async (request, response) => {
   if (request.params.postId !== request.user.id){
     response.status(403).json({
@@ -122,3 +122,11 @@ app.put("/posts/:postId", authenticate, async (request, response) => {
   response.json({ post })
 })
 ```
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Passort.js](http://www.passportjs.org/) | Official Passport site |
+| [Passort: JWT Strategy](http://www.passportjs.org/packages/passport-jwt/) | Documentation on the Passport JWT strategy |
+| [Wikipedia: Strategy Pattern](https://en.wikipedia.org/wiki/Strategy_pattern) | Wikipedia's article on the strategy pattern |
