@@ -119,7 +119,7 @@ You could also reverse this and attach Cannonball Adderly's information to each 
 | Mercy, Mercy | Cannonball Adderly |
 | Autumn Leaves | Cannonball Adderly |
 
-Since the data isn't combined in any column, it's much easier to work with individual pieces of data. There's still a problem with repeating the data, however. If one of the albums' musicians changes to "Julian 'Cannonball' Adderly", there will be no way to determine that it's still referencing the same musician as the other albums.
+Since the data isn't combined in any column, it's much easier to work with individual pieces of data. There's still a problem with repeating the data, however. If an album's musician changes to "Julian 'Cannonball' Adderly", there will be no way to determine that it's still referencing the same musician as the other albums.
 
 ### Relational Data
 
