@@ -8,7 +8,9 @@ To start `psql`, use the `psql` command followed by the name of the database you
 sudo -u postgres psql database_name_goes_here
 ```
 
-The `sudo -u postgres` prefix runs the `psql` command as the `psql` command as the `postgres` user. This also works with PostgreSQL connection strings used to connect to remote databases:
+The `sudo -u postgres` prefix runs the `psql` command as the `psql` command as the `postgres` user on your local computer.
+
+You can also use `psql` with PostgreSQL connection strings used to connect to remote databases:
 
 ```bash
 psql postgresql://username:password@database.server.com:5432/database_name
@@ -35,7 +37,7 @@ To run a `.sql` file with `psql, use the `-f` flag:
 sudo -u postgres psql database_name_goes_here -f some-sql-file.sql
 ```
 
-If you want to save the output to a file, use the `>` redirect operator:
+If you want to save the result of running a query to a file, use the `>` redirect operator:
 
 ```bash
 sudo -u postgres psql database_name_goes_here -f some-sql-file.sql > sql-results.txt
