@@ -69,7 +69,7 @@ class SomeOtherClass {
   static someStaticInheritedProperty = "Some inherited value"
 }
 
-const someObject = new SomeClass
+const someObject = new SomeClass()
 someObject.someProperty // "Some value"
 someObject.someMethod() // "Some value"
 someObject.someGetterProperty // "Some value"
@@ -88,6 +88,7 @@ SomeClass.someStaticInheritedMethod // "Some inherited value"
 3. Properties are declared similarly to variables, but don't use `const` or `let`
 4. Methods use a function syntax called method shorthand that otherwise works identically to other kinds of functions
 5. The `get` keyword is used to create properties that are calculated like methods. Unlike regular properties, this allows them to be calculated dynamically.
+6. Objects are created from classes using the `new` keyword.
 
 ## Watch Out!
 
