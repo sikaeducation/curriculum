@@ -21,11 +21,11 @@ INNER JOIN student.instructor_id = instructor.id
 WHERE instructor.name = "Joe Satriani";
 ```
 
-Joins add more tables to a query that you can display with `SELECT` and filter with `WHERE`. Columns in the `SELECT` and `WHERE` clauses are prefixed with the table. Joins happen between the primary key of one table (usually the ID) and the foreign key of another table. In other words, if Joe Satriani is an `instructor` with an ID of `9` (primary key), than his students probably have an `instructor_id` column with a `9` in it (foreign key). Your join statement just says that you want to match up the primary key to the foreign key.
+Joins add more tables to a query that you can display with `SELECT` and filter with `WHERE`. Columns in the `SELECT` and `WHERE` clauses are prefixed with the table. Joins happen between the primary key of one table (usually the ID) and the foreign key of another table. In other words, if Joe Satriani is an `instructor` with an ID of `9` (primary key), than his students probably have an `instructor_id` column with a `9` in it (foreign key). The join statement says that you want to match up the primary key to the foreign key.
 
 ## Writing a Join
 
-![4 table ERD](assets/inner-join.png)
+![4 table ERD](assets/inner-join-erd.png)
 
 In this model:
 
