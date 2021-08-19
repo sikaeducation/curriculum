@@ -1,6 +1,6 @@
 # Data Modeling: Many-to-Many
 
-One-to-Many relationships are the most common type of relationships, but Many-to-Many relationships are the next most common. Furthermore, they're fundamentally just another type of One-to-Many relationship.
+One-to-Many relationships are the most common type of relationships, but Many-to-Many relationships are the next most common. 
 
 ## Identifying Many-to-Many Relationships
 
@@ -16,9 +16,9 @@ If one student can be enrolled in many courses, and each courses can contain mul
 
 ![ERD student enrollment course](assets/erd-many-to-many-2.png)
 
-This new entity is called a join table. Join tables are often fairly abstract ("enrollment" is a more abstract idea than either "student" or "course"), but they're also often useful in other ways. For example, an `enrollment` table may contain other information, such as the term of the enrollment or whether it's been paid for yet. The join table may even have its own relationships, such as which registrar performed the enrollment.
+This new entity is called a join table. Join tables are often abstract (_enrollment_ is a more abstract idea than either _student_ or _course_), but they're also useful in other ways. For example, an `enrollment` table may contain additional information such as the term of the enrollment or whether it's been paid for yet. The join table may even have its own relationships, such as a referencde to which registrar performed the enrollment.
 
-When possible, try to come up with a descriptive name for the join table, as doing so may be helpful in deciding which data belongs on it and which other relationships it may have. This isn't always possible, in which case it's also acceptable to combine the two names of the tables its joining (eg. `student_course`).
+When possible, try to come up with a descriptive name for join tables. Doing so may be helpful in deciding which data belongs on it and which other relationships it may have. This isn't always possible, in which case it's also acceptable to combine the two names of the tables its joining, such calling an enrollment `student_course`.
 
 ## Additional Resources
 
