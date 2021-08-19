@@ -1,6 +1,6 @@
 # Express: Login
 
-After a user has been created, the database will have their username and password. When a user sends their username and password, the server looks up the user by the supplied username, hashes the supplied password, and compares the password hashes. If the pasword hashes match, the user is authenticated. Once the user is authenticated, their user ID can be stored in a JWT and send back to the client. For example:
+After a user has been created, the database will have their username and hashed password. When a user sends their username and password, the server looks up the user's database record by the supplied username, hashes the supplied password, and compares the password hashes. If the pasword hashes match, the user is authenticated. Once the user is authenticated, their user ID can be stored in a JWT and send back to the client. For example:
 
 ```js
 class User extends Model {
