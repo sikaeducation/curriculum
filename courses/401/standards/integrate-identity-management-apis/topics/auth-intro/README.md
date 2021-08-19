@@ -14,7 +14,7 @@ Auth refers to two concepts: Authentication and authorization. Authentication is
 
 ## Token-Based Authentication
 
-There are several different patterns in API authentication, but one of the simplest and most robust is token-based authentication. There are 3 parts to token-based authentication:
+There are several different patterns in API authentication, but one of the simplest and most versatile is token-based authentication. There are 3 parts to token-based authentication:
 
 * Creating an account
 * Logging in to get a token
@@ -24,13 +24,13 @@ There are several different patterns in API authentication, but one of the simpl
 
 ![Diagram of the user account creation process](assets/user-creation.png)
 
-Creating an account is similar to creating anything else in a database. The only difference is that passwords must be hashed before they're stored.
+Creating an account is similar to creating anything else in a database. The only difference is that passwords must be obfuscated through a process called hashing before they're stored.
 
 ### Logging In
 
 ![Diagram of the token-based login process](assets/token-based-login.png)
 
-Once a user has an account, they can resubmit their credentials anytime they need to prove their identity. The password they submit is hashed and compared to the stored hashed password. If they match, the user is given a token that can be sent as a proof of identity with future requests.
+Once a user has an account, they resubmit their credentials anytime they need to prove their identity. The password they submit is hashed and compared to the stored hashed password. If they match, the user is given a token that can be sent as a proof of their identity with future requests.
 
 #### Access Secured Resources
 
