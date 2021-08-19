@@ -45,6 +45,10 @@ sudo -u postgres createdb imdb
 
 You can now connect to `imdb` with a database connection tool like `pg` or a CLI tool like `psql`.
 
+## Watch Out!
+
+The `sudo -u postgres` command run `createdb` as the `postgres` user on your computer. This user is added during the PostgreSQL installation, and by default is the only user allowed to issue commands to the databse.
+
 ## Additional Resources
 
 | Resource | Description |
