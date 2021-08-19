@@ -18,7 +18,7 @@ npm install objection knex pg
 
 ## Configuring Objection
 
-Once Knex is configured, pass it into the `.knex` method of the `Model` class:
+After you configure Knex, pass it into the `.knex` method of the `Model` class:
 
 ```js
 const { Model } = require("objection")
@@ -28,7 +28,7 @@ const Model.knex(database)
 
 The `Model` class is the primary way to interact with Objection.
 
-# JavaScript Classes
+## JavaScript Classes
 
 Classes are a kind of blueprint for creating objects that are used in many programming languages, and are now available in JavaScript. Objection makes heavy use of classes. Some key concepts and vocabulary:
 
