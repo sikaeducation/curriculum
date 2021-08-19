@@ -80,7 +80,7 @@ SomeClass.someStaticProperty // "Some other value"
 SomeClass.someStaticMethod() // "Some other value"
 SomeClass.someStaticGetterProperty // "Some other value"
 SomeClass.someStaticInheritedProperty // "Some inherited value"
-SomeClass.someStaticInheritedMethod // "Some inherited value"
+SomeClass.someStaticInheritedMethod() // "Some inherited value"
 ```
 
 1. Classes are declared with the `class` keyword and the names are traditionally PascalCased.
