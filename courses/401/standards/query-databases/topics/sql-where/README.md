@@ -1,14 +1,6 @@
 # SQL: `WHERE`
 
-SQL statements are made up of several sections called clauses. `SELECT` clauses declare what you want to see and a `FROM` clauses declare where to get the data from. The `WHERE` clause declares which data to leave out. For example:
-
-```sql
-SELECT one, or, more, columns
-FROM some_table;
-WHERE some_column = 'some condition';
-```
-
-If you were trying to get the username and display name for a user with an ID of `3`, you might write this query:
+SQL statements are made up of several sections called clauses. `SELECT` clauses declare what you want to see and a `FROM` clause declares where to get the data from. The `WHERE` clause declares which data to keep and which data to filter out. For example, if you're trying to get the username and display name for a user with an ID of `3`, you might write this query:
 
 ```sql
 SELECT username, display_name
@@ -16,13 +8,23 @@ FROM user
 WHERE id = 3;
 ```
 
-You could also return every column from the `user` table by using the wildcard (`*`):
+If you want to search a user by their username:
+
+```sql
+SELECT username, display_name
+FROM user
+WHERE username = 'trumpet_against_darkness';
+```
+
+You can also get every user that matches some criteria:
 
 ```sql
 SELECT *
 FROM user
-WHERE id = 3;
+WHERE is_active = 1
 ```
+
+In each case, the `WHERE` clause filters out records from the `FROM` clause that don't meet the criteria.
 
 ## `AND` and `OR`
 
@@ -48,7 +50,7 @@ OR instrument = 'guitar';
 
 Ordinarily in a `WHERE` clause, `=` defines the condition. You can also invert conditions with `NOT`:
 
-```
+```sql
 SELECT *
 FROM user;
 WHERE first_name NOT 'Miles';
@@ -70,6 +72,7 @@ This returns every `user` whose name contains `vi`, such as Marvin and Vivian. Y
 
 ## Watch Out!
 
+* String comparisons in SQL must be done with single quotes
 * Don't forget the semicolon in SQL statements
 * Columns that you use in your `WHERE` clause do not have to also be in your `SELECT` clause. `SELECT` what you want to see in the result, use `WHERE` to determine what to filter on.
 
