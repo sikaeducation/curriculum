@@ -56,7 +56,7 @@ The password is then hashed with `bcrypt.hash()`. The first parameter for `.hash
 
 With the password hashed, the original password is deleted from the `user` object and the hashed password is added to it. These are inserted into the database as any other record would be.
 
-[Insomnia showing a successful user addition](assets/user-signup.png)
+![Insomnia showing a successful user addition](assets/user-signup.png)
 
 ## Additional Resources
 
