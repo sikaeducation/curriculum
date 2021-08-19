@@ -61,10 +61,35 @@ This works, but it's inefficient and gets exponentially more difficult to read w
 
 ## ORMs
 
-Another solution the object-relational impedance mismatch is to use a purpose-built tool called an object-relational mapper, or ORM. When using an ORM, you declare models that represent each table and use the ORM's features to declare what relationships exist between them. ORMs will then give you efficient ways to declare what relational data you want to read, create, update, or delete and receive it in a useful format. Using the Node.js ORM Objection.js, you can query the database for related records and let the ORM nest the response for you:
+Another solution to the object-relational impedance mismatch is to use an object-relational mapper, or ORM. ORMs rely on models that represent each table and use the ORM's features to define what relationships exist between them. ORMs then gives you efficient ways to declare what relational data you want to read, create, update, or delete and formats the output in a way that's useful to applications. You query the database for related records using the ORM and let the ORM design the query and format the response for you. For example, using the Node.js ORM Objection:
 
 ```js
 const studentsWithTeachers = await Student.query().withGraphFetched("teacher")
+
+/*
+[{
+  id: 1,
+  name: "Alice",
+  teacher: {
+    id: 1,
+    name: "Zeke",
+  },
+},{
+  id: 2,
+  name: "Bob",
+  teacher: {
+    id: 2,
+    name: "Yvette",
+  },
+},{
+  id: 3,
+  name: "Carrie",
+  teacher: {
+    id: 1,
+    name: "Zeke",
+  },
+}]
+*/
 ```
 
 ## Watch Out!
