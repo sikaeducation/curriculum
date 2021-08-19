@@ -1,6 +1,6 @@
 # JWTs
 
-When you go to an event at a venue, you usually present your ticket and sometimes an ID as well. What if you need to leave and come back? You could present your ticket and ID again, but many venues will give you a hand stamp or bracelet instead that indicates that you've already checked in.
+When you go to an event at a venue, you often present your ID and a ticket for the event. What if you need to leave and come back? You could present your ticket and ID again, but many venues will give you a hand stamp or bracelet instead that indicates that you've already checked in so you can get back in more quickly.
 
 A similar system is commonly used in web authentication. When you log in, you present a username and password. Instead of supplying those every time you make a request, you're given a token that you attach to future requests that's considered a proof that you're logged in.
 
