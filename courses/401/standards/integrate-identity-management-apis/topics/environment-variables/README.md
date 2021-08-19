@@ -6,14 +6,14 @@ Application data can be held in 3 places:
 * In external sources like databases, file systems, and APIs
 * On the computer that's running the application, which is called the environment
 
-Data on the computer that's running the application can be set with environment variables. In Node.js, environment variables are accessed on the `process.env` object:
+Data on the computer that's running the application can be set with environment variables. In Node.js, environment variables are accessed with the `process.env` object:
 
 ```js
 fetch(process.env.API_URL)
   .then(response => response.json())
 ```
 
-The application code can use environment variables in these situations. Environment variables make it so the code doesn't need to change just because that variable does.
+Environment variables make it so the code doesn't need to change just because different environments need different values.
 
 ## Types of Environment Variable
 
