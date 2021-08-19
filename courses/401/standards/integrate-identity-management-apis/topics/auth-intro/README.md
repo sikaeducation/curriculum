@@ -48,11 +48,11 @@ Token-based authentication advantages:
 Token-based authentication disadvantages:
 
 * If a user's token is compromised, there's no way to differentiate between the real user and an imposter who happens to have their token.
-* There's no way to log out a user from the server, you just have to wait for their token to expire. This may be a security consideration in situations where users may have their access suddenly change, such as an employee being fired.
+* There's no way to log out a user from the server, you just have to wait for their token to expire. This may be a security consideration in situations where users can have their access suddenly change, such as an employee being fired.
 
 ## Watch Out!
 
-Auth is a complicated concept with more security implications than anything else in application development. Additionally, current best practices may have vulnerabilities that haven't been discovered yet. Exercise extreme caution in building auth systems that will be used in production apps with real users, as you may be legally liable for security breaches caused by your code. The only way to learn auth is to practice, but ask for a review from a developer with experience in auth systems before launching production code until you're confident you're ready to take responsibility for your security choices.
+Auth is a complicated concept with more security implications than anything else in application development. Additionally, current best practices may have vulnerabilities that haven't been discovered yet. Exercise extreme caution in building auth systems for production apps with real users as you may be legally liable for security breaches caused by your code. The only way to learn auth is to practice. Until you're confident you're ready to take responsibility for your security choices, ask for a review from a developer with experience in auth systems before launching production auth code.
 
 ## Additional Resources
 
