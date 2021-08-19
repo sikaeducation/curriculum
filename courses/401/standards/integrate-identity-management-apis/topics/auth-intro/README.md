@@ -36,7 +36,7 @@ Once a user has an account, they resubmit their credentials anytime they need to
 
 ![Diagram of the token-based authentication process](assets/token-based-authentication.png)
 
-When a user wants to access a secured resource, they send their token along with their request. The server checks to see that the token is valid and hasn't been tampered with and can use the data inside it to look up the user's database record. The server can now check whether that user is authorized to perform the requested action and proceed accordingly.
+When users want to access a secured resource they send their token along with their request. The server verifies the token is valid and hasn't been tampered with, and it can use the data inside the token to look up the user's database record. The server can now check whether that user is authorized to perform the requested action and proceed accordingly.
 
 ### Token-Based Authentication Considerations
 
