@@ -30,3 +30,4 @@
 | Express User Login | Logging in users in Express and giving them JWTs | https://github.com/sikaeducation/express-user-login | https://codesandbox.io/s/bold-faraday-p74es |
 | Express Route Protection | Protecting routes in Express with Passport | https://github.com/sikaeducation/express-protecting-routes | https://codesandbox.io/s/admiring-saha-ik32w |
 | Express Logging | Demonstrates different logging formats in Express | https://github.com/sikaeducation/express-logging | https://codesandbox.io/s/affectionate-water-4gkgg |
+| Objection 1:M Relationships | Demonstrates 1:M relationships in Objection | https://github.com/sikaeducation/objection-1m | https://codesandbox.io/s/gifted-tree-2jm56 |

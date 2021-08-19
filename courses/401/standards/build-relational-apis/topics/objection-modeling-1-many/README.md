@@ -51,6 +51,8 @@ module.exports = class Person extends Model {
 module.exports = Person
 ```
 
+[Play with this code](https://codesandbox.io/s/gifted-tree-2jm56)
+
 Some things to note:
 
 * Each key in the object returned from the `relationMappings` getter is what you want to name a relationship. In general, you should use the plural of the model if it's a `hasManyRelation` and the singular of the model if it's a `BelongsToOneRelation`, but you can name them anything you wish.
