@@ -93,7 +93,7 @@ You could keep all of Cannonball Adderly's albums and instruments in the `musici
 | Mercy, Mercy |
 | Autumn Leaves |
 
-The problem with this is that the data is now repeated in both places. It's possible for the data to get corrupted if data is removed, added, or changed from one source but not the other. Additionally, since multiple pieces of data are stored in one column, it's slower and more difficult to search for or perform operations on part of the data.
+The problem with this is that the data is now repeated in both places. It's possible for the data to get corrupted if data is removed, added, or changed from one source but not the other. Additionally, it's slower and more difficult to search for or perform operations on part of the data since multiple pieces of data are stored in one column.
 
 ### Repeating Rows
 
