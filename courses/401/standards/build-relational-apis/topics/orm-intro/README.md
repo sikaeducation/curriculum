@@ -44,11 +44,7 @@ However, that data is usually nested in applications:
 }]
 ```
 
-How do you translate between these two styles?
-
-## The Object-Relational Impedance Mismatch
-
-This compatibility problem is called an object-relational impedance mismatch and it's a common issue with database-backed applications. It can be solved a variety of ways, but most of them involve translating between the two formats. Doing this manually in Node.js might look like this:
+How do you translate between these two styles? This problem is called the object-relational impedance mismatch and it's a common issue with database-backed applications. It can be solved a variety of ways, but most of them involve programmatically translating between the two formats. Doing this by hand in Node.js might look like this:
 
 ```js
 const teachers = await Teacher.query()
