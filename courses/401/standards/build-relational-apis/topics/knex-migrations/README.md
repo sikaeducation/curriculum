@@ -83,7 +83,7 @@ exports.down = knex => {
 }
 ```
 
-This says to drop the `birth_date` column when you run the migration and to re-add the column when the migration is rolled back. This can also be saved along with the code in version control. This if you revert to an earlier version of the code, you can also roll back Knex's instructions on how to build the database.
+This says to drop the `birth_date` column when you run the migration and to re-add the column when the migration is rolled back. This can also be saved along with the code in version control. If you revert to an earlier version of the code, you can also roll back Knex's instructions on how to build the database.
 
 ## Creating a Migration
 
