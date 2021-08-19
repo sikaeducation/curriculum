@@ -3,7 +3,7 @@
 ## Topics
 
 * [PostgreSQL: `psql`](topics/postgres-psql)
-  * [Exercises](topics/exercises/postgres-psql)
+  * [Exercises](topics/postgres-psql/exercises)
 * [Intro to SQL](topics/sql-intro)
   * [Exercises](topics/sql-intro/exercises)
 * [SQL: `SELECT`](topics/sql-select)
