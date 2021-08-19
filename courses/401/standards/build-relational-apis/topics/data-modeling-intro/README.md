@@ -28,15 +28,15 @@ Entity-Relationship Diagrams, or ERDs, describe things (entities) and their rela
 
 * 1-to-Many: This indicates that one entity can own more than one of another entity. For example, one building has many rooms, but each room can only be in one building.
 * Many-to-Many: This indicates that entity can own more than one of another entity and vice-versa. For example, one building can have more than one administrator, and each administrator can manage more than one building.
-* 1-to-1: This indicates that something is actually the same as something else. For example, an employee may have a manager, who is also an employee.
+* 1-to-1: This indicates that one entity is actually the same as another entity. For example, an employee may have a manager, who is also an employee.
 
 There are other relationships in data modeling that are more nuanced, but they're subsets of these three types.
 
-At its simplest, an ERD uses a box for entities that describes the the attributes or properties of that entity.
+At their simplest, ERDs use a box for entities that describes the the attributes or properties of that entity.
 
 ![ERD of a book table](assets/erd-1.png)
 
-The left column identifies keys. A `PK` in this column is called a primary key and describes an attribute that uniquely identifies each record. Most of the time, this will be an ID field that will be automatically populated by the database. An `FK` in this column means that an attribute is a foreign key. A foreign key in one entity is a reference to another entity's primary key, and it's how relationships beteween identities are established. FKs are connected to PKs with lines and so-called "crow's feet". To read an ERD, the end of the line with the crow's feet is pronounced "many", and the line with either a single line or nothing at all is pronounced "one." This says "one author can have many books, but each book only can only have one author":
+The left column identifies keys. A PK in this column is called a primary key and describes an attribute that uniquely identifies each record. Most of the time, this will be an ID field that will be automatically populated by the database. An FK in this column means that an attribute is a foreign key, which is another entity's primary key. FKs are connected to PKs with lines and symbols called crow's feet. To read an ERD, the end of the line with the crow's feet is pronounced "many", and the line with either a single crossing line or nothing is pronounced "one." This says "one author can have many books, but each book only can only have one author":
 
 ![ERD of a book table](assets/erd-2.png)
 
