@@ -25,16 +25,22 @@ The first section of a JWT contains information about the JWT itself. Most impor
 
 ### Payload
 
-FILL THIS OUT
+Payloads are the part of the JWT that contains data you want to store on the client. At a minimum you should store something that uniquely identifies the user, but you may store any data you like. Each part of a payload is called a claim and represents a key-value pair. Some claims are predefined:
+
+* **sub**: _Subject_. Any kind of unique identifier for the user, like a database ID.
+* **iat**: _Issued-at time_. The number of milliseconds since the token was issued.
+* **exp**: Expiration. The epoch time after which the token should no longer be accepted.
+
+Refer to the [full list](https://auth0.com/docs/tokens/json-web-tokens/json-web-token-claims) of existing claims. You may additionally add any of your own data to the payload.
 
 ### Signature
 
-JWTs can be easily be read by users. What keeps a malicious user from examining their token in the browser, changing it to impersonate another user, and sending that to the server instead? For example, if a user's legitimate JWT is this:
+JWTs can be easily be read by users. What keeps a malicious user from examining their token in the browser, changing it to impersonate another user, and sending that to the server instead? For example, if a user's legitimate JWT payload is this:
 
 ```json
 {
+  "sub": 3412,
   "data": {
-    "id": 3412,
     "username": "miledavis"
   },
   "iat": 1629072783,
@@ -47,8 +53,8 @@ And the user edits it to look like this:
 
 ```json
 {
+  "sub": 4137,
   "data": {
-    "id": 4137,
     "username": "wayneshorter"
   },
   "iat": 1629072783,
@@ -68,7 +74,6 @@ The most popular node library for generating JWTs is [jsonwebtoken](https://www.
 
 ```js
 const data = {
-  id: 3412,
   username: "miledavis",
 }
 
@@ -77,6 +82,7 @@ const secret = "p@s$w0rD"
 const token = jwt.sign({
   data,
 }, secret, {
+  subject: 3412,
   expiresIn: "1h"
 })
 ```
@@ -91,7 +97,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjozNDEyLCJ1c2VybmFtZSI6Im1
 
 Decoded, that JWT looks like this:
 
-Header
+**Header**
 
 ```json
 {
@@ -100,20 +106,20 @@ Header
 }
 ```
 
-Payload
+**Payload**
 
 ```json
 {
   "data": {
-    "id": 3412,
     "username": "miledavis"
   },
+  "sub": 3412,
   "iat": 1629072783,
   "exp": 1629076383
 }
 ```
 
-Signature
+**Signature**
 
 ```
 eJLVitNuZbulLSXVdNtrcVBCIord4f5ybz-tvHFVf_w
