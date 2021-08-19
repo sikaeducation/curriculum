@@ -43,8 +43,8 @@ The left column identifies keys. A PK in this column is called a primary key and
 ## Watch Out!
 
 * Technically, an ERD is just entities and their relationships and doesn't include any attributes of the entities. ERDs don't even necessarily need to specifically be used for databases or even anything digital. A diagram that includes columns, data types, and keys is more properly called a schema diagram. In practice, "ERD" and "schema" are used interchangeably.
-* A data model will never capture the complexity of the real world. Fortunately, they don't need to. A data model only needs to match the rules your application is expecting.
-* ERDs capture abstract relationships. They aren't the data, they are the shape of the data.
+* A data model will never capture the complexity of the real world. Fortunately, a data model only needs to match the rules your application is expecting.
+* ERDs capture abstract relationships. They aren't the data; they are the shape of the data.
 * Entitites should be singular, meaning the correct name for a book model is "book", not "books".
 
 ## Additional Resources
