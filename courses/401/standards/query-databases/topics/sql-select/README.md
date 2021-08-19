@@ -1,19 +1,24 @@
 # SQL: `SELECT`
 
-The most useful SQL command is the `SELECT` query, which has this format:
+The most useful type of SQL query is `SELECT`, which has this format:
 
 ```sql
 SELECT first_name, last_name
 FROM user;
 ```
 
-Conversationally, you could describe this as "Show me the first and last name from every record in the user table."
+This means that you want to return the `first_name` and `last_name` columns for every record in the `user` table. You can also use `*` to return every column:
+
+```sql
+SELECT *
+FROM user;
+```
 
 ## Watch Out!
 
 * SQL is white-space insensitive. Putting clauses on new lines is a convention for readability, a query doesn't terminate until a `;`.
 * It's conventional to put SQL keywords in UPPERCASE and things specific to your database (like column names) in snake_case. This helps the structure of the query stand out from the data.
-* Don't forget the semicolon!
+* Don't forget the semicolon, semicolons are required in all SQL queries
 
 ## Additional Resources
 
