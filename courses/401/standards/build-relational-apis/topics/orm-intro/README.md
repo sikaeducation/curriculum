@@ -61,7 +61,7 @@ This works, but it's inefficient and gets exponentially more difficult to read w
 
 ## ORMs
 
-Another solution to the object-relational impedance mismatch is to use an object-relational mapper, or ORM. ORMs rely on models that represent each table and define what relationships exist between them. Once these models are established, the ORM gives you efficient ways to declare what relational data you want to read, create, update, or delete and outputs the data in a way that's useful to applications. You query the database for related records using the ORM and let the ORM design the query and format the response for you. For example, using the Node.js ORM Objection:
+Another solution to the object-relational impedance mismatch is to use an object-relational mapper, or ORM. ORMs rely on models that represent each table and define what relationships exist between them. Once these models are established, the ORM gives you efficient ways to declare what relational data you want to read, create, update, or delete and outputs the data in a way that's useful to applications. You query the database for related records using the ORM and let it design the query and format the response for you. For example, using the Node.js ORM Objection:
 
 ```js
 const studentsWithTeachers = await Student.query().withGraphFetched("teacher")
