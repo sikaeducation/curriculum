@@ -54,14 +54,11 @@ This will result in something like:
 | 311 | PRS Guitars |
 | 311 | Warwick |
 
-Some guidelines:
-
-* Don't worry too much about the logic of the joins. If you need data from two tables, just find a way to walk from one to the other. The logic of what to display is handled by `SELECT`, the logic of what to filter out is handled by the `WHERE` clause.
-* The order of the columns in a join statement is not important.
+Don't worry too much about the logic of the joins. If you need data from two tables, just find a way to walk from one to the other. The logic of what to display is handled by `SELECT`, the logic of what to filter out is handled by the `WHERE` clause. The order of the columns in a join statement is not important.
 
 ## Watch Out!
 
-* Much like an `AND` or `OR` depends on the presence of a `WHERE`, you need a `FROM` to `INNER JOIN` off of.
+Much like an `AND` or `OR` depends on the presence of a `WHERE` to start the clause, you need a `FROM` clause before you can use `INNER JOIN`.
 
 ## Deep Dive
 
