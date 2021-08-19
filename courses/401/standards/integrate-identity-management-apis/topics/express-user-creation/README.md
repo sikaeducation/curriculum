@@ -1,6 +1,6 @@
 # Express: User Creation
 
-Creating a new user in an Express app is not very different from creating a new record of any kind. The only difference is that you need to be sure to hash the user's password when you create the record.
+Creating a new user in an Express app is not very different from creating a new record of any kind. The only difference is that you need hash the user's password when you store it in the database.
 
 ## Installing `bcrypt`
 
