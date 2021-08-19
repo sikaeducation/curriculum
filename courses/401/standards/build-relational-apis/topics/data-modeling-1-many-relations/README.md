@@ -67,7 +67,7 @@ At a low-level, One-to-Many relationships in a database mean that:
 * A primary key only shows up one time in a table
 * A foreign key can show up multiple times in a table
 
-That means that when relating two tables, the "one" side of the relationship should always point to a primary key, and the "many" side of a relationship should always point to a foreign key.
+That means that when relating two tables, the _one_ side of the relationship should always point to a primary key, and the _many_ side of a relationship should always point to a foreign key.
 
 ## Watch Out!
 
@@ -76,7 +76,7 @@ That means that when relating two tables, the "one" side of the relationship sho
 
 ![1 room has many windows](assets/window-room-erd.png)
 
-If you read this as "one room can have many windows and many windows have one room", you'll technically be correct but it's not likely to help your thinking very much. Instead, always focus on single items: "One room can have many TVs, but each TV can only be in one room."
+If you read this as "one room can have many windows and many windows have one room", you'll technically be correct but it's not likely to help your thinking very much. Instead, always focus on single items: "One room can have many windows, but each window can only be in one room."
 * One record can have multiple foreign keys because it can be related to multiple tables.
 
 ## Additional Resources
