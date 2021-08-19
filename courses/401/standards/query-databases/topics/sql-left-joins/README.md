@@ -8,7 +8,7 @@ FROM customer
 INNER JOIN order on order.customer_id = customer.id;
 ```
 
-There's a catch to this though. If the customer doesn't have any orders, not only will the order information not show up, but the customer information won't show up either. For example, consider a user table and an agreement agreement table representing whether each user has agreed to a change in the terms of service.
+There's a catch: If the customer doesn't have any orders, neither the order information nor customer information will display. For example, consider a user table and an agreement agreement table representing whether each user has agreed to a change in the terms of service. Only Bill Bellamy has agreed so far:
 
 **customer**
 
@@ -54,7 +54,7 @@ LEFT JOIN agreement ON customer.id = agreement.customer_id
 
 ## Watch Out!
 
-* There's a `RIGHT JOIN` that does the exact same thing as a `LEFT JOIN` but tolerates absences in the second column instead of the first. You can often rewrite a query to use on or the other, but use whichever one makes your query easier to follow.
+`RIGHT JOIN` does the same thing as a `LEFT JOIN` but tolerates absences in the second column instead of the first. You can often rewrite a query to use on or the other, but use whichever one makes your query easier to follow.
 
 ## Additional Resources
 
