@@ -36,9 +36,9 @@ At their simplest, ERDs use a box for entities that describes the the attributes
 
 ![ERD of a book table](assets/erd-1.png)
 
-The left column identifies keys. A PK in this column is called a primary key and describes an attribute that uniquely identifies each record. Most of the time, this will be an ID field that will be automatically populated by the database. An FK in this column means that an attribute is a foreign key, which is another entity's primary key. FKs are connected to PKs with lines and symbols called crow's feet. When reading an ERD, the end of the line with the crow's feet is pronounced "many", and the line with either a single crossing line or nothing is pronounced "one." This says "one author can have many books, but each book only can only have one author":
+The left column identifies keys. A PK in this column is called a primary key and describes an attribute that uniquely identifies each record. Most of the time, this will be an ID field that will be automatically populated by the database. An FK in this column means that an attribute is a foreign key, which is another entity's primary key. FKs are connected to PKs with lines and symbols called crow's feet. When reading an ERD, the end of the line with the crow's feet is pronounced "many", and the line with either a single crossing line or nothing is pronounced "one." This says "one teacher can have many students, but each student only can only have one teacher":
 
-![ERD of a book table](assets/erd-2.png)
+![ERD of one teacher having students](assets/erd-2.png)
 
 ## Watch Out!
 
