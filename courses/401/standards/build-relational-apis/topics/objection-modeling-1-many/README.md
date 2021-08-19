@@ -9,9 +9,9 @@ Building models with Objection is elegant and has some benefits, but you really 
 To model relationships with Objection, use the `relationMappings` static getter on a model:
 
 ```js
-// models/Dog.js
 class Dog extends Model {
   static tableName = "dog"
+
   static get relationMappings(){
     return {
       owner: {
@@ -25,13 +25,10 @@ class Dog extends Model {
     }
   }
 }
-
-module.exports = Dog
 ```
 
 ```js
-// models/Person.js
-module.exports = class Person extends Model {
+class Person extends Model {
   static tableName = "person"
 
   static get relationMappings(){
@@ -47,8 +44,6 @@ module.exports = class Person extends Model {
     }
   }
 }
-
-module.exports = Person
 ```
 
 [Play with this code](https://codesandbox.io/s/gifted-tree-2jm56)

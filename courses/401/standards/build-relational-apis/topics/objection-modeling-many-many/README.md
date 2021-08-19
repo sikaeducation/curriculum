@@ -9,13 +9,13 @@ Many-to-Many relationships have one of the largest Object-Relational impedance m
 Like One-to-Many relationships, Many-to-Many relations use the `relationMappings` static getter:
 
 ```js
-// models/Dog.js
 class Dog extends Model {
   static tableName = "dog"
+
   static get relationMappings(){
     return {
       owners: {
-        relation: Model.ManytoManyRelation,
+        relation: Model.ManyToManyRelation,
         modelClass: require("./Person"),
         join: {
           from: "dog.id",
@@ -29,35 +29,32 @@ class Dog extends Model {
     }
   }
 }
-
-module.exports = Dog
 ```
 
 ```js
-// models/Person.js
-module.exports = class Person extends Model {
+class Person extends Model {
   static tableName = "person"
 
   static get relationMappings(){
     return {
       dogs: {
-        relation: Model.ManytoManyRelation,
-        modelClass: require("./Person"),
+        relation: Model.ManyToManyRelation,
+        modelClass: require("./Dog"),
         join: {
-          from: "dog.id",
+          from: "person.id",
           through: {
-            from: "dog_owner.dog_id",
-            to: "dog_owner.owner_id",
+            from: "dog_owner.owner_id",
+            to: "dog_owner.dog_id",
           },
-          to: "person.id"
+          to: "dog.id"
         },
       },
     }
   }
 }
-
-module.exports = Person
 ```
+
+[Play with this code](https://codesandbox.io/s/relaxed-shannon-5y30d)
 
 Most of this is the same as One-to-Many relationships. The key differences are using the `Model.ManytoManyRelation` class and adding the `through` object to the relation mapping.
 
