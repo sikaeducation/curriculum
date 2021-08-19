@@ -2,7 +2,7 @@
 
 When you go to an event at a venue, you often present your ID and a ticket for the event. What if you need to leave and come back? You could present your ticket and ID again, but many venues will give you a hand stamp or bracelet instead that indicates that you've already checked in so you can get back in more quickly.
 
-A similar system is commonly used in web authentication. When you log in, you present a username and password. Instead of supplying those every time you make a request, you're given a token that you attach to future requests that's considered a proof that you're logged in.
+A similar system is commonly used in web authentication. When you log in, you send a username and password over HTTP. Instead of supplying those every time you make a request, the server gives you a token that you can attach to future requests that's considered a proof that you've been authenticated.
 
 JSON web tokens, or JWTs (pronounced "jots"), are a popular method of storing a kind of handstamp or wristband with a user after they log in. After validating a username and password, a server can send a JWT to the user to send with future requests as proof that they've logged in. This way, servers don't need to keep track of which users are currently logged in or ask users to send their username and password in every time, they only need to be able to verify that a supplied token is valid.
 
