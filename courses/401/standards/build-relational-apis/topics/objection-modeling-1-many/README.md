@@ -4,7 +4,7 @@ Building models with Objection is elegant and has some benefits, but you really 
 
 ## Modeling One-to-Many Relationships
 
-![ERD showing one owner having many dogs](!assets/dog-erd-1m.png)
+![ERD showing one owner having many dogs](assets/dog-erd-1m.png)
 
 To model relationships with Objection, use the `relationMappings` static getter on a model:
 

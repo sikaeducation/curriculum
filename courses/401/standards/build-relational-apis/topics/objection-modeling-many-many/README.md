@@ -4,7 +4,7 @@ Many-to-Many relationships have one of the largest Object-Relational impedance m
 
 ## Modeling Many-to-Many Relationships
 
-![ERD showing a many to many relationship between owners and dogs](!assets/dog-erd-mn.png)
+![ERD showing a many to many relationship between owners and dogs](assets/dog-erd-mn.png)
 
 Like One-to-Many relationships, Many-to-Many relations use the `relationMappings` static getter:
 
