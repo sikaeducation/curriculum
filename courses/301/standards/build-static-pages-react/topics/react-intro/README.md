@@ -8,9 +8,9 @@ Early web applications were rendered by servers. Instead of sending back API dat
 
 ## Single-Page Applications
 
-Single Page applications, or SPAs, are a particular style of modern web application. Instead of a server rendering a new HTML page for every interaction, a single HTML page is loaded one time. Whenever the user interacts with the page, an asynchronous HTTP request is sent with something like `fetch` to retrieve new data. This data is applied to different HTML templates that are stored in JavaScript, and the browser adds and removes DOM elements to make the page appear to have changed.
+Single Page applications, or SPAs, are a style of modern web application. Instead of a server rendering new HTML pages for every interaction, a single HTML page is loaded one time. Whenever users interact with the page, an asynchronous HTTP request is sent with something like `fetch` to retrieve new data. This data is applied to different HTML templates that are stored in JavaScript, and the browser adds and removes DOM elements to make the page appear to have changed.
 
-There are many tools for helping build SPAs and one of the most popular is React. React is a JavaScript library that helps developers build interfaces for web applications using units called components, as well as being host to a larger ecosystem of application development tools.
+There are many tools for helping build SPAs and one of the most popular is React. React is a JavaScript library that helps developers build interfaces for web applications using units called components, as well as hosting a larger ecosystem of application development tools.
 
 ## React
 
@@ -18,7 +18,7 @@ The core concepts in React applications include components, one-way data flow, t
 
 ### Components
 
-The basic units of React apps and most other SPAs are components, which you can think of as custom HTML elements. They're made up of temlate consisting of traditional HTML elements and other components, as well as any related JavaScript variables and functionality.
+The basic units of React apps and most SPAs are components, which you can think of as custom HTML elements. They're made up of templates consisting of traditional HTML elements and other components, as well as any related JavaScript variables and functionality.
 
 For example, you might have a component that represents a collection of HTML elements in an application's top bar:
 
@@ -33,7 +33,7 @@ const TopBar = () => {
 }
 ```
 
-You can then use that component in other components just like you would any other HTML element:
+Then you can use that component in other components just like any other HTML element:
 
 ```jsx
 import TopBar from "./TopBar"
@@ -71,7 +71,7 @@ const UserProfile = () => {
 }
 ```
 
-This will render the following HTML:
+This renders the following HTML:
 
 ```html
 <div class="UserProfile">
@@ -80,7 +80,7 @@ This will render the following HTML:
 </div>
 ```
 
-These uses are powerful for making your code more reusable and expressive, but the true power of React is in the way it handles interactivity:
+These uses of components are powerful for making your code reusable and expressive, but the true power of React is the way it handles interactivity:
 
 ```jsx
 import { useState } from 'react'
@@ -105,26 +105,26 @@ This component displays a count and a button. Whenever the button is clicked, th
 
 ### One-Way Data Flow
 
-A recurring theme in all modern SPAs is one-way data flow. Most of the original SPAs used two-way data flow, which means that the value of things like form inputs can be set by the application or by the user interacting with the page. Two-way data flow uses a complicated method of synchronizing these two things. React popularized a simpler pattern called one-way data flow, which involves data in the application being bound to HTML and events from the HTML updating the values.
+A recurring theme in all modern SPAs is one-way data flow. The original SPA frameworks used two-way data flow, which means the value of things like form inputs can be set by the application or by the user interacting with the page. Two-way data flow uses a complicated method of synchronizing these two things. React popularized a simpler pattern called one-way data flow, which involves data in the application being bound to HTML and events from the HTML updating the values.
 
 ### Virtual DOM
 
 Another core idea in all single-page apps is that you don't work directly with the DOM. That means React apps don't use any of the following:
 
-* `document.querySelector()
-* `document.querySelectorAll()
-* `document.createElement()
+* `document.querySelector()`
+* `document.querySelectorAll()`
+* `document.createElement()`
 * `element.addEventListener()`
 * `element.append`
 * `element.classList`
 * `element.innerHTML`
 * `element.textContent`
 
-It turns out that one of the slowest parts of web applications is updating the DOM. One of the ways to work around this limitation is to work with an abstraction called the virtual DOM that manages how and when to update the actual DOM. Instead of grabbing elements out of the DOM and updating them, you bind variables to them in templates using a language called JSX. Instead of adding event listeners with the DOM, you call handlers from templates.
+One of the slowest parts of web performance is making changes to the DOM. One of the ways to work around this limitation is to use an abstraction called the virtual DOM that manages how and when to update the actual DOM. The virtual DOM doesn't actually render to the screen, so it can be updated much faster than the actual DOM. Instead of grabbing elements out of the DOM and updating them, you bind variables to them in templates using a language called JSX. Instead of adding event listeners with the DOM, you call event handlers from templates.
 
 ### Transpilation
 
-Some of the syntax used in making React apps and other SPAs isn't valid JavaScript, HTML, or CSS. As a reminder, those are the only files your browser understands, which means you need another tool that transforms the code you're writing into HTML, CSS, and JavaScript. These kinds of tools are called transpilers, and the one of the most common tools for this is in React apps is [webpack](https://webpack.js.org/).
+Some of the syntax used in making React apps and other SPAs isn't valid JavaScript, HTML, or CSS. Since those are the only files your browser understands, you need another tool to transform the code you're writing into HTML, CSS, and JavaScript. These kinds of tools are called transpilers, and the one of the most common transpilers for React apps is [webpack](https://webpack.js.org/).
 
 ## Additional Resources
 
