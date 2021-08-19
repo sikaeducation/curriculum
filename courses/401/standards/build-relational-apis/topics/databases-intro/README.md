@@ -160,6 +160,8 @@ These are some popular tools used to manage databases:
 | [MySQL](https://www.mysql.com/) | A free database management system owned by Oracle that's popular in the PHP community |
 | [MariaDB](https://mariadb.org/) | An open source version of MySQL |
 
+Each of these tools has different tradeoffs, but all of them store relational data in similar ways and accept some variant of the SQL language.
+
 ## Watch Out!
 
 The terms "table", "row", and "column are commonly used when talking about databases, but the academic terms are:
