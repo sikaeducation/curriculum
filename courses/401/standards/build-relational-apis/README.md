@@ -16,6 +16,8 @@
   * [Exercises](topics/data-modeling-1-many-relations/exercises)
 * [Knex: Relations](topics/knex-relations)
   * [Exercises](topics/knex-relations/exercises)
+* [Heroku: Databases](topics/heroku-databases)
+  * [Exercises](topics/heroku-databases/exercises)
 * [Express: Router](topics/express-router)
   * [Exercises](topics/express-router/exercises)
 * [Intro to ORMs](topics/orm-intro)
@@ -28,7 +30,7 @@
   * [Exercises](topics/objection-modeling-1-many/exercises)
 * [Data Modeling: Many-to-Many Relations](topics/data-modeling-many-many-relations)
   * [Exercises](topics/data-modeling-1-many-relations/exercises)
-* [Cloud Deployment: Databases](topics/cloud-deployment-databases)
-  * [Exercises](topics/cloud-deployment-databases/exercises)
+* [Objection Modeling: Many-to-Many](topics/objection-modeling-many-many)
+  * [Exercises](topics/objection-modeling-many-many/exercises)
 
 ## Assessments

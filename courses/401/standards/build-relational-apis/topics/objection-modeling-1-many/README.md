@@ -4,18 +4,22 @@ Building models with Objection is elegant and has some benefits, but you really 
 
 ## Modeling One-to-Many Relationships
 
-To model a relationship with Objection, use the `relationMappings` static method on your model:
+To model relationships with Objection, use the `relationMappings` static getter on a model:
 
 ```js
 // models/Dog.js
 class Dog extends Model {
   static tableName = "dog"
-  static relationMappings(){
+  static get relationMappings(){
     return {
-      person: {
+      owner: {
         relation: Model.BelongsToOneRelation,
         modelClass: require("./Person"),
-      }
+        join: {
+          from: "dog.owner_id",
+          to: "person.id"
+        },
+      },
     }
   }
 }
@@ -28,12 +32,16 @@ module.exports = Dog
 module.exports = class Person extends Model {
   static tableName = "person"
 
-  static relationMappings(){
+  static get relationMappings(){
     return {
       dogs: {
         relation: Model.HasManyRelation,
         modelClass: require("./Dog"),
-      }
+        join: {
+          from: "person.id",
+          to: "dog.owner_id",
+        },
+      },
     }
   }
 }
@@ -43,19 +51,20 @@ module.exports = Person
 
 Some things to note:
 
-* Each key in the object that's returned from the method is what you want to name a relationship. In general, you should use the plural of the model if it's a `hasManyRelation` and the singular of the model if it's a `BelongsToOneRelation`, but you can name them anything you wish.
+* Each key in the object returned from the `relationMappings` getter is what you want to name a relationship. In general, you should use the plural of the model if it's a `hasManyRelation` and the singular of the model if it's a `BelongsToOneRelation`, but you can name them anything you wish.
 * The `Model` object has specific classes that define the type of relationship. The two relevant to 1:M relationships are:
   * `Model.HasManyRelation`, which should be used to reference the _many_ side of a relationship
   * `Model.BelongsToOneRelation`, which should be used to reference the _one_ side of a relationship
 * The `modelClass` property needs to reference the actual class of the model you're creating a relationship with, not just the name of it. The safest way to do this is by putting it in an external file and requiring directly into the property.
 * Putting the `require` statement in the `modelClass` itself helps resolve situations where two models depend on each other.
+* The `join` object describes which columns should match in the database, meaning one should be a primary key and the other a foreign key. `from` should always be the table of the model you're writing the relationship on. Both values are strings describing the table and the column in the database.
 
 ## Reading Related Records
 
 To read related records, use the `.withGraphFetched` method of a model:
 
 ```js
-const personWithDogs = Person.query().withGraphFetched("dogs")
+const peopleWithDogs = Person.query().withGraphFetched("dogs")
 
 /*
 [{
@@ -104,7 +113,7 @@ const personWithDogs = Person.query().findById(2).withGraphFetched("dogs")
 To insert several related records, use `.insertGraph`:
 
 ```js
-const personWithDogs = Person.query().insertGraph([{
+Person.query().insertGraph([{
   name: "Kyle",
   dogs: [{
     name: "Bixby",
