@@ -92,8 +92,8 @@ SomeClass.someStaticInheritedMethod() // "Some inherited value"
 
 ## Watch Out!
 
-* Objection still requires that knex and a suitable database driver are installed. Additionally, the database needs to be migrated and seed, and the database connection needs to be established.
-* Properties and methods aren't separated by commas in classes.
+* Objection still requires that knex and a suitable database driver are installed. Additionally, the database needs to be migrated and seeded and the database connection needs to be established.
+* Properties and methods aren't separated by commas in classes the way they are in regular JS objects
 
 ## Additional Resources
 
