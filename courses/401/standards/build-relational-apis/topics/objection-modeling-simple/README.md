@@ -55,7 +55,7 @@ app.get("/dogs", async (request, response) => {
 })
 ```
 
-`async`/`await` works well with these because errors are automatically caught by error handling routes.
+`async`/`await` syntax works well in Express because errors are automatically caught by error handling routes.
 
 ### Virtual Attributes
 
@@ -78,7 +78,7 @@ Additionally, the static getter `virtualAttributes` returns an array with the na
 
 ## Creating
 
-To create a new database record with a model, chain `.insert()` to the `.query()` method and pass it an object with the values you would like to add to this table.
+To create new database records with models, chain `.insert()` to the `.query()` method and pass it an object with the values you would like to add to this table.
 
 ```js
 const newDog = await Dog.query().insert({
@@ -87,9 +87,11 @@ const newDog = await Dog.query().insert({
 })
 ```
 
+Make sure that the keys in the object match the column names. It's conventional for database column names to be snake_case, so you may need to convert them.
+
 ## Updating
 
-Existing data can be updated by finding a relevant record with `.findBy()` or `.findById()` and calling `.patch()` with the data that should be updated:
+Existing data can be updated by finding a relevant record with `.findBy()` or `.findById()` and calling `.patch()` with the data that should be updated.
 
 ```js
 const updatedDog = await Dog
@@ -114,12 +116,14 @@ To delete records from the database, either use the `.deleteById()` method or th
 await Dog
   .query()
   .delete()
-  .where("name", "Scruffers")
+  .where("color", "white")
 
 await Dog
   .query()
   .deleteById(1)
 ```
+
+You can also chain `.first()` to `.where()` queries here.
 
 ## Additional Resources
 
