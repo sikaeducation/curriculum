@@ -9,7 +9,6 @@ Every Express route handler gets a `request` object containing details about the
 * **`request.body`**: Contains the body of the HTTP request after it's been parsed
 * **`request.params`**: Contains the Express route keys and their values
 * **`request.query`**: Contains the query string of the request as keys and values
-* **`request.cookies` / `request.signedCookies`**: Contains any cookies that were sent over as keys and values after they've been parsed
 * **`request.get("header-name-here")`**: Returns the value of an HTTP request header
 
 This is modifiable, as well. For example, it's possible to create a `user` object and add it to the `request` as `request.user`.
@@ -31,8 +30,7 @@ Refer to the [full list](https://expressjs.com/en/guide/routing.html#response-me
 
 ## Watch Out!
 
-* `request.body` is not usable until it has been parsed with something like `express.json()`. The same is true of `request.cookies` and `request.signedCookies`.
-* `request.cookies` is not usable until it has been parsed with something like `express.json()`.
+* `request.body` is not usable until it has been parsed with something like `express.json()`.
 
 ## Additional Resources
 

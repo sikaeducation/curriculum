@@ -19,7 +19,7 @@ The initial setup for creating a new user is the same as any resource. You need:
   * Make a new `knex` file with `npx knex init` and configure it appropriately
   * Make a new migration to create the user table. When making the table, you should indicate that the password being stored is a hash by giving it a name like `password_hash` or `password_digest`. Don't forget to run the migration!
   * Make a database connection file that initializes `knex` with the correct configuration
-2) An objection `User` model that references the user table you migrated.
+2) An Objection `User` model that references the user table you migrated.
   * Don't forget to set the database connection on `Model.knex`
 3) A route to accept new user signups. By REST standards this should be a `POST` request to `/users`, but it's acceptable to brand this with something like `/signup`.
   * This should use the `User` model to create a new user.

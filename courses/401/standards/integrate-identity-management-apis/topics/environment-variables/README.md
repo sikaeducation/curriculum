@@ -74,7 +74,7 @@ When the repo is cloned, the `.env.example` file is copied to `.env` and the val
 
 ## `dotenv`
 
-npm's `dotenv` package is a tool for integrating environment variables in node applications. To install `dotenv` on a project, run `npm install`:
+npm's `dotenv` package is a tool for integrating environment variables in Node applications. To install `dotenv` on a project, run `npm install`:
 
 ```js
 npm install dotenv

@@ -9,7 +9,7 @@ Meanwhile, APIs often need to restrict which sites can make requests to them. If
 The `Access-Control-Allow-Origin` HTTP response header specifies one of two things:
 
 * A specific domain, ideally matching the one that issued the request
-* `*`, a "wildcard" indicating that any domain can make requests to that URL
+* `*`, a wildcard indicating that any domain can make requests to that URL
 
 To allow an HTTP request from a domain other than the one the API is on, one of those needs to match.
 
@@ -31,7 +31,7 @@ If an API lacks the `Access-Control-Allow-Origin` header and you don't control t
 2. `proxy.com` makes an HTTP request to `api.com`
 3. `api.com` sends a response to `proxy.com` because `api.com` is a server, not a browser
 4. `proxy.com` adds the `Access-Control-Allow-Origin` header to the response from `api.com` and sends the whole thing back to `website.com`
-5. The script on `website.com` receives the response from `proxy.com` with the `access-control-allow-origin` header, which includes the data from `api.com`
+5. The script on `website.com` receives the response from `proxy.com` with the `Access-Control-Allow-Origin` header, which includes the data from `api.com`
 
 ## Watch Out!
 
@@ -39,7 +39,7 @@ If an API lacks the `Access-Control-Allow-Origin` header and you don't control t
 
 ![Image of a cross-origin error](assets/cors-error.png)
 
-* Do not install browser plug-ins that disables cross-origin restrictions. The browser's cross-origin restrictions protect you from a type of attack called "Cross-Site Scripting" (XSS).
+* Do not install browser plug-ins that disables cross-origin restrictions. The browser's cross-origin restrictions protect you from a type of attack called Cross-Site Scripting, or XSS.
 
 ## Additional Resources
 

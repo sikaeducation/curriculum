@@ -43,9 +43,8 @@ One of the advantages of using a larger counting system is that one character ca
 
 Base64 is a counting system that uses all the uppercase and lowercase letters, the numbers 0-9, as well as the characters `-` and `_` for a total of 64 possible values in each position. Two popular uses of Base64:
 
-* **Encoding data in JWT tokens**: In this case, Base64 doesn't actually decrease the character count, but it allows many special characters like `{` and `:` to be represented with characters that are safe for URLs.
+* **Encoding data in JWTs**: In this case, Base64 doesn't actually decrease the character count, but it allows many special characters like `{` and `:` to be represented with characters that are safe for URLs.
 * **Encoding binary**: Many binary assets such as images can be represented by Base64 instead of binary. This reduces the overall size and makes it easier to embed them directly into pages.
-
 
 ## Additional Resources
 

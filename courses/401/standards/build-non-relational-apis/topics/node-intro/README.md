@@ -1,4 +1,4 @@
-# Intro to Node
+# Intro to Node.js
 
 Traditionally, JavaScript is thought of as part of front-end development because JavaScript is usually compiled and executed by web browsers. However, this isn't the only place you can write code. Code is used for file servers, API servers, robots, embedded software for devices like TVs, and more. These situations call for general-purpose programming languages which aren't tied to a specific programming tasks like web development. How can you leverage the JavaScript you already know for general-purpose tasks?
 
@@ -26,7 +26,7 @@ Node is way to run JavaScript outside the browser. It's not a language; JavaScri
 
 ## Uses for Node
 
-* **Working with file systems.** Browser JavaScript can't read or create files, but Node has no such restrictions. This makes it a popular tool fo creating folder and file structures, and is used in command-line tools like `create-react-app`.
+* **Working with file systems.** Browser JavaScript can't read or create files, but Node has no such restrictions. This makes it a popular tool for creating folder and file structures and is used in command-line tools like `create-react-app`.
 * **API servers.** JavaScript is a great language for API servers because it was designed for asynchronous code, which means that it's well-suited to handling a large amount of small tasks like HTTP requests. There are a variety of frameworks such as Express that make this even easier.
 * **Hardware**. JavaScript can integrate with hardware platforms like Raspberry Pi to create smart appliance, robots, and more.
 

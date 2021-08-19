@@ -36,7 +36,7 @@ INNER JOIN agreement ON agreement.customer_id = customer.id
 | --- | --- |
 | Bill Bellamy | true |
 
-`INNER JOIN` only returns results that have matches. If you want every custoer whether or not there's a match, use `LEFT JOIN`:
+`INNER JOIN` only returns results that have matches. If you want every customer whether or not there's a match, use `LEFT JOIN`:
 
 ```sql
 SELECT customer.name, order.product

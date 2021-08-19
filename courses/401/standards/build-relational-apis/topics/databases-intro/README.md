@@ -172,7 +172,7 @@ The terms "table", "row", and "column are commonly used when talking about datab
 
 Each term and its synonyms can be used interchangeably.
 
-Additionally, the term "database" technically refers to the actual files storing the data. The tools used to interact with databases, such as PostgreSQL or Oracle, are called database management systems or DBMSes. Tools that manage relational data are called relational database management systems, or RDBMSes. These contrast with database tools that manage non-relational data, such as MongoDB and Redis.
+Additionally, the term database technically refers to the actual files storing the data. The tools used to interact with databases, such as PostgreSQL or Oracle, are called database management systems or DBMSes. Tools that manage relational data are called relational database management systems, or RDBMSes. These contrast with database tools that manage non-relational data, such as MongoDB and Redis.
 
 ## Additional Resources
 

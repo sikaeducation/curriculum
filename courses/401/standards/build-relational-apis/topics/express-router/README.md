@@ -1,8 +1,9 @@
 # Express: Router
 
-As you add more routes to an Express app, your files can start getting bloated:
+As you add more routes to an Express app, your `index.js` will start getting bloated:
 
 ```js
+
 app.get("/users", getUsersHandler)
 app.get("/users/:id", getUserHandler)
 app.post("/users", createUsersHandler)
@@ -18,7 +19,7 @@ app.delete("/products/:id", deleteProductsHandler)
 // Same thing for 10 other models
 ```
 
-How can you split these routes out to keep each file more focused?
+How do you split these routes out to keep each file more focused?
 
 ## Express Router
 
@@ -30,6 +31,8 @@ Routes related to users:
 // routes/users.js
 const express = require("express")
 const router = express.Router()
+
+// Define a bunch of handlers...
 
 router.get("/", getUsersHandler)
 router.get("/:id", getUserHandler)
@@ -59,7 +62,7 @@ module.exports = router
 Loading both routers:
 
 ```js
-// app.js
+// index.js
 const userRoutes = require("./routes/users")
 const productRoutes = require("./routes/products")
 
@@ -67,16 +70,14 @@ app.use("/users", userRoutes)
 app.use("/products", productRoutes)
 ```
 
-Note:
-
-* Routers are typically mounted with `use`, which matches all request methods
+* Routers are typically mounted with `use`, which matches all request methods.
 * The prefix a router was mounted with is assumed in all requests that router handles. That means that a router mounted with `app.use("/books", booksRouter)` can use `router.get("/")` to match a GET request to `/books`.
-* A module that's going to be mounted as a router should export the `router` object
+* A module that's going to be mounted as a router should export the `router` object.
 
 ## Watch Out!
 
 * Remember the route paths are passed into the router, and every route you use will be prefixed with whatever path the router was mounted with
-* Routes in a router are set with `router.method`, not `app.method`
+* Routes in a router are mounted with `router.methodName`, not `app.methodName`
 * Remember to export the `router` object from a router file
 
 ## Additional Resources
