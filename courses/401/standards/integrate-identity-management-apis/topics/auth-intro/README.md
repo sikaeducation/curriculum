@@ -1,12 +1,12 @@
 # Intro to Auth
 
-Some applications aren't personal. For example, a calculator doesn't need any concept of identity because everyone uses it in the same way, and many casual games don't need to persist user progress. Most applications need to manage identities somehow though:
+Some applications aren't personal. For example, a calculator doesn't need any concept of identity because everyone uses it in the same way, and many casual games don't need to persist user progress. However, most applications need to manage identities. For example:
 
 * Social media apps need to differentiate one user's posts, comments, and network from another
 * eCommerce apps need to save payment credentials and wishlists for different users
 * Messaging apps need to control which users can see and send which messages
 
-How do you build identity systems into your applications?
+How do you integrate identity systems into your applications?
 
 ## Authentication vs. Authorization
 
