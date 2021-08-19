@@ -30,6 +30,7 @@ Payloads are the part of the JWT that contains data you want to store on the cli
 * **sub**: _Subject_. Any kind of unique identifier for the user, like a database ID.
 * **iat**: _Issued-at time_. The number of milliseconds since the token was issued.
 * **exp**: Expiration. The epoch time after which the token should no longer be accepted.
+* **iss**: Issuer. The domain of the site that issued the token.
 
 Refer to the [full list](https://auth0.com/docs/tokens/json-web-tokens/json-web-token-claims) of existing claims. You may additionally add any of your own data to the payload.
 
@@ -84,6 +85,7 @@ const token = jwt.sign({
 }, secret, {
   subject: 3412,
   expiresIn: "1h"
+  issuer: "your-domain-goes-here.com"
 })
 ```
 
