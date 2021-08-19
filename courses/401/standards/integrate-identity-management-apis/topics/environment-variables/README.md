@@ -28,9 +28,11 @@ Configuration options are things the application needs to run, but change based 
 * Use a fake API URL in development and a real one in production
 * Classify an environment as development, testing, or production
 
+In Node.js, these might look like this in code:
+
 ```
 database.type = process.env.DATABASE_TYPE
-captureLogs(process.env.LOGGING_LEVEL)
+app.use(morgan(process.env.LOGGING_LEVEL))
 const apiUrl = process.env.API_URL
 const currentEnvironment = process.env.NODE_ENV
 ```
@@ -41,9 +43,9 @@ Another type of environment variables is secrets. Secrets are sensitive informat
 
 ## `.env` Files
 
-Environment variables are commonly kept in a file called `.env`. 
+Environment variables are commonly kept in a file called `.env` in the root of the project directory.
 
-```
+```bash
 API_URL=https://api.product-stuff.com/some-path/
 API_ACCESS_TOKEN=4fa2cbe90b32abeg8756b6b6aaef3a21ba8afaa0
 JWT_SIGNING_KEY=0!$%fT_SE!
@@ -53,7 +55,7 @@ Traditionally, environment variable names are written in SCREAMING_SNAKE_CASE. V
 
 ## Hiding Environment Variables
 
-Since configuration variables aren't specific to the code and secrets need to stay secret, the `.env` file should never be committed to Git repositories. Instead, `.env` should be added to every Node project's `.gitignore` file:
+Since configuration variables are specific to environments (not code) and secrets need to stay secret, the `.env` file should never be committed to Git repositories. Instead, `.env` should be added to every Node project's `.gitignore` file:
 
 ```js
 node_modules
