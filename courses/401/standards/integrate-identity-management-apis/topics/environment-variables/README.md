@@ -21,7 +21,7 @@ There are two kinds of environment variables: Configuration options and secrets.
 
 ### Configuration Options
 
-Configuration variables are things the application needs to run, but change based on how the application is run. For example, the application may:
+Configuration options are things the application needs to run, but change based on how the application is run. For example, the application may:
 
 * Use one kind of database in development environments, another in testing environments, and another in production environments
 * Log verbose errors to aid troubleshooting in development and testing, and log terse errors in production to preserve space
