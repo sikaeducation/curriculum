@@ -32,7 +32,7 @@ If you were to add another record to the database, it would automatically be giv
 * They might not actually be unique. For example, there are a musician and an actor that both have the name "Hank Jones."
 * They might change. "Julian Adderly" started going by "Cannonball Adderly" in high school. If his name were the unique identifier, it would need to be updated everywhere he was referenced. When a so-called surrogate key like an auto-incrementing ID is used, no change in the underlying data needs to change any of the references in the database.
 
-In a schema diagram, the primary key is often marked with a `PK` in the first column.
+In a schema diagram, the primary key is often marked with a PK in the first column.
 
 ### Foreign Keys
 
