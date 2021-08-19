@@ -10,7 +10,7 @@ How do you integrate identity systems into your applications?
 
 ## Authentication vs. Authorization
 
-Auth refers to two concepts: Authentication and authorization. Authentication is about verifying that someone is who they claim to be, usually by validating credentials they send. Authorization is verifying that someone has permission to do whatever they're attempting to do. For example, if someone claims to be Christina Aguilera, the process of checking whether or not that's true is authentication. After you're confident in Christina's identity, figuring out whether or not she's allowed in to enter a particular building is authorization.
+Auth refers to two concepts: Authentication and authorization. Authentication is verifying that someone is who they claim to be, usually by validating credentials or tokens they send. Authorization is verifying that someone has permission to do whatever they're attempting to do. For example, if someone claims to be Christina Aguilera, the process of checking whether or not that's true is authentication. Authorization is figuring out whether or not Christina is allowed to enter a particular building.
 
 ## Token-Based Authentication
 
