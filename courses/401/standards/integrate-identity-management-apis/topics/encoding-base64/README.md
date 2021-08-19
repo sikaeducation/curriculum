@@ -41,10 +41,10 @@ You don't have to use only numerals. The alphabet is often used a counting syste
 
 One of the advantages of using a larger counting system is that one character can convey a denser amount of information. For example, the base-10 number `100` is `cw` in base-26, which means the same number can be represented with one fewer character. This is useful for things like sending data over a network where every character counts for speed.
 
-Base64 is a counting system that uses all the uppercase and lowercase letters, the numbers 0-9, as well as the characters `-` and `_` for a total of 64 possible values in each position. Two popular uses of Base64:
+Base64 is a counting system that uses all the uppercase and lowercase letters, the numbers 0-9, as well as the characters `-` and `_` for a total of 64 possible values in each position. There are two popular uses of Base64:
 
 * **Encoding data in JWTs**: In this case, Base64 doesn't actually decrease the character count, but it allows many special characters like `{` and `:` to be represented with characters that are safe for URLs.
-* **Encoding binary**: Many binary assets such as images can be represented by Base64 instead of binary. This reduces the overall size and makes it easier to embed them directly into pages.
+* **Encoding binary files**: Many binary assets such as images can be represented by Base64 data urls instead of binary. This reduces the overall size and makes it easier to embed assets directly into pages instead of linking to them.
 
 ## Additional Resources
 
@@ -52,3 +52,4 @@ Base64 is a counting system that uses all the uppercase and lowercase letters, t
 | --- | --- |
 | [Wikipedia: Base64](https://en.wikipedia.org/wiki/Base64) | Wikipedia's article on Base64 |
 | [MDN: Base64](https://developer.mozilla.org/en-US/docs/Glossary/Base64) | MDN's reference on Base64 |
+| [MDN: Data Urls](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) | MDN's guide to Data Urls |

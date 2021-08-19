@@ -5,3 +5,4 @@ Base26
 Binary
 JWT
 URL
+Data URL
