@@ -1,6 +1,6 @@
 # Objection: Simple Modeling and Querying
 
-Objection models offer a streamlined way to create, read, update, and delete data from databases with JavaScript. These are some examples of how to model and query single tables in a database:
+Objection models are streamlined way to create, read, update, and delete data from databases with JavaScript. These are some examples of how to model and query single tables in a database:
 
 ## Modeling
 
@@ -34,13 +34,16 @@ const Dog = require("./models/Dog")
 
 ## Finding
 
-Once a model has been imported, the `.query()` method can be used to retrieve every dog record from the database. Chaining the `.findById(id)` method to the end of it will only return the given ID, and `.where(column, value)` allows you to search on any property.
+Once a model has been imported, the `.query()` method can be used to retrieve every dog record from the database. Chaining the `.findById(id)` method to the end of it will only return the given ID, while `.where(column, value)` allows you to search on any property. If you only want the first match from `.where()`, add `.first()` to the end.
 
 ```js
 const dogs = await Dog.query()
 const dog = await Dog.query().findById(1)
-const dog = await Dog.query().where("name", "Scruffers")
+const dog = await Dog.query().where("color", "black")
+const dog = await Dog.query().where("age", ">" 10)
+const dog = await Dog.query().where("name", "Scruffers").first()
 ```
+
 
 Note that these, and all other query methods in Objection return promises and must be `await`ed in an `async function` or `.then`ed.
 
@@ -122,3 +125,4 @@ await Dog
 | --- | --- |
 | [Objection: Modeling](https://vincit.github.io/objection.js/guide/models.html#examples) | Official Objection docs on models |
 | [Objection: Querying](https://vincit.github.io/objection.js/guide/query-examples.html) | Official Objection docs on querying |
+| [Knex: Query Builder](https://knexjs.org/#Builder) | Official Knex docs on querying syntax |
