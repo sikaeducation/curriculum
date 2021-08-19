@@ -4,7 +4,7 @@ Once users can create accounts and login with them to get tokens, you can start 
 
 ## Passport
 
-[Passport](http://www.passportjs.org/) is an npm package that helps authenticate users. There are many methods used to authenticate users:
+[Passport](http://www.passportjs.org/) is an npm package that helps authenticate users. There are many ways to authenticate users:
 
 * Possession of a token, such as a JWT
 * Having a cookie pointing to a valid session
@@ -81,8 +81,8 @@ const authenticate = passport.authenticate("jwt", { session: false })
 5. Configure the `jwtStrategy` by creating a new `Strategy` object with options and the `verify` function.
   * The options are mostly for security, and will automatically verify that the signature on the JWT is valid, it was issued by this app, and that no one has tried to change the way it was signed to something less secure.
   * The `jwtFromRequest` property tells the strategy where to look for the token. `ExtractJwt.fromAuthHeaderAsBearerToken()` tells the strategy to look for the token in the `Authorization` header of the request, prefixed with the word `Bearer`.
-6. Passport is given the configured strategy
-7. An `authenticate` function that can be used to protect routes is generated.
+6. Passport is given the configured strategy.
+7. An `authenticate` middleware function is generated that can be used to protect routes.
 
 ## Protecting Routes
 
