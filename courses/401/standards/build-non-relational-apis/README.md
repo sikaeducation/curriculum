@@ -28,7 +28,7 @@
   * [Exercises](topics/http-cors/exercises)
 * [Express: Logging](topics/express-logging)
   * [Exercises](topics/express-logging/exercises)
-* [Express: Helmet](topics/express-helmet)
+* [Express: Security With Helmet](topics/express-helmet)
   * [Exercises](topics/express-helmet/exercises)
 
 ## Assessments

@@ -1,12 +1,9 @@
 # Express: Security with Helmet
 
-There are a couple of things you can do improve basic security in an Express app. The Helmet middleware sets more secure defaults for Express, and is easy to use but very powerful:
+There are a couple of things you can do to improve basic security in an Express app. The Helmet middleware sets more secure defaults for Express, and is easy to use but very powerful:
 
 ```js
-const express = require("express")
 const helmet = require("helmet")
-
-const app = express()
 app.use(helmet())
 ```
 
