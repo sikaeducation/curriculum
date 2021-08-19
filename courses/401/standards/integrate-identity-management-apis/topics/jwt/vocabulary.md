@@ -6,3 +6,5 @@ Auth Token
 HTTP Authorization Header
 Bearer Token
 npm
+Epoch Time
+JWT Claim
