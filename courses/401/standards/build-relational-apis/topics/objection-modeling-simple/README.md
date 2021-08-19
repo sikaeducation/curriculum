@@ -55,6 +55,8 @@ app.get("/dogs", async (request, response) => {
 })
 ```
 
+`async`/`await` works well with these because errors are automatically caught by error handling routes.
+
 ### Virtual Attributes
 
 Rather than doing calculations based on data in routes, you can store them as part of models. For example, a `dog` database record might store a dog's birthdate, but its age is calculated dynamically. This is called a virtual attribute.
