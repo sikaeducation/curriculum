@@ -1,6 +1,6 @@
 # React Events
 
-Since you don't interact with the DOM directly in React apps, how do you response to DOM events?
+Since you don't interact with the DOM directly in React apps, how do you respond to DOM events?
 
 ```jsx
 const Counter = () => {
