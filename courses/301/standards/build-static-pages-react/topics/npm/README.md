@@ -52,21 +52,22 @@ Note that this syntax is similar to the syntax for JavaScript object destructuri
 
 ## Using npm Scripts
 
-`package.json` files have a `scripts` key in them that defines different scripts that can be run from the command line. For example, React apps built with CRA apps come with these by default:
+`package.json` files have a `scripts` key that defines different scripts that can be run from the command line. For example, React apps built with CRA come with these by default:
 
 ![Contents of a package.json file](assets/npm-3.png)
 
-In this example, there are 3 scripts: `start`, `build` and `test`. `start` and `build` are special keywords in npm that can be run as follows:
+This app has 4 scripts: `start`, `build`, `test`, and `eject`. `start` and `build` are special keywords in npm that can be run as follows:
 
 ```bash
 npm test
 npm start
 ```
 
-For all other scripts, such as the `build` example here, add the keyword `run`:
+For all other scripts, such as `build` and `eject`, add the keyword `run`:
 
 ```bash
 npm run build
+npm run eject
 ```
 
 This is useful for adding utility scripts to your projects that others can use.
