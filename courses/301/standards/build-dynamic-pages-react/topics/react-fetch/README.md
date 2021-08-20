@@ -51,7 +51,7 @@ const PokemonCard = ({ name }) => {
   * If it doesn't, it displays a loading message
 5. If the `error` stateful variable is truthy, it displays an error message.
 
-The `useEffect` hook is used for code that generates side-effects. For example, making the API call has the side effect of changing the `pokemon` or `error` states. Other examples of side effects include using `localStorage` and changing the title of a page.
+The `useEffect` hook is used for code that generates side-effects. For example, making the API call has the side-effect of changing the `pokemon` or `error` states. Other examples of side-effects include using `localStorage` and changing the title of a page.
 
 `useEffect` takes two arguments: A function that contains the side-effect generating code and an array. The array should contain a list of variables that should be watched. If any of the variables given to the array change, the function will execute again. If you only want the function to run the first time the component is rendered, give it an empty array.
 
