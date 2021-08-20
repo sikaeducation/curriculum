@@ -1,13 +1,13 @@
 # React Router: Nested Routing
 
-Often, your routes need to have sub-routes, such display a specific comments for a specific post: `/posts/23423/comments`. React router handles this kind of nested routing by adding an additional `<Switch>` within a view that's been routed.
+Some routes have sub-routes, such as displaying a specific comments for a specific post: `/posts/23423/comments`. React router handles this kind of nested routing by adding an additional `<Switch>` within a view that's been routed to.
 
 ## URL Conventions
 
-Most URLs in SPAs are based around resources and IDs. Resources are names for types of items, and IDs are anything that can uniquely identify a single item within those. When designing nested URLs in an app, observe the following conventions:
+Most paths in SPAs are based around resources and IDs. Resources are names for types of items, and IDs are anything that can uniquely identify a single item within those. When designing nested URLs in an app, observe the following conventions:
 
 * Resource names are plural. That means that the URL for a product with the ID of 3 should be `example.com/products/3`, not `example.com/product/3`.
-* Individual items should be linked to by a unique identifier in the URL, usually a database-generated ID. That means that the url for a T-shirt should something like `example.com/shirts/23421` rather than `example.com/shirts/blue-tee`. You can use descriptive words in the URL, but you need to take care to ensure that they're unique or you won't be able to display the correct item. Things that are naturally unique such as departments in an organization are a good fit for this.
+* Individual items should be linked to by a unique identifier in the URL, usually a database-generated ID. That means that the url for a T-shirt should something like `example.com/shirts/23421` rather than `example.com/shirts/blue-tee`. You can use descriptive words in the path, but you need to take care to ensure that they're unique or you won't be able to display the correct item. Things that are naturally unique such as departments in an organization are a good fit for this.
 * A resource without an ID is called an index, and is often used to display a list of resources. For example, `example.com/albums` might display a list of albums, while `example.com/albums/34` might display details about a particular album.
 * The suffixes `create`, `edit`, and `delete` are standard for displaying forms that offer options about each related action, but can customized or branded as necessary. For example, a URL to edit a participant might look like `example.com/participants/34/edit` or `example.com/participants/34/update`.
 
@@ -140,7 +140,7 @@ const DepartmentView = () => {
 
 In this example:
 
-1. The `<App />` component wraps the entire application in a `<Router>`, has `<Link>`s that sets new URL paths, and a `<Switch>` that determines which school component to display based on the URL path.
+1. The `<App />` component wraps the entire application in a `<Router>`, has `<Link>`s that sets new paths, and a `<Switch>` that determines which school component to display based on the path.
 2. The `<CareerSchoolView />` gets the `url` and the `path` from the `useRouteMatch` hook. These will both be `/career` in this case.
 3. The `<CareerSchoolView />` makes nested links to each department using the `url`.
 4. Another `<Switch>` matches URL paths that contain a dynamic segment representing the career school's department ID. These are what the `<Link>` tags in this component will link to. It also has a default view that will display when the route first loads.
