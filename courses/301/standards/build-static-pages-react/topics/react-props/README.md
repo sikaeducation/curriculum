@@ -1,6 +1,6 @@
 # React: Props
 
-Data can be passed from a parent component to a child component, and whenever the data changes in the parent it will rerender the child. The data in the child component is called a prop, which is short for property. You can pass simple values as props:
+Data can be passed from a parent component to a child component, and whenever the data changes in the parent it will rerender the child with the new data. The data in the child component is called a prop, which is short for property. You can pass simple values as props:
 
 ```jsx
 // ParentComponent.js
@@ -53,7 +53,7 @@ This state will be bound, meaning that any change in the parent immediately trig
 
 ## Watch Out!
 
-In the example above, pressing the button changes the state, and that state change is reflected down through the props. We can't also have a button in the child that changes the state in the parent. If a child component needs to change state in its parent, it needs to do it by passing in a function that changes the original value. State changes need to happen in the same place the state is held.
+In the example above, pressing the button changes the state and that state change is reflected down through the props. If a child component needs to change state in its parent, it needs to do it by passing in a function that changes the original value. State changes need to happen in the same place the state is held.
 
 ## Additional Resources
 
