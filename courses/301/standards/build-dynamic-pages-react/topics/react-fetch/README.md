@@ -94,7 +94,6 @@ const PokemonList = () => {
 
 If `pokemonList` is initialized to anything other than an array, the component will break on the first render. This is because `.map` can only performed on arrays, including empty arrays. When the first render happens, trying to `.map` over any value other than an array will throw an error.
 
-
 ## Additional Resources
 
 | Resource | Description |
