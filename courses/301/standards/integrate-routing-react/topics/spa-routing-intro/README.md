@@ -1,4 +1,4 @@
-# Single-Page Application Routing
+# Intro to Single-Page Application Routing
 
 In a traditional website, using a navigation link sends an HTTP request to a server, which sends back a new HTML file. The defining feature of single-page apps or SPAs is that there's only one HTML page. How can you have an application with one HTML page and multiple views?
 

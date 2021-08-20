@@ -1,6 +1,6 @@
 # React: Computed Properties
 
-The two main sources of data for a component: Props and state. There is also data that's derived from either or both of those, which are called derivative state or computed properties. For example, if you have a list of movies:
+The two main sources of data for a component are props and state. There is also data that's derived from either or both of those, which are called derivative state or computed properties. For example, if you have a list of movies:
 
 ```js
 const movies = [{
@@ -63,7 +63,6 @@ const FavoriteMovieBadge = ({ favoriteMovie }) => {
 ```
 
 Whenever the source data changes, any dependent properties will be automatically recalculated when the component rerenders.
-
 
 ## Additional Resources
 
