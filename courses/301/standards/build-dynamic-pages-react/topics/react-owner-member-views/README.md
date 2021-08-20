@@ -1,15 +1,15 @@
 # React: Owner/Member Views
 
-If you have a list items, any of which can be selected to show more detail, how would you implement it? Where would the state of which item is selected be held? How would that state be changed?
+If you have a list of items, any of which can be selected to show more detail, how would you implement it? Where would the selected item state be held? How would that state be changed?
 
 The owner/member pattern in React app involves:
 
-* Keeping track of the currently selected item in state
-* Passing that object into a detail component
-* Changing the currently selected item when a different item is clicked
+* Keeping track of the currently selected item in state in an owner component
+* Passing that object into a member component
+* Changing the currently selected item in the owner component when a different item is clicked
 
 ```jsx
-const ItemList = ({ items }) => {
+const ItemList = ({items}) => {
   const [selectedItem, setSelectedItem] = useState(items[0])
   const select = id => {
     const item = items.find(item => item.id === id)
