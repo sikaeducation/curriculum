@@ -1,6 +1,6 @@
 # React: Applying Styles
 
-For the most part, applying styles to React components is done the same as it is in regular HTML. Since React components render as HTML, all traditional CSS techniques are applicable. There are a couple of new techniques specific to React components however: Importing stylesheets and dynamic classes.
+For the most part, styles are applied to React components the same way they in regular HTML. Since React components render as HTML, all traditional CSS techniques are applicable. There are a couple of new techniques specific to React components however, including importing stylesheets and dynamic classes.
 
 ## Importing Stylesheets
 
@@ -31,9 +31,9 @@ It may be useful to give the component a CSS class with the name of the componen
 
 Note that you don't need to save the imported stylesheet into a variable. Just by importing it, webpack will include the stylesheet in the final CSS file it generates.
 
-## Dynamic Classes
+## Dynamic CSS Classes
 
-Classes can be given dynamic values like any other JSX attribute.
+CSS classes can be given dynamic values like any other JSX attribute.
 
 ```jsx
 const User = ({ username, isDisabled }) => {
