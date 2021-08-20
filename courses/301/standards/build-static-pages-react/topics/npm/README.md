@@ -84,7 +84,7 @@ In every project with npm packages, you should have a file called `.gitignore` i
 node_modules
 ```
 
-This prevents Git from adding all of your installed npm packages to your repository. Why is this useful? A `node_modules` folder can be extremely large, even larger than sites like GitHub will allow you to store. The `package.json` and `package-lock.json` files contain all the necessary instructions for other users to download the dependencies themselves, so version controlling these 2 small files is sufficient for tracking all the packages your project uses.
+This prevents Git from adding all of your installed npm packages to your repository. A `node_modules` folder can be extremely large; even larger than sites like GitHub will allow you to store. The `package.json` and `package-lock.json` files contain all the necessary instructions for other users to download the dependencies themselves, so version controlling these 2 small files is sufficient for tracking all the dependencies your project uses.
 
 ---
 
