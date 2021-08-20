@@ -1,6 +1,6 @@
 # Intro to React Router
 
-[React Router](https://reactrouter.com/) is a popular third-party library for doing SPA routing with a React app. You can install it in an existing React app with `npm install react-router-dom`.
+[React Router](https://reactrouter.com/) is a popular third-party library for integrating SPA routing into React apps. You can install it in an existing React app with `npm install react-router-dom`.
 
 React Router has 4 basic components:
 
@@ -9,7 +9,7 @@ React Router has 4 basic components:
 * **`<Route>`**: This component defines each route within a `<Switch>`, and determines which component will display when a route matches. Has a to `path` attribute that contains the URL that should be matched.
 * **`<Link>`**: This component links to a route. It has a `to` attribute that sets the URL it should go to. It turns into an `<a>` element when it's rendered.
 
-A simple routing scenario might look like this:
+This app routes between a home, about, and product view:
 
 ```jsx
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
@@ -76,11 +76,8 @@ Some highlights:
 
 ## Watch Out!
 
-The `react-router-dom` package doesn't have a `Router` export, it has a `BrowserRouter` export. To name it `<Router>` in your app, import it as `import { BrowserRouter as Router } from "react-router-dom"`.
-
-When using a default path (like `/`), it must be the last `<Route>` in the `<Switch>`, otherwise it will be the first match and the `<Switch>` won't look for a more specific one.
-
-Having more than one `<Router>` in the same hierarchy will cause problems that are difficult to diagnose. Be especially careful when renaming the import.
+* The `react-router-dom` package doesn't have a `Router` export, it has a `BrowserRouter` export. To name it `<Router>` in your app, import it as `import { BrowserRouter as Router } from "react-router-dom"`.
+* Having more than one `<Router>` in the same hierarchy will cause problems that are difficult to diagnose. Be especially careful when renaming the import.
 
 ## Additional Resources
 
