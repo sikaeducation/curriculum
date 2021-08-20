@@ -4,7 +4,7 @@ npm, or Node Package Manager, is a tool for installing and using code that other
 
 ## Searching for Packages
 
-When you have a problem you suspect already has a published solution, you can look for a package on [npm](https://www.npmjs.com/). For example, if you're looking for ways to work with weather data, you might search for "weather":
+When you have a problem you suspect already has a published solution, you can look for a package on [npmjs.com](https://www.npmjs.com/). For example, if you're looking for ways to work with weather data, you might search for "weather":
 
 ![Searching for weather packages on NPM](assets/npm-1.png)
 
@@ -16,7 +16,7 @@ In general, packages with more weekly downloads can be expected to be more robus
 
 ## Installing Packages
 
-You can add an npm package to a project with `npm install package-name-here`. For example to install the popular library Lodash:
+Add npm packages to projects with `npm install package-name-here`. For example, to install the popular library Lodash:
 
 ```bash
 npm install lodash
@@ -52,7 +52,7 @@ Note that this syntax is similar to the syntax for JavaScript object destructuri
 
 ## Using npm Scripts
 
-`package.json` files have a `scripts` key in them that defines different scripts that can be run from the command line. For example, CRA apps come with these by default:
+`package.json` files have a `scripts` key in them that defines different scripts that can be run from the command line. For example, React apps built with CRA apps come with these by default:
 
 ![Contents of a package.json file](assets/npm-3.png)
 
@@ -63,7 +63,7 @@ npm test
 npm start
 ```
 
-For all other scripts (such as the `build` example here), the keyword `run` needs to be added:
+For all other scripts, such as the `build` example here, add the keyword `run`:
 
 ```bash
 npm run build
@@ -73,7 +73,7 @@ This is useful for adding utility scripts to your projects that others can use.
 
 ## Installing Dependencies
 
-When you clone a new repo that uses npm packages or pull Git commits that add new dependencies, you need to install the dependencies first. To do this, run `npm install` without any other arguments.
+When you clone a new repo that uses npm packages or pull Git commits that add new dependencies, the first thing you need to do is install the dependencies. To do this in a Node.js project, run `npm install` without any other arguments.
 
 ## Watch Out!
 
