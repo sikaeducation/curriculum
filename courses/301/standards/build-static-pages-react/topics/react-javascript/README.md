@@ -1,6 +1,6 @@
 # React: JavaScript
 
-One of React's advantages is that most of it just JavaScript and introduces very little additional React-specific syntax. Some of the JavaScript syntax used is more advanced than the syntax commonly used in websites and bears review.
+One of React's advantages is that it's mostly just JavaScript and introduces little additional React-specific syntax. However, some of the JavaScript syntax used in React is more advanced than the syntax used in websites and bears review.
 
 * [Arrow Functions](#arrow-functions)
 * [Modules](#modules)
@@ -158,7 +158,7 @@ const [one, two, three] = someArray
 console.log(one, two, three) // 1, 2, 3
 ```
 
-In React, this is often used to pull values out of things called hooks:
+In React, this is often used to pull values out of hooks:
 
 ```jsx
 const hookArray = useState(0)
@@ -231,7 +231,7 @@ Can be written in one line using a ternary:
 const rsvpResponse = isAttending ? "Attending" : "Not attending, with regrets"
 ```
 
-You can improve the readability of a ternary expression by putting the condition and each branch on its own line:
+You can often improve the readability of a ternary expression by putting the condition and each branch on their own lines:
 
 ```jsx
 const rsvpResponse = isAttending
