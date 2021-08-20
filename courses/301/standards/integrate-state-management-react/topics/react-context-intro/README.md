@@ -60,10 +60,10 @@ const UserProfile = () => {
 
 1. A new `UserContext` object is created.
 2. The `<App />` component creates a stateful variable to track the logged in user.
-3. The `<App />` component uses the `UserContext`'s `.Provider` component to make the `currentUser` available to all child components.
+3. The `<App />` component uses the `UserContext`'s `Provider` component to make the `currentUser` available to all child components.
 4. The `<UserProfile />` component passes the `UserContext` object into the `useContext` hook, which gives it the `currentUser` object the `UserContext.provider` made available. It was not passed down as a prop and it bypassed the `<HeaderBar />` component entirely.
 
-The current user is tracked in `<App />` and the `UserContext` helps tunnel it to the `<UserProfile />.
+The current user is tracked in `<App />` and the `UserContext` helps tunnel it to the `<UserProfile />`.
 
 ---
 
