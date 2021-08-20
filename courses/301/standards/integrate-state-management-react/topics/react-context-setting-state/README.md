@@ -1,6 +1,6 @@
 ## React Context: Changing State From a Context Consumer
 
-What do you do if you want to update a stateful value from a component that's consuming context? You can pass the function that updates state as a value in the Context's provider:
+What if you want to update a stateful value from a component that's consuming context? You can pass the function that updates state as a value in the Context's provider:
 
 ```jsx
 const App = () => {
