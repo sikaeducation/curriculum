@@ -13,7 +13,7 @@ Most paths in SPAs are based around resources and IDs. Resources are usually mod
 
 ## The `useRouteMatch` Hook
 
-The `useRouteMatch` hook evaluates to an object containing information about the current path. This is useful in dynamically filling out the `to` attribute of links and the `path` attribute of nested routes:
+The `useRouteMatch` hook evaluates to an object containing information about the current path. This is used to dynamically fill out the `to` attribute of links and the `path` attribute of nested routes:
 
 ```jsx
 const match = useRouteMatch()

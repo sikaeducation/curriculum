@@ -13,3 +13,4 @@ Nested Route
 Component
 JSON
 JavaScript: `fetch`
+Model
