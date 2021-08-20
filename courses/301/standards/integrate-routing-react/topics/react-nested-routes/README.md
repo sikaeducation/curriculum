@@ -4,7 +4,7 @@ Some routes have sub-routes, such as displaying a specific comments for a specif
 
 ## Path Conventions
 
-Most paths in SPAs are based around resources and IDs. Resources are names for types of items, and IDs are anything that can uniquely identify a single item within those. When designing nested URLs in an app, observe the following conventions:
+Most paths in SPAs are based around resources and IDs. Resources are names for types of items, and IDs are anything that can uniquely identify a single item within those. When designing nested paths, observe the following conventions:
 
 * Resource names are plural. That means that the URL for a product with the ID of 3 should be `example.com/products/3`, not `example.com/product/3`.
 * Individual items should be linked to by a unique identifier in the URL, usually a database-generated ID. That means that the url for a T-shirt should something like `example.com/shirts/23421` rather than `example.com/shirts/blue-tee`. You can use descriptive words in the path, but you need to take care to ensure that they're unique or you won't be able to display the correct item. Things that are naturally unique such as departments in an organization are a good fit for this.
