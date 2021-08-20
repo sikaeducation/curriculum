@@ -4,7 +4,7 @@ Some components receive their data through props while other components maintain
 
 * Data being entered into forms
 * One of multiple options being selected
-* Data that comes from a server being updated
+* Data that comes from an API server
 
 This kind of data is called state. State is any data that can change value over time. To simplest way to manage state in React is with the `useState` hook:
 
