@@ -1,10 +1,10 @@
 # React Router: Dynamic Segments
 
-Sometimes routes have components that are applied to an arbitrary number of paths. For examples, a `ProductView` component may have a route for every product in the company's catalog. For situations like this, use dynamic segments.
+Some views apply to an arbitrary number of paths. For examples, a `ProductView` component may have a route for every product in the company's catalog. For situations like this, use dynamic segments.
 
 ## The `useParams` Hook
 
-The core idea in dynamic segments is that you can define a part of a path that will be read as a URL. For example, the path `/users/3242` might have the route `<Route path="users/:userId">`. The part of the path after the colon will be available in the component the route renders with the `useParams` hook as the variable `userId`.
+The core idea in dynamic segments is that you can define a part of a path that will be read as a variable. For example, the path `/users/3242` might have the route `<Route path="users/:userId">`. The part of the path after the colon will be available in the component the route renders with the `useParams` hook as the variable `userId`.
 
 ```jsx
 const Users = () => {
