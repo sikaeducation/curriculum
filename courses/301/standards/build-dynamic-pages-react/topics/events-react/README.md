@@ -52,7 +52,7 @@ Some other useful event properties:
 
 ## Watch Out!
 
-You can also inline the handler function in JSX:
+You can also inline handler functions in JSX:
 
 ```jsx
 <button onClick={() => setCount(count + 1)}>Increment Count</button>
