@@ -26,7 +26,7 @@ Put differently, the value of the `<input />` is `inputValue`. When it changes `
 
 ![Diagram of controlled input circular flow](assets/controlled-input.png)
 
-This works for a single input, but to truly capture user input it needs to be done in the context of an entire form:
+This works for a single input, but most user input needs to be captured in the context of an entire form:
 
 ```js
 const LoginForm = ({login}) => {
