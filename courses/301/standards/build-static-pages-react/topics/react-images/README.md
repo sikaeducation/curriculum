@@ -1,6 +1,6 @@
 # React: Images
 
-There are two ways to use images in React apps: Linking a public URL and importing an image in the component.
+There are two ways to use images in React apps: Linking a public URL and importing images to components.
 
 ## Linking to Images
 
@@ -14,7 +14,7 @@ const someComponent = () => {
 }
 ```
 
-In a CRA app, this can also be done with any file in the `public` directory. If there's a file called `image.jpg` in the `public` directory, you can refer to it this way:
+This works well for URLs that come from API responses. In a CRA app, this can also be done with any file in the `public` directory. If there's a file called `image.jpg` in the `public` directory, you can refer to it this way:
 
 ```jsx
 const someComponent = () => {
@@ -28,7 +28,7 @@ Putting files in the `public` directory also works with any file, which is usefu
 
 ## Importing Images
 
-In most cases, you're better off importing an image the same you would import a JavaScript module.
+For static images in apps like logos, you're better off importing them the same way you import JavaScript modules.
 
 ```jsx
 import image from "./assets/image.jpg"
