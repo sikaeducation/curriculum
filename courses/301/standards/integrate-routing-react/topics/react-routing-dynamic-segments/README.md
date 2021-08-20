@@ -1,6 +1,6 @@
 # React Router: Dynamic Segments
 
-Sometimes routes have components that are applied to an arbitrary number of URLs. For examples, a `ProductView` component may have a route for every product in the catalog. For situations like this, use dynamic segments.
+Sometimes routes have components that are applied to an arbitrary number of paths. For examples, a `ProductView` component may have a route for every product in the company's catalog. For situations like this, use dynamic segments.
 
 ## The `useParams` Hook
 
