@@ -1,6 +1,6 @@
 # React: Controlled Forms
 
-React is all about one-way data flow. However, form inputs are naturally two-way; you want to be able to set the value of an input programmatically, and you want the value to change when a user types. Luckily, this can be accomplished by a circular approach to managing state. If you're trying to control the state of an input, you could use an approach like this:
+React is all about one-way data flow. However, form inputs are naturally two-way; you want to be able to set the value of an input programmatically, and you want the value to change when a user types. Luckily, this can be accomplished by a circular approach to managing state. To control the state of an input, use an approach like this:
 
 ```js
 const FormInput = () => {
@@ -22,11 +22,11 @@ const FormInput = () => {
 2. A function called `updateValue` is created that accepts an `event` as a parameter and calls `setInputValue` with `event.target.value`, which will be the whatever the current value of the input is.
 3. A JSX element is returned that has its value set to `inputValue`, and whenever a user changes the value of the input, the `updateValue` function will be called.
 
-Put differently, the value of the `<input />` is `inputValue`, and when it changes `updateValue` is called, which changes the value of `inputValue`. This is the circular flow of controlled forms.
+Put differently, the value of the `<input />` is `inputValue`. When it changes `updateValue` is called, which changes the value of `inputValue`. This is the circular flow of controlled forms.
 
 ![Diagram of controlled input circular flow](assets/controlled-input.png)
 
-This works for a single input, but to truly capture user input, it needs to be done in the context of an entire form. That looks like this:
+This works for a single input, but to truly capture user input it needs to be done in the context of an entire form:
 
 ```js
 const LoginForm = ({login}) => {
@@ -66,7 +66,6 @@ This looks more complicated, but it functions similarly:
 6. The input change handlers are called whenenver a user types in the inputs
 
 A stateful variable is bound the value of the input, the input's change event updates the stateful variable, the value of the input is updated.
-
 
 ## Additional Resources
 
