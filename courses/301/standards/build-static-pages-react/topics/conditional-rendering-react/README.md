@@ -1,6 +1,6 @@
 # React: Conditional Rendering
 
-Many components need to render some parts of the template in certain cases but not others. For example, a library book app may an "Overdue" badge that only shows up if today's date is after the book's due date. How would you render this?
+Many components need to render some parts of the template in certain cases but not others. For example, a library book app may have an "Overdue" badge that only shows up if today's date is after the book's due date. How would you render this?
 
 ```jsx
 const BookListing = ({ title, dueDate }) => {
@@ -29,7 +29,6 @@ This component:
   * If it's false, it renders nothing
 
 You can also use a variation on this technique with ternaries to render different content in each case:
-
 
 ```jsx
 const BookListingWithDaysRemaining = ({ title, daysRemaining }) => {
