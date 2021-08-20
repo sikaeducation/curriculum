@@ -1,6 +1,6 @@
 # Intro to React Context
 
-React's Context API is a tool for tunneling state from one part of an app to another. For example, you can track a logged-in user in the `App` component, and then use a Context Provider and the `useContext` hook to send it to other components. For example, in an app that has a header bar with a user profile in it, you can store the data in the `<App />` component and tunnel it to the `<UserProfile />` component without going through the `<HeaderBar />` component.
+React's Context API is a tool for tunneling state from one part of an app to another. For example, you can track a logged-in user in the `App` component, and then use a Context Provider and the `useContext` hook to send it to other components. For example, in an app that has a header bar with a user profile in it, you can store the data in the `<App />` component and tunnel it to the `<UserProfile />` component without needing to go through the `<HeaderBar />` component.
 
 ```jsx
 import { createContext } from "react"
