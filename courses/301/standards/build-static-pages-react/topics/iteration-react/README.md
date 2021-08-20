@@ -1,6 +1,6 @@
 # React: Iteration
 
-Iteration in JSX templates is achieved through mapping. For example:
+Iteration in JSX templates is done with mapping. For example:
 
 ```jsx
 const SomeList = () => {
@@ -19,7 +19,7 @@ const SomeList = () => {
     return <li key={ item.id }>{ item.content }</li>
   })
 
-  return <ul>{items}</ul>
+  return <ul>{ items }</ul>
 }
 ```
 
@@ -49,7 +49,7 @@ If some other value in each item is unique (such as an employee ID), you can use
 
 ## Watch Out!
 
-Array indexes are not suitable for the `key` attribute because they can change (for example, if the list is sorted).
+Array indexes are not suitable for the `key` attribute because they can change. For example, if an array is sorted, elements will potentially have new indexes.
 
 ## Additional Resources
 
