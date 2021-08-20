@@ -1,8 +1,8 @@
 # React Router: Nested Routing
 
-Some routes have sub-routes, such as displaying a specific comments for a specific post: `/posts/23423/comments`. React router handles this kind of nested routing by adding an additional `<Switch>` within a view that's been routed to.
+Some routes have sub-routes, such as displaying a specific comments for a specific post: `/posts/23423/comments`. React Router nests routes by putting additional `<Switch>`s in views that have been routed to.
 
-## URL Conventions
+## Path Conventions
 
 Most paths in SPAs are based around resources and IDs. Resources are names for types of items, and IDs are anything that can uniquely identify a single item within those. When designing nested URLs in an app, observe the following conventions:
 
