@@ -1,10 +1,10 @@
 # Create React App
 
-It's difficult to write and run React-based apps directly in the browser without the help of additional tools. Luckily, there are tools available that do lot of the heavy-lifting for you. One of the simplest of these is called Create React App, or CRA.
+It's difficult to write and run React-based apps directly in the browser. Luckily, there are tools available that do lot of the heavy-lifting for you. One of the simplest of these is called Create React App, or CRA.
 
 ## Running CRA
 
-To make a new CRA project, use `npx create-react-app project-name-goes-here`. This creates a new React project with all of the necessary parts installed and wired together.
+To make a new CRA project, run `npx create-react-app project-name-goes-here`. This creates a new React project with all the necessary parts installed and wired together.
 
 ![Running npx create-react-app project-name-goes-here](assets/cra-1.png)
 
@@ -22,7 +22,7 @@ There two folders in a fresh CRA project that you should be aware of.
 
 ### `public`
 
-The `public` directory contains static assets, such as images, fonts, and favicons. React doesn't do anything special with these and you can't import them into your projects, but they will be served via URL in your app. For example, if you have a file in the `public` directory called `profile.jpg`, it will be available by default at `localhost:3000/profile.jpg`.
+The `public` directory contains static assets, such as images, fonts, and favicons. React doesn't do anything special with these and you can't import them into your projects, but they will be hosted on your server. For example, if you have a file in the `public` directory called `profile.jpg`, it will be available by default at `localhost:3000/profile.jpg`.
 
 ### `src`
 
@@ -30,9 +30,8 @@ All of your React components go in this directory. The `App.js` file is consider
 
 ## Watch Out!
 
-After creating an app with CRA, don't forget you still need to `cd` into the folder.
-
-If port 3000 is already being used on your computer (such as by another instance of CRA), you will be asked if you would like to serve the app on another port instead.
+* After creating an app with CRA, don't forget you still need to `cd` into the folder.
+* If port 3000 is already being used on your computer (such as by another instance of CRA), you will be asked if you would like to serve the app on another port instead.
 
 ## Additional Resources
 
