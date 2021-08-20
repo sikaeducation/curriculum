@@ -29,7 +29,7 @@ const match = useRouteMatch()
 </Route>
 ```
 
-`match` contains the current path in its `url` property, and all dynamic segments in its `params` property.
+`match` contains the current path in its `url` property and all dynamic segments in its `params` property.
 
 ## Nesting Routes
 
