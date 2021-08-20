@@ -33,7 +33,7 @@ const match = useRouteMatch()
 
 ## Nesting Routes
 
-With React Router, a nested route is a component that has its own router. For example:
+In React Router, a nested route is a component that has its own router. For example:
 
 ```jsx
 const App = () => {
@@ -143,7 +143,7 @@ In this example:
 1. The `<App />` component wraps the entire application in a `<Router>`, has `<Link>`s that sets new paths, and a `<Switch>` that determines which school component to display based on the path.
 2. The `<CareerSchoolView />` gets the `url` and the `path` from the `useRouteMatch` hook. These will both be `/career` in this case.
 3. The `<CareerSchoolView />` makes nested links to each department using the `url`.
-4. Another `<Switch>` matches URL paths that contain a dynamic segment representing the career school's department ID. These are what the `<Link>` tags in this component will link to. It also has a default view that will display when the route first loads.
+4. Another `<Switch>` matches paths that contain career school's department ID. These are what the `<Link>` tags in this component will link to. It also has a default view that will display when the route first loads.
 5. The `<DepartmentView />` gets the department ID from the `useParams` hook. It uses this to look up and display that department's unique greeting from a local JSON file with `fetch`.
 
 ## Watch Out!
