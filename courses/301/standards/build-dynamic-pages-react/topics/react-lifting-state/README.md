@@ -1,6 +1,6 @@
 # React: Lifting State
 
-Data is passed from one component to another by props. These only move one direction though; you can't pass data "up" from a child component to a parent component. How can a child component update something in a parent component?
+Data is passed from one component to another by props. These only move one direction though; you can't pass data up from a child component to a parent component. How can child components update state in their parent components?
 
 ## Passing Down Functions
 
@@ -30,11 +30,9 @@ const Counter = () => {
 
 [Play with this code](https://codesandbox.io/s/awesome-gauss-xyw1r)
 
-Some highlights:
-
-* The `CounterDisplay` component takes a `count` as a prop and displays it. It doesn't need to know that this prop is actually a stateful variable in the `Counter` component, which makes it a much simpler component to understand. These are sometimes called dumb components.
-* The `CounterButton` component takes a function called `increment` as a prop. When the button is clicked, this function is called. Note that the definition of the function is passed in, not an execution of the function. Likewise, the `onClick` handler accepts a function definition.
-* The `Counter` component's responsibility is keep track of and modifying the state of the count, as well as rendering the other two components with the correct props.
+1. The `CounterDisplay` component takes a `count` as a prop and displays it. It doesn't need to know that this prop is actually a stateful variable in the `Counter` component, which makes it a much simpler component to understand. These are sometimes called dumb components.
+2. The `CounterButton` component takes a function called `increment` as a prop. When the button is clicked, this function is called. Note that the definition of the function is passed in, not an execution of the function. Likewise, the `onClick` handler accepts a function definition.
+3. The `Counter` component's responsibility is keep track of and modifying the state of the count, as well as rendering the other two components with the correct props.
 
 The trickiest part of the entire flow is passing in the `increment` function to `CounterButton`. Follow this very carefully:
 
@@ -50,7 +48,6 @@ The ideas of lifting state can be summarized as:
 
 * Data can only be passed down.
 * Functions that directly change state must be defined in the same component as the state, but these functions can be passed down as props.
-
 
 ## Additional Resources
 
