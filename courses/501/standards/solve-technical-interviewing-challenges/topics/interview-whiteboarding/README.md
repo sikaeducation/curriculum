@@ -108,7 +108,7 @@ The DAVE questions from Polya's 4-step process are helpful as well:
 
 ### Work the Problem
 
-If it's a programming puzzle, start by writing "sandwich code"- name the function, write out the inputs, write out what the outputs will be. If it's a more general puzzle, see if you can do something to similarly make it clear what the inputs and outputs are so that you'll know when your solution successfully connects them.
+If it's a programming puzzle, start by writing sandwich code: Name the function, write out the inputs, write out what the outputs will be. If it's a more general puzzle, see if you can do something to similarly make it clear what the inputs and outputs are so that you'll know when your solution successfully connects them.
 
 Next, don't try to write syntactically correct code. What you're aiming for is pseudo-code, or code that identifies all the logical steps one would need to follow without prescribing any one language.
 

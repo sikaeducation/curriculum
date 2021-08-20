@@ -20,7 +20,7 @@ These questions are often used early on to weed out fakers. Technology jobs pay 
 * What is a string?
 * What is a variable?
 
-### Conceptual questions
+### Conceptual Questions
 
 These are language-agnostic questions about concepts. For example:
 
@@ -29,7 +29,7 @@ These are language-agnostic questions about concepts. For example:
 * What is polymorphism?
 * Describe HTTP
 
-### Language/Framework questions
+### Language/Framework Questions
 
 These are language- or framework-specific questions that are trying to determine your comfort level with the tool. For example:
 
@@ -48,6 +48,6 @@ If you don't know the answer to a question, don't just say "I don't know."
 
 For example, if you don't know the answer to "What is inheritance?", you could respond:
 
-"I'm not sure, but I can infer from the name it's about getting something from somewhere else, a parent maybe? Am I in the ballpark?"
+>"I'm not sure, but I can infer from the name it's about getting something from somewhere else, a parent maybe? Am I in the ballpark?"
 
 You can use this as a springboard for a conversation or an opportunity to learn. Things your interviewer says may also trigger your memory for times you have used or seen the concept being discussed.
