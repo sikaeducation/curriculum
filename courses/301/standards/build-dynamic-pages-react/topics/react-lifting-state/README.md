@@ -1,6 +1,6 @@
 # React: Lifting State
 
-Data is passed from one component to another by props. These only move one direction though; you can't pass data up from a child component to a parent component. How can child components update state in their parent components?
+Data is passed from one component to another by props. These only move one direction though; you can't pass data from a child component up to a parent component. How can child components update state in their parent components?
 
 ## Passing Down Functions
 
