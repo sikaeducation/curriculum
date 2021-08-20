@@ -4,7 +4,7 @@ It's difficult to write and run React-based apps directly in the browser without
 
 ## Running CRA
 
-To make a new CRA project, use `npx create-react-app project-name-goes-here`. This will create a new React project with all of the pieces needed to make it work installed and wired together already.
+To make a new CRA project, use `npx create-react-app project-name-goes-here`. This creates a new React project with all of the necessary parts installed and wired together.
 
 ![Running npx create-react-app project-name-goes-here](assets/cra-1.png)
 
@@ -32,7 +32,7 @@ All of your React components go in this directory. The `App.js` file is consider
 
 After creating an app with CRA, don't forget you still need to `cd` into the folder.
 
-If port 3000 is already being used on your computer (such as by another instance of CRA), you will be asked if you would like to server the app on another port instead.
+If port 3000 is already being used on your computer (such as by another instance of CRA), you will be asked if you would like to serve the app on another port instead.
 
 ## Additional Resources
 
