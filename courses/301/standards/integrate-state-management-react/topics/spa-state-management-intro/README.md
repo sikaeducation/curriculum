@@ -1,6 +1,6 @@
 # Intro to SPA State Management
 
-For many types of data, it makes sense to pass the data through a hierarchy of components. For example, a component that displays that displays details about a product might accept a `product` object, and then continue passing that object (in whole or in part) down through components that display the name of the product and other attributes, display reviews and related products, and so on. This is called prop-drilling.
+For many types of data, it makes sense to pass the data through a hierarchy of components. For example, a component that displays details about a product might accept a `product` object, and then continue passing that object (in whole or in part) down through components that display the name of the product and other attributes, display reviews and related products, and so on. This is called prop-drilling.
 
 There are other types of data that are owned by the app itself. These include:
 
