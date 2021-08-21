@@ -4,13 +4,13 @@
 
 * [Intro to Git](topics/git-intro)
 * [Git Repositories](topics/git-repositories)
-  * [Exercises](topics/git-repositories/exercises)
+  * [Exercises](topics/git-repositories/exercises.md)
 * [Git Staging](topics/git-staging)
-  * [Exercises](topics/git-staging/exercises)
+  * [Exercises](topics/git-staging/exercises.md)
 * [Git Commits](topics/git-commits)
-  * [Exercises](topics/git-commits/exercises)
+  * [Exercises](topics/git-commits/exercises.md)
 * [Git Remotes](topics/git-remotes)
-  * [Exercises](topics/git-remotes/exercises)
+  * [Exercises](topics/git-remotes/exercises.md)
 
 ## Assessments
 

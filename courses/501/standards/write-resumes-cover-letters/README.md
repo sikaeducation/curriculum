@@ -3,13 +3,13 @@
 ## Topics
 
 * [Intro to Job Applications](topics/job-application-intro)
-  * [Exercises](topics/job-application/exercises)
+  * [Exercises](topics/job-application/exercises.md)
 * [Job Application Strategy](topics/job-application-strategy)
-  * [Exercises](topics/job-application-strategy/exercises)
+  * [Exercises](topics/job-application-strategy/exercises.md)
 * [Resumes](topics/resumes-intro)
-  * [Exercises](topics/resumes-intro/exercises)
+  * [Exercises](topics/resumes-intro/exercises.md)
 * [Cover Letters](topics/cover-letter-intro)
-  * [Exercises](topics/cover-letter-intro/exercises)
+  * [Exercises](topics/cover-letter-intro/exercises.md)
 
 ## Assessments
 

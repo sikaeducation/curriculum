@@ -4,9 +4,9 @@
 
 * [Intro to Problem Analysis](topics/problem-analysis-intro)
 * [Understanding the Problem](topics/polya-understanding-the-problem)
-  * [Exercises](topics/polya-understanding-the-problem/exercises)
+  * [Exercises](topics/polya-understanding-the-problem/exercises.md)
 * [Enumerating Solutions](topics/polya-enumerating-solutions)
-  * [Exercises](topics/polya-enumerating-solutions/exercises)
+  * [Exercises](topics/polya-enumerating-solutions/exercises.md)
 
 ## Assessments
 

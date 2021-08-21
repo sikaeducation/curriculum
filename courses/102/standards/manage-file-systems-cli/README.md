@@ -3,13 +3,13 @@
 ## Topics
 
 * [Intro to CLI](topics/cli-intro)
-  * [Exercises](topics/cli-file-management-1/exercises)
+  * [Exercises](topics/cli-file-management-1/exercises.md)
 * [CLI Navigation](topics/cli-navigation-1)
-  * [Exercises](topics/cli-file-management-1/exercises)
+  * [Exercises](topics/cli-file-management-1/exercises.md)
 * [CLI File Management](topics/cli-file-management-1)
-  * [Exercises](topics/cli-file-management-1/exercises)
+  * [Exercises](topics/cli-file-management-1/exercises.md)
 * [CLI Flags and Arguments](topics/cli-flags-and-arguments)
-  * [Exercises](topics/cli-file-management-1/exercises)
+  * [Exercises](topics/cli-file-management-1/exercises.md)
 
 ## Assessments
 
