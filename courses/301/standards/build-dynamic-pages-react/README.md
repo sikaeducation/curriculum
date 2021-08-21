@@ -19,4 +19,4 @@
 
 ## Assessment
 
-[Conference Registration](assessments/conference-registration)
+[Recipe Hero](assessments/recipe-hero-react)
