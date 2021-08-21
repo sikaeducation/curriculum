@@ -1,8 +1,0 @@
-# JSX: Exercises
-
-## Questions
-
-
-## Activities
-
-
