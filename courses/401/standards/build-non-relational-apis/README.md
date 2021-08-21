@@ -32,3 +32,7 @@
   * [Exercises](topics/express-helmet/exercises)
 
 ## Assessments
+
+* [Serve Team Data](https://github.com/sikaeducation/serve-team-data)
+* [Serve Player Data](https://github.com/sikaeducation/serve-player-data)
+* [Serve Fan Data](https://github.com/sikaeducation/serve-fan-data)
