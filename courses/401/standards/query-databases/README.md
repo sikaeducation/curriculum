@@ -16,3 +16,5 @@
   * [Exercises](topics/sql-left-joins/exercises)
 
 ## Assessments
+
+* [SQL Murder Mystery](https://github.com/sikaeducation/sql-murder-mystery)

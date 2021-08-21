@@ -34,3 +34,7 @@
   * [Exercises](topics/objection-modeling-many-many/exercises)
 
 ## Assessments
+
+* [Colleges and Athletes](https://github.com/sikaeducation/api-development-colleges-and-athletes/)
+* [Teams and Athletes](https://github.com/sikaeducation/api-development-teams-and-athletes/)
+* [Teams and Games](https://github.com/sikaeducation/api-development-teams-and-games/)

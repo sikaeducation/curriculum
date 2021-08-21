@@ -18,3 +18,7 @@
   * [Exercises](topics/environment-variables/exercises)
 * [Express: Protecting Routes](topics/express-protecting-routes)
   * [Exercises](topics/express-protecting-routes/exercises)
+
+## Assessments
+
+* [Classified](https://github.com/sikaeducation/classified)
