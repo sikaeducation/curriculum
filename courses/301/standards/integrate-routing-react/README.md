@@ -11,6 +11,6 @@
 * [Nested Routes](topics/react-nested-routes)
   * [Exercises](topics/react-nested-routes/exercises)
 
-## Assessments
+## Assessment
 
-[Shoe Store Routing](assessments/shoe-store-react)
+[Shoe Store Routing](https://github.com/sikaeducation/shoe-store-react)

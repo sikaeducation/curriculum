@@ -19,4 +19,4 @@
 
 ## Assessment
 
-[Recipe Hero](assessments/recipe-hero-react)
+[Recipe Hero](https://github.com/sikaeducation/recipe-hero-react)

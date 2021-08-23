@@ -29,4 +29,4 @@
 
 ## Assessment
 
-* [WineFlix](assessments/wineflix-react)
+[WineFlix](https://github.com/sikaeducation/wineflix-react)
