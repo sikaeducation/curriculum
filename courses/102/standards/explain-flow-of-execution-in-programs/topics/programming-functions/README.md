@@ -173,7 +173,7 @@ double(someNumber)
 add(someNumber, 5)
 ```
 
-In this example, `someNumber` and 5 are both arguments. You can think of parameters as the "theoretical" way something will be used and arguments as the "actual" for how something will be used.
+In this example, `someNumber` and 5 are both arguments. You can think of parameters as the theoretical way something will be used and arguments as the actual for how something will be used.
 
 ## Watch Out!
 

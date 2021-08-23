@@ -11,8 +11,6 @@ There are a many ways to collect input:
 * In a data API program, input usually comes from HTTP requests
 * In a hardware program, input usually comes from either passive sensors on the device or user interactions
 
-These exercises will focus more on output than input for right now.
-
 ## Output
 
 There are also many ways to generate output:

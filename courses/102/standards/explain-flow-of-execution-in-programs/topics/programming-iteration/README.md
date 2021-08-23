@@ -14,7 +14,7 @@ for (let number of numbers){
 // Prints 1, 2, 3, 4, then 5 to the screen
 ```
 
-In a `for..in` loop, you pick a variable name to represent each item in the array, which will then be available to you inside the block. You can name it anything you want, but it's typical for an array to be plural and the item to be singular.
+In a `for..of` loop, you pick a variable name to represent each item in the array, which will then be available to you inside the block. You can name it anything you want, but it's typical for an array to be plural and the item to be singular.
 
 ```js
 for (let user of users){
