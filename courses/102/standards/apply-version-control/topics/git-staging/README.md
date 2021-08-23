@@ -33,3 +33,10 @@ This will bring up a dialog for each hunk. Press `y` to stage it, `n` to ignore 
 ## Unstaging
 
 You can unstage a file by using `git reset file-name-goes-here`. You can unstage all changes since your last commit with `git reset` without any arguments. Note that this doesn't undo any changes in the files, it only moves them from staged to unstaged.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Git: Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository) | Git's guide to staging |
+| [Atlassian: Saving Changes](https://www.atlassian.com/git/tutorials/saving-changes) | Atlassian's guide to staging |

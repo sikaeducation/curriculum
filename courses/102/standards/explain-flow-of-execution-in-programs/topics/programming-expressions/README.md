@@ -45,3 +45,10 @@ Some examples of expressions:
 * `!someTruthyValue` is the same as `false`
 * `theNumberTen / theNumberFive` is the same as `2`
 * `[2, 4].includes(four)` is the same as `true`
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators) | MDN's guide to expressions |
+| [MDN: Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators) | MDN's reference for expressions |

@@ -4,7 +4,7 @@ When you manage files in a graphical file manager, you double-click to open file
 
 ## Files
 
-In the CLI, there are only files and directories (also called folders). Directories work exactly like the ones you're used to using in graphical OSes, and all the normal files--text documents, images, music, and so on--are also available. Things like programs, input, and even different processes in the computer are also represented by files, which gives you some really powerful ways to combine them. Unlike in most graphical file managers, there are no "extensions". The characters at the end of a file (like `.txt`, `.js`, `.md`, `.zip`) are just part of the name and carry no other meaning. Files and folders that start with a `.` (like `.bashrc` and `.ssh`) are considered "hidden", and are only listed if you explicitly ask for them.
+In the CLI, there are only files and directories, which are also called folders. Directories work exactly like the ones you're used to using in graphical OSes, and all the normal files such as text documents, images, and music are also used. Things like programs and user input are also represented by files. For the most part, the file extension characters at the end of a file (like `.txt`, `.js`, `.md`, `.zip`) are just part of the name and carry no other meaning. Files and folders that start with a `.` (like `.bashrc` and `.ssh`) are considered hidden and are only displayed if you explicitly ask for them.
 
 ## Creating Files
 
@@ -12,7 +12,7 @@ To create a blank file, use the `touch` command:
 
 ![Creating files on the command line](assets/cli-1.png)
 
-The touch command was originally intended to update the "last modified" time of a file to now (and it still does that). If the file doesn't exist, it creates it.
+The touch command was originally intended to update the _last modified_ time of a file. If the file doesn't exist, it creates it.
 
 ## Creating Directories
 
@@ -22,11 +22,11 @@ To create an empty directory, use the the `mkdir` command:
 
 ## Reading files
 
-To see what's in a file, use the `cat` command.
+To see the contents of a file, use the `cat` command.
 
 ![Reading a file](assets/cli-3.png)
 
-`cat` is short for "concatenate", and was designed to be used to print the combined contents of a multiple files. If you only give it one file though, it prints the contents of the file to the screen.
+`cat`, short for _concatenate_, was designed to be used to print the combined contents of a multiple files. If you only give it one file though, it prints the contents of the file to the screen.
 
 ## Moving files and folders
 
@@ -55,7 +55,7 @@ To copy a file, use the `cp` command:
 
 ![Copying a file](assets/cli-7.png)
 
-To copy a folder, you need to add the `-r` ("recursive") flag:
+To copy a folder, you need to add the `-r` (_recursive_) flag:
 
 ![Copying a directory](assets/cli-8.png)
 
@@ -65,15 +65,15 @@ To delete a file, use the `rm` command:
 
 ![Deleting a file](assets/cli-9.png)
 
-To delete a folder, use the `-r` ("recursive") flag:
+To delete a folder, use the `-r` (_recursive_) flag:
 
 ![Deleting a directory](assets/cli-10.png)
 
-Note that this only works if the directory doesn't have any files in it. To delete a folder _and_ its contents, you need to add the `-f` ("force") flag:
+Note that this only works if the directory doesn't have any files in it. To delete a folder _and_ its contents, you need to add the `-f` (_force_) flag:
 
 ![Deleting a directory](assets/cli-11.png)
 
 ## Watch Out!
 
 * Be careful using `/`. Any path that starts with `/` is an absolute path. So, `mv old new` takes a file called `old` and renames it `new`, but `mv old /new` takes a file called `old`, moves to the root directory, and renames it `new`.
-* `rm` is a very dangerous command. By default, you will not be prompted to ask if you're sure you want to delete something, which means you can accidentally entire projects and even large parts of your computer by not using it carefully. You can use the `-i` flag ("interactive") to make the CLI prompt you to ask if you're sure you want to delete something.
+* `rm` is a very dangerous command. By default, you will not be prompted to ask if you're sure you want to delete something, which means you can accidentally entire projects and even large parts of your computer by not using it carefully. You can use the `-i` flag (_interactive_) to make the CLI prompt you to ask if you're sure you want to delete something.

@@ -12,7 +12,7 @@ git@github.com:githubtraining/example-basic.git
 
 This will copy the repo from GitHub's computers to your computer, into a folder called `example-basic` in your current directory.
 
-Cloning a repository from a remote repo usually means authenticating somehow. If you clone a repo using GitHub's "SSH" option:
+Cloning a repository from a remote repo usually means authenticating somehow. If you clone a repo using GitHub's SSH option:
 
 ![Cloning from GitHub with SSH](assets/github-1.png)
 
@@ -34,9 +34,7 @@ Instead of cloning a repo, you can make one locally with `git init` and push it 
 git remote add origin git@github.com:githubtraining/example-basic.git
 ```
 
-This enables you to "push" your copy of the Git repo to GitHub and "pull" GitHub's copy of the repo to your computer to get the latest changes.
-
-If you make a mistake (such as adding the browser URL instead of the `.git` URL), you can fix it with `set-url`:
+This enables you to push your copy of the Git repo to GitHub and pull GitHub's copy of the repo to your computer to get the latest changes. If you make a mistake (such as adding the browser URL instead of the `.git` URL), you can fix it with `set-url`:
 
 ```
 git remote set-url origin git@github.com:githubtraining/example-basic.git
@@ -81,3 +79,12 @@ From github.com:github-user/repo-name
 ## Pull Before Push
 
 If the Git remote has commits that you don't have yet, you will need to `git pull origin master` before you can `git push origin master`. This is because if there are any problems syncing the two repos, you will need to resolve them on your computer before pushing remotely.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Git: Remotes](https://git-scm.com/docs/git-remote) | Git's official reference for remotes |
+| [Git: Git Basics - Working With Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) | Git's official guide to remotes |
+| [Atlassian: Git Syncing](https://www.atlassian.com/git/tutorials/syncing) | Atlassian's guide to Git syncing |

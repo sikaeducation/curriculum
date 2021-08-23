@@ -1,8 +1,8 @@
 # Introduction to Git
 
-Git is a tool for keeping track of different versions of files. Here are some things you can do with it:
+Git is a tool for keeping track of different versions of files. Git helps you:
 
-* Make "save points" in your projects that you can go back to
+* Make save points in your projects that you can go back to
 * Experiment with ideas in branches, discard them if they don't work, and then merge them in with the rest of the code if they do
 * Enable multiple people (potentially thousands) working on the same files at the same time
 
@@ -40,7 +40,7 @@ git add index.css
 git commit -m "Add styles to index.html"
 ```
 
-Turns out, you're not crazy about these styles, so you undo the last commit:
+You're not crazy about these styles so you undo the last commit:
 
 ```bash
 git reset --hard HEAD~1
@@ -50,7 +50,7 @@ Now your code has the changes you've made to the HTML, but not the changes you m
 
 ## Git Is Complicated
 
-Git is a really powerful tool that can do much more than this example. Unfortunately, that comes with a lot of complexity, and a even "beginner" Git tutorials can get intimidating very quickly. Fortunately, it's OK to memorize a couple of Git commands to get started. It's not necessary to have a clear mental model of how Git works to get started, and you can always go deeper later.
+Git is a really powerful tool that can do much more than this example. Unfortunately, that comes with a lot of complexity, and a even beginner Git tutorials can get intimidating very quickly. Fortunately, it's OK to memorize a couple of Git commands to get started. It's not necessary to have a clear mental model of how Git works to use it and you can always go deeper later.
 
 ## Git Is Not GitHub
 
@@ -59,12 +59,6 @@ Git is a really powerful tool that can do much more than this example. Unfortuna
 GitHub is a commercial product (currently owned by Microsoft) that stores Git repositories in the cloud, manages access to them, and offers a suite of tools for enabling efficient collaboration on them. Its major competitors are [Bitbucket](https://bitbucket.org/) (owned by [Atlassian](https://www.atlassian.com/)) and [GitLab](https://about.gitlab.com/).
 
 You'll work with both tools in your career, but even early on it's important to distinguish between these.
-
-## Additional Resources
-
-| Resource | Description |
-| --- | --- |
-| [Atlassian's Git Tutorials](https://www.atlassian.com/git/tutorials) | The strongest collection of Git tutorials available. Free, covering everything from beginning to advanced tutorials. |
 
 ## Trivia
 
@@ -88,3 +82,10 @@ This is a stupid (but extremely fast) directory content manager.  It
 doesn't do a whole lot, but what it _does_ do is track directory
 contents efficiently.
 ```
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Free Code Camp: Learn the Basics of Git in Under 10 Minutes](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/) | Free Code Camp's tutorial on basic Git |
+| [Atlassian's Git Tutorials](https://www.atlassian.com/git/tutorials) | The strongest collection of Git tutorials available. Free, covering everything from beginning to advanced tutorials. |

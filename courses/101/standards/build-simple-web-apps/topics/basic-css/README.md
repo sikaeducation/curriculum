@@ -1,12 +1,10 @@
 # Basic CSS
 
-CSS ("Cascading Style Sheets") is a language for decorate content made with HTML. It's written in files called "style sheets" that have a `.css` extension. CSS files are "linked" from HTML files, and the CSS files contain selectors and declarations that describe how the HTML page should look.
+CSS ("Cascading Style Sheets") is a language for decorate content made with HTML. It's written in files called stylesheets that have a `.css` extension. CSS files are "linked" from HTML files, and the CSS files contain selectors and declarations that describe how the HTML page should look.
 
 ## CSS Selectors
 
-To style an HTML element, you need to write code in CSS that "selects" it.
-
-You can either select all elements with the same tag, or you can select an element by its ID by putting a `#` in front of the ID.
+To style an HTML element, you need to write code in CSS that selects it. You can either select all elements with the same tag, or you can select an element by its ID by putting a `#` in front of the ID.
 
 ```html
 <h1>This is a heading</h1>

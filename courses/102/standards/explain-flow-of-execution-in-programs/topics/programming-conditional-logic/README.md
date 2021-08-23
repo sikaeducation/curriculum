@@ -59,7 +59,7 @@ if (zipCode.length === 5){
 
 ## Watch Out!
 
-The most common mistake you're likely to make when using comparisons in conditional logic is to mix up the assignment operator (`=`) with one the comparison operator (`===`). In some languages (including JavaScript), the result of an assignment is `undefined`, so this:
+The most common mistake you're likely to make when using comparisons in conditional logic is to mix up the assignment operator (`=`) with one the comparison operator (`===`). In some languages, the result of an assignment is `undefined`, so this will never run:
 
 ```js
 const zipCode = "80239"
@@ -67,8 +67,6 @@ if (zipCode.length = 5){
   console.log("No chance")
 }
 ```
-
-Will never run.
 
 ---
 

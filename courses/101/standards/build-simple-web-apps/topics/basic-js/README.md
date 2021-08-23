@@ -1,18 +1,16 @@
 # Basic JavaScript
 
-JavaScript (also called JS) is a programming language for adding actions to web pages. JavaScript can read and write any part of a web page, and this is especially powerful when combining user input (like forms), user interaction (like button presses), and existing data. JavaScript can be used to look up search results and display them on a page, subscribe users to a newsletter, power eCommerce sites, and much more.
+JavaScript, also called JS, is a programming language for adding actions to web pages. JavaScript can read and write any part of a web page, which is especially powerful when integrating user input (like forms), user interaction (like button presses), and data. JavaScript can be used to look up search results and display them on a page, subscribe users to a newsletter, power eCommerce sites, and much more.
 
 ## Logging
 
-One of the easiest ways to examine the code you write in JavaScript is to log it.
+One of the easiest ways to inspect the results of JavaScript code is to log it:
 
 ![Demonstrating console.log](assets/js-console-log.png)
 
 [Play with this code](https://codesandbox.io/s/musing-snow-75qxo?file=/index.js)
 
-When you use `console.log()`, anything between the parentheses will be printed to the console. The console isn't the same thing as the "screen"- you have to specifically open the console and most users will not see content that you put here. It's useful for testing your code and examining what different things do.
-
-To open up the console in a browser:
+When you `console.log()`, anything between the parentheses will be printed to the console. The console isn't the same thing as the screen; you have to specifically open the console and most users will not see content that you put here. It's primarily used to test your code and examine what different things do. To open up the console in a browser:
 
 * Mac: ⌘ + ⇧ + `j`
 * Windows and Linux: `Control` + ⇧ + `j`
@@ -26,9 +24,9 @@ const firstName = "Carlos"
 console.log(firstName) // Prints "Carlos"
 ```
 
-We can declare variables with `const`, give the variable a name, and then set it equal to a value. When saving words in variables, note that you need to wrap them in quotes. Be careful about which quotes you use! `""` is not the same as `‟”` (look at the curls). When you write in a word processor like Word or Google Docs, the software generally replaces the `'` and `"` characters with "smart quotes." These won't work in programming, always write code in a text editor instead of a word processor.
+You can declare variables with `const`, give the variable a name, and then set it equal to a value. When saving words in variables, note that you need to wrap them in quotes. Be careful about which quotes you use! `""` is not the same as `‟”` (look at the curls). When you write in a word processor like Word or Google Docs, the software generally replaces the `'` and `"` characters with typographer's quotes. These won't work in programming, so always write code in a text editor instead of a word processor.
 
-When a variable is multiple words, it's conventional to lowercase all of the first word and use uppercase for the first letter the other words. This is called "camelCase".
+When a variable is multiple words, it's conventional to lowercase all of the first word and use uppercase for the first letter the other words. This is called camelCase.
 
 ## DOM Methods
 
@@ -69,7 +67,7 @@ substituteWords()
 substituteWords()
 ```
 
-One of the ways functions help us is that we execute them in response to a user action, like a click. For example, if your HTML has a `<button>`:
+One of the ways functions are used is in response to a user action, like a click. For example, if your HTML has a `<button>`:
 
 ```html
 <label for="text-input">Text Input</label>

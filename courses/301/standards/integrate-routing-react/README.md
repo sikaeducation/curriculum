@@ -12,3 +12,5 @@
   * [Exercises](topics/react-nested-routes/exercises)
 
 ## Assessments
+
+[Shoe Store Routing](assessments/shoe-store-react)

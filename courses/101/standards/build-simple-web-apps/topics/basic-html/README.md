@@ -1,8 +1,6 @@
 # Basic HTML
 
-HTML ("HyperText Markup Language") is used to write the content of websites. Any text, images, inputs, outputs, and buttons are written in HTML files that have a `.html` extension. Every website should have at least one file called `index.html`, because this is what browsers will try to display by default when you go to a website.
-
-The first thing you need to know about HTML is how to write an HTML tag.
+HyperText Markup Language, or HTML, is used to write the content of websites. Any text, images, inputs, outputs, and buttons are written in HTML files that have a `.html` extension. Every website should have at least one file called `index.html`, because this is what browsers will try to display by default when you go to a website.
 
 ## Anatomy Of An HTML Tag
 
@@ -138,7 +136,7 @@ Since HTML is whitespace-insensitive, it's often technically valid to leave lots
 
 ## Watch Out!
 
-Be careful of typographer's quotes! Most word processing programs like Word and Google Docs will substitute the `"` and `'` characters for `“`/`”` and `‘`/`’` characters (look for the curls). These are called "typographer's quotes", and cannot be used for HTML attributes. Always write your code in a text editor, not in a word processor!
+Be careful of typographer's quotes! Most word processing programs like Word and Google Docs will substitute the `"` and `'` characters for `“`/`”` and `‘`/`’` characters (look for the curls). These are called typographer's quotes, and cannot be used for HTML attributes. Always write your code in a text editor, not in a word processor!
 
 ## Additional Resources
 

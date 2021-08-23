@@ -6,10 +6,10 @@ Another application of Boolean logic is making statements that compare the value
 
 There are four basic boolean comparison operators:
 
-* `===` - Equal to
-* `!==` - Not equal to
-* `<`/`<=` - Less than / Less than or equal to
-* `>`/`>=` - Greater than / Greater than or equal to
+* **`===`**: Equal to
+* **`!==`**: Not equal to
+* **`<`/`<=`**: Less than / Less than or equal to
+* **`>`/`>=`**: Greater than / Greater than or equal to
 
 ### Equal to
 
@@ -44,19 +44,19 @@ The greater than operator `>`/`>=` and the less than operator `<`/`<=` are used 
 
 ## Using Boolean Comparisons in Boolean Expressions
 
-Since Boolean comparison statements evaluate to true or false, they can be used in the same kinds of expressions that `NOT`, `AND`, and `OR` can be used in. If you take this expression:
+Since Boolean comparisons evaluate to true or false, they can be used in the same kinds of expressions that `NOT`, `AND`, and `OR` can be used in. If you take this expression:
 
 ```
 (true && false) || (true || !true) = true
 ```
 
-You could swap `true` and `false` for comparison statements and end with the same result:
+You could swap `true` and `false` for comparisons and end with the same result:
 
 ```js
 (5 === 5 && 5 < 3) || ("Hello, world!" || !true) = true
 ```
 
-And you could replace those statements with variables that evaluate to those values:
+And you could replace those comparisons with variables that evaluate to those values:
 
 ```js
 const someArray = ["a", "b", "c", "d", "e"] 
@@ -68,9 +68,14 @@ const isActive = true
 
 ## Watch Out!
 
-* It's easy to get the order wrong on the characters for greater than or equal to and less than or equal to. Remember that they follow the same order as how they're commonly said:
+It's easy to get the order wrong on the characters for greater than or equal to and less than or equal to. Remember that they follow the same order as how they're commonly said:
 
 * `>=` is "Greater than or equal to"
 * `<=` is "Less than or equal to"
 
-It's not `=>` or `=<` because you wouldn't say "Equal to or less than."
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators) | MDN's guide to comparison operators in JavaScript |
+| [W3Schools: JavaScript Comparison and Logical Operators](https://www.w3schools.com/js/js_comparisons.asp) | W3School's tutorial on boolean comparison |

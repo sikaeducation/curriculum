@@ -1,6 +1,6 @@
 # Git: Commits
 
-A Git commit represents a specific "save point" in the history of your code. How do you make them?
+Git commits represent a specific save point in the history of your code. How do you make them?
 
 ## Unit of Work
 
@@ -35,9 +35,9 @@ Once you've staged files you want to commit, run `git commit -m "Enter a message
 
 Commit messages should be written in "present imperative." That means it's written as a command in the present tense:
 
-* "Fix the bug"
-* "Add the feature"
-* "Remove the duplication"
+* `Fix the bug`
+* `Add the feature`
+* `Remove the duplication`
 
 This can feel a little awkward because it would usually be considered rude to say to someone. A commit message is not a description of what **you** did, it's a description of what you're ordering the computer to do. This convention helps stay consistent with Git itself. Here's a partial list of present imperative verbs you can use to start commit messages:
 
@@ -60,7 +60,14 @@ This can feel a little awkward because it would usually be considered rude to sa
 
 ![Vim commit messages](assets/vim.png)
 
-Vim is a "modal text editor", which means that each key on the keyboard does more than just type characters. For now, learn how to exit out of it:
+Vim is a modal text editor, which means that each key on the keyboard does more than just type characters. For now, learn how to exit out of it:
 
 1. Press `ESC` 3 times
 2. Type `ZQ`. Note the capitals- that is `Shift` + `z`, followed by `Shift` + `q`. This quits without saving.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Git: Commit](https://git-scm.com/docs/git-commit) | Git's official reference on commiting |
+| [Atlassian: Git Commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit) | Atlassian's guide to Git commits |

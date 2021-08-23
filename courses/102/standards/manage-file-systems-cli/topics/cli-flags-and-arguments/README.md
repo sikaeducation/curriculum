@@ -26,15 +26,13 @@ Flags are options for commands. They take two forms:
 
 ### Short Flags
 
-Most of the flags you'll use are short flags. They're represented by a single dash followed by a single letter:
+Most of the flags you'll use are short flags. Short flags are a single dash followed by a single letter:
 
 ```bash
 ls -l
 ```
 
-This example passes the "l" short flag to the `ls` program, which makes it do a "long" listing.
-
-The nice thing about short flags is that they can be combined. You can combine the `-l` short flag and the `-a` short flag to make `-la`:
+This example passes the `l` short flag to the `ls` program, which makes it do a long listing. Short flags can be combined, like adding the `-l` and `-a` short flags to make `-la`:
 
 ```bash
 ls -la
@@ -49,7 +47,7 @@ ls -al
 
 ### Long Flags
 
-Long flags are represented by two dashes followed by words:
+Long flags are two dashes followed by words:
 
 ```bash
 rm --recursive some-full-directory
@@ -59,14 +57,14 @@ Long flags are descriptive, but take longer to type and can't be chained togethe
 
 ### Long and Short Flags
 
-Many flags have both long and short versions. These are identical:
+Many flags have both long and short versions. For example, these are the same:
 
 ```bash
 ls -r
 ls --recursive
 ```
 
-Not every short flag has long equivalent, and not every long flag has a short equivalent.
+Not every short flag has long equivalent and vice-versa.
 
 ### Using Arguments and Flags
 
@@ -76,16 +74,25 @@ Some commands take flags and arguments:
 rm -rf some-folder
 ```
 
+When using flags and arguments, order often matters. Refer to the documentation for the command to be sure.
+
 ### Using Flags with Arguments
 
-Some commands take flags that have their own arguments, and these take a couple of forms. They may just look like regular arguments that are placed after the flag:
+Some commands take flags that have their own arguments. Some look like regular arguments that are placed after the flag:
 
 ```bash
 ffmpeg -i input-file -o output-file
 ```
 
-Or they may be something like `=` to separate them:
+Or they may be separated by a character like `=`:
 
 ```bash
 git log --pretty=oneline
 ```
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Heroku: CLI Flags in Practice](https://blog.heroku.com/cli-flags-get-started-with-oclif) | Heroku's blog on CLI flags |
+| [MDN: Introducing Command Options](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#introducing_command_options) | MDN's crash course on CLI command options |

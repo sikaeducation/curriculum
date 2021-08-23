@@ -34,7 +34,7 @@ Lastly, you can describe locations relative to your home directory by using `~`:
 * The absolute path to the `documents` directory is `/home/some-user/documents`
 * It can also be written as `~/documents`
 
-Entering paths correctly by hand is tedious and error-prone. Luckily, you can use tab completiion to help you out. If you enter a couple of characters for the path you want and press `Tab`, the terminal will try to complete the rest of the path for you. If there's more than one possible match, you can press `Tab` repeatedly to cycle through options. This accomplishes two things: It saves you time typing, and it also ensures that the file or folder you're looking for actually exists. If the terminal can't tab complete a path, you're probably not in the right place.
+Entering paths correctly by hand is tedious and error-prone. Luckily, you can use tab completion to help you out. If you enter a couple of characters for the path you want and press `Tab`, the terminal will try to complete the rest of the path for you. If there's more than one possible match, you can press `Tab` repeatedly to cycle through options. This accomplishes two things: It saves you time typing, and it also ensures that the file or folder you're looking for actually exists. If the terminal can't tab complete a path, you're probably not in the right place.
 
 ## Finding out where you are
 
@@ -54,7 +54,7 @@ ls
 some-directory some-file.md some-other-file-md
 ```
 
-You can use the `-l` ("long listing") flag to see all the files and folders listed one-per-line, as well as other information about them:
+You can use the `-l`, or long listing, flag to see all the files and folders listed one-per-line, as well as other information about them:
 
 ```
 ls -l
@@ -64,7 +64,7 @@ drwxrwxr-x 2 username-here username-here 4096 Jul  3 10:12 some-directory
 -rw-rw-r-- 1 username-here username-here   23 Jul  3 10:13 some-other-file.md
 ```
 
-You can use the `-a` ("all") flag to see all files including hidden files, which are files that start with a `.`:
+You can use the `-a`, or all, flag to see all files including hidden files, which are files that start with a `.`:
 
 ```
 ls - a
@@ -130,4 +130,10 @@ cd ~/some-folder                                    # Move to your home director
 
 ## Watch Out!
 
-* You can only `cd` into folders, not files.
+*You can only `cd` into folders, not files.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Navigation on the Command Line](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#navigation_on_the_command_line) | Navigation on the Command Line |

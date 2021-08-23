@@ -22,11 +22,11 @@ Check out this example of a [finished MadLibs app](https://madlibs-workshop.web.
 
 ## Steps
 
-* Read through the final activity. This our target, so keep referring back to it throughout the workshop!
-* Read the HTML lesson
-* Do the HTML exercises
-* Read the JavaScript lesson
-* Do the JavaScript exercises
-* Read the CSS lesson
-* Do the CSS exercises
-* Start building your own MadLibs app!
+1. Read through the final activity. This the goal, so keep referring back to it throughout the workshop.
+2. Read the HTML lesson.
+3. Do the HTML exercises.
+4. Read the JavaScript lesson.
+5. Do the JavaScript exercises.
+6. Read the CSS lesson.
+7. Do the CSS exercises.
+8. Start building your own MadLibs app.

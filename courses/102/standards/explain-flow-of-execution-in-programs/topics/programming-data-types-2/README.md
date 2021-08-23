@@ -21,7 +21,7 @@ const names = ["Alice", "Bill", "Carol"]
 This makes it easy to do something to every item in the array:
 
 ```js
-for (name in names){
+for (name of names){
   console.log(name) // Prints "Alice", then "Bill", then "Carol"
 }
 ```
@@ -88,7 +88,7 @@ const alice = {
 }
 
 console.log(alice.firstName)                // Prints "Alice"
-for (let instrument in alice.instruments){
+for (let instrument of alice.instruments){
   console.log(instrument)                   // Prints "piano", then "harp"
 }
 console.log(alice.birthplace.city)          // Prints "Detroit"
@@ -155,3 +155,10 @@ const songs = [{
 ```
 
 This powerful combination of data types allows you to build and work with collections that can represent almost any type of real-world data.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [MDN: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | MDN's guide to arrays |
+| [Modern JavaScript Tutorial: Arrays](https://javascript.info/array) | Modern JavaScript Tutorial's article on arrays |

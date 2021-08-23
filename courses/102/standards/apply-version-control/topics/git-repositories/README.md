@@ -1,6 +1,6 @@
 # Git: Repositories
 
-A Git repository or "repo" is a folder containing not only files, but every state those files have ever been in. Git offers many tools for inspecting those different states, and even rolling back your files to one of those states if necessary. Git does all of this very efficiently, so repo file sizes stay very small. This makes it feasible for everyone working with a repository to maintain a complete copy.
+A Git repository, or repo, is a folder containing not only files, but every state those files have ever been in. Git offers many tools for inspecting those different states, and even rolling back your files to one of those states if necessary. Git does all of this very efficiently, so repo file sizes stay very small. This makes it feasible for everyone working with a repository to maintain a complete copy.
 
 ## Local Respositories
 
@@ -28,3 +28,10 @@ You can look at this code, make changes to it, or even use it as the basis for y
   2. If you do, run `rm -rf .git` to remove it
   3. Otherwise, run `cd ..` to move up a directory
   4. Repeat until you find a folder with a `.git` folder in it to remove
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Git: Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) | Git's guide to Git repositories |
+| [Atlassian: Setting up a repository](https://www.atlassian.com/git/tutorials/setting-up-a-repositoryGit) | Atlassian's guide to Git repositories |
