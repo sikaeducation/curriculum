@@ -89,7 +89,7 @@ These plugins highlights errors in your text editor automatically, and depending
 
 ## Using ESLint
 
-Text editor plugins will usually do most of the work, but these commands that may be useful as well:
+Text editor plug-ins will usually do most of the work, but these commands that may be useful as well:
 
 ```bash
 # This command prints any errors

@@ -36,7 +36,7 @@ Some things you can do with the element inspector:
 * See where (or whether) an element is being rendered
 * Temporarily change the content of an element, its tag name, or any of its attributes by double-clicking on the thing you want to change and typing new values. They will all change back when the page is refreshed. 
 
-![Inspecting network requests](assets/dev-tools-4.gif)
+![Inspecting elements](assets/dev-tools-4.gif)
 
 * See how the browser interpreted the HTML you wrote. What you see in the Element Inspector isn't necessarily what you wrote; If you didn't close tags correctly or otherwise wrote invalid HTML, the browser will make an effort to correct it. The HTML in the Element Inspector represents the browser's interpretation.
 
@@ -50,7 +50,7 @@ This can be used to isolate problems to either the browser or the server, as wel
 
 ## Watch Out!
 
-* It's common for browser plugins to add elements to the HTML you see in the Element Inspector
+* It's common for browser plug-ins to add elements to the HTML you see in the Element Inspector
 * The Network Inspector can get very "noisy" when a page is loading. You can use the filters to only look at the type of request you're interested in. It's easy to forget to reset this when you want to see all requests again!
 * There are minor differences between the dev tools available in different browsers and the tools are regularly updated, so some of the terms and images may be different on your computer.
 

@@ -11,7 +11,7 @@ The oldest and most widely-used HTML tag for images is the `<img>` tag. It's a s
 ```
 
 * The `src` attribute takes a URL or path to the image, the `alt` attribute describes what's in the image for screen readers.
-* The `<img>` tag supports jpegs, pngs, SVGs, and many other kinds of image files.
+* The `<img>` tag supports JPEGs, PNGs, SVGs, and many other kinds of image files.
 * By default, `<img>` is treated as an inline element (this can be changed with CSS)
 
 Good alt text is succinct. Include any text that's part of the image, unless that text is already in the page or part of a caption. Don't write "Image of", but indicating the type of image can be helpful, such as  "Portrait of". Basically, include things that are important to understanding why the image was used.

@@ -1,6 +1,6 @@
 # HTML: Lists
 
-How do we represent lists and collections semantically in HTML?
+How do you represent lists and collections semantically in HTML?
 
 ## List Syntax
 

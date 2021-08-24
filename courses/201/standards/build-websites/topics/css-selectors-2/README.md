@@ -1,6 +1,6 @@
 # CSS: Selectors: Descendant, Sibling, and Attribute
 
-You can select elements by tag name, class, or ID, and those are sufficient a lot of the time. How would you select an element based on what its parents or siblings are, or by some property that it has?
+You can select elements by tag name, class, or ID, and those are sufficient a lot of the time. How would you select an element based on what its parents or siblings are, or by some attribute that it has?
 
 ## Descendant Selectors
 

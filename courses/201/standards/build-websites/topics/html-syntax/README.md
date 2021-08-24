@@ -137,7 +137,7 @@ HTML attributes can be technically be enclosed in single or double-quotes. In ot
 
 Since HTML is whitespace-insensitive, it's often technically valid to leave lots of whitespace around your markup, like this: `< img src = " image.jpg " / >`. It is conventional to keep everything "trimmed" and only use spaces to separate multiple attributes: `<img src="image.jpg" alt="image description" />`.
 
-Be careful of typographer's quotes! Most word processing programs like Word and Google Docs will substitute the `"` and `'` characters for `“`/`”` and `‘`/`’` characters (look for the curls). These are called "typographer's quotes", and cannot be used for HTML attributes. Always write your code in a text editor, not in a word processor!
+Be careful of typographer's quotes! Most word processing programs like Word and Google Docs will substitute the `"` and `'` characters for `“`/`”` and `‘`/`’` characters (look for the curls). These are called "typographer's quotes", and cannot be used for HTML attributes. Always write your code in a text editor, not in a word processor.
 
 There are a lot of mistakes with HTML that your browser will automatically correct for you, such as leaving off closing tags or other required elements. This doesn't mean that these things aren't problems, it just means they aren't problems for that browser, yet. Not every browser corrects the same errors the same way, there's no guarantee that the way they fix them now will be the way they fix them later, and the fixes may hide other problems later in development.
 

@@ -12,7 +12,7 @@ It's available on the public internet and everyone can go to it.
 
 ## Deploying Sites
 
-There are many different deployment providers, but the easiest to get started with is [Surge](https://surge.sh). To deploy to Surge, run `npx surge`. After it downloads, you'll be prompted to create an account:
+There are many different static hosting providers, but the easiest to get started with is [Surge](https://surge.sh). To deploy to Surge, run `npx surge`. After it downloads, you'll be prompted to create an account:
 
 ![Creating an account on Surge](assets/cli-deployment-2.png)
 

@@ -75,7 +75,7 @@ shoppingList.unshift("Apple") // Adds to the beginning
 const thisWillBeApples = shoppingList.shift() // Removes "Apple" from `shoppingList`
 ```
 
-## Getting Part of a String
+## Getting Part of an Array
 
 To get part of an array, use the `.slice` method:
 
@@ -146,7 +146,7 @@ The reason array indexes start at 0 is because of how the data has historically 
 
 ![Diagram of an array with indexes](assets/array-zero-indexing-2.png)
 
-The address the computer stores for the location of the array is the location of the first element and the index you pass in is an "offset", or how many spaces over the computer should count to find the element you want.
+The memory address the computer stores for the location of the array is the location of the first element and the index you pass in is an "offset", or how many spaces over the computer should count to find the element you want.
 
 ## Additional Resources
 

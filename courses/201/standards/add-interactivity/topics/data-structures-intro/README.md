@@ -1,10 +1,6 @@
 # Introduction to Data Structures
 
-The first concept to explore in computer science is data structures. We've actually already encountered one already in JavaScript- the array.
-
-A data structure is a pattern for organizing, managing, and storing data in a computer. In practice, this means defining operations that a data structure can perform and data that it exposes. For example, an array:
-
-## Anatomy of Arrays
+The first concept to explore in computer science is data structures. You've actually already encountered one already in JavaScript- the array. A data structure is a pattern for organizing, managing, and storing data in a computer. In practice, this means defining operations that a data structure can perform and data that it exposes. For example, an array:
 
 ![Diagram of an Array](assets/arrays.png)
 
@@ -23,4 +19,4 @@ There are lots of other data structures, but very few of them are used directly 
 
 ## Watch Out!
 
-* A data structure is not the same thing as a data type. A string is a data type and it's used in data structures, but it's not a data structure itself. Data structures are made up of different data types (which are called "primitives").
+A data structure is not the same thing as a data type. A string is a data type and it's used in data structures, but it's not a data structure itself. Data structures are made up of different data types (which are called "primitives").

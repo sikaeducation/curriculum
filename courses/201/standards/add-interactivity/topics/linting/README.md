@@ -56,9 +56,9 @@ someArray.forEach(x => console.log(x));
 
 There are many linting style guides available, each of which is characterized by a collection of rules. Some examples of rules:
 
-* All strings must use single quotes, unless the string contains single quotes or include a template string
+* All strings must use single quotes, unless the string contains single quotes or include a template literal
 * When functions are declared, there should be one space after the `function` keyword
-* All arrays should have a dangling comma at the end of the list
+* All arrays should have a trailing comma at the end of the list
 * No line should be longer than 80 characters
 
 You can configure a linter to use any combination of rules it supports, and can even control whether or not the linter should warn you (let you know that it happened but otherwise leave it alone) or throw an error (attempt to fix it).
@@ -69,7 +69,7 @@ Combinations of rules are published as style guides. Some companies and teams ad
 * Standard
 * Google
 
-Even when using someone else's styleguide, you can add or override your own rules.
+Even when using someone else's style guide, you can add or override your own rules.
 
 ## Watch Out!
 

@@ -39,7 +39,7 @@ ul {
 }
 ```
 
-It's also common to have a combination of fixed units and relative units:
+It's also common to have a combination of absolute units and relative units:
 
 ```css
 ul {

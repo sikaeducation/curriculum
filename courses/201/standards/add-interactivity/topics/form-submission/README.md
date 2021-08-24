@@ -80,7 +80,7 @@ You can use this data to create DOM elements, send HTTP requests, and much more.
 
 ## Watch Out!
 
-* The `"submit"` event is fired by the `<form>`, not the the submit button
+* The `submit` event is fired by the `<form>`, not the the submit button
 * If the page reloads when you submit the form (look for a query string with the form values in the URL), the `submit` event did not have its default behavior prevented. This could be because `event.preventDefault()` wasn't called, or because the HTML page couldn't find the JavaScript file, or because the `submit` event listener was added to the wrong element.
 
 ## History

@@ -2,7 +2,7 @@
 
 There are a few styling concerns specific to forms.
 
-## `textarea`
+## `<textarea>`
 
 By default in most browsers, `<textarea>` elements are user-resizable and start with a modest height. You may wish to modify this behavior:
 
