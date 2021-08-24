@@ -13,9 +13,9 @@
 * [Query databases using SQL](standards/query-databases)
 * [Integrate identity management into APIs](standards/integrate-identity-management-apis)
 
-## Assessments
+## Assessment
 
-* []()
+[Production Full-Stack App](assessments/production-full-stack-app)
 
 ## Activities
 

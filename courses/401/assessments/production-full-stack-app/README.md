@@ -1,18 +1,22 @@
-# Production Website
+# Production Full-Stack App
 
 ## Features
 
 ### Multiple pages
 
-Your website should feature multiple pages, linked together, each with meaningful content. They should be be appropriately visually designed.
+Your app should feature multiple linked pages with meaningful content. They should be be appropriately visually designed. The page navigation should be managed with a routing library.
 
 ### API Integration
 
-Your website should integrate with at least one third-party API. You should transform the data to make the format suitable for your site. This data should be used to manipulate the DOM of the site. API errors should be handled.
+Your app should be able to perform all CRUD actions from the user interface with at least two related models from a backend you wrote. User data should be validated on both sides. 3rd party APIs may be included.
 
-### Form
+### Auth
 
-Your website should feature at least one form that collects user data. This data should be stored in the browser, and should have some integration with the data from your API. User data should be validated.
+Your app should include some personalization through authentication. All passwords should be securely hashed. Trying to access a secure resource directly should result in redirection to a login page.
+
+### Application State
+
+Your app should use some kind of application state. This state should be distributed through the app using an application state management technique.
 
 ## Definition of Done
 
@@ -22,17 +26,17 @@ Your site should have:
 * A 404 page
 * A commit history demonstrating that work was consistently saved
 * Responsive styling
-* A descriptive README explaining what the site is for, showing at least one sample image of the site, and linking to the deployed site
+* A descriptive README explaining what the app is for, include at least one sample image of the app, and link to the deployed site
+* Redirection from protected routes
 
 Additionally:
 
 * The site should pass the [WebAIM's WAVE test](https://wave.webaim.org/) with no errors or contrast errors
 * The HTML should pass the [W3C HTML Validator](https://validator.w3.org/)
-* The JavaScript should pass the [Standard](https://standardjs.com/) JS linter with no errors or warnings
 
 Finally:
 
-* The site should be deployed to a public URL using a cloud provider
+* Both the front-end and back-end should be deployed to a public URL using a cloud provider
 
 ## Rubric
 
@@ -41,6 +45,8 @@ Finally:
 The site:
 
 * [ ] - Features multiple pages, linked together, with meaningful content
+* [ ] - Uses a routing library
+* [ ] - Uses an application state management technique
 * [ ] - Integrates with an API
 * [ ] - Has a form that collects user data
 * [ ] - Passes WAVE with no errors or contrast errors

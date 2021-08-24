@@ -12,6 +12,6 @@
 * [Integrate routing into a single-page application](standards/integrate-routing-react)
 * [Integrate state management into a single-page application](standards/integrate-state-management-react)
 
-## Assessments
+## Assessment
 
-* []()
+[Production SPA](assessments/production-spa)
