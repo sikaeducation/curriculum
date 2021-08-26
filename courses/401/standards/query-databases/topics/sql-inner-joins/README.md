@@ -1,6 +1,6 @@
 # SQL: Inner Joins
 
-Writing queries for one table is straight-forward enough.
+Writing queries for one table is straight-forward:
 
 ```sql
 SELECT *
@@ -10,7 +10,7 @@ SELECT *
 FROM instructor;
 ```
 
-But how would you get all of one instructor's students?
+How would you get all of one instructor's students?
 
 ## Joins
 

@@ -9,3 +9,6 @@
   * `<StarRating />`
   * `user-addr.vue`
   * `<comments />`
+* Describe the naming convention used in React components.
+* What is a single-use component?
+* Differentiate between JSX and HTML.

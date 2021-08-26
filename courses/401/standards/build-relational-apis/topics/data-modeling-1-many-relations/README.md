@@ -36,7 +36,7 @@ In a schema diagram, the primary key is often marked with a PK in the first colu
 
 ### Foreign Keys
 
-Databases enforce relationships with columns that are marked as "foreign keys." A foreign key in one table is a primary key in another table.
+Databases enforce relationships with columns that are marked as foreign keys. A foreign key in one table is a primary key in another table.
 
 ![One author has many blog posts](assets/blog-post-author.png)
 

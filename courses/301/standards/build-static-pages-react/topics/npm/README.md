@@ -88,7 +88,7 @@ This prevents Git from adding all of your installed npm packages to your reposit
 
 ---
 
-Importing an npm package  is similar to importing a JavaScript module you've written, such as a component. The difference is that npm are imported by their name, and a regular module import must start with `.` or `..`. For example:
+Importing an npm package  is similar to importing a JavaScript module you've written, such as a component. The difference is that npm packages are imported by their name, and a regular module import must start with `.` or `..`. For example:
 
 ```react
 import lodash from "lodash" // npm package

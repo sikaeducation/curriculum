@@ -47,6 +47,6 @@ sudo -u postgres psql database_name_goes_here -f some-sql-file.sql > sql-results
 
 | Resource | Description |
 | --- | --- |
-| [Postgre Guide: `psql`](http://postgresguide.com/utilities/psql.html) | Postgres Guide's cheatsheet on `psql` |
+| [Postgres Guide: `psql`](http://postgresguide.com/utilities/psql.html) | Postgres Guide's cheatsheet on `psql` |
 | [SQL Zoo: `psql`](https://sqlzoo.net/wiki/Starting_Postgres) | SQL Zoo's cheatsheet on `psql` |
 | [PostgreSQL: `psql` reference](https://www.postgresql.org/docs/13/app-psql.html) | Official `psql` documentation |

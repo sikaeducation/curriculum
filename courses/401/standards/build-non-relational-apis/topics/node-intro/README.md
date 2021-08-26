@@ -44,3 +44,4 @@ Node is way to run JavaScript outside the browser. It's not a language; JavaScri
 | [Node.js](https://nodejs.org/en/) | Official Node.js webpage |
 | [Wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js) | Wikipedia's article on Node.js |
 | [Why the hell would I use Node.js?](https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js) | Blog post outlining the uses of Node |
+| [Video: Node.js Tutorial For Beginners](https://www.youtube.com/watch?v=TlB_eWDSMt4) | Video overview of Node |

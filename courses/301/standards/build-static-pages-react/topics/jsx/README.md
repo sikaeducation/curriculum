@@ -9,6 +9,7 @@ JSX is similar to HTML except You can't use HTML keywords that are already JavaS
 * `class` becomes `className`
 * `for` becomes `htmlFor`
 * Neither HTML or JS comment syntax is supported, so comments are done with `{/* Comment here */}`
+* Self-closing tags must include the closing `/`
 
 ## Including JavaScript
 
@@ -78,11 +79,11 @@ JSX can also be saved in variables and returned from normal functions:
 
 ```jsx
 const Images = ({ images }) => {
-  const lis = images.map(image => {
+  const $images = images.map(image => {
     return <li><Image url={image.url} altText={image.altText} /></li>
   })
 
-  return <ul>{lis}</li>
+  return <ul>{$images}</li>
 }
 ```
 
@@ -98,6 +99,7 @@ const Images = ({ images }) => {
 }
 </div>
 ```
+
 * JSX expressions always need to run one and only one top-level element. This is invalid:
 
 ```jsx

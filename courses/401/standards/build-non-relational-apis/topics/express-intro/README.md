@@ -1,10 +1,6 @@
 # Intro to Express
 
-Node is a runtime for running general purpose JavaScript code, which can be used for API servers. How you do you get started?
-
-## Express
-
-The most basic Express app looks something like this:
+Node is a runtime for running general purpose JavaScript code, which can be used for API servers. The most basic Express app looks something like this:
 
 ```js
 const express = require("express")
@@ -56,7 +52,7 @@ To this:
   },
 ```
 
-When you run `npm start` on the command line, NPM will run `node app.js`, which will make your server start listening for requests. Go to `http://localhost:3000` in a browser to see site.
+When you run `npm start` on the command line, NPM will run `node app.js`, which will make your server start listening for requests. Go to `http://localhost:3000` in a browser to see the API.
 
 ## Watch Out!
 

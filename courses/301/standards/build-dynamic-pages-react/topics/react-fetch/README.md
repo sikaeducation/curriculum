@@ -17,7 +17,7 @@ const PokemonCard = ({ name }) => {
         setError(false)
         setPokemon(pokemon)
       }).catch(error => setError(true))
-  }, [])
+  }, [name])
 
   return (
     <div className="PokemonCard">

@@ -1,6 +1,6 @@
 # React: Conditional Rendering
 
-Many components need to render some parts of the template in certain cases but not others. For example, a library book app may have an "Overdue" badge that only shows up if today's date is after the book's due date. How would you conditionally render this content with JSX?
+Many components need to render some parts of the template in certain cases but not others. For example, a library book app may have an `Overdue` badge that only shows up if today's date is after the book's due date. How would you conditionally render this content with JSX?
 
 ```jsx
 const BookListing = ({ title, dueDate }) => {

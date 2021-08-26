@@ -1,6 +1,6 @@
-# React: Computed Properties
+# React: Computed Values
 
-The two main sources of data for a component are props and state. There is also data that's derived from either or both of those, which are called derivative state or computed properties. For example, if you have a list of movies:
+The two main sources of data for a component are props and state. There is also data that's derived from either or both of those, which are called computed values. For example, if you have a list of movies:
 
 ```js
 const movies = [{
@@ -20,7 +20,7 @@ const movies = [{
 
 There are a few different ways you could process this data. You might want only the titles in a string (`"Star Wars, Clerks, Super Troopers"`), you might want them alphabetized, or you might want only the comedy movies. Furthemore, you may want to turn any or all of these into JSX elements. All of those are different presentations of the same data, not new data.
 
-To do this in React, save these computed properties as variables. These can be referenced in other computed properties or used directly in the template:
+To do this in React, save these computed values as variables. These can be referenced in other computed values or used directly in the template:
 
 ```jsx
 const MovieDisplayer = ({ movies }) => {
@@ -52,7 +52,7 @@ const MovieDisplayer = ({ movies }) => {
 
 [Play with this code](https://codesandbox.io/s/restless-lake-vp45p)
 
-You can also use this to alias or restructure props you're given:
+You can also use this to alias or destructure props you're given:
 
 ```jsx
 const FavoriteMovieBadge = ({ favoriteMovie }) => {
@@ -62,7 +62,7 @@ const FavoriteMovieBadge = ({ favoriteMovie }) => {
 }
 ```
 
-Whenever the source data changes, any dependent properties will be automatically recalculated when the component rerenders.
+Whenever the source data changes, any computed values will be automatically recalculated when the component rerenders.
 
 ## Additional Resources
 

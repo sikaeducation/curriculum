@@ -13,5 +13,4 @@ Using this array:
 }]
 ```
 
-Render each one in a list item.
-
+Render each one in a list item in a React component?

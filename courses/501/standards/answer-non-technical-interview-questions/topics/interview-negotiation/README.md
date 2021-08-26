@@ -15,3 +15,9 @@ Some tips on negotiation:
   * Realistic enough that you won't be dismissed instantly
 * Consider the total value of the compensation, because salary is only one factor. Some companies will pay 100% of your health insurance premiums, some will pay none. This can have a substantial difference in the value of an offer. While some things are likely to not be negotiable because they're the same for every employee, you may be able to find things that are more valuable to you than they are to the employer. For example, you may be able to push your start date back to give yourself a vacation before you start, or you may be able to negotiate a bonus or how flexible your hours are.
 * If you don't get what you want in a negotiation, see if you can get the company to commit to reviewing your performance after 90 days.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Candor: Guide to Salary Negotiation](https://candor.co/guides/salary-negotiation) | Candor's guide to salary negotiation in tech, includes video simulations. |

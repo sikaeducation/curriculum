@@ -19,4 +19,4 @@ Given this data:
 }]
 ```
 
-Generate a computed property that returns all unique instruments.
+Calculate a value that returns all unique instruments and display the list in a component.

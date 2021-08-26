@@ -1,5 +1,5 @@
-Bind a class to state
+Keep a value in state and bind it to a CSS class.
 
 ---
 
-Toggle between two classes using a class biding
+Toggle between two classes in a component based on a prop or state.

@@ -1,0 +1,1 @@
+Referencing the official [Express.js documentation](https://expressjs.com/en/4x/api.html#req), log each of the request properties in a route handler. Make a request to the route and examine the values you get back. Does any of the data you see give you new ideas for what can you can with Express routes or middleware?

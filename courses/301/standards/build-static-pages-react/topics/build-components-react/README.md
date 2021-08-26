@@ -45,9 +45,7 @@ export default const SomeComponent = () => {
 }
 ```
 
-This allows you to indent the JSX independently of the JavaScript, which helps with readability.
-
-Many components import other components, styles, or libraries. These go at the top of the file:
+This allows you to indent the JSX independently of the JavaScript, which helps with readability. Many components import other components, styles, or libraries. These go at the top of the file:
 
 ```jsx
 import { useState } from "react"
@@ -68,7 +66,7 @@ export default SomeComponent
 
 ## Watch Out!
 
-Components are functions that return JSX templates--don't forget the function part!
+Components are functions that return JSX templates, not JSX templates:
 
 ```jsx
 // This is a valid component

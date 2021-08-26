@@ -239,7 +239,7 @@ const rsvpResponse = isAttending
   : "Not attending, with regrets"
 ```
 
-These are important in React because JSX doesn't support other forms of conditional logic.
+These are important in React because JSX doesn't support many other forms of conditional logic such as a `if`/`else` and `switch`.
 
 ## Additional Resources
 

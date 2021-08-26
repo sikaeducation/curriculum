@@ -32,7 +32,7 @@ Entity-Relationship Diagrams, or ERDs, describe things (entities) and their rela
 
 There are other relationships in data modeling that are more nuanced, but they're subsets of these three types.
 
-At their simplest, ERDs use a box for entities that describes the the attributes or properties of that entity.
+At their simplest, ERDs use a box for entities that describes the name and optionally the attributes of that entity:
 
 ![ERD of a book table](assets/erd-1.png)
 
@@ -42,7 +42,7 @@ The left column identifies keys. A PK in this column is called a primary key and
 
 ## Watch Out!
 
-* Technically, an ERD is just entities and their relationships and doesn't include any attributes of the entities. ERDs don't even necessarily need to specifically be used for databases or even anything digital. A diagram that includes columns, data types, and keys is more properly called a schema diagram. In practice, "ERD" and "schema" are used interchangeably.
+* Technically, an ERD is just entities and their relationships and doesn't include any attributes of the entities. ERDs don't even necessarily need to specifically be used for databases or even anything digital. A diagram that includes columns, data types, and keys is more properly called a schema diagram. In practice, the terms "ERD" and "schema" are used interchangeably.
 * A data model will never capture the complexity of the real world. Fortunately, a data model only needs to match the rules your application is expecting.
 * ERDs capture abstract relationships. They aren't the data; they are the shape of the data.
 * Entitites should be singular, meaning the correct name for a book model is "book", not "books".
