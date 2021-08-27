@@ -1,8 +1,10 @@
+# React: Events and State
+
 ## Lesson Objectives
 
 * Create Vue components that manipulate state with events
 
-## Lesson Outline
+## Code Along
 
 1. Start a new Vue app
 2. In `App.vue`, create a property in state called `counter` and initialize it to 0

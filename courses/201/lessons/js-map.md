@@ -1,15 +1,14 @@
 # JavaScript: Map
 
-## Objectives
+## Lesson Objective
 
-* [Transform data using map](#transform-data-using-map)
-* [Contrast map with other kinds of iteration](#contrast-map-with-other-kinds-of-iteration)
+Transform data using map.
 
-## Transform Data Using Map
+## Check For Understanding
 
-### Check For Understanding
+Transform an array of objects into an array of strings.
 
-### Double Plan
+## Lesson Plan
 
 | Student | Instructor |
 | --- | --- |
@@ -18,12 +17,3 @@
 | Share samples of solutions | Facilitate |
 | Take notes | Demonstrate difficulties possible places for simple errors and reading difficulty in the given solutions. Demonstrate doing it with map |
 | Read about [map](https://www.freecodecamp.org/news/javascript-map-how-to-use-the-js-map-function-array-method/) | Watch the time. Start with 5 minutes. |
-
-## Contrast Map With Other Kinds of Iteration
-
-### Check For Understanding
-
-### Double Plan
-
-| Student | Instructor |
-| --- | --- |
