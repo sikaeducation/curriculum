@@ -49,3 +49,4 @@ Sizing elements with pixels is intuitive, but it can also hurt responsiveness. I
 | --- | --- |
 | [MDN: Length units reference](https://developer.mozilla.org/en-US/docs/Web/CSS/length) | MDN's official reference for CSS length units |
 | [MDN: Units tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) | MDN's official tutorial for CSS units |
+| [Video: Learn CSS Units in 8 Minutes](https://www.youtube.com/watch?v=-GR52czEd-0) | Web Dev Simplified's guide to CSS units |

@@ -148,3 +148,4 @@ Reading and recalling these steps is not enough to become a good whiteboarder. W
 | Resource | Description |
 | --- | --- |
 | [Princeton: Pseudo-code Reference](https://www.cs.princeton.edu/courses/archive/spr11/cos116/handouts/Pseudocode_Reference.pdf) | Princeton's reference guide to writing pseudo-code |
+| [Video: Whiteboard Coding Interviews](https://www.youtube.com/watch?v=DIR_rxusO8Q) | Fullstack Academy's guide to whiteboard interviews |

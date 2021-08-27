@@ -41,3 +41,4 @@ Note that these are just defaults and can always be overidden with CSS.
 | Resource | Description |
 | --- | --- |
 | [MDN: CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout) | MDN's tutorial on CSS layout |
+| [Video: Learn CSS Display Property in 4 Minutes](https://www.youtube.com/watch?v=Qf-wVa9y9V4) | Web Dev Simplified's guide to CSS display modes |

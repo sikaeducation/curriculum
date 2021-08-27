@@ -108,3 +108,4 @@ These are the differences:
 | Resource | Description |
 | --- | --- |
 | [Flex Reference](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | CSS Tricks' flex reference is the definitive guide to using Flexbox. |
+| [Video: Learn Flexbox in 15 Minutes](https://www.youtube.com/watch?v=fYq5PXgSsbE) | Web Dev Simplified's guide to flexbox |

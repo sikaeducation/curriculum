@@ -68,3 +68,10 @@ It may help you to write 2-4 questions ahead of time.
 * Don't get too caught up in the details when using STAR. The stories need to be true, but they don't necessarily need to be factual. The point is for the interviewer to learn something about you, not to fact-check your memoir.
 * Don't be afraid to literally say the words "situation," "task," "action," and "result" when using the STAR technique. You don't have to be sneaky about using this technique because knowing that someone is using STAR to explain something doesn't reduce its efficacy.
 * Don't forget the result in STAR. There should be some positive outcome, even if the outcome is that you learned something valuable.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Video: STAR Interview Questions](https://www.youtube.com/watch?v=8QfSnuL8Ny8) | CareerVidz's guide to STAR |

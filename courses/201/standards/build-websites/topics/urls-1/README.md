@@ -29,3 +29,4 @@ You likely use URLs daily, but do you know what the different parts of the URL m
 | Resource | Description |
 | --- | --- |
 | [MDN: What is a URL?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL) | MDN's article on URLs |
+| [Video: How Do URLs work?](https://www.youtube.com/watch?v=OvF_pnJ6zrY) | Techquickie's guide to URLs |

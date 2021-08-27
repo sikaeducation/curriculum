@@ -18,3 +18,4 @@ HTML was originally designed as a way for researchers to share their research pa
 | Resource | Description |
 | --- | --- |
 | [MDN: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | MDN's collection of resources on HTML |
+| [Video: HTML Tutorial For Beginners](https://www.youtube.com/watch?v=qz0aGYrrlhU) | Programming With Mosh's guide to HTML |

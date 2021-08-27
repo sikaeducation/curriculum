@@ -70,3 +70,4 @@ Values given to `top`/`right`/`bottom`/`left` indicate how much space should be 
 | [CSS Tricks: Positioning guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | CSS Tricks' positioning guide is an excellent resource for the different positioning modes. |
 | [MDN: Positioning Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/position) | MDN's official reference for CSS positioning |
 | [MDN: Positioning Tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning) | MDN's official tutorial for CSS positioning |
+| [Video: Learn CSS Position in 9 Minutes](https://www.youtube.com/watch?v=jx5jmI0UlXU) | Web Dev Simplified's guide to CSS positioning |

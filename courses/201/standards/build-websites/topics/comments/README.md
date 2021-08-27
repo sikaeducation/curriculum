@@ -58,3 +58,10 @@ Many introductory programming classes advise students to write lots of comments.
 * Explanations of what code does. This one is a little counter-intuitive, especially to beginners. The problem is that you create two sources of truth- what you say the code does, and what it actually does. Those often start out being the same and drift over time. It's normal and reasonable to write comments explaining what code does while you're writing it to help you clarify your thoughts, just clear them out before you commit your code.
 
 Comments help explain unclear code. If it isn't obvious why a piece of code exists, a comment can help. However, your first step should be to try to find a way to make the code so clear it wouldn't need a comment. Often, using better semantic tags and class names in HTML and CSS and variable and function names in JavaScript can remove the need for a comment.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Video: The Art of Code Comments](https://www.youtube.com/watch?v=yhF7OmuIILc) | Sarah Drasner's overview of code commenting philosophy |

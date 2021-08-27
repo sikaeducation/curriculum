@@ -101,3 +101,5 @@ Style declarations can be added. Each one has property and a value, separated by
 | Resource | Description |
 | --- | --- |
 | [MDN CSS Syntax reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax) | MDN official reference for CSS syntax |
+| [Video: Anatomy of CSS Syntax](https://www.youtube.com/watch?v=XHkIU8Wom2Q) | London App Brewery's guide to CSS syntax |
+| [Video: Learn CSS in 20 Minutes](https://www.youtube.com/watch?v=1PnVor36_40) | Web Dev Simplified's guide to CSS |

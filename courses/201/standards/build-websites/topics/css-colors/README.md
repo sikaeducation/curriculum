@@ -87,3 +87,4 @@ HSL is great because when you need to tweak a color or build a pallette, it's mu
 | --- | --- |
 | [MDN: Color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) | MDN's overview of colors |
 | [MDN: Applying Color](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color) | MDN's tutorial on the colors |
+| [Video: Are You Making This Mistake With CSS Colors?](https://www.youtube.com/watch?v=EJtmfkKulNA) | Web Dev Simplified's guide to CSS colors |

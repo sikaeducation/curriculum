@@ -79,3 +79,4 @@ You can remember this by thinking of a clock- the first value is "top", and it m
 | --- | --- |
 | [MDN: Introduction to the CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) | MDN's overview of the box model |
 | [MDN: The Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) | MDN's tutorial on the box model |
+| [Video: Learn CSS Box Model in 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE) | Web Dev Simplified's guide to the box model |

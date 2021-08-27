@@ -87,3 +87,4 @@ li {
 | Resource | Description |
 | --- | --- |
 | [Grid Reference](https://css-tricks.com/snippets/css/complete-guide-grid/) | CSS Tricks' grid reference is the definitive guide to using CSS grid. |
+| [Video: Learn CSS Grid in 20 Minutes](https://www.youtube.com/watch?v=9zBsdzdE4sM) | Web Dev Simplified's guide to CSS grid |

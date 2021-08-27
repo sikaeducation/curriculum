@@ -34,3 +34,4 @@
 | Objection 1:M Relationships | Demonstrates 1:M relationships in Objection | https://github.com/sikaeducation/objection-1m | https://codesandbox.io/s/gifted-tree-2jm56 |
 | Objection M:N Relationships | Demonstrates M:N relationships in Objection | https://github.com/sikaeducation/objection-mn | https://codesandbox.io/s/relaxed-shannon-5y30d |
 | Bcrypt Practice | Practice using Bcrypt | https://github.com/sikaeducation/bcrypt-practice | https://codesandbox.io/s/unruffled-chatterjee-4mkez |
+| ERD Examples | Multiple examples of ERDs | https://github.com/sikaeducation/erd-examples | |

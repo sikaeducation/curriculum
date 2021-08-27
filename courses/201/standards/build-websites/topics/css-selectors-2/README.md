@@ -127,3 +127,4 @@ This is especially useful for targeting data attributes:
 | [MDN attribute selector reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) | MDN official reference for selectors |
 | [MDN combinators tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) | MDN official tutorial for descendant and sibling selectors |
 | [MDN attribute selector tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors) | MDN official tutorial for attribute selectors |
+| [Video: Learn Every CSS Selector in 20 Minutes](https://www.youtube.com/watch?v=l1mER1bV0N0) | Web Dev Simplified's guide to CSS selectors |

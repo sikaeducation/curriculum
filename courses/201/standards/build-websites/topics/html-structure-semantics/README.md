@@ -32,3 +32,5 @@ There are a few major structural elements that frequently show up on pages, and 
 | [MDN Documentation: `<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) | MDN's documentation of the `<aside>` element. |
 | [MDN Documentation: `<article>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) | MDN's documentation of the `<article>` element. |
 | [MDN Documentation: `<section>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) | MDN's documentation of the `<section>` element. |
+| [Video: What Is HTML5 Semantic Markup?](https://www.youtube.com/watch?v=naha1DIHK4E) | Colt Steele's guide to semantic HTML |
+| [Video: Designing in the Browser](https://www.youtube.com/watch?v=arMgwKY52Bs) | Google's guide to the semantic web, focus on accessibility |

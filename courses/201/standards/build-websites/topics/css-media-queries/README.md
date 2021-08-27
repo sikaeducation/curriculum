@@ -122,3 +122,4 @@ p {
 | [CSS Tricks: Media query guide](https://css-tricks.com/a-complete-guide-to-css-media-queries/) | CSS Tricks' media query guide is an excellent resource for the different uses of media queries. |
 | [MDN: Media query reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) | MDN's official media query reference |
 | [MDN: Media query tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries) | MDN's official media query tutorial |
+| [Video: Learn CSS Media Query in 7 Minutes](https://www.youtube.com/watch?v=yU7jJ3NbPdA) | Web Dev Simplified's guide to media queries |

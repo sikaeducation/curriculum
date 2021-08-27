@@ -122,3 +122,4 @@ When using the `:first-child`, `:last-child`, and `:nth-child` selectors, note t
 | [MDN Pseudo-class reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) | MDN official reference for pseudo-classes |
 | [MDN Pseudo-element reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) | MDN official reference for pseudo-elements |
 | [MDN Pseudo-class and pseudo-element tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements) | MDN official tutorial for pseudo-classes and pseudo-elements |
+| [Video: Learn Every CSS Selector in 20 Minutes](https://www.youtube.com/watch?v=l1mER1bV0N0) | Web Dev Simplified's guide to CSS selectors |

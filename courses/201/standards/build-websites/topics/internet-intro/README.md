@@ -39,3 +39,6 @@ The internet was originally a US military project called ARPANET. It was later o
 | --- | --- |
 | [MDN: How the Internet Works](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work) | MDN's article on how the internet works |
 | [Wikipedia: Internet](https://en.wikipedia.org/wiki/Internet) | Wikipedia article on how the internet works |
+| [Video: What is the Internet?](https://www.youtube.com/watch?v=Dxcc6ycZ73M) | Code.org's guide to the internet |
+| [Video: IP addresses and DNS](https://www.youtube.com/watch?v=5o8CwafCxnU) | Code.org's guide to the IP addresses and DNS |
+| [Video: Wires, Cables, and Wifi](https://www.youtube.com/watch?v=ZhEf7e4kopM) | Code.org's guide to the physical infrastructure of the internet |

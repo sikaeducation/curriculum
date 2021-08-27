@@ -73,3 +73,4 @@ In general, you should choose the most specific selector you can. If you can sel
 | [MDN: Type Selector Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors) | MDN official reference for tag selectors |
 | [MDN: Class Selector Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) | MDN official reference for class selectors |
 | [MDN: ID Selector Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors) | MDN official reference for ID selectors |
+| [Video: Learn Every CSS Selector in 20 Minutes](https://www.youtube.com/watch?v=l1mER1bV0N0) | Web Dev Simplified's guide to CSS selectors |

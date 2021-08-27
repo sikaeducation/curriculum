@@ -53,3 +53,4 @@ When you type a URL into a browser and hit enter:
 | Resource | Description |
 | --- | --- |
 | [MDN: How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works) | MDN's article on how the internet works |
+| [Video: How the Web Works](https://www.youtube.com/watch?v=hJHvdBlSxug) | Academind's guide to the web |
