@@ -1,4 +1,4 @@
-# React: Events and State
+# React Events and State
 
 ## Lesson Objectives
 
@@ -16,3 +16,5 @@
 8. Move the button into a component called `CounterControl.vue`
 9. Bubble the click event from `CounterControl.vue` to `App.vue`
 10. Add a `decrement` event to `CounterControl.vue`
+
+Build and burn 5 times.

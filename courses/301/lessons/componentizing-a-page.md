@@ -1,3 +1,7 @@
+# How to Componentize Static HTML
+
+You use this process with any site with existing HTML and CSS.
+
 ## Setup
 
 1. Copy all HTML into a top-level component
