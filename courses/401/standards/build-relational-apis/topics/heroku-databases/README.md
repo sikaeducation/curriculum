@@ -51,3 +51,4 @@ module.exports = require("knex")(config)
 | [Prisma: How to set up a free PostgreSQL database on Heroku](https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1) | Blog post on how to set up a Heroku Postgres database |
 | [Heroku: Heroku Postgres Docs](https://devcenter.heroku.com/articles/heroku-postgresql) | Heroku's official docs on Heroku Posgres |
 | [Knex: Client Configuration](https://knexjs.org/#Installation-client) | Knex's official docs on configuring clients |
+| [Video: Setting up a Postgres database in Heroku](https://www.youtube.com/watch?v=OZQWfW3VvhE) | Video tutorial on Heroku Postgres deployment |

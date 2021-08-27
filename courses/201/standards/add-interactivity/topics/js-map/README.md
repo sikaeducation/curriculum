@@ -156,3 +156,4 @@ const usernames = users.map(user => {
 | --- | --- |
 | [MDN: `.map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) | MDN's reference on `.map` |
 | [FreeCodeCamp: How `Array.prototype.map` works](https://www.freecodecamp.org/news/how-array-prototype-map-works-b6b69379c3af/) | FreeCodeCamp's tutorial on `.map` |
+| [Video: JavaScript Array Map](https://www.youtube.com/watch?v=G3BS3sh3D8Q) | Programming With Mosh's guide to mapping |

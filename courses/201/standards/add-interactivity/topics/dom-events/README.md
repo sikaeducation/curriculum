@@ -56,3 +56,4 @@ This adds an additional click listener to `button` for every `li` on the page. I
 | [MDN: Events Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) | MDN's tutorial on DOM events |
 | [MDN: Events Interface](https://developer.mozilla.org/en-US/docs/Web/Events) | MDN's reference on the DOM event interface |
 | [MDN: Events Reference](https://developer.mozilla.org/en-US/docs/Web/Events) | MDN's reference on DOM events |
+| [Video: Learn JavaScript Event Listeners in 18 Minutes](https://www.youtube.com/watch?v=XF1_MlZ5l6M) | Web Dev Simplified's guide to Events |

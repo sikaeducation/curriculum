@@ -149,3 +149,9 @@ end
 ```
 
 Different programming languages encourage thinking about programs in particular ways and have different tradeoffs regarding speed, readability, ease of learning, and types of tasks they were designed for. These examples and exercises are given in JavaScript, but ultimately different programming languages have more in common than they don't. The skills learned in one language tends to not only transfer to other languages, but may even enrich your understanding and abilities in that language as well.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Video: Sequences, Selections, and Loops](https://www.youtube.com/watch?v=eSYeHlwDCNA) | GCFLearnFree.org's guide to sequence, selection, and iteration |

@@ -84,3 +84,4 @@ Some highlights:
 | Resource | Description |
 | --- | --- |
 | [React Router: Quick Start](https://reactrouter.com/web/guides/quick-start) | Official guide to React Router |
+| [Video: React Router Tutorial](https://www.youtube.com/watch?v=Law7wfdg_ls) | Dev Ed's React Router tutorial video |

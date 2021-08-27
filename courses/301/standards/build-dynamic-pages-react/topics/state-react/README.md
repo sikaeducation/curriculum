@@ -50,3 +50,5 @@ Some notes on state:
 | Resource | Description |
 | --- | --- |
 | [React: State and Lifecycle](https://reactwithhooks.netlify.app/docs/state-and-lifecycle.html) | Official React docs on state |
+| [Video: State](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=3769s) | React Hooks Crash Course: State |
+| [Video: State as Props](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=5516s) | React Hooks Crash Course: Passing state |

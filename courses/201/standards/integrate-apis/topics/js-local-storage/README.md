@@ -34,3 +34,4 @@ localStorage.setItem("username", "emilyremler")
 | --- | --- |
 | [MDN: `localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) | MDN's reference documentation on `localStorage` |
 | [MDN: Web Storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API) | MDN's guide to `localStorage` and `sessionStorage` |
+| [Video: How to Use Local Storage in JavaScript](https://www.youtube.com/watch?v=k8yJCeuP6I8) | Dcode's guide to `localStorage` |

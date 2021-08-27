@@ -53,3 +53,4 @@ Once your browser ingests HTML and builds out the DOM, it's not HTML anymore. Ev
 | --- | --- |
 | [MDN: Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) | MDN's introduction the DOM |
 | [MDN: DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) | MDN's reference on the DOM |
+| [Video: What Is The DOM in JavaScript?](https://www.youtube.com/watch?v=H63dVFDuJDM) | The Net Ninja's guide to the DOM |

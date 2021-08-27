@@ -233,3 +233,10 @@ console.log(nothing) // Undefined
 ```
 
 `greeting` is equal to `"Hi, how are you today?"` because that's what the `getGreeting` function returns when its called. The `printGreeting` function doesn't return anything.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Video: JavaScript Functions](https://www.youtube.com/watch?v=N8ap4k_1QEQ) | Programming With Mosh's guide to functions |

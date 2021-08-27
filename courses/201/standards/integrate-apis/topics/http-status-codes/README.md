@@ -25,3 +25,4 @@ The `00` codes (`100`, `200`, `400`, `500`) are generic, and are used if a more 
 | Resource | Description |
 | --- | --- |
 | [MDN: Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) | MDN's status code reference. |
+| [Video: Learn HTTP Status Codes in 10 Minutes](https://www.youtube.com/watch?v=wJa5CTIFj7U) | Web Dev Simplified's guide to HTTP status codes |

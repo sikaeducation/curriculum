@@ -72,3 +72,4 @@ SQL is a relatively small language at approximately 30 keywords, but it can do e
 | --- | --- |
 | [W3Schools: Introduction to SQL](https://www.w3schools.com/sql/sql_intro.asp) | W3Schools' intro to SQL |
 | [W3Schools: Syntax](https://www.w3schools.com/sql/sql_syntax.asp) | W3Schools' syntax reference |
+| [Video: SQL Tutorial](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=143s) | Free Code Camp's comprehensive tutorial on SQL |

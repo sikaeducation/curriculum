@@ -86,3 +86,4 @@ console.log(numbers) // undefined
 | Resource | Description |
 | --- | --- |
 | [MDN: `.forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) | MDN's reference on `.forEach` |
+| [Video: `.forEach` Explained](https://www.youtube.com/watch?v=6Hb0qZ3PVWI) | Ania Kubow's guide to `.forEach` |

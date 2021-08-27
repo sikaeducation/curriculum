@@ -87,3 +87,4 @@ app.use("/products", productRoutes)
 | [Express: Routing](https://expressjs.com/en/guide/routing.html) | Express's official router docs |
 | [Express: Routing guide](https://expressjs.com/en/starter/basic-routing.html) | Express's guide to routing |
 | [MDN: Routing tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes) | MDN's tutorial on Express routing |
+| [Video: Express JS Router and Routes](https://www.youtube.com/watch?v=iM_S4RczozU) | Steve Griffith's guide to Express Router |

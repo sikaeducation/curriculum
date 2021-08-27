@@ -39,3 +39,4 @@ fetch(url)
 | [MDN: Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) | MDN's reference on `fetch` |
 | [MDN: Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) | MDN's guide to `fetch` |
 | [MDN: Fetch Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data) | MDN's tutorial on `fetch` |
+| [Video: Learn Fetch API in 6 Minutes](https://www.youtube.com/watch?v=cuEtnrL9-H0) | Web Dev Simplified's guide to `fetch` |

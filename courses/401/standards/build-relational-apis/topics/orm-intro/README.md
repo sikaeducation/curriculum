@@ -103,3 +103,4 @@ ORMs are powerful, but they're also too general-purpose to work efficiently in e
 | [Wikipedia: Object-Relational Mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) | Wikipedia's article on ORMs |
 | [Wikipedia: Object-Relational Impedance Mismatch](https://en.wikipedia.org/wiki/Object%E2%80%93relational_impedance_mismatch) | Wikipedia's article on the object-relational impedance mismatch |
 | [Stack Overflow: What is the N+1 Problem?](https://stackoverflow.com/questions/97197/what-is-the-n1-selects-problem-in-orm-object-relational-mapping) | Stack Overflow answers describing the N+1 query problem |
+| [Video: Introduction to Object-Relational Mapping](https://www.youtube.com/watch?v=dHQ-I7kr_SY) | LaunchCode's overview of Object-Relational mapping |

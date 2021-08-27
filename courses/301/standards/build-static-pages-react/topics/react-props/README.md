@@ -61,3 +61,4 @@ In the example above, pressing the button changes the state and that state chang
 | --- | --- |
 | [Hooks: State](https://reactwithhooks.netlify.app/docs/hooks-state.html) | Official React docs on the `useState` hook |
 | [Components and Props](https://reactwithhooks.netlify.app/docs/components-and-props.html) | Official React docs on props |
+| [Video: Props](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=2948s) | React Hooks Crash Course: Props |

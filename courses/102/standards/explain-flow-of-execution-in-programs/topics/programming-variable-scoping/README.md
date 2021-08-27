@@ -80,3 +80,9 @@ for (let index = 0; i < name.length; i++){
 
 * Blocks use a similar syntax to objects in JavaScript. Blocks are specifically attached to keywords like `if`, `else`, `else if`, `for`, and `function`.
 * Variables in modern JavaScript are all block scoped. Formerly, they were scoped only to functions. This is what the `var` keyword you may see in older JavaScript code and tutorials means.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [JavaScript Scope: Local vs. Global](https://www.youtube.com/watch?v=iJKkZA215tQ) | Programming With Mosh's Guide to Scope |

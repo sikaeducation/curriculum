@@ -54,3 +54,5 @@ console.log(
 | --- | --- |
 | [Wikipedia: Query String](https://en.wikipedia.org/wiki/Query_string) | Wikipedia's query string article |
 | [MDN: `URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) | MDN's reference on `URLSearchParams` |
+| [Video: Query Parameters](https://www.youtube.com/watch?v=qv5XK91OhFo) | Udacity's guide to query parameters |
+| [Video: `URLSearchParams` in JavaScript](https://www.youtube.com/watch?v=-D5YGTkTBH4) | Dcode's guide to constructing query strings |

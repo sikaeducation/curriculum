@@ -62,3 +62,4 @@ Auth is a complicated concept with more security implications than anything else
 | [Wikipedia: Authorization](https://en.wikipedia.org/wiki/Authorization) | Wikipedia's article on the concept of authorization |
 | [Auth0: Authentication and Authorization](https://auth0.com/docs/get-started/authentication-and-authorization) | Auth0's article comparing authentication and authorization |
 | [Okta: What is token-based authentication?](https://www.okta.com/identity-101/what-is-token-based-authentication/) | Okta's article explaining token-based authentication |
+| [Video: JWT Authentication tutorial](https://www.youtube.com/watch?v=mbsmsi7l3r4) | Web Dev Simplified's tutorial on Node auth with JWTs |

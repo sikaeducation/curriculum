@@ -101,3 +101,4 @@ While there are still uses for this style of form, it's fallen out of favor. Sub
 | Resource | Description |
 | --- | --- |
 | [MDN: Sending and Retrieving Form Data](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data) | MDN's tutorial on sending form data |
+| [Video: How to Submit a Form with JavaScript](https://www.youtube.com/watch?v=2NRwiRZK7gI) | Junior Developer Central's guide to submitting forms with JavaScript |

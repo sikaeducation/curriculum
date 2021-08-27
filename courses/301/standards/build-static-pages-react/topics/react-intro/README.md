@@ -133,3 +133,4 @@ Some of the syntax used in making React apps and other SPAs isn't valid JavaScri
 | [React With Hooks](https://reactwithhooks.netlify.app/) | Comprehensive guide to React |
 | [React Interactive Tutorial](https://reactwithhooks.netlify.app/tutorial/tutorial.html) | React tutorial |
 | [Thinking in React](https://reactwithhooks.netlify.app/docs/thinking-in-react.html) | Overview of React philosophy |
+| [Video: What Is React?](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=143s) | React Hooks Crash Course: Intro |

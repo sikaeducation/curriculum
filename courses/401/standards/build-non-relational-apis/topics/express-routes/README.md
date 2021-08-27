@@ -109,3 +109,4 @@ Paths always start with `/`. `app.get("products")` will not work, it must be `ap
 | Resource | Description |
 | --- | --- |
 | [Express: Routing](https://expressjs.com/en/guide/routing.html) | Official guide to routing in Express |
+| [Video: Express JS Router and Routes](https://www.youtube.com/watch?v=iM_S4RczozU) | Steve Griffith's guide to Express Router |

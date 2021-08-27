@@ -85,3 +85,5 @@ If you read this as "one room can have many windows and many windows have one ro
 | --- | --- |
 | [One-to-Many (data model)](https://en.wikipedia.org/wiki/One-to-many_(data_model)) | Wikipedia's article on One-to-Many relationships. |
 | [What is a One-to-Many Relationship in a Database?](https://vertabelo.com/blog/one-to-many-relationship/) | A blog post on One-to-Many relationships |
+| [Video: ERD Tutorial Part 1](https://www.youtube.com/watch?v=QpdhBUYk7Kk) | LucidChart's guide to ERDs |
+| [Video: One-to-Many Relationships](https://www.youtube.com/watch?v=-C2olg3SfvU) | Database Star's guide to 1:M relationships |

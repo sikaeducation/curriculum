@@ -82,3 +82,4 @@ Isn't valid because calling `setCount` doesn't evaluate to a function.
 | Resource | Description |
 | --- | --- |
 | [React: Events](https://reactwithhooks.netlify.app/docs/handling-events.html) | React's official guide to events |
+| [Video: Events](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=3556s) | React Hooks Crash Course: Events |

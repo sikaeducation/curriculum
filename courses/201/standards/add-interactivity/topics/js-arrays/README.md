@@ -154,3 +154,4 @@ The memory address the computer stores for the location of the array is the loca
 | --- | --- |
 | [MDN: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | MDN's reference on arrays |
 | [MDN: Array Tutorial](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | MDN's tutorial on arrays |
+| [Video: JavaScript Arrays](https://www.youtube.com/watch?v=8FmBEN0XZyI) | Dev Ed's guide to JS Arrays |

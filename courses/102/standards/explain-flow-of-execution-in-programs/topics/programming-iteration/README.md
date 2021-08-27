@@ -51,3 +51,10 @@ for (let number of numbers){
 
 console.log(sum) // 15
 ```
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [How to Use Iterators in JavaScript](https://www.youtube.com/watch?v=2oU-DfdWM0c) | How to use iterators in JavaScript |

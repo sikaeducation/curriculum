@@ -80,3 +80,6 @@ const SomeComponent = <p>Hello, world!</p>
 | Resource | Description |
 | --- | --- |
 | [Components and Props](https://reactwithhooks.netlify.app/docs/components-and-props.html) | React's guide to components |
+| [Video: React Components](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=440s) | React Hooks Crash Course: Components |
+| [Video: Class Components vs. Function Components](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=806s) | React Hooks Crash Course: Component types |
+| [Video: React Hooks](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=852s) | React Hooks Crash Course: Hooks |

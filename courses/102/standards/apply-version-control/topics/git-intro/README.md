@@ -89,3 +89,5 @@ contents efficiently.
 | --- | --- |
 | [Free Code Camp: Learn the Basics of Git in Under 10 Minutes](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/) | Free Code Camp's tutorial on basic Git |
 | [Atlassian's Git Tutorials](https://www.atlassian.com/git/tutorials) | The strongest collection of Git tutorials available. Free, covering everything from beginning to advanced tutorials. |
+| [Video: Learn Git in 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE) | Colt Steele's guide to Git |
+| [Video: Git and GitHub for Beginners](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=143s) | FreeCodeCamp's guide to Git and GitHub |

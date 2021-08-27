@@ -48,3 +48,4 @@ By default, a Heroku app will sleep if it hasn't received any requests for 30 mi
 | Resource | Description |
 | --- | --- |
 | [Heroku: Deploying With Git](https://devcenter.heroku.com/articles/git) | Heroku's official guide to deploying with Git |
+| [Video: Deploy your first App with Heroku and Node.js](https://www.youtube.com/watch?v=MxfxiR8TVNU) | Jonny Kalambay's tutorial on Heroku deployment with Node |

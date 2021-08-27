@@ -65,3 +65,4 @@ The result will be:
 | --- | --- |
 | [MDN: `document.createElement`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement) | MDN's reference on `document.createElement` |
 | [MDN: `document.append`](https://developer.mozilla.org/en-US/docs/Web/API/Element/append) | MDN's reference on `document.append` |
+| [Video: Learn DOM Manipulation in 18 Minutes](https://www.youtube.com/watch?v=y17RuWkWdn8) | Web Dev Simplified's guide to DOM manipulation |

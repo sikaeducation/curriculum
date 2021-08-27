@@ -22,3 +22,4 @@ When possible, try to come up with a descriptive name for join tables. Doing so 
 | --- | --- |
 | [Wikipedia: Many-to-Many (data model)](https://en.wikipedia.org/wiki/Many-to-many_(data_model)) | Wikipedia's article on Many-to-Many relationships |
 | [What is a Many-to-Many Relationship in a Database?](https://vertabelo.com/blog/many-to-many-relationship/) | Blog post explaining Many-to-Many relationships |
+| [Video: Many-to-Many Relationships](https://www.youtube.com/watch?v=1eUn6lsZ7c4) | Database Star's guide to M:N relationships |

@@ -65,3 +65,4 @@ APIs can supercharge your application development to take advantage of other peo
 | [Public APIs](https://github.com/public-apis/public-apis) | Open source list of public APIs |
 | [Wikipedia: APIs](https://en.wikipedia.org/wiki/API) | Wikipedia's entry on APIs |
 | [Wikipedia: Web Service](https://en.wikipedia.org/wiki/Web_service) | Wikipedia's entry on Web Services |
+| [Video: What is a REST API?](https://www.youtube.com/watch?v=SLwpqD8n3d0) | Programming with Mosh's intro to REST |

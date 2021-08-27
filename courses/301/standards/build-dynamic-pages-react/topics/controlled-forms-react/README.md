@@ -72,3 +72,4 @@ A stateful variable is bound the value of the input, the input's change event up
 | Resource | Description |
 | --- | --- |
 | [React: Forms](https://reactwithhooks.netlify.app/docs/forms.html) | The official React guide to forms |
+| [Video: Creating a Basic Form Using React Hooks](https://www.youtube.com/watch?v=8hU0I8rY4u4) | Chris Blakely's guide to hook-based forms |

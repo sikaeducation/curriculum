@@ -60,3 +60,4 @@ If you get in trouble on the command line, you can usually get back to safety by
 | [MDN: Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) | Mozilla's CLI tutorial |
 | [Why Learn The Command Line](https://www.dataquest.io/blog/why-learn-the-command-line/) | An article outlining more arguments in favor of the CLI. |
 | [Learn Enough Command Line To Be Dangerous](https://www.learnenough.com/command-line-tutorial) | A very thorough tutorial on CLI basics |
+| [Video: How to use the command line](https://www.youtube.com/watch?v=5XgBd6rjuDQ) | Jesse Showalter's guide to the command line |

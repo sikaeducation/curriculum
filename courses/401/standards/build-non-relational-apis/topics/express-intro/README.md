@@ -65,3 +65,4 @@ When you run `npm start` on the command line, NPM will run `node app.js`, which 
 | --- | --- |
 | [Express/Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction) | MDN tutorial on Express and Node |
 | [Express: Getting Started](https://expressjs.com/en/starter/installing.html) | Official guide to getting started with Express |
+| [Video: Express JS Crash Course](https://www.youtube.com/watch?v=L72fhGm1tfE) | Traversy Media's crash course on Express |

@@ -63,3 +63,9 @@ console.log(a, b) // Prints "1, 2" to the screen
 
 * You need to declare a variable before you can use it.
 * `let` and `const` are needed to declare variables, but they're not needed for reassigning the value of a variable.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Video: What Is React?](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=143s) | React Hooks Crash Course: Intro |

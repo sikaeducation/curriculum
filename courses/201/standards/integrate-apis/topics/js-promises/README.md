@@ -64,3 +64,4 @@ console.log(data) // ""
 | [MDN: Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) | MDN's reference on promises |
 | [MDN: Guide to Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises) | MDN's guide to promises |
 | [MDN: Promises Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises) | MDN's tutorial on promises |
+| [Video: JavaScript Promises in 10 Minutes](https://www.youtube.com/watch?v=DHvZLI7Db8E) | Web Dev Simplified's guide to promises |

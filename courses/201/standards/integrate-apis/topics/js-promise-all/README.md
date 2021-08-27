@@ -60,3 +60,4 @@ Promise.all(requests)
 | Resource | Description |
 | --- | --- |
 | [MDN: `Promise.all`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) | MDN's reference on `Promise.all` |
+| [Video: `Promise.all`](https://www.youtube.com/watch?v=01RTj1MWec0) | Coding Train's guide to `Promise.all` |

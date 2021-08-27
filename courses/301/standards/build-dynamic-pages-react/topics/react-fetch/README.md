@@ -99,3 +99,4 @@ If `pokemonList` is initialized to anything other than an array, the component w
 | Resource | Description |
 | --- | --- |
 | [React: AJAX and APIs](https://reactwithhooks.netlify.app/docs/faq-ajax.html) | Official React guide to `fetch` |
+| [Video: `useEffect`](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=7760s) | React Hooks Crash Course: `useEffect` |

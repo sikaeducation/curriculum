@@ -70,3 +70,9 @@ section.remove()
 * Online shopping categories
 * Phrase structure trees in linguistics
 * Playoff brackets
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Data Structures: Trees](https://www.youtube.com/watch?v=oSWTXtMglKE) | HackerRank's guide to Trees with Gayle Laakmann-McDowell |

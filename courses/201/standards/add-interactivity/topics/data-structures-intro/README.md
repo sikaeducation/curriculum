@@ -20,3 +20,9 @@ There are lots of other data structures, but very few of them are used directly 
 ## Watch Out!
 
 A data structure is not the same thing as a data type. A string is a data type and it's used in data structures, but it's not a data structure itself. Data structures are made up of different data types (which are called "primitives").
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Video: What Are Data Structures?](https://www.youtube.com/watch?v=bum_19loj9A) | CS Dojo's intro to data structures |

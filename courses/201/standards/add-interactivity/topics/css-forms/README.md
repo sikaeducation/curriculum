@@ -61,3 +61,4 @@ input:focus, textarea:focus {
 | --- | --- |
 | [MDN: Styling web forms](https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms) | MDN's tutorial on styling web forms |
 | [MDN: Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling) | MDN's tutorial on advanced web form styling |
+| [Video: Styling HTML Forms with CSS](https://www.youtube.com/watch?v=GcPi65geFlo) | CSS and UX tutorial on forms |

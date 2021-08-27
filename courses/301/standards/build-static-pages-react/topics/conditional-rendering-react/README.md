@@ -83,3 +83,4 @@ This is almost always harder to read and understand than testing for simple bool
 | Resource | Description |
 | --- | --- |
 | [React: Conditional Rendering](https://reactwithhooks.netlify.app/docs/conditional-rendering.html) | React's guide to conditional rendering |
+| [React: Conditional Rendering](https://reactwithhooks.netlify.app/docs/conditional-rendering.html) | React's guide to conditional rendering |

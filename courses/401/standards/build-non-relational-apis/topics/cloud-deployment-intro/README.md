@@ -27,6 +27,7 @@ Here are some examples of cloud providers:
 
 * **Amazon Web Services (AWS)** - The largest cloud provider. Offers the largest range of services, but is famously difficult to navigate.
 * **Google Cloud Platform (GCP)** - Google's competitor to AWS. Popular with enterprises, GCP's pricing is often better than AWS.
+* **Azure** - Microsoft's competitor to AWS. Popular with enterprises that are in Microsoft's ecosystem already, Azure's pricing is often better than AWS.
 * **Heroku** - A "platform as a service". Generally easier to use and manage than AWS and GCP, with the trade-off of being more expensive and less configurable. Heroku has a generous free tier.
 
 ## Cloud
@@ -44,3 +45,4 @@ When you rent a server on a cloud provider, you may not be renting a single phys
 | [AWS](https://aws.amazon.com/) | Amazon Web Services, a cloud provider |
 | [GCP](https://cloud.google.com/) | Google Cloud Platform, a cloud provider |
 | [Heroku](https://www.heroku.com/) | Heroku, a cloud provider |
+| [Video: Cloud Services Explained](https://www.youtube.com/watch?v=1ERdeg8Sfv4) | LucidChart's guide to the cloud |

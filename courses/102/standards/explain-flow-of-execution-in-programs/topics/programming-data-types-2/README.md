@@ -162,3 +162,4 @@ This powerful combination of data types allows you to build and work with collec
 | --- | --- |
 | [MDN: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | MDN's guide to arrays |
 | [Modern JavaScript Tutorial: Arrays](https://javascript.info/array) | Modern JavaScript Tutorial's article on arrays |
+| [Video: Objects and Arrays in JS](https://www.youtube.com/watch?v=FLGzeTHAbqQ) | Programming with Avelx's guide to objects and arrays |

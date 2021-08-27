@@ -91,3 +91,5 @@ The function passed into `.filter` should return `true` if the element should be
 | --- | --- |
 | [MDN: `.find`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) | MDN's reference on `.find` |
 | [MDN: `.filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) | MDN's reference on `.filter` |
+| [Video: JavaScript Array Filter](https://www.youtube.com/watch?v=4_iT6EGkQfk) | Programming With Mosh's guide to mapping |
+| [Video: Array Find Method in JS](https://www.youtube.com/watch?v=N1QcR8F3xFY) | DCode's guide to finding |

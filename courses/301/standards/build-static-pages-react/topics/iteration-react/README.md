@@ -56,3 +56,5 @@ Array indexes are not suitable for the `key` attribute because they can change. 
 | Resource | Description |
 | --- | --- |
 | [React: Lists and Keys](https://reactwithhooks.netlify.app/docs/lists-and-keys.html) | React's guide to iteration |
+| [Video: Loop with Map](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=5951s) | React Hooks Crash Course: Iteration |
+| [Video: The `key` Prop](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=6354s) | React Hooks Crash Course: Keys |

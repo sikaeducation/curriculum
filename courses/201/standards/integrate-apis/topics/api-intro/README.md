@@ -74,3 +74,4 @@ Here are some examples of public APIs:
 | --- | --- |
 | [Wikipedia: API](https://en.wikipedia.org/wiki/API) | Wikipedia's article on APIs. |
 | [FreeCodeCamp: What is an API? In English, please.](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/) | FreeCodeCamp article on APIs and web services for beginners. |
+| [Video: APIs for Beginners](https://www.youtube.com/watch?v=GZvSYJDk-us) | FreeCodeCamp's intro to APIs |

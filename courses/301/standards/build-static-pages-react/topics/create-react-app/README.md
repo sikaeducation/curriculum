@@ -38,3 +38,12 @@ All of your React components go in this directory. The `App.js` file is consider
 | Resource | Description |
 | --- | --- |
 | [Create React App](https://create-react-app.dev/docs/getting-started) | Official guide to Create React App |
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [React With Hooks](https://reactwithhooks.netlify.app/) | Comprehensive guide to React |
+| [Thinking in React](https://reactwithhooks.netlify.app/docs/thinking-in-react.html) | Overview of React philosophy |
+| [Video: Render Components](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=2217s) | React Hooks Crash Course: Traditional Rendering |
+| [Video: Create React App](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=2417s) | React Hooks Crash Course: CRA |

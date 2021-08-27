@@ -98,3 +98,10 @@ npx eslint .
 # This command prints any errors and tries to automatically fix them as well
 npx eslint --fix .
 ```
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Video: ESLint Quickstart](https://www.youtube.com/watch?v=qhuFviJn-es) | FreeCodeCamp's guide to ESLint |

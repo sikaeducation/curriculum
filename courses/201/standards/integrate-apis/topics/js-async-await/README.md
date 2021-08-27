@@ -174,3 +174,4 @@ function someFunction(){
 | [MDN: Async Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) | MDN's reference on async functions |
 | [MDN: Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) | MDN's reference on `await` |
 | [MDN: Async/Await Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) | MDN's tutorial on `async`/`await` |
+| [Video: JavaScript Async Await](https://www.youtube.com/watch?v=V_Kr9OSfDeU) | Web Dev Simplified's guide to `async`/`await` |

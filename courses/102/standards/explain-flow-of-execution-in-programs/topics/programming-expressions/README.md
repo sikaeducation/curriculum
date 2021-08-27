@@ -52,3 +52,4 @@ Some examples of expressions:
 | --- | --- |
 | [MDN: Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators) | MDN's guide to expressions |
 | [MDN: Expressions and Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators) | MDN's reference for expressions |
+| [Video: Expressions vs. Statements in Code](https://www.youtube.com/watch?v=WVyCrI1cHi8) | Codexpanse's guide to expressions and statements |

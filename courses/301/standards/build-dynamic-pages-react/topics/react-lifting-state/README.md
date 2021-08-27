@@ -54,3 +54,4 @@ The ideas of lifting state can be summarized as:
 | Resource | Description |
 | --- | --- |
 | [React: Lifting State Up](https://reactwithhooks.netlify.app/docs/lifting-state-up.html) | React's official guide to lifting state |
+| [Video: Update State](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=6620s) | React Hooks Crash Course: Lifting state |

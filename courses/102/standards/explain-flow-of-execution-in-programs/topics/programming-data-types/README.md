@@ -125,3 +125,4 @@ Type coercion is keeping the value of a piece of data but changing the type.
 | --- | --- |
 | [MDN: JavaScript Data Types and Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures) | MDN's guide to JS Data types |
 | [Modern JavaScript Tutorial: JavaScript Data Types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures) | MDN's guide to JS Data types |
+| [Video: JavaScript Variables and Data Types](https://www.youtube.com/watch?v=edlFjlzxkSI) | Dev Ed's guide to types in JS |

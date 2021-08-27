@@ -101,3 +101,4 @@ SomeClass.someStaticInheritedMethod() // "Some inherited value"
 | --- | --- |
 | [Objection.js](https://vincit.github.io/objection.js/) | The official Objection.js docs |
 | [MDN: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) | MDN's reference on JavaScript classes |
+| [Video: Objection.js Tutorial](https://www.youtube.com/watch?v=zbIl2kuP7tE) | Productioncoder's guide to Objection |

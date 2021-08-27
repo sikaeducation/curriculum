@@ -87,3 +87,10 @@ if (zipCode.length !== 5){
 ```
 
 In general, it's usually easier to read negative cases first and the ideal case last.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Video: JavaScript If/Else Tutorial](https://www.youtube.com/watch?v=IsG4Xd6LlsM) | Programming With Mosh's guide to If/Else |

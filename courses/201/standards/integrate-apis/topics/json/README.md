@@ -70,3 +70,4 @@ So why the switch from XML to JSON? By not having closing tags like XML, the dat
 | --- | --- |
 | [MDN: JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) | MDN's reference on JSON |
 | [MDN: JSON Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) | MDN's tutorial on JSON |
+| [Video: Learn JSON in 10 Minutes](https://www.youtube.com/watch?v=iiADhChRriM) | Web Dev Simplified's guide to JSON |

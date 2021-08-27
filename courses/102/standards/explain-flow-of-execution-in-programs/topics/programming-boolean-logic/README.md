@@ -128,3 +128,4 @@ Are effectively the same statement because:
 | [MDN: Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) | MDN's guide to falsy values |
 | [MDN: Type Conversion](https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion) | MDN's guide to type conversion |
 | [Wikipedia: Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) | Wikipedia's article on Boolean Algebra |
+| [Video: Boolean Logic](https://www.youtube.com/watch?v=udOU0gagZqg) | Programming With Anthony's guide to Boolean logic |

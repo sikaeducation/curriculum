@@ -125,3 +125,4 @@ const SomeComponent = () => (
 | Resource | Description |
 | --- | --- |
 | [Introducing JSX](https://reactwithhooks.netlify.app/docs/introducing-jsx.html) | React's guide to JSX |
+| [Video: JSX](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=1344s) | React Hooks Crash Course: JSX |

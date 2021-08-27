@@ -134,3 +134,4 @@ If the HTTP request was for a file, such as an HTML, CSS, JavaScript, or media f
 | Resource | Description |
 | --- | --- |
 | [MDN: HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) | MDN's collection of tutorials and references on HTTP. |
+| [Video: HTTP Crash Course and Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0) | Traversy Media's guide to HTTP |

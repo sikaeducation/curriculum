@@ -46,3 +46,10 @@ The problem is that when a computer is waiting on something, it usually can't do
 ## Watch Out!
 
 Async is not the same as real-time. Real-time data is pushed from the server every time data changes, such as messages in a chat room. While these are usually also handled asynchrously, most fetch requests are done once and not updated again until explicitly requested.
+
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Video: Asynchronous vs. Synchronous Programming](https://www.youtube.com/watch?v=Kpn2ajSa92c) | Web Dev Simplified's guide to async programming |

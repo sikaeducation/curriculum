@@ -180,3 +180,4 @@ exports.up = knex => {
 | [Knex: Migrations](https://knexjs.org/#Migrations) | Official Knex docs on Migrations |
 | [Knex: Seeds](https://knexjs.org/#Seeds-CLI) | Official Knex docs on Seeds |
 | [Migrations and Seeding](https://gist.github.com/NigelEarle/70db130cc040cc2868555b29a0278261) | Blog post about migrations and seeds with Knex |
+| [Video: Knex Migrations and Seeds](https://www.youtube.com/watch?v=ipAH7lMfq7k) | Troy Amelotte's guide to Knex migrations and seeds |

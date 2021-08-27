@@ -201,3 +201,4 @@ app.get("/top-secret-info", (request, response), () => {
 | [JWT.io](https://jwt.io/) | Official JWT site featuring an interactive encoding/decoding tool. |
 | [JSON Web Token](https://en.wikipedia.org/wiki/JSON_Web_Token) | Wikipedia's article on JWT |
 | [AuthZero: JSON Web Tokens](https://auth0.com/docs/tokens/json-web-tokens) | AuthZero's guide to JWTs |
+| [Video: What is JWT and why should you use JWT](https://www.youtube.com/watch?v=7Q17ubqLfaM) | Web Dev Simplified's guide to JWT |

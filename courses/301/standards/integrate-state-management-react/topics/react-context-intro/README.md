@@ -79,3 +79,4 @@ Some key concepts with React Context:
 | Resource | Description |
 | --- | --- |
 | [React: Context](https://reactwithhooks.netlify.app/docs/context.html) | React's complete guide to Context |
+| [Video: React State Management Tutorial](https://www.youtube.com/watch?v=35lXWvCuM8o) | Dev Ed's tutorial on the context API |

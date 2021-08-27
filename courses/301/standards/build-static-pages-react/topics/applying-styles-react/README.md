@@ -55,3 +55,5 @@ const User = ({ username, isDisabled }) => {
 | Resource | Description |
 | --- | --- |
 | [React: Styling and CSS](https://reactwithhooks.netlify.app/docs/faq-styling.html) | React's guide to styling and CSS |
+| [Video: Styling in React](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=4992s) | React Hooks Crash Course: Styling |
+| [Video: Styling Components](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=7272s) | React Hooks Crash Course: Styling components |
