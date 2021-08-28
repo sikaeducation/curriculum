@@ -2,7 +2,7 @@
 
 ## Objectives
 
-* [Write valid HTML](#write-valid-html) using:
+* [Write valid HTML using](#write-valid-html):
   * `<p>`
   * `<label>`, `<input />`, and `<output>`
   * `<button>`

@@ -24,13 +24,13 @@ const firstName = "Carlos"
 console.log(firstName) // Prints "Carlos"
 ```
 
-You can declare variables with `const`, give the variable a name, and then set it equal to a value. When saving words in variables, note that you need to wrap them in quotes. Be careful about which quotes you use! `""` is not the same as `‟”` (look at the curls). When you write in a word processor like Word or Google Docs, the software generally replaces the `'` and `"` characters with typographer's quotes. These won't work in programming, so always write code in a text editor instead of a word processor.
+Declare variables with `const`, give the variable a name, and then set it equal to a value. When saving words in variables, note that you need to wrap them in quotes. Be careful about which quotes you use! `""` is not the same as `‟”` (look at the curls). When you write in a word processor like Word or Google Docs, the software generally replaces the `'` and `"` characters with smart quotes. These won't work in programming, so always write code in a text editor instead of a word processor.
 
 When a variable is multiple words, it's conventional to lowercase all of the first word and use uppercase for the first letter the other words. This is called camelCase.
 
 ## DOM Methods
 
-DOM methods are tools for reading and writing web pages with JavaScript. Two common DOM methods that you'll need are:
+DOM methods are tools for reading and writing web pages with JavaScript. Two common DOM methods:
 
 * `document.querySelector("#some-input-id").value` - This reads the data a user has entered into an input field. In this example, the input has an ID of `some-input-id`, but it could be anything you choose. Note the `#` before the ID; these selectors work the same as selectors in CSS.
 * `document.querySelector("#some-input-id").textContent = "This text will go on the page"` - To make text show up on the page, select the element and set its `textContent` equal to the text you want to display. You can write it out in quotes like this example, or can give it a variable.
@@ -49,7 +49,7 @@ DOM methods are tools for reading and writing web pages with JavaScript. Two com
 
 ## JavaScript Functions
 
-Functions are a way to group a multiple commands in JavaScript. You can save save variables, read things from the web page, or write them to the web page inside of functions.
+Functions are a way to group a multiple commands in JavaScript. You can save inputs to variables, read things from the web page, or write them to the web page inside of functions.
 
 ```js
 // This part says what the function does

@@ -45,7 +45,7 @@ Some common CSS properties:
 
 ## Watch Out!
 
-You get some styles from the browser for free. For example, text in an `<h1>` tag is usually bold, large, and displays as a block. You can keep these defaults, or override them with your own CSS.
+You get some styles from the browser for free. For example, text in an `<h1>` tag is usually bold, large, and displays as a block. You can either keep these defaults or override them with your own CSS.
 
 ## Additional Resources
 

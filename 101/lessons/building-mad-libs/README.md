@@ -42,7 +42,3 @@
 1. Set the output of the first word to the value
 1. Verify that it works
 1. Store and set the rest of the inputs and outputs
-
----
-
-1. Deploy the app (`npx surge`)

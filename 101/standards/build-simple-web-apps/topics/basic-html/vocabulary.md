@@ -19,6 +19,6 @@ JavaScript
 Nested HTML Tag
 Case-Sensitivity
 Whitespace
-Typographer's Quotes
+Smart Quote
 Word Processor
 Text Editor
