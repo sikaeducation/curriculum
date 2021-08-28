@@ -1,6 +1,6 @@
 # Programming: Conditional Logic
 
-One of the fundamental things every programming language must do is allow for some code to run sometimes, and other code to run other times. The most straight-forward way to control this is with conditional logic.
+One of the fundamental things every programming language must do is selection, or running different code in different circumstances.
 
 ## `if`
 
