@@ -1,6 +1,6 @@
 # Basic CSS
 
-CSS ("Cascading Style Sheets") is a language for decorate content made with HTML. It's written in files called stylesheets that have a `.css` extension. CSS files are "linked" from HTML files, and the CSS files contain selectors and declarations that describe how the HTML page should look.
+Cascading Style Sheets, or CSS, is a language for decorating content made with HTML. CSS is written in files called stylesheets that have a `.css` extension. CSS files are linked from HTML files, and the CSS files contain selectors and declarations that describe how the HTML page should look.
 
 ## CSS Selectors
 
@@ -30,18 +30,18 @@ Some common CSS properties:
 
 ### Typography
 
-* `font-family: Arial, sans-serif;` - Sets the name of the font.
-* `font-weight: bold;` - Sets the weight of the font, such as `lighter`, `regular`, `bold`, `bolder`
-* `font-size: 32px;` - Sets the size of the font in pixels
-* `color: grey;` - Sets the color of the font. There are several ways to define colors, but to start with many common color names, such as `red`, `green`, `lightblue`, `purple`, `grey`, and `white` will work.
+* **`font-family: Arial, sans-serif;`**: Sets the name of the font.
+* **`font-weight: bold;`**: Sets the weight of the font, such as `lighter`, `regular`, `bold`, `bolder`
+* **`font-size: 32px;`**: Sets the size of the font in pixels
+* **`color: grey;`**: Sets the color of the font. There are several ways to define colors, but to start with many common color names, such as `red`, `green`, `lightblue`, `purple`, `grey`, and `white` will work.
 
 ### Layout
 
-* `display: block;` - Makes the HTML element take up an entire line
-* `display: inline;` - Makes the HTML element take up as little space as possible
-* `max-width: 200px;` - Sets the widest the HTML element can get
-* `padding: 16px;` - Sets how much space around the HTML element there is 
-* `background-color: red;` - Sets a background color for the HTML element
+* **`display: block;`**: Makes the HTML element take up an entire line
+* **`display: inline;`**: Makes the HTML element take up as little space as possible
+* **`max-width: 200px;`**: Sets the widest the HTML element can get
+* **`padding: 16px;`**: Sets how many empty pixel to surround the HTML element with
+* **`background-color: red;`**: - Sets a background color for the HTML element
 
 ## Watch Out!
 
