@@ -14,17 +14,13 @@ This will copy the repo from GitHub's computers to your computer. In this exampl
 
 Cloning a repository from a remote repo usually means authenticating somehow. If you clone a repo using GitHub's SSH option:
 
-![Cloning from GitHub with SSH](assets/github-1.png)
+![GitHub cloning dialog](assets/github-1.png)
 
 It will look for an SSH key in your `~/.ssh` directory to send with your clone request. If that key is connected to your GitHub account, GitHub will check to see if your account has permission to clone that repo. If it does, it will be copied to your computer.
 
-Alternatively, if you clone a repo using GitHub's "HTTPS" option:
+![Cloning from GitHub on the CLI](assets/github-2.png)
 
-![Cloning from GitHub with HTTPS](assets/github-2.png)
-
-It will ask you to enter your GitHub username and password.
-
-The SSH option makes working with GitHub much easier, but requires generating an SSH key and connecting it to your GitHub account. Follow these [instructions to connect with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) if you haven't already.
+Alternatively, if you clone a repo using GitHub's HTTPS option, it will ask you to enter your GitHub username and password. The SSH option makes working with GitHub much easier, but requires generating an SSH key and connecting it to your GitHub account. Follow these [instructions to connect with SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
 
 ## Adding a Remote
 
