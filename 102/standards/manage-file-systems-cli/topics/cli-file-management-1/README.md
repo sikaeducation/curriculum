@@ -1,10 +1,10 @@
 # CLI: File Management
 
-When you manage files in a graphical file manager, you double-click to open files, drag them into new folders, and use key commands and context menus to delete and rename files. You can do all of these tasks and more efficiently on the command line.
+In a graphical file manager, you double-click to open files, drag them into new folders, and use key commands and context menus to delete and rename files. You can efficiently do all of these tasks and more on the command line.
 
 ## Files
 
-In the CLI, there are only files and directories, which are also called folders. Directories work exactly like the ones you're used to using in graphical OSes, and all the normal files such as text documents, images, and music are also used. Things like programs and user input are also represented by files. For the most part, the file extension characters at the end of a file (like `.txt`, `.js`, `.md`, `.zip`) are just part of the name and carry no other meaning. Files and folders that start with a `.` (like `.bashrc` and `.ssh`) are considered hidden and are only displayed if you explicitly ask for them.
+Everything in the CLI is either a file or a directory, which is also called a folder. Directories work exactly like the ones used with graphical file manages in Windows and MacOS, as do all the typical files such as text documents, images, and music. Things like programs and user input are also represented by files. For the most part, the file extension characters at the end of a file (like `.txt`, `.js`, `.md`, `.zip`) are just part of the name and carry no other meaning. Files and folders that start with a `.` (like `.bashrc` and `.ssh`) are considered hidden and are only displayed if you explicitly ask for them.
 
 ## Creating Files
 
