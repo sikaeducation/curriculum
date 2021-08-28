@@ -1,5 +1,7 @@
 ## CLI: Arguments and Flags
 
+Many commands require options or file paths in order to work. These are specified as either arguments or flags.
+
 ## Arguments
 
 Arguments are often files that you want to run a command on. Some commands don't need any arguments:
