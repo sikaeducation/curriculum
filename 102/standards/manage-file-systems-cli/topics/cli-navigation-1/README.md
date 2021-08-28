@@ -49,14 +49,14 @@ pwd
 
 To see the files in a directory, use `ls`:
 
-```
+```bash
 ls
 some-directory some-file.md some-other-file-md
 ```
 
 You can use the `-l`, or _long listing_, flag to see all the files and folders listed one-per-line, as well as other information about them:
 
-```
+```bash
 ls -l
 total 3
 drwxrwxr-x 2 username-here username-here 4096 Jul  3 10:12 some-directory
@@ -66,14 +66,14 @@ drwxrwxr-x 2 username-here username-here 4096 Jul  3 10:12 some-directory
 
 You can use the `-a`, or _all_, flag to see all files including hidden files, which are files that start with a `.`:
 
-```
+```bash
 ls - a
 . .. .some-hidden-directory .some-hidden-file some-directory some-other-directory some-file.md some-other-file-md
 ```
 
 You can even combine the two:
 
-```
+```bash
 ls -la
 total 7
 drwxrwxr-x 2 username-here username-here 4096 Jul  3 10:12 .
