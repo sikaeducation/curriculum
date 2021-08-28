@@ -88,7 +88,7 @@ const message = 'This is Jill\'s message'
 
 ### Numbers
 
-Numbers represent things you can do math with. All of these are examples of numbers:
+Numbers are things you can do math with. All of these are numbers:
 
 * `1`
 * `0`
@@ -97,7 +97,7 @@ Numbers represent things you can do math with. All of these are examples of numb
 * `13453834`
 * `-2342.2342`
 
-Any number value can be either a number type or a string type. For example, `5` is the value 5 with the type number, while `"5"` is the value 5 with the type string. Which type you use for a number depends on what kinds of operations you want to do. If you could conceivably do math with the value, such as an age, it should be a number type. If you're displaying or formatting a value, or if the numbers aren't used for math, such as a phone or social security number, it should be a string.
+Any number value can be either a number type or a string type. For example, `5` is the value 5 with the type number, while `"5"` is the value 5 with the type string. Which type you use for a number depends on what kinds of operations you want to do. If you could conceivably do math with the value, such as an age, it should be a number type. If you're displaying or formatting a value or if the numbers aren't used for math *(such as a phone or social security number), the value is a string.
 
 ### Booleans
 
@@ -107,13 +107,13 @@ Booleans are either `true` or `false`. They get used in Boolean logic, such as i
 
 One of the features of types is they dictate what kinds of operations can be performed on the values.
 
-* You can get a count of the number of characters in a string by calling `.length`; `"Hello!".length` is `6`
-* You can perform math operations on numbers; `9 / 3` is `3`, `3 * 4` is 12, and so on.
-* You can perform Boolean operations and comparisons on booleans; `true || false` is `true`, `6 >= 10` is `false`
+* Get the number of characters in a string by calling `.length`; `"Hello!".length` is `6`
+* Perform math operations on numbers; `9 / 3` is `3`, `3 * 4` is 12, and so on.
+* Perform Boolean operations and comparisons on booleans; `true || false` is `true`, `6 >= 10` is `false`
 
 ## Type Coercion
 
-Type coercion is keeping the value of a piece of data but changing the type.
+Type coercion is keeping the value of a piece of data but changing the type:
 
 * **`+`**: To coerce a boolean or string into a number, put a `+` in front of it: `+"5"` is `5`, `+true` is `1`, `+false` is `0`
 * **``${}``**: To coerce a number or boolean into a string, wrap it with ``${}``: ``${1234}`` is "1234", ``${false}`` is `"false"`
