@@ -128,7 +128,7 @@ cd ~/some-folder                                    # Move to your home director
 
 ## Watch Out!
 
-*You can only `cd` into folders, not files.
+You can only `cd` into folders, not files.
 
 ## Additional Resources
 
