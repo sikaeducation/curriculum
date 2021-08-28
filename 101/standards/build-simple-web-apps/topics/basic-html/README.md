@@ -8,6 +8,8 @@ There are two kinds of HTML tag:
 
 ![Double HTML tag](assets/anatomy-of-a-tag-double.png)
 
+---
+
 ![Single HTML tag](assets/anatomy-of-a-tag-single.png)
 
 * Tag name - These indicate what a tag means
