@@ -1,8 +1,8 @@
 # Introduction to the Command Line
 
-The command line may seem like an archaic way to use a computer, but it's also one of the most powerful. Here are some advantages to the command line interface, or CLI:
+The command line interface, or CLI, may seem like an archaic way to use a computer. However, it's also one of the most powerful and offers software developers many advantages over graphical interfaces.
 
-## Advantages
+## Command Line Advantages
 
 ### Flexibility
 
