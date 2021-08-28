@@ -3,7 +3,7 @@
 ## Topics
 
 * [Intro to Job Applications](topics/job-application-intro)
-  * [Exercises](topics/job-application/exercises.md)
+  * [Exercises](topics/job-application-intro/exercises.md)
 * [Job Application Strategy](topics/job-application-strategy)
   * [Exercises](topics/job-application-strategy/exercises.md)
 * [Resumes](topics/resumes-intro)
