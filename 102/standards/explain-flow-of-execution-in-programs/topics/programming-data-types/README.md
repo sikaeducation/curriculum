@@ -115,9 +115,16 @@ One of the features of types is they dictate what kinds of operations can be per
 
 Type coercion is keeping the value of a piece of data but changing the type:
 
-* **`+`**: To coerce a boolean or string into a number, put a `+` in front of it: `+"5"` is `5`, `+true` is `1`, `+false` is `0`
-* **``${}``**: To coerce a number or boolean into a string, wrap it with ``${}``: ``${1234}`` is "1234", ``${false}`` is `"false"`
-* **`!!`**: To coerce a string or number into a boolean, put `!!` in front of it: `!!"Hello, world!"` is `true`
+* **`+`**: To coerce a boolean or string into a number, put a `+` in front of it:
+  * `+"5"` is `5`
+  * `+true` is `1`
+  * `+false` is `0`
+* **``${}``**: To coerce a number or boolean into a string, wrap it with ``${}``:
+  * ``${1234}`` is "1234"
+  * ``${false}`` is `"false"`
+* **`!!`**: To coerce a string or number into a boolean, put `!!` in front of it:
+  * `!!"Hello, world!"` is `true`
+  * `!!0"` is `false`
 
 ## Additional Resources
 
