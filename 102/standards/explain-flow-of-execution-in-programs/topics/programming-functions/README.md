@@ -5,17 +5,17 @@ Functions do two things:
 * Make a set of code easier to reuse and repeat
 * Transform inputs into an output
 
-The second thing should sound familiar; that's also what a program does. This is not an accident. In the process of transforming inputs into outputs, you may break the problem into smaller pieces:
+The second item should sound familiar because it's also what a program does. This is not a coincidence. In the process of transforming inputs into outputs, the problem may be split into smaller pieces:
 
 ![Diagram of functions inside a program](assets/functions.png)
 
-In this way, you can think of many programs as being made up of smaller and smaller programs. For example, if you had a function that title-cases a string:
+You can think of many programs as being made up of smaller and smaller programs. For example, a function that title-cases a string:
 
 ```js
 titleCase("hello, world!") // "Hello, World!"
 ```
 
-The implementation of that function might have a function that splits a string into words, and another function that capitalizes the first letter:
+The implementation of `titleCase` might use a function that splits a string into words, and another function that capitalizes the first letter:
 
 ```js
 function splitIntoWords(someString){
@@ -47,8 +47,7 @@ function titleCase(someString){
 titleCase("hello, world!") // "Hello, World!"
 ```
 
-This powerful feature of functions lets you decompose big problems into small ones and reuse more of your work.
-
+This feature of functions lets you decompose big problems into small ones and reuse more of your work.
 
 ## Declaring functions
 
