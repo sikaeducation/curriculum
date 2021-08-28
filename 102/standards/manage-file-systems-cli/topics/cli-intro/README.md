@@ -12,7 +12,7 @@ Simple programs on the command line can be combined to make complex behavior.
 cat *.txt | grep "JavaScript" > results.md
 ```
 
-This searches through every file in the current folder that ends in `.txt` for lines containing the word "JavaScript" and prints them to a new file called `results.md`. If you know these individual commands and operators, you can chain them together to solve very narrow problems.
+This searches through every file in the current folder that ends in `.txt` for lines containing the word "JavaScript" and prints them to a new file called `results.md`. Individual commands and operators can be chained together like words in sentences to solve a wide range of problems.
 
 ### Power
 
