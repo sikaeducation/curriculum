@@ -21,7 +21,7 @@ All HTML is written inside one of these tags.
 
 ## HTML Tags
 
-Here are some common HTML tags you will find useful in this workshop:
+Here are some useful HTML tags:
 
 ### `<h1>`
 
@@ -114,14 +114,14 @@ HTML is case-insensitive, which means that `<article>`, `<ARTICLE>` and `<Articl
 
 ### Indentation
 
-While HTML is whitespace-insensitive (meaning that it ignores spaces and returns), inconsistent indentation makes it very difficult to read. For example, writing your code like this:
+HTML is whitespace-insensitiver, meaning that it ignores spaces and returns. However, inconsistent indentation makes HTML very difficult to read. For example:
 
 ```html
 <p><output>Some paragraph content here
   <input id="some-id" /></button>
 ```
 
-Makes it difficult to tell that neither the `<p>` tag nor the `<output>` tag were closed, and that the `</button>` closing tag doesn't have a matching opening tag. Rewritten like this:
+It's not immediately obvious that neither the `<p>` tag nor the `<output>` tag were closed, and that the `</button>` closing tag doesn't have a matching opening tag. Rewritten like this:
 
 ```html
 <p>
