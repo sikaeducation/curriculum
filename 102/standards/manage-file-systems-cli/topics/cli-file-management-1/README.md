@@ -4,7 +4,7 @@ In a graphical file manager, you double-click to open files, drag them into new 
 
 ## Files
 
-Everything in the CLI is either a file or a directory, which is also called a folder. Directories work exactly like the ones used with graphical file manages in Windows and MacOS, as do all the typical files such as text documents, images, and music. Things like programs and user input are also represented by files. For the most part, the file extension characters at the end of a file (like `.txt`, `.js`, `.md`, `.zip`) are just part of the name and carry no other meaning. Files and folders that start with a `.` (like `.bashrc` and `.ssh`) are considered hidden and are only displayed if you explicitly ask for them.
+Everything in the CLI is either a file or a directory, which is also called a folder. Directories serve the same purpose they do in graphical file managers, as do common file types such as text documents, images, and music. Files are also used for things like programs and user input. For the most part, the file extension characters at the end of a file (like `.txt`, `.js`, `.md`, `.zip`) are just part of the file name and carry no other meaning. Files and folders that start with a `.`, such as `.bashrc` and `.ssh`, are considered hidden and are only listed if you specifically ask for them.
 
 ## Creating Files
 
@@ -26,7 +26,7 @@ To see the contents of a file, use the `cat` command.
 
 ![Reading a file](assets/cli-3.png)
 
-`cat`, short for _concatenate_, was designed to be used to print the combined contents of a multiple files. If you only give it one file though, it prints the contents of the file to the screen.
+`cat`, short for _concatenate_, was originally designed to print the combined contents of a multiple files. If you only give it one file, it prints the contents of the file to the screen.
 
 ## Moving files and folders
 
@@ -36,7 +36,7 @@ To move a file or folder, use the `mv` command:
 
 `mv` takes two arguments:
 
-* The absolute or relative path of the file you want to move
+* An absolute or relative path of the file you want to move
 * An absolute or relative path to the directory you want to move the file to
 
 ## Renaming files and folders
@@ -69,11 +69,11 @@ To delete a folder, use the `-r` (_recursive_) flag:
 
 ![Deleting a directory](assets/cli-10.png)
 
-Note that this only works if the directory doesn't have any files in it. To delete a folder _and_ its contents, you need to add the `-f` (_force_) flag:
+Note that this only works if the directory doesn't have any files in it. To delete a folder _and_ its contents, you need to add the `-f`, or _force_ flag:
 
 ![Deleting a directory](assets/cli-11.png)
 
 ## Watch Out!
 
-* Be careful using `/`. Any path that starts with `/` is an absolute path. So, `mv old new` takes a file called `old` and renames it `new`, but `mv old /new` takes a file called `old`, moves to the root directory, and renames it `new`.
-* `rm` is a very dangerous command. By default, you will not be prompted to ask if you're sure you want to delete something, which means you can accidentally entire projects and even large parts of your computer by not using it carefully. You can use the `-i` flag (_interactive_) to make the CLI prompt you to ask if you're sure you want to delete something.
+* Any path that starts with `/` is an absolute path. `mv old new` takes a file called `old` and renames it `new`, but `mv old /new` takes a file called `old`, **moves to the root directory**, and renames it `new`.
+* `rm` is a dangerous command. By default, you will not be prompted to ask if you're sure you want to delete something, which means you can accidentally entire projects and even large parts of your computer by not using it carefully. Adding the `-i`, or _interactive_, flag to an `rm` command adds a prompt asking if you're sure you want to delete.
