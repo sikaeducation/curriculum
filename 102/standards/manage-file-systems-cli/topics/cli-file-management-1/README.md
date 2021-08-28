@@ -55,7 +55,7 @@ To copy a file, use the `cp` command:
 
 ![Copying a file](assets/cli-7.png)
 
-To copy a folder, you need to add the `-r` (_recursive_) flag:
+To copy a folder, you need to add the `-r`, or _recursive_ flag:
 
 ![Copying a directory](assets/cli-8.png)
 
@@ -65,7 +65,7 @@ To delete a file, use the `rm` command:
 
 ![Deleting a file](assets/cli-9.png)
 
-To delete a folder, use the `-r` (_recursive_) flag:
+To delete a folder, use the `-r`, or _recursive_ flag:
 
 ![Deleting a directory](assets/cli-10.png)
 
