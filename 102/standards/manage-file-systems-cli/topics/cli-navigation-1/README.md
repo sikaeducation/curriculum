@@ -19,12 +19,12 @@ An absolute path starts with `/` and describes how to get to a location from the
 * The absolute path to this location is `/home/some-user/projects/wineflix`.
 * The relative path to this location is `.`
 
-Without moving from the `wineflix` directory:
+Without moving from the `wineflix` directory, you can describe paths to other directories:
 
 * The absolute path to the `pages` directory is `/home/some-user/projects/wineflix/pages`
 * The relative path to the `pages` directory from the `wineflix` directory is `./pages`
 
-You can describe directories above your current directory with `..`:
+Directories above you are written with `..`:
 
 * The absolute path to the `pictures` directory is `/home/some-user/pictures`
 * The relative path to the `pages` directory from the `wineflix` directory is `../../pictures`
@@ -34,11 +34,11 @@ Lastly, you can describe locations relative to your home directory by using `~`:
 * The absolute path to the `documents` directory is `/home/some-user/documents`
 * This path can also be written as `~/documents`
 
-Entering paths correctly by hand is tedious and error-prone. Luckily, you can use tab completion to help you out. If you enter a couple of characters for the path you want and press `Tab`, the terminal will try to complete the rest of the path for you. If there's more than one possible match, you can press `Tab` repeatedly to cycle through options. This accomplishes two things: It saves you time typing, and it also ensures that the file or folder you're looking for actually exists. If the terminal can't tab complete a path, you're probably not in the right place.
+Entering paths correctly by hand is tedious and error-prone, but tab completion helps. If you enter a couple of characters for the path you want and press `Tab`, the terminal will try to complete the rest of the path for you. If there's more than one possible match, you can press `Tab` repeatedly to cycle through options. This accomplishes two things: It saves you time typing, and it also ensures that the file or folder you're looking for actually exists. If the terminal can't tab complete a path, you're probably not in the right place.
 
 ## Finding out where you are
 
-To see the absolute path to your current location, run `pwd`:
+To see the absolute path to your current location, run `pwd` in your terminal:
 
 ```bash
 pwd
@@ -54,7 +54,7 @@ ls
 some-directory some-file.md some-other-file-md
 ```
 
-You can use the `-l`, or long listing, flag to see all the files and folders listed one-per-line, as well as other information about them:
+You can use the `-l`, or _long listing_, flag to see all the files and folders listed one-per-line, as well as other information about them:
 
 ```
 ls -l
@@ -64,7 +64,7 @@ drwxrwxr-x 2 username-here username-here 4096 Jul  3 10:12 some-directory
 -rw-rw-r-- 1 username-here username-here   23 Jul  3 10:13 some-other-file.md
 ```
 
-You can use the `-a`, or all, flag to see all files including hidden files, which are files that start with a `.`:
+You can use the `-a`, or _all_, flag to see all files including hidden files, which are files that start with a `.`:
 
 ```
 ls - a
