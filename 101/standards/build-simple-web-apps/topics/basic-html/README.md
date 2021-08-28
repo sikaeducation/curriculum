@@ -121,7 +121,7 @@ HTML is whitespace-insensitiver, meaning that it ignores spaces and returns. How
   <input id="some-id" /></button>
 ```
 
-It's not immediately obvious that neither the `<p>` tag nor the `<output>` tag were closed, and that the `</button>` closing tag doesn't have a matching opening tag. Rewritten like this:
+It's not immediately obvious that neither the `<p>` tag nor the `<output>` tag were closed, and that the `</button>` closing tag doesn't have a matching opening tag. With proper indentation:
 
 ```html
 <p>
@@ -131,15 +131,15 @@ It's not immediately obvious that neither the `<p>` tag nor the `<output>` tag w
     </button>
 ```
 
-The mistakes are easier to see.
+Each of the mistakes are easier to see.
 
 ### Whitespace
 
-Since HTML is whitespace-insensitive, it's often technically valid to leave lots of whitespace around your markup, like this: `< input id = " adjective-input " / >`. It is conventional to keep everything "trimmed": `<input id="adjective-input" />`.
+Since HTML is whitespace-insensitive, it's often technically valid to leave lots of whitespace around your markup, like this: `< input id = " adjective-input " / >`. It is conventional to keep everything trimmed: `<input id="adjective-input" />`.
 
 ## Watch Out!
 
-Be careful of typographer's quotes! Most word processing programs like Word and Google Docs will substitute the `"` and `'` characters for `“`/`”` and `‘`/`’` characters (look for the curls). These are called typographer's quotes, and cannot be used for HTML attributes. Always write your code in a text editor, not in a word processor!
+Be careful of smart quotes! Most word processing programs like Word and Google Docs will substitute the `"` and `'` characters for `“`/`”` and `‘`/`’` characters (look for the curls). These are called smart quotes, and cannot be used for HTML attributes. Always write your code in a text editor, not in a word processor.
 
 ## Additional Resources
 
