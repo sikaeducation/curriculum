@@ -1,10 +1,6 @@
 # Git: Commits
 
-Git commits represent a specific save point in the history of your code. How do you make them?
-
-## Unit of Work
-
-Commits should represent a single unit of work. This term is open to a wide degree of interpretation, but these are some examples of single units of work:
+Git commits represent a specific save point in the history of your code and should contain a single unit of work. This term is open to interpretation, but here are some examples:
 
 * Fixing something that was broken
 * Creating a new feature
@@ -12,7 +8,7 @@ Commits should represent a single unit of work. This term is open to a wide degr
 * Reorganizing working code in a file
 * Reorganizing files and folders in a repo
 
-These usually don't represent single units of work:
+By contrast, these usually aren't single units of work:
 
 * Multiple features
 * Work in progress for multiple features
@@ -21,7 +17,7 @@ These usually don't represent single units of work:
 * Changing the name of a variable
 * Creating an empty file or folder
 
-That said, you're better off making too many commits than too few. There are variety of advanced techniques for reorganizing and combining previous commits that you've made if you end up with more commits than necessary.
+That said, you're better off making too many commits than too few. There are advanced techniques for reorganizing and combining previous commits that you've made if you end up with more commits than necessary.
 
 ## Staging Strategy
 
