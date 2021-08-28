@@ -12,7 +12,7 @@ An _expression_ is something that evaluates to a value. For example, the `.lengt
 "Hello, world!".length // 13
 ```
 
-What's powerful about that you can use an expression and the value it evaluates to interchangeably. If you have a function that needs a number:
+What's powerful about expressions is you can use an expression and the value it evaluates to interchangeably. If you have a function that needs a number:
 
 ```js
 function isGreaterThan10(number){
