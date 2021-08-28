@@ -1,10 +1,10 @@
 # Git: Repositories
 
-A Git repository, or repo, is a folder containing not only files, but every state those files have ever been in. Git offers many tools for inspecting those different states, and even rolling back your files to one of those states if necessary. Git does all of this very efficiently, so repo file sizes stay very small. This makes it feasible for everyone working with a repository to maintain a complete copy.
+A Git repository, or repo, is a folder that contains more than just files; it also contains every version of those files. Git offers many tools for inspecting those different versions, and even rolling back your files to one of them if necessary. Git does all of this very efficiently, so the file sizes of repos stay very small. This makes it feasible for everyone working with a repository to maintain a complete copy.
 
 ## Local Respositories
 
-To make a local repository, run `git init`. This makes the `git` command line program able to run commands when your shell is in this folder.
+To make a local repository, run `git init`. This allows the `git` CLI program to run commands when you're in that folder:
 
 ![Workflow of creating a new Git repo](assets/new-git-repo.png)
 
@@ -18,7 +18,9 @@ If a repository already exists on GitHub, you copy it to your computer with `git
 
 ![Cloning a repo from GitHub](assets/github-2.png)
 
-You can look at this code, make changes to it, or even use it as the basis for your own code without affecting the repository that you cloned from.
+You can look at this code, make changes to it, or even use it as the basis for your own code without affecting the repository on GitHub that you cloned from.
+
+It doesn't make a difference if a repository was started on your computer or on GitHub. Both places end up with a complete copy of the repository.
 
 ## Watch Out
 
