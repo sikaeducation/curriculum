@@ -87,11 +87,9 @@ drwxrwxr-x 2 username-here username-here 4096 Jul  3 10:12 some-directory
 
 ## Navigating
 
-To navigate in a shell, use the `cd` command to change directory and give it any relative or absolute path.
-
 ![Directory structure](assets/cli-navigation-1.png)
 
-To move from the `wineflix` directory to the `videos` directory, you could run:
+To navigate in a shell, use the `cd` command to change directory and give it any relative or absolute path. This navigates from the `wineflix` directory to the `videos` directory:
 
 ```bash
 cd ../../videos
@@ -109,7 +107,7 @@ Or by home-relative path:
 cd ~/videos
 ```
 
-To move from the `wineflix` directory to the `assets` directory, you could run:
+To move from the `wineflix` directory to the `assets` directory:
 
 ```bash
 cd assets
