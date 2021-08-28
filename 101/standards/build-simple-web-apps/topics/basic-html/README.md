@@ -12,10 +12,10 @@ There are two kinds of HTML tag:
 
 ![Single HTML tag](assets/anatomy-of-a-tag-single.png)
 
-* Tag name - These indicate what a tag means
-* Attributes - These are properties of a tag that either configure it or further describe it
-* Opening and closing tag - Most tags have an opening and closing pair that wrap the content they describe. Any attributes go inside the opening tag.
-* Self-Closing tag - Some tags don't have closing tags and close themselves
+* **Tag name**: These indicate what a tag means
+* **Attributes**: These are properties of a tag that either configure it or further describe it
+* **Opening and closing tag**: Most tags have an opening and closing pair that wrap the content they describe. Any attributes go inside the opening tag.
+* **Self-Closing tag**: Some tags don't have closing tags and close themselves
 
 All HTML is written inside one of these tags.
 
