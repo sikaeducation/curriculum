@@ -1,16 +1,16 @@
 # Git: Remotes
 
-One of the most powerful aspects of Git is that everyone who has a copy of a repo not only has all of the files in the repo, but they all individually have a copy of all of the previous states of the repo. That means if one person's copy of a repo becomes lost or corrupted, they can easily get a new one from anyone else who has a copy and not lose any work or history. This makes Git repos incredibly resilient to corruption or loss. Services like GitHub, Bitbucket, and GitLab are primarily tools for a storing a copy of a repo that other developers can make their own copy of (or "clone"), including the repo's entire history.
+One of the most powerful aspects of Git is that everyone who has a copy of a repo not only has all of the files in the repo, but they all individually have a copy of all every previous version. That means if one person's copy of a repo is lost or broken, they can easily get a new one from anyone else who has a copy without losing anything. Services like GitHub, Bitbucket, and GitLab are primarily tools for a storing a copy of a repo that other developers can make their own copy of.
 
 ## Cloning
 
 The most common way to get a copy of a repo is to clone it from a service like GitHub:
 
 ```bash
-git@github.com:githubtraining/example-basic.git
+git clone git@github.com:githubtraining/example-basic.git
 ```
 
-This will copy the repo from GitHub's computers to your computer, into a folder called `example-basic` in your current directory.
+This will copy the repo from GitHub's computers to your computer. In this example, it will clone the repo into a folder called `example-basic` in your current directory.
 
 Cloning a repository from a remote repo usually means authenticating somehow. If you clone a repo using GitHub's SSH option:
 
