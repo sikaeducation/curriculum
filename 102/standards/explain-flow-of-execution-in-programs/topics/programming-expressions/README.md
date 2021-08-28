@@ -1,16 +1,12 @@
 # Programming: Expressions
 
-You know about values for different data types:
+Different data types contain different kinds of values:
 
 * **Strings**: "Hello, world!", "true", "50", ""
 * **Booleans**: true, false
 * **Numbers**: -1, 0, 50, 3.42
 
-An expression is something that evaluates to a value.
-
-## Expressions
-
-For example, the `.length` property of a string evaluates to a number:
+An _expression_ is something that evaluates to a value. For example, the `.length` property of a string evaluates to a number:
 
 ```js
 "Hello, world!".length // 13
