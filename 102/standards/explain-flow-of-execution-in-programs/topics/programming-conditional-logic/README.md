@@ -31,7 +31,7 @@ if (zipCode.length !== 5){
 
 ## `else`
 
-If an `if` condition fails, you may want to specify an alternate behavior. You can do this with `else`:
+If an `if` condition is false, you can specify an alternate behavior with `else`:
 
 ```js
 if (zipCode.length === 5){
@@ -59,7 +59,7 @@ if (zipCode.length === 5){
 
 ## Watch Out!
 
-The most common mistake you're likely to make when using comparisons in conditional logic is to mix up the assignment operator (`=`) with one the comparison operator (`===`). In some languages, the result of an assignment is `undefined`, so this will never run:
+The most common mistake when using comparisons in conditional logic is to mix up the assignment operator `=` with the comparison operator `===`. The result of an assignment in JavaScript is the falsy value `undefined`, so this will never run:
 
 ```js
 const zipCode = "80239"
@@ -70,7 +70,7 @@ if (zipCode.length = 5){
 
 ---
 
-If you reverse the condition of an `if` statement, you can reorder the blocks. These two are the same:
+If you reverse the condition of an `if` statement you can reorder the blocks. These are the same:
 
 ```js
 if (zipCode.length === 5){
@@ -86,8 +86,7 @@ if (zipCode.length !== 5){
 }
 ```
 
-In general, it's usually easier to read negative cases first and the ideal case last.
-
+In general, it's easier to read negative cases first and the ideal case last.
 
 ## Additional Resources
 

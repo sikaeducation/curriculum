@@ -3,7 +3,6 @@
 ## Topics
 
 * [Intro to Programming](topics/programming-intro)
-  * [Exercises](topics/programming-intro/exercises.md)
 * [Programming: Input and Output](topics/programming-input-output)
   * [Exercises](topics/programming-input-output/exercises.md)
 * [Programming: Simple Data Types](topics/programming-data-types)
@@ -25,7 +24,6 @@
 * [Programming: Variable Scoping](topics/programming-variable-scoping)
   * [Exercises](topics/programming-variable-scoping/exercises.md)
 * [Programming: Complex Data Types](topics/programming-data-types-2)
-  * [Exercises](topics/programming-data-types-2/exercises.md)
 * [Programming: Iteration](topics/programming-iteration)
   * [Exercises](topics/programming-iteration/exercises.md)
 

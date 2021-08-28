@@ -1,10 +1,10 @@
 # Programming: Data Types 2: Arrays and Objects
 
-There are 2 data types that are more complex than strings, booleans, and numbers.
+Two data types in JavaScript are more complex than strings, booleans, and numbers: Arrays and Objects.
 
 ## Arrays
 
-An array is a list of items. Rather than keep them in separate variables:
+An array is a list of items. Rather than keep related items in separate variables:
 
 ```js
 const name1 = "Alice"
@@ -18,7 +18,7 @@ You can put them in one array:
 const names = ["Alice", "Bill", "Carol"]
 ```
 
-This makes it easy to do something to every item in the array:
+This makes it easy to do something to every item in the array while still having access to individual items:
 
 ```js
 for (name of names){
@@ -26,9 +26,7 @@ for (name of names){
 }
 ```
 
-While still being able to access individual items:
-
-Individual items are accessed by their position in the array, which is called an index. Counter-intuitively, indexes start at 0.
+Individual items are accessed by their position in the array, which is called an index. Counter-intuitively, indexes start at 0 rather than 1:
 
 ```js
 console.log(name[0]) // Prints "Alice"
@@ -70,7 +68,7 @@ console.log(alice.lastName) // Prints "Coltrane"
 console.log(alice.email) // Prints "alice.coltrane@jazz.com"
 ```
 
-Objects are made up of keys and values. Keys are always strings, but values can be any legal JavaScript value, including strings, numbers, booleans, arrays, functions, and even other objects. You can access a value by using its keys:
+Objects are made up of keys and values. Keys are always strings, but values can be any legal JavaScript value, including strings, numbers, booleans, arrays, functions, and even other objects. Access values in objects by their keys:
 
 ```js
 const alice = {
@@ -98,7 +96,7 @@ console.log(alice.play("Blue Nile"))        // Prints "I'm playing Blue Nile"
 
 ## Arrays of Objects
 
-One of the most common data patterns you'll see in programming is arrays of objects.
+One of the most common data patterns in programming is arrays of objects:
 
 ```js
 const albums = [{
@@ -154,7 +152,7 @@ const songs = [{
 }]
 ```
 
-This powerful combination of data types allows you to build and work with collections that can represent almost any type of real-world data.
+This combination of data types allows you to build and work with collections that can represent almost any type of real-world data.
 
 ## Additional Resources
 

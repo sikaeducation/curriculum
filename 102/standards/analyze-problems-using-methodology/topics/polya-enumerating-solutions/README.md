@@ -1,6 +1,6 @@
 # Polya's Problem-Solving Method: Devising a Plan
 
-The second step of Polya's problem-solving method is to devise a plan to solve the problem. Note that this is distinct from actually solving the problem; all you're doing at this stage is thinking of ways the problem could be solved. Not all questions will relevant to all problems, but even seemingly irrelevant questions may yield useful insights.
+The second step of Polya's problem-solving method is to devise a plan to solve the problem. This is distinct from actually solving the problem; all you're doing at this stage is thinking of ways the problem could be solved. Not all questions will relevant to all problems, but even seemingly irrelevant questions may yield useful insights.
 
 ## Strategies For Finding Solutions
 

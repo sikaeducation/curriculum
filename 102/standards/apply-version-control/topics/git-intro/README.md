@@ -10,7 +10,7 @@ It's like having a supercharged undo/redo for files, instead of just the content
 
 ## Git By Example
 
-Let's say you're working on a project. You make some files:
+You're working on a project, and you make some files:
 
 ```bash
 touch index.html index.css index.js
@@ -24,7 +24,7 @@ git add index.html index.css index.js
 git commit -m "Initial commit"
 ```
 
-A commit is like a save point for your project. You add some content to the HTML file, add the change, and make another commit:
+A commit is like a save point for your project. You add some content to the HTML file, tell Git to add the change, and make another commit:
 
 ```bash
 code index.html # Make some changes...
@@ -32,7 +32,7 @@ git add index.html
 git commit -m "Add boilerplate content to index.html"
 ```
 
-Then, you add some styles to it:
+Then you add some styles to it:
 
 ```bash
 code index.css
@@ -46,19 +46,19 @@ You're not crazy about these styles so you undo the last commit:
 git reset --hard HEAD~1
 ```
 
-Now your code has the changes you've made to the HTML, but not the changes you made to the CSS. It's like you ran "undo" on your previous change.
+Now your code has the changes you've made to the HTML but not the changes you made to the CSS. It's like you ran undo on your previous change.
 
 ## Git Is Complicated
 
-Git is a really powerful tool that can do much more than this example. Unfortunately, that comes with a lot of complexity, and a even beginner Git tutorials can get intimidating very quickly. Fortunately, it's OK to memorize a couple of Git commands to get started. It's not necessary to have a clear mental model of how Git works to use it and you can always go deeper later.
+Git is a really powerful tool that can do much more than this example. Unfortunately, even beginner Git tutorials can get intimidating very quickly. It's OK to just memorize a couple of Git commands to get started. It's not necessary to have a clear mental model of how Git works to use it and you can always go deeper later.
 
 ## Git Is Not GitHub
 
-[Git](https://git-scm.com/) is a open-source command-line tool that keeps track of different versions of your files. You can use it by yourself on files that never leave your computer, or use to collaborate with others over the internet. It's near-ubiquitous today, but its most prominent alternative is [Mercurial](https://www.mercurial-scm.org/). Git has largely replaced [SVN](https://subversion.apache.org/), which was the most common version control system previously.
+[Git](https://git-scm.com/) is a open-source command-line tool that keeps track of different versions of your files. You can even use it on personal files and documents that never leave your computer. It's near-ubiquitous today, but its most prominent alternative is [Mercurial](https://www.mercurial-scm.org/). Git largely replaced [SVN](https://subversion.apache.org/), which was previously the most common version control system.
 
-GitHub is a commercial product (currently owned by Microsoft) that stores Git repositories in the cloud, manages access to them, and offers a suite of tools for enabling efficient collaboration on them. Its major competitors are [Bitbucket](https://bitbucket.org/) (owned by [Atlassian](https://www.atlassian.com/)) and [GitLab](https://about.gitlab.com/).
+GitHub is a commercial product by Microsoft that stores Git repositories, manages access to them, and offers a suite of tools for enabling efficient collaboration on them. Its major competitors are [SalesForce](https://www.salesforce.com/)'s [Bitbucket](https://bitbucket.org/) and [GitLab](https://about.gitlab.com/).
 
-You'll work with both tools in your career, but even early on it's important to distinguish between these.
+You'll work with both tools, but even early on it's important to distinguish between them.
 
 ## Trivia
 

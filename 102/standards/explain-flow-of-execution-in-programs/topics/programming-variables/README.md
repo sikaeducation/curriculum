@@ -6,14 +6,14 @@ A variable assignment statement is made of a few parts:
 const firstName = "Erin"
 ```
 
-* `const` - This is the variable keyword, either `let` or `const`.
-* `firstName` - This is the name of the variable. You get to pick this. It's how this variable will be referred to throughout the program.
-* `=` - This is the assignment operator. It's important to note that this is the only use of this symbol in JavaScript. It does say that two things are equal (that's `===`) like it does in math, but rather that the variable name should be given the value.
-* `"Erin"` - This is the value that will be given to the variable name.
+* **`const`**: This is the variable keyword, either `let` or `const`.
+* **`firstName`**: This is the name of the variable. You get to pick this. It's how this variable will be referred to throughout the program.
+* **`=`**: This is the assignment operator. It's important to note that this is the only use of this symbol in JavaScript. It does say that two things are equal (that's `===`) like it does in math, but rather that the variable name should be given the value.
+* **`"Erin"`**: This is the value that will be given to the variable name.
 
 ## Variable Keywords
 
-Most of the variables you work with in programming don't change once they're set. Use `const` to represent these.
+Despite the name, most variables don't change once they're set. Use `const` to represent these.
 
 ```js
 const pi = 3.14159
@@ -68,4 +68,4 @@ console.log(a, b) // Prints "1, 2" to the screen
 
 | Resource | Description |
 | --- | --- |
-| [Video: What Is React?](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=143s) | React Hooks Crash Course: Intro |
+| [MDN: Storing the information you need](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables) | MDN's tutorial on variables |

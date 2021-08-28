@@ -1,8 +1,4 @@
 Polya: DAVE
-Constraint
+Polya: Constraint
 Tree Diagram
 Model
-Chart
-Table
-Scope
-

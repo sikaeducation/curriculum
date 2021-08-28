@@ -1,6 +1,6 @@
 # Programming: Math
 
-Most of the math operators commonly used in programming are self-explanatory.
+Most of the math operators commonly used in programming are self-explanatory:
 
 ```js
 1 + 1 // 2
@@ -9,9 +9,9 @@ Most of the math operators commonly used in programming are self-explanatory.
 4 / 2 // 2
 ```
 
-Note that multiplication is typically done with the `*` symbol, not `x`.
+Note that multiplication is done with the `*` symbol, not `x`.
 
-There are two additional math symbols that are commonly used and bear more explanation.
+There are two additional math symbols that are common in programming and bear more explanation: Exponentiation and modulo.
 
 ## Exponentiation
 
@@ -23,7 +23,7 @@ To raise something to an exponent, use `**` twice. So, `2³` would be written:
 
 ## Modulo
 
-The modulo operator (`%`) gives you the remainder of a division operation. For example, 4 does not divide into 3 evenly- it leaves a remainder of 1. So, `4 % 3` is 1. Some other examples:
+`%`, the modulo operator, evaluates to the remainder in a division. For example, 4 does not divide into 3 evenly; it leaves a remainder of 1. So, `4 % 3` is 1. Some other examples:
 
 ```js
 4 % 2 === 0
@@ -32,7 +32,7 @@ The modulo operator (`%`) gives you the remainder of a division operation. For e
 3 % 2 === 1
 ```
 
-This seemingly-obscure operator has a few uses, but the most common one is telling whether something is even/odd, doing something every third item, and so on.
+Modulo has a few uses, but the most common one is telling whether something is even/odd, doing something every third item, and so on.
 
 ```js
 const someNumber = 42
@@ -46,4 +46,4 @@ if (someNumber % 2 === 0){ // An even number is one that divides evenly into 2
 
 ## Watch Out!
 
-* You can only do math with values with a number data type. This also means you can't do math with strings that look like numbers, like `"3" + "2"`.
+You can only do math with values with a number data type. This also means you can't do math with strings that look like numbers, like `"3" + "2"`.

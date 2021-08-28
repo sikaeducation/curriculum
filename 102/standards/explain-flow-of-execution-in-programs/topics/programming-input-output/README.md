@@ -1,28 +1,28 @@
 # Programming: Input and Output
 
-If programming is about transforming inputs into outputs, how do you collect inputs and how do you generate outputs?
+Programming is about transforming inputs into outputs. How do you collect inputs and generate outputs?
 
 ## Input
 
 There are a many ways to collect input:
 
-* In a CLI program, input usually comes from flags, arguments, and the contents of other files
-* In a web program, input usually comes from forms and user interactions
-* In a data API program, input usually comes from HTTP requests
-* In a hardware program, input usually comes from either passive sensors on the device or user interactions
+* In a CLI program, input comes from flags, arguments, and the contents of other files
+* In a web program, input comes from forms and user interactions
+* In a data API program, input comes from HTTP requests
+* In a hardware program, input comes from either passive sensors on the device or user interactions
 
 ## Output
 
 There are also many ways to generate output:
 
-* In a CLI program, the output is usually printed to the terminal
-* In a web program, the output is usually rendered to the screen or sent to a server as an HTTP request
-* In a data API program, the output is usually an HTTP response
-* In a hardware program, the output is usually some visualization or change in behavior of the device
+* In a CLI program, the output is printed to the terminal
+* In a web program, the output is rendered to the screen or sent to a server as an HTTP request
+* In a data API program, the output is an HTTP response
+* In a hardware program, the output is some visualization or change in behavior of the device
 
 ## Logging in JavaScript
 
-The easiest way to output to the screen with JavaScript is with `console.log`.
+The easiest way to output to the screen with JavaScript is with `console.log`:
 
 ```js
 const message = "Hello, world!"
@@ -33,8 +33,6 @@ To open up the console in a browser:
 
 * Mac: ⌘ + ⇧ + `j`
 * Windows and Linux: `Control` + ⇧ + `j`
-
-(image here)
 
 This is where anything passed to `console.log` will be shown.
 
@@ -59,3 +57,9 @@ renderToPage(message)
 ```
 
 This `console.log` can help inspect `message` if what's rendering on the page isn't what you expect.
+
+## Additional Resources
+
+| Resource | Description |
+| --- | --- |
+| [Geeks For Geeks: `console.log` with Examples](https://www.geeksforgeeks.org/javascript-console-log-with-examples/) | Geeks for geeks' guide to `console.log` |

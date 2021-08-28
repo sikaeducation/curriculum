@@ -51,7 +51,7 @@ This feature of functions lets you decompose big problems into small ones and re
 
 ## Declaring functions
 
-There are several ways to create a function in JavaScript, but the simplest looks like this:
+There are several ways to create a function in JavaScript, but the simplest follows this pattern:
 
 ```js
 function nameOfFunctionGoesHere(parameters, go, here){
@@ -60,15 +60,15 @@ function nameOfFunctionGoesHere(parameters, go, here){
 }
 ```
 
-* `function` - The `function` keyword identifies the code that comes after it as a function definition.
-* `nameOfFunctionGoesHere` - This is the name of the function, and it's how the function will be referred to by other code.
-* `(parameters, go, here)` - These are function parameters, which are variables given to the function when it's called. They're available throughout the body of the function.
-* `{}` - This is the body of the function, and it holds the code that will run whenever the function is called.
-* `return` - Any expression that follows the `return` keyword will be what a called function will evaluate to.
+* **`function`**: The `function` keyword identifies the code that comes after it as a function definition.
+* **`nameOfFunctionGoesHere`**: This is the name of the function, and it's how the function will be referred to by other code.
+* **`(parameters, go, here)`**: These are function parameters, which are variables given to the function when it's called. They're available throughout the body of the function.
+* **`{}`**: This is the body of the function, and it holds the code that will run whenever the function is called.
+* **`return`**: Any expression that follows the `return` keyword will be what a called function will evaluate to.
 
-For example, in our `capitalizeFirstLetter` function:
+For example, in the `capitalizeFirstLetter` function:
 
-```
+```js
 function capitalizeFirstLetter(word){
   const firstLetter = word[0]
   const capitalizedFirstLetter = firstLetter.toUpperCase()
@@ -78,12 +78,12 @@ function capitalizeFirstLetter(word){
 }
 ```
 
-* The function is called `capitalizeFirstLetter`
-* It takes a single parameter called `word` that will be available throughout the function body
-* The function body has 4 statements that that uppercase the first letter of a word
-* The function returns the word with the first letter capitalized
+1. The function is called `capitalizeFirstLetter`
+2. It takes a single parameter called `word` that will be available throughout the function body
+3. The function body has 4 statements that that uppercase the first letter of a word
+4. The function returns the word with the first letter capitalized
 
-When the function is called with a word, it will evaluate to the word with the first letter capitalized.
+When the function is called with a string, it will evaluate to the word with the first letter capitalized.
 
 ```js
 const greeting = capitalizeFirstLetter("hi!")
@@ -95,10 +95,11 @@ console.log(greeting, status, message) // "Hi!", "Warning", "Wait"
 
 ## Calling Functions
 
-Calling (also called invoking) a function means telling it to run.
+Calling, also called invoking, running, or executing, a function means telling it to execute the code inside of it.
 
 ```js
 // This defines the function
+
 function sayHelloWorld(){
   console.log("Hello, world!")
 }
@@ -124,18 +125,18 @@ In this example, `message` is a parameter of the function, and `"Frank"` and `"M
 
 ## Return values
 
-Functions often (but don't have to) return a value.
+Functions often, but don't have, to return a value.
 
 ```js
 function getCompanyName(){
-  return "Company Name Here"
+  return "Apple"
 }
 
 const companyName = getCompanyName()
-console.log(companyName) // "Company Name Here"
+console.log(companyName) // "Apple"
 ```
 
-The return value of a function is what calling them function will evaluate to. For example, since the `getCompanyName` function has a return value of "Company Name Here", you can use `getCompanyNameHere()` anywhere you want to use that string. For example:
+The return value of a function is what function will evaluate to when called. For example, since the `getCompanyName` function has a return value of "Company Name Here", you can use `getCompanyNameHere()` anywhere you want to use that string:
 
 ```js
 console.log("Congratulations on your first day at " + getCompanyNameHere())
@@ -145,7 +146,7 @@ console.log("Congratulations on your first day at " + getCompanyNameHere())
 
 ### Parameters
 
-The variables that are passed into a function definition are called parameters:
+The variables at the top of a function definition are called parameters:
 
 ```js
 function double(number){
@@ -172,7 +173,7 @@ double(someNumber)
 add(someNumber, 5)
 ```
 
-In this example, `someNumber` and 5 are both arguments. You can think of parameters as the theoretical way something will be used and arguments as the actual for how something will be used.
+In this example, `someNumber` and 5 are both arguments. You can think of parameters as a placeholder for the _theoretical_ way something could be used in a function and arguments as the _actual_ way something will be used.
 
 ## Watch Out!
 
@@ -204,6 +205,8 @@ console.log(getName())
 ```
 
 The advantage of the second way is that by separating out getting the name from printing the name, you can use the `getName` function for other things like building another string.
+
+---
 
 It's easy to confuse returning a value from a function with printing something to the screen. This returns:
 
