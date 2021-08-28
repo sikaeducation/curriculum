@@ -30,11 +30,11 @@ This goes into every folder in your current directory, creates a folder called `
 
 ### Speed
 
-One of the simplest efficiency gains programmers can make is never taking their hands off the keyboard. Frequently switching between the keyboard and mouse slows you down.
+One of the simplest efficiency gains programmers can make is never taking their hands off the keyboard. Switching between the keyboard and mouse may only take a second, but it's easy for those seconds to turn into minutes, hours, and days over the course of a project.
 
 ### Automation
 
-Programming computers to click on elements and type into inputs in a graphical interface is possible, but it's slow and prone to errors. CLI commands can be scripted, often by putting the same commands you would type on the CLI yourself in a file and running the file. This means repetitive or complex tasks can easily be automated.
+It's possible to program computers to click on screens and type into inputs, but it's slow and error-prone. CLI commands can be saved in files and run, which means repetitive or complex tasks can easily be automated.
 
 ## Opening the Terminal
 
