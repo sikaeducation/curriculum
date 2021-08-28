@@ -38,7 +38,7 @@ git remote set-url origin git@github.com:githubtraining/example-basic.git
 
 ## Pushing
 
-When you make new commits in your local repo, you can use `git push` to make a Git remote add your new commits to its copy of the repo:
+When you make new commits in your local repo, `git push` adds your new commits to the remote's copy of the repo:
 
 ```bash
 git push origin master
@@ -54,7 +54,7 @@ git push origin master
 
 ## Pulling
 
-When someone else makes new commits and pushes them to a Git remote, you can sync the new commits to your local repo with `git pull`:
+When someone else makes new commits and pushes them to a Git remote, you can add those changes to your local repo with `git pull`:
 
 ```bash
 git pull origin master
@@ -74,8 +74,7 @@ From github.com:github-user/repo-name
 
 ## Pull Before Push
 
-If the Git remote has commits that you don't have yet, you will need to `git pull origin master` before you can `git push origin master`. This is because if there are any problems syncing the two repos, you will need to resolve them on your computer before pushing remotely.
-
+If the Git remote has commits that you don't have yet, you'll need to `git pull origin master` before you can `git push origin master`. This is because if there are any problems syncing the two copies, you'll need to resolve them on your computer before pushing remotely.
 
 ## Additional Resources
 
