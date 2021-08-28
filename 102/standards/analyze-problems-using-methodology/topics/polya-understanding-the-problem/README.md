@@ -1,10 +1,10 @@
 # Polya's Problem-Solving Method: Understanding the Problem
 
-The first step of Polya's problem-solving method is understanding the problem. This may seem obvious, but this is the most critical part of the process to get right. In programming, it's easy to come up with great solutions to the wrong problem, and very small changes in wording can result in large changes in what's being asked. When faced with a new problem, first identify the facts, and then try to understand them.
+The first step in Polya's problem-solving method is understanding the problem. While seemingly obvious, this is the most critical part to get right and the most commonly skipped. It's easy to come up with great solutions to the wrong problem and small changes in wording can result in large changes in what's being asked. When faced with a new problem, first identify the facts and then try to understand them.
 
 ## Identify
 
-Most problems have some data that will be supplied, at least one unknown element, and some conditions that must be met. These are questions you can ask that will help pull those out of the problem. 
+Most problems have some data that will be supplied, at least one unknown element, and conditions that must be met. Some questions to help pull those out of the problem:
 
 * Are you being asked to find something or prove something?
 * Can you separate out the data, the unknown, and conditions?
@@ -14,7 +14,7 @@ Most problems have some data that will be supplied, at least one unknown element
 
 ## Understand
 
-Being able to identify the parts of a problem is the first part, but it's not enough to stop there. These questions help you shape the facts into an understanding.
+Identifying the parts of a problem is the first step but it's not enough to stop there. These questions help you shape the facts into an understanding:
 
 * Can you restate the problem? How many different ways can you do it?
 * Can you make an table that represents sample inputs and the outputs they should generate?
