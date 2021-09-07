@@ -35,9 +35,7 @@ They both do the same thing, with the following distinctions:
 * An `<input />` is a self-closing tag and `<button>` is not, which means that `<input />` can only have text content while `<button>` can have any valid HTML in it (such as images).
 * An `<input />` is mildly more correct semantically, since a `<form>` is supposed to be submitted by keyboard with "enter", while `<button>` interactions are supposed to happen with "spacebar".
 
-Both are in common use.
-
-If you need a button in the form that doesn't submit the form, you can give it a `type` of `button`:
+Both are in common use. If you need a button in the form that doesn't submit the form, you can give it a `type` of `button`:
 
 ```html
 <form>

@@ -1,6 +1,6 @@
 # Data Structures: Trees
 
-One of the more common and useful data structures to learn is trees.
+A common and useful data structure for web developers is trees.
 
 ## Anatomy of a Tree
 
@@ -34,7 +34,7 @@ Each tag also has a reference to its parent and a reference to each of its child
 
 ![Grafting one tree onto another](assets/grafting.png)
 
-Any part of the tree is also technically a tree itself. This is why we can make several connected DOM nodes at the same time and then append them all at once ("grafting").
+Any part of the tree is also technically a tree itself. This is why we can make several connected DOM nodes at the same time and then append them all at once, which is called grafting.
 
 ```js
 const div = document.createElement("div")
@@ -59,13 +59,15 @@ section.remove()
 
 ![Removing one DOM tree from another](assets/remove-tree.png)
 
-## Examples
+## Pracical Examples
 
-* Site index
-* Computer directory structure
-* Evolutionary tree
-* Family tree
-* Management hierarchy
+Trees are used for:
+
+* Site indexes
+* Computer directory structures
+* Evolutionary trees
+* Family trees
+* Management hierarchies
 * Dewey decimal system
 * Online shopping categories
 * Phrase structure trees in linguistics

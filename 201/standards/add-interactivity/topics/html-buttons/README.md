@@ -1,6 +1,6 @@
 # HTML: Buttons
 
-If you're comfortable working with the DOM and events, you can start using one of the most practical means of interaction: HTML buttons.
+Once you're comfortable working with the DOM and events, you can start using one of the most practical means of interaction: HTML buttons.
 
 ```html
 <button id="agreement">Click to Agree to Terms</button>

@@ -1,6 +1,6 @@
 # DOM: `.classList`
 
-One of the more common DOM manipulation tasks is adding, removing, and toggling CSS classes. Classes can display in any order, and manipulating them may involve splitting up a string and putting it back together. Luckily, `.classList` can be used to avoid all the pitfalls of manual class manipulation.
+A common DOM manipulation task is adding, removing, and toggling CSS classes. Classes can display in any order, and manipulating them may involve splitting up a string and putting it back together. `.classList` is used to avoid all the pitfalls of manual class manipulation.
 
 ```html
 <div class="active"></div>

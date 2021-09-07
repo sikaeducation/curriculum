@@ -1,10 +1,6 @@
 # ESLint
 
-The most popular way to lint JavaScript is with ESLint.
-
-### Project Configuration
-
-For every project that you want to lint, you need an `.eslintrc.js` file in your root directory that describes the rules you want to apply. For now, make the file in the root of the project directory and paste this into it:
+The most popular way to lint JavaScript is with ESLint. For every project that you want to lint, you need an `.eslintrc.js` file in your root directory that describes the rules you want to apply. For now, make the file in the root of the project directory and paste this into it:
 
 ```js
 /* global module */
@@ -98,7 +94,6 @@ npx eslint .
 # This command prints any errors and tries to automatically fix them as well
 npx eslint --fix .
 ```
-
 
 ## Additional Resources
 

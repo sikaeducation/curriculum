@@ -1,10 +1,10 @@
 # DOM: Events
 
-We can use tools like `document.createElement`, `document.querySelector`, `.append` and others to create web pages with JavaScript. That isn't interactive though- interaction implies that the user is taking actions on the page, and we're using those tools to change what they see in response. How do we do that?
+Tools like `document.createElement`, `document.querySelector`, and `.append` are used to create parts of web pages with JavaScript. However, that isn't necessarily interactive; interaction is when the page changes in response to user behavior. This is accomplished with events.
 
 ## Events
 
-Most actions that a user takes on a web page, such as clicking, double clicking, hovering, and submitting forms, are events. You can listen for these events and trigger functions in response to them:
+Most actions that users take on web pages, such as clicking, double clicking, hovering, and submitting forms, are events. You can listen for these events and trigger functions in response to them:
 
 ```html
 <button>Click Me</button>

@@ -4,7 +4,7 @@ You can select elements with `document.querySelector`, but what can you do with 
 
 ## `document.createElement`
 
-You can create DOM nodes directly with JavaScript using `document.createElement`:
+DOM nodes are created in JavaScript with  `document.createElement`:
 
 ```js
 const p = document.createElement("p") // <p></p>
@@ -12,7 +12,7 @@ const img = document.createElement("img") // <img />
 const li = document.createElement("li") // <li></li>
 ```
 
-`document.createElement` creates a blank DOM node with the tag name that you pass in. After that, you can modify those elements however you want:
+`document.createElement` creates a blank DOM node with the tag name that you pass in. After that, the DOM node can be freely modified:
 
 ```js
 p.textContent = "This text will be in the paragraph"
@@ -20,11 +20,11 @@ img.src = "cute-puppy.jpg"
 li.id = "primary"
 ```
 
-The attributes you're familiar with in HTML elements are exposed as properties of DOM nodes in JavaScript.
+The attributes you're familiar with in HTML elements are exposed as properties of DOM nodes.
 
 ## `.append`
 
-Adding a new element to a page has 4 steps:
+Adding an element to a page has 4 steps:
 
 1. Create an element
 2. Give the element the desired content and attributes

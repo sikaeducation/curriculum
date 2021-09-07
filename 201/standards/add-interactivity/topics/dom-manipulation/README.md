@@ -6,7 +6,7 @@ You can get elements, create elements, and add them to the page. But what if you
 * Add HTML to an element
 * Remove an element
 
-You need to use more methods and properties of DOM nodes.
+You need to use new methods and properties of DOM nodes.
 
 ## `.textContent`
 

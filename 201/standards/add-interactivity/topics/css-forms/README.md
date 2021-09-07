@@ -32,7 +32,7 @@ This approach is fairly intuitive and works for many kinds of forms. CSS Grid ca
 
 ## Errors
 
-You can control how form errors (such as invalid inputs or missing `required` inputs) are styled with the pseudoclass `:invalid`:
+You can control how form errors such as invalid inputs or missing `required` inputs are styled with the pseudoclass `:invalid`:
 
 ```css
 input:invalid, textarea:invalid {

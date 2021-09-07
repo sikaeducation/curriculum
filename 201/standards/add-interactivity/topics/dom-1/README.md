@@ -1,6 +1,6 @@
 # DOM
 
-How do you combine HTML and JavaScript to make your web pages dynamic and interactive?
+How do HTML and JavaScript be used to make web pages dynamic and interactive?
 
 ## The Document Object Model
 
@@ -41,11 +41,11 @@ Your browser will create this DOM tree:
 
 ![HTML represented as a DOM tree](assets/dom-trees-1.png)
 
-The browser offers JavaScript a variety of methods for reading, writing, and otherwise interacting with this tree.
+Browsers offer JavaScript a variety of methods for reading, writing, and otherwise interacting with this tree.
 
 ## Watch Out!
 
-Once your browser ingests HTML and builds out the DOM, it's not HTML anymore. Even when you look at HTML in the element inspector, that's your browser recreating HTML based on the current state of the DOM. You can think of HTML as a set of instructions for how to build the DOM.
+Once your browser reads HTML and builds out the DOM, it's not HTML anymore. Even when you look at HTML in the element inspector, your browser is recreating new HTML based on the current state of the DOM. You can think of HTML as a set of instructions for how to build the DOM.
 
 ## Additional Resources
 
