@@ -91,3 +91,4 @@ contents efficiently.
 | [Atlassian's Git Tutorials](https://www.atlassian.com/git/tutorials) | The strongest collection of Git tutorials available. Free, covering everything from beginning to advanced tutorials. |
 | [Video: Learn Git in 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE) | Colt Steele's guide to Git |
 | [Video: Git and GitHub for Beginners](https://www.youtube.com/watch?v=9U3IhLAnSxM&t=143s) | FreeCodeCamp's guide to Git and GitHub |
+| [Dangit, Git!](https://dangitgit.com/) | Plain-english guide to getting through different Git situations |

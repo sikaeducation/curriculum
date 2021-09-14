@@ -155,3 +155,4 @@ Different programming languages encourage thinking about programs in particular 
 | Resource | Description |
 | --- | --- |
 | [Video: Sequences, Selections, and Loops](https://www.youtube.com/watch?v=eSYeHlwDCNA) | GCFLearnFree.org's guide to sequence, selection, and iteration |
+| [SheCodes: JavaScript Cheatsheet](https://www.frontendcheatsheets.com/javascript) | SheCode's searchable JavaScript reference |

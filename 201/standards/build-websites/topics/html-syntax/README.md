@@ -168,3 +168,5 @@ HTML was heavily influenced by this. At one point, there was an attempt to recon
 | Resource | Description |
 | --- | --- |
 | [MDN: Getting started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started) | MDN's tutorial introducing HTML |
+| [What The Tag?](https://whatthetag.com/#/) | Tool for deciding which HTML tag to use |
+| [Can Include](https://caninclude.glitch.me/) | Tool for validating which tags can be nested |
